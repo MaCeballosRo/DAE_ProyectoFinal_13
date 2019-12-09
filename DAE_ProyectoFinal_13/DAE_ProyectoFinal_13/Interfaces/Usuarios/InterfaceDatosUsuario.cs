@@ -6,8 +6,8 @@ namespace DAE_ProyectoFinal_13.Interfaces.Usuarios
 {
      public interface InterfaceDatosUsuario
     {
-        Task<List<cat_usuarios>> IMetGetDatosUsuarioWebApi(int IdUsuario);
+        Task<List<cat_datosUsuario>> IMetGetDatosUsuarioWebApi(int IdUsuario);
         //Task<zt_inventarios_acumulados> IMetGetAcumuladosItemWebApi(int PaIdInventario, int PaIdSKU);
-        Task<string>IMetGetNombreUsuario(int IdUsuario);
+        Task<string> IMetGetPersonas(int IdUsuario);
     }
 }

@@ -10,5 +10,4 @@ D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_Proyecto
 D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\DAE_ProyectoFinal_13.dll
 D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\DAE_ProyectoFinal_13.pdb
-D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\Views\Usuario\VistaUsuarios.xaml.g.cs
 D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\Views\Usuario\ViUsuario.xaml.g.cs

@@ -32,33 +32,80 @@
                     Clicked="Button_Clicked_Consultar"/>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" Margin="10" >
+            <StackLayout Orientation="Horizontal">
                 <Label Text="------------------------------------------------------------------------------------" FontSize="Medium"/>
 
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" Margin="10" >
+            <StackLayout Orientation="Vertical">
                 <Label Text="Datos del usuario" FontSize="Small"/>
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Usuario:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding Usuario}" FontSize="Small"/>
+                </StackLayout>
 
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Nombre:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding NombreUsuario}" FontSize="Small"/>    
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Telefono:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding TelefonoUsuario}" FontSize="Small"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Correo:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding CorreoUsuario}" FontSize="Small"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Fecha Nacimiento:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding FechaNacUsuario}" FontSize="Small"/>
+                </StackLayout>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" Margin="10" >
+            <StackLayout Orientation="Horizontal">
                 <Label Text="------------------------------------------------------------------------------------" FontSize="Medium"/>
 
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" Margin="10" >
+            <StackLayout Orientation="Vertical">
                 <Label Text="Empresa y versiones" FontSize="Small"/>
 
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" Margin="10" >
+            <StackLayout Orientation="Horizontal">
                 <Label Text="------------------------------------------------------------------------------------" FontSize="Medium"/>
 
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" Margin="10" >
+            <StackLayout Orientation="Vertical">
                 <Label Text="Desarrollador" FontSize="Small"/>
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Desarrollador:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding Desarrollador}" FontSize="Small"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Nombre:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding NombreDesarrollador}" FontSize="Small"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Telefono:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding TelefonoDesarrollador}" FontSize="Small"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Correo:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding CorreoDesarrollador}" FontSize="Small"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="5" >
+                    <Label Text="Fecha Nacimiento:" FontSize="Small" Margin="2"/>
+                    <Label Text="{Binding FechaNacDesarrollador}" FontSize="Small"/>
+                </StackLayout>
 
             </StackLayout>
 
@@ -76,7 +123,7 @@
             </StackLayout>-->
 
 
-            <StackLayout Orientation="Horizontal">
+            <!--<StackLayout Orientation="Horizontal">
                 <syncfusion:SfDataGrid
                     x:Name="GridUsuariosList"
                     VerticalOptions="FillAndExpand"
@@ -96,7 +143,7 @@
                         <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="Usuario Registro" MappingName="UsuarioReg" ColumnSizer="None" MinimumWidth="5"  CellTextSize="10"/>
                     </syncfusion:SfDataGrid.Columns>
                 </syncfusion:SfDataGrid>
-            </StackLayout>
+            </StackLayout>-->
 
         </StackLayout>
 

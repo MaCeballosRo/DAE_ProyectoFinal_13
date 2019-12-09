@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-09T03:58:15.437</Modified>
+      <Modified>2019-12-09T10:58:18.637</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\DAE_ProyectoFinal_13.UWP.exe">
       <PackagePath>entrypoint\DAE_ProyectoFinal_13.UWP.exe</PackagePath>
-      <Modified>2019-12-09T03:58:12.199</Modified>
+      <Modified>2019-12-09T10:58:15.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -928,7 +928,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\bin\Debug\netstandard2.0\DAE_ProyectoFinal_13.dll">
       <PackagePath>DAE_ProyectoFinal_13.dll</PackagePath>
-      <Modified>2019-12-09T03:58:00.087</Modified>
+      <Modified>2019-12-09T10:58:00.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -1079,11 +1079,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-09T03:58:11.869</Modified>
+      <Modified>2019-12-09T10:58:14.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-09T03:58:11.869</Modified>
+      <Modified>2019-12-09T10:58:14.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1179,7 +1179,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\Core\DAE_ProyectoFinal_13.UWP.exe">
       <PackagePath>DAE_ProyectoFinal_13.UWP.exe</PackagePath>
-      <Modified>2019-12-09T03:58:15.428</Modified>
+      <Modified>2019-12-09T10:58:18.627</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

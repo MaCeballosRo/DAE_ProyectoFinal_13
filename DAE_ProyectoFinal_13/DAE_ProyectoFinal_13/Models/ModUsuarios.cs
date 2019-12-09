@@ -262,4 +262,19 @@ namespace DAE_ProyectoFinal_13.Models
         public string UsuarioMod { get; set; }
     }
 
+    //-------
+    public class cat_datosUsuario
+    {
+        public int IdPersona { get; set; }
+        public int IdUsuario { get; set; }
+        public string Usuario { get; set; }
+        public string Nombre { get; set; }
+        //public string ApPaterno { get; set; }
+        //public string ApMaterno { get; set; }
+        public Nullable<DateTime> FechaNac { get; set; }
+        public string DireccionWeb { get; set; }
+        public string Telefono { get; set; }
+        //public string NumTelefono { get; set; }
+    }
+
 }

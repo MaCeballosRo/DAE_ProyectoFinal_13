@@ -24,15 +24,15 @@ namespace DAE_ProyectoFinal_13.Services
             HttpClient = new HttpClient();
         }
 
-        public async Task<List<cat_usuarios>> IMetGetDatosUsuarioWebApi(int PaIdUsuario)
+        public async Task<List<cat_datosUsuario>> IMetGetDatosUsuarioWebApi(int PaIdUsuario)
         {
-            string FicURL = AppSettings.UrlBase.ToString() + "api/usuarios/todosUsuarios?PaIdUsuario=" + PaIdUsuario;//poner la dirección correspondiente de la API
+            string FicURL = AppSettings.UrlBase.ToString() + "api/usuarios/datosUsuarios?PaIdUsuario=" + PaIdUsuario;//poner la dirección correspondiente de la API
             try
             {
 
                 var Respuesta = await HttpClient.GetAsync(FicURL);
                 Console.WriteLine("Respuesta: " + Respuesta);
-                return Respuesta.IsSuccessStatusCode ? JsonConvert.DeserializeObject<List<cat_usuarios>>(await Respuesta.Content.ReadAsStringAsync()) : null;
+                return Respuesta.IsSuccessStatusCode ? JsonConvert.DeserializeObject<List<cat_datosUsuario>>(await Respuesta.Content.ReadAsStringAsync()) : null;
             }
             catch (Exception e)
             {
@@ -41,9 +41,9 @@ namespace DAE_ProyectoFinal_13.Services
             }
         }
 
-        public async Task<string> IMetGetNombreUsuario (int PaIdUsuario)
+        public async Task<string> IMetGetPersonas (int PaIdUsuario)
         {
-            string FicURL = AppSettings.UrlBase.ToString() + "api/usuarios/nombreUsuarios?PaIdUsuario=" + PaIdUsuario;//poner la dirección correspondiente de la API
+            string FicURL = AppSettings.UrlBase.ToString() + "api/usuarios/todasPersonas?PaIdUsuario=" + PaIdUsuario;//poner la dirección correspondiente de la API
             try
             {
 

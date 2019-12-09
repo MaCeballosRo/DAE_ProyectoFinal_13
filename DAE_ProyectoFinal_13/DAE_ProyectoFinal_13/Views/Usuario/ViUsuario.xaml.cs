@@ -12,7 +12,7 @@ namespace DAE_ProyectoFinal_13.Views.Usuario
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ViUsuario : ContentPage
-	{
+	{ 
 		public ViUsuario ()
 		{
             BindingContext = App.ViewModelDependencyInjection.VmDatosUsuariosVista;
@@ -27,8 +27,9 @@ namespace DAE_ProyectoFinal_13.Views.Usuario
         void Button_Clicked_Consultar(object sender, EventArgs arg)
         {
             int IdUsuario = Convert.ToInt32(Entry_IdUsuario.Text);
-            (BindingContext as VmDatosUsuariosVista).LoMetGetListaUsuarios(IdUsuario);
-
+            int IdDesarrollador = Convert.ToInt32(Entry_IdDesarrollador.Text);
+            (BindingContext as VmDatosUsuariosVista).LoMetGetDatosUsuarios(IdUsuario);
+            (BindingContext as VmDatosUsuariosVista).LoMetGetDatosDesarrollador(IdDesarrollador);
             /*int IdDesarrollador = Convert.ToInt32(Entry_IdDesarrollador.Text);
             (BindingContext as VmDatosUsuariosVista).LoMetGetListaUsuarios(IdDesarrollador);*/
         }
