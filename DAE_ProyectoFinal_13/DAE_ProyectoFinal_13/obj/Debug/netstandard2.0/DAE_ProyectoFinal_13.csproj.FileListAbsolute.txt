@@ -1,0 +1,14 @@
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\bin\Debug\netstandard2.0\DAE_ProyectoFinal_13.deps.json
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\bin\Debug\netstandard2.0\DAE_ProyectoFinal_13.dll
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\DAE_ProyectoFinal_13.csprojAssemblyReference.cache
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\DAE_ProyectoFinal_13.csproj.CoreCompileInputs.cache
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\DAE_ProyectoFinal_13.AssemblyInfoInputs.cache
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\DAE_ProyectoFinal_13.AssemblyInfo.cs
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\bin\Debug\netstandard2.0\DAE_ProyectoFinal_13.pdb
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\DAE_ProyectoFinal_13.dll
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\DAE_ProyectoFinal_13.pdb
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\Views\Usuario\VistaUsuarios.xaml.g.cs
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\obj\Debug\netstandard2.0\Views\Usuario\ViUsuario.xaml.g.cs

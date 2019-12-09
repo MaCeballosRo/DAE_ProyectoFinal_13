@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DAE_ProyectoFinal_13.Views.Usuario.ViUsuario"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
+   
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Simulación de entrada"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontSize="Medium"/>
+
+            <StackLayout Orientation="Horizontal" Margin="10" >
+                <Label Text="Usuario:" FontSize="Small"/>
+                <Entry x:Name="Entry_IdUsuario" WidthRequest="100"/>
+                <!-- cambiar -->
+
+                <Label Text="Desarrollador:" FontSize="Small"/>
+                <Entry x:Name="Entry_IdDesarrollador" WidthRequest="100"/>
+
+                <Button HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Text="Consultar"
+                    BackgroundColor="LightSeaGreen"
+                    FontAttributes="Bold"
+                    FontSize="Small"
+                    x:Name="Button_Consultar"
+                    Clicked="Button_Clicked_Consultar"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="10" >
+                <Label Text="------------------------------------------------------------------------------------" FontSize="Medium"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="10" >
+                <Label Text="Datos del usuario" FontSize="Small"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="10" >
+                <Label Text="------------------------------------------------------------------------------------" FontSize="Medium"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="10" >
+                <Label Text="Empresa y versiones" FontSize="Small"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="10" >
+                <Label Text="------------------------------------------------------------------------------------" FontSize="Medium"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="10" >
+                <Label Text="Desarrollador" FontSize="Small"/>
+
+            </StackLayout>
+
+            <!--<StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                
+                
+                 <Button HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Text="Cancelar"
+                    BackgroundColor="Red"
+                    FontAttributes="Bold"
+                    FontSize="Small"
+                        x:Name="Button_Cancelar"
+                    Clicked="Button_Clicked_Cancelar"/> 
+            </StackLayout>-->
+
+
+            <StackLayout Orientation="Horizontal">
+                <syncfusion:SfDataGrid
+                    x:Name="GridUsuariosList"
+                    VerticalOptions="FillAndExpand"
+                    ColumnSizer="Star"
+                    AutoGenerateColumns="False"
+                    AllowSorting="False"
+                    ItemsSource="{Binding SfDataGrid_ItemSource_Usuarios}"
+                    SelectionMode="Single">
+
+                    <syncfusion:SfDataGrid.Columns x:TypeArguments="syncfusion:Columns">
+                        <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="IdPersona" MappingName="IdPersona" ColumnSizer="LastColumnFill" MinimumWidth="15" CellTextSize="10"/>
+                        <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="Usuario" MappingName="Usuario" ColumnSizer="SizeToHeader" CellTextSize="10"/>
+                        <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="Expira" MappingName="Expira" ColumnSizer="SizeToHeader" CellTextSize="10"/>
+                        <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="Conectado" MappingName="Conectado" ColumnSizer="SizeToHeader" CellTextSize="10"/>
+                        <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="FechaAlta" MappingName="FechaAlta" ColumnSizer="SizeToHeader" CellTextSize="10"/>
+                        <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="Intentos" MappingName="NumIntentos" ColumnSizer="SizeToHeader" CellTextSize="10"/>
+                        <syncfusion:GridTextColumn HeaderFontAttribute="Bold" HeaderText="Usuario Registro" MappingName="UsuarioReg" ColumnSizer="None" MinimumWidth="5"  CellTextSize="10"/>
+                    </syncfusion:SfDataGrid.Columns>
+                </syncfusion:SfDataGrid>
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
