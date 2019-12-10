@@ -4,7 +4,9 @@
              x:Class="DAE_ProyectoFinal_13.Views.Usuario.Page1"
              xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
              xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
-             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms">
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms">
+
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -23,8 +25,8 @@
                 <gradient:SfGradientView.BackgroundBrush>
                     <gradient:SfLinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
                         <gradient:SfLinearGradientBrush.GradientStops>
-                            <gradient:SfGradientStop Color="#FF9800" Offset="0.0" />
-                            <gradient:SfGradientStop Color="#FF5722" Offset="1.0" />
+                            <gradient:SfGradientStop Color="#97b5e6" Offset="0.0" />
+                            <gradient:SfGradientStop Color="#bea9d9" Offset="1.0" />
                         </gradient:SfLinearGradientBrush.GradientStops>
                     </gradient:SfLinearGradientBrush>
                 </gradient:SfGradientView.BackgroundBrush>
@@ -56,6 +58,14 @@
                         FontSize="Medium"
                         Clicked="Button_Clicked_Consultar"/>
 
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="#dedae3" 
+                       CornerRadius="5"
+                       Padding="20,15,20,15"                       
+                       WidthRequest="1000"
+                       Margin="20,0,20,0"
+                       HorizontalOptions="CenterAndExpand">
+                        
 
                 <StackLayout Orientation="Horizontal">
                     <Frame BackgroundColor="GhostWhite" 
@@ -66,6 +76,23 @@
 
                         <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="WhiteSmoke">
                             <Label Text="Datos del usuario" FontSize="Medium" HorizontalOptions="Center"/>
+
+                                    <StackLayout Orientation="Horizontal"
+                                                 HorizontalOptions="CenterAndExpand">
+                                        <syncfusion:SfImageView />
+                                        <Frame Padding="0,0,0,0"
+                                           CornerRadius="50">
+                                            <Image HeightRequest="100" WidthRequest="100" HorizontalOptions="Fill" VerticalOptions="Fill">
+                                                    <Image.Source>
+                                                        <UriImageSource
+                                                CacheValidity="14"
+                                                CachingEnabled="true"
+                                                Uri="{Binding PONER_ATRIBUTO_IMAGEN_USUARIO}" />
+                                                    </Image.Source>
+                                                </Image>
+                                        </Frame>
+                                    </StackLayout>
+                            
                             <StackLayout Orientation="Horizontal">
                                 <Label  
                                    Text="Usuario:"
@@ -134,9 +161,26 @@
                        WidthRequest="450"
                        Margin="20,0,20,0">
 
-                       <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="WhiteSmoke">
+                        <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="WhiteSmoke">
                             <Label Text="Datos del desarrollador" FontSize="Medium" HorizontalOptions="Center"/>
-                            <StackLayout Orientation="Horizontal">
+
+                                    <StackLayout Orientation="Horizontal"
+                                                 HorizontalOptions="CenterAndExpand">
+                                        <syncfusion:SfImageView />
+                                        <Frame Padding="0,0,0,0"
+                                           CornerRadius="50">
+                                            <Image HeightRequest="100" WidthRequest="100" HorizontalOptions="Fill" VerticalOptions="Fill">
+                                                <Image.Source>
+                                                    <UriImageSource
+                                                CacheValidity="14"
+                                                CachingEnabled="true"
+                                                Uri="{Binding PONER_ATRIBUTO_IMAGEN_DESARROLLADOR}" />
+                                                </Image.Source>
+                                            </Image>
+                                        </Frame>
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal">
                                 <Label  
                                    Text="Desarrollador:"
                                    HorizontalOptions="Center" 
@@ -198,8 +242,14 @@
                         </StackLayout>
 
                     </Frame>
+
                 </StackLayout>
-                <Frame BackgroundColor="GhostWhite" 
+
+                    </Frame>
+                </StackLayout>
+
+
+                <Frame BackgroundColor="#dedae3" 
                        CornerRadius="5"
                        Padding="15,20,15,20"
                        WidthRequest="900"
@@ -207,12 +257,16 @@
                        HorizontalOptions="CenterAndExpand">
 
                     <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="WhiteSmoke">
-                        <Label Text="Datos del desarrollador" FontSize="Medium" HorizontalOptions="Center"/>
+                        <Label Text="Versión de la aplicación:" FontSize="Medium" HorizontalOptions="Center"/>
                         
                     </StackLayout>
 
                 </Frame>
+                
+                
+                
             </StackLayout>
+
 
         </Grid>
     </ContentPage.Content>
