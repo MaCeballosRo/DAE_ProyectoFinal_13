@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-10T12:04:29.600</Modified>
+      <Modified>2019-12-10T15:05:12.472</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\DAE_ProyectoFinal_13.UWP.exe">
       <PackagePath>entrypoint\DAE_ProyectoFinal_13.UWP.exe</PackagePath>
-      <Modified>2019-12-10T12:04:27.734</Modified>
+      <Modified>2019-12-10T15:05:10.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\autofac\4.9.4\lib\netstandard2.0\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -830,6 +830,14 @@
       <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
       <Modified>2019-12-04T20:01:10.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP.dll</PackagePath>
+      <Modified>2019-12-04T20:53:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.dll">
+      <PackagePath>Syncfusion.Buttons.XForms.dll</PackagePath>
+      <Modified>2019-12-04T20:52:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
       <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
       <Modified>2019-12-04T20:30:26.000</Modified>
@@ -936,7 +944,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\bin\Debug\netstandard2.0\DAE_ProyectoFinal_13.dll">
       <PackagePath>DAE_ProyectoFinal_13.dll</PackagePath>
-      <Modified>2019-12-10T12:04:17.608</Modified>
+      <Modified>2019-12-10T15:04:59.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -1087,11 +1095,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-10T12:04:26.521</Modified>
+      <Modified>2019-12-10T15:05:09.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-10T12:04:26.521</Modified>
+      <Modified>2019-12-10T15:05:09.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1112,6 +1120,22 @@
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfshared.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
       <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
       <Modified>2019-12-04T19:00:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Syncfusion.Buttons.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Syncfusion.Buttons.XForms.UWP.xr.xml</PackagePath>
+      <Modified>2019-12-04T20:53:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Assets\SfButton.ttf">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Assets\SfButton.ttf</PackagePath>
+      <Modified>2019-12-04T16:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Assets\sfbutton_Segoe MDL2 Assets.ttf">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Assets\sfbutton_Segoe MDL2 Assets.ttf</PackagePath>
+      <Modified>2019-12-04T16:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Themes\Generic.xaml</PackagePath>
+      <Modified>2019-12-04T20:53:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
@@ -1151,11 +1175,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-09T17:40:57.157</Modified>
+      <Modified>2019-12-10T12:57:52.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\Core\DAE_ProyectoFinal_13.UWP.exe">
       <PackagePath>DAE_ProyectoFinal_13.UWP.exe</PackagePath>
-      <Modified>2019-12-10T12:04:29.592</Modified>
+      <Modified>2019-12-10T15:05:12.465</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

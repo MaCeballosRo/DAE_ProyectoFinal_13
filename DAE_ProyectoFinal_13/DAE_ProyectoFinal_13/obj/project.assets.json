@@ -476,6 +476,19 @@
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
         }
       },
+      "Syncfusion.Xamarin.Buttons/17.3.0.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.3.0.33",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.Core/17.3.0.33": {
         "type": "package",
         "dependencies": {
@@ -1456,6 +1469,37 @@
         "syncfusion.licensing.nuspec"
       ]
     },
+    "Syncfusion.Xamarin.Buttons/17.3.0.33": {
+      "sha512": "wtNFqImtaFncn8Ii5MOOBh9ysCbN1rjfSM5Zd4aw6W9KfIh5wKsX469r/JHhpjqIPE/GPZN2aqPJvklgp6zSAQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.buttons/17.3.0.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Buttons.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Buttons.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Buttons.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Buttons.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Buttons.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Buttons.XForms.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Assets/SfButton.ttf",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Assets/sfbutton_Segoe MDL2 Assets.ttf",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Properties/Syncfusion.Buttons.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Syncfusion.Buttons.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Themes/Generic.xaml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.dll",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.xml",
+        "syncfusion.xamarin.buttons.17.3.0.33.nupkg.sha512",
+        "syncfusion.xamarin.buttons.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.Core/17.3.0.33": {
       "sha512": "Ifm33+TcmFJ3WYddGG7ApRdF1h1DDMFSbMoGCB0K1ePbzf0gVYYvgtnZCK51iuRnbDBpglAB5Uu/nc5IallMkw==",
       "type": "package",
@@ -2281,6 +2325,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.0",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
+      "Syncfusion.Xamarin.Buttons >= 17.3.0.33",
       "Syncfusion.Xamarin.Core >= 17.3.0.33",
       "Syncfusion.Xamarin.DataSource >= 17.3.0.33",
       "Syncfusion.Xamarin.GridCommon >= 17.3.0.33",
@@ -2353,6 +2398,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "Syncfusion.Xamarin.Buttons": {
+            "target": "Package",
+            "version": "[17.3.0.33, )"
           },
           "Syncfusion.Xamarin.Core": {
             "target": "Package",

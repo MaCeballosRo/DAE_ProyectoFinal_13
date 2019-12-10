@@ -622,6 +622,12 @@
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfshared.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
       <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.dll">
+      <PackagePath>Syncfusion.Buttons.XForms.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
       <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
     </AppxPackagedFile>
@@ -840,6 +846,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfshared.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
       <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Syncfusion.Buttons.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Syncfusion.Buttons.XForms.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Assets\SfButton.ttf">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Assets\SfButton.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Assets\sfbutton_Segoe MDL2 Assets.ttf">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Assets\sfbutton_Segoe MDL2 Assets.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.buttons\17.3.0.33\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Themes\Generic.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>

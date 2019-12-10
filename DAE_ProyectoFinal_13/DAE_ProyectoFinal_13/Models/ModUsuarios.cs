@@ -276,6 +276,7 @@ namespace DAE_ProyectoFinal_13.Models
         public string Telefono { get; set; }
         public string DesInstituto { get; set; }
         //public string NumTelefono { get; set; }
+        public string RutaFoto { get; set; }
     }
 
     public class cat_datosApp

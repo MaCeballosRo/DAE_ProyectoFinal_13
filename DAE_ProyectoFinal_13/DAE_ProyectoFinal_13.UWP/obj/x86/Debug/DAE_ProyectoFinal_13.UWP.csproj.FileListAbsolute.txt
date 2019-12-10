@@ -417,3 +417,6 @@ D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_Proyecto
 D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\obj\x86\Debug\FxResources.Microsoft.Bcl.HashCode.SR.resw
 D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\obj\x86\Debug\FxResources.System.Diagnostics.DiagnosticSource.SR.resw
 D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\obj\x86\Debug\FxResources.System.Text.Json.SR.resw
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\Syncfusion.Buttons.XForms.UWP.dll
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\Syncfusion.Buttons.XForms.dll
+D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\obj\x86\Debug\Syncfusion.Buttons.XForms.UWP.pri.xml

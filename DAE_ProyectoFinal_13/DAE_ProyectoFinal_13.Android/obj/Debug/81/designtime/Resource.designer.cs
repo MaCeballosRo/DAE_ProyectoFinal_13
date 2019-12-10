@@ -26,14 +26,133 @@ namespace DAE_ProyectoFinal_13.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_inner_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_icon_null_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_indeterminate_to_checked_icon_null_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_icon_null_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_icon_null_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Attribute.state_indeterminate = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.state_indeterminate;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Color.control_checkable_material = global::DAE_ProyectoFinal_13.Droid.Resource.Color.control_checkable_material;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Dimension.disabledAlpha = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.disabledAlpha;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_checked = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_checked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_checked_to_indeterminate_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_checked_to_indeterminate_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_indeterminate = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_indeterminate;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_indeterminate_to_checked_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_indeterminate_to_checked_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_indeterminate_to_unchecked_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_indeterminate_to_unchecked_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_unchecked = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_unchecked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_unchecked_to_indeterminate_animation = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.btn_checkbox_unchecked_to_indeterminate_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Id.@checked = global::DAE_ProyectoFinal_13.Droid.Resource.Id.@checked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Id.indeterminate = global::DAE_ProyectoFinal_13.Droid.Resource.Id.indeterminate;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Id.@unchecked = global::DAE_ProyectoFinal_13.Droid.Resource.Id.@unchecked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_0 = global::DAE_ProyectoFinal_13.Droid.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_0;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_1 = global::DAE_ProyectoFinal_13.Droid.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_1;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_indeterminate_animation_interpolator_1 = global::DAE_ProyectoFinal_13.Droid.Resource.Interpolator.btn_checkbox_indeterminate_animation_interpolator_1;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_0 = global::DAE_ProyectoFinal_13.Droid.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_0;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_1 = global::DAE_ProyectoFinal_13.Droid.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_1;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfCheckBox = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCheckBox;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfCheckBox_checked = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCheckBox_checked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfCheckBox_cornerradius = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCheckBox_cornerradius;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfCheckBox_isthreestate = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCheckBox_isthreestate;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentBackColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentBackColor;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentBorderColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentBorderColor;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentBorderThickness = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentBorderThickness;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentColor;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentCornerRadius;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentDisplayMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentDisplayMode;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentPosition;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentSelectedIndex = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentSelectedIndex;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentStrokeThickness = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentStrokeThickness;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentedHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentedHeight;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentedPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentedPadding;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfSegmentedControl_segmentedWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfSegmentedControl_segmentedWidth;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.input_layout_drop_down_icon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteBorderColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteBorderColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteClearButtonColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteClearButtonColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDisplayMemberPath = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDisplayMemberPath;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDropDownBackgroundColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDropDownBackgroundColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDropDownCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDropDownCornerRadius;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDropDownFooterViewHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDropDownFooterViewHeight;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDropDownHeaderViewHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDropDownHeaderViewHeight;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDropDownItemHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDropDownItemHeight;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDropDownOpen = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDropDownOpen;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDropDownTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDropDownTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteDropDownTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteDropDownTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteEnableSelectionIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteEnableSelectionIndicator;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteHighlightedTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteHighlightedTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteIgnoreDiacritic = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteIgnoreDiacritic;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteImageMemberPath = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteImageMemberPath;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteIndicatorText = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteIndicatorText;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteIndicatorTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteIndicatorTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteIndicatorTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteIndicatorTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteIsFocused = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteIsFocused;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteIsSelectedItemsVisibleInDropDown = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteIsSelectedItemsVisibleInDropDown;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteLoadMoreText = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteLoadMoreText;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteMaximumDropDownHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteMaximumDropDownHeight;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteMaximumSuggestion = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteMaximumSuggestion;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteMinimumPrefixCharacters = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteMinimumPrefixCharacters;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteMode;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteMultiSelectMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteMultiSelectMode;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteNoResultsFoundText = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteNoResultsFoundText;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompletePopUpDelay = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompletePopUpDelay;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteSelectedIndex = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteSelectedIndex;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowBorder = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteShowBorder;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowClearButton = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteShowClearButton;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowDropDownFooterView = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteShowDropDownFooterView;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowDropDownHeaderView = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteShowDropDownHeaderView;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteShowSuggestionsOnFocus = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteShowSuggestionsOnFocus;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteSuggestionBoxPlacement = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteSuggestionBoxPlacement;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteSuggestionMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteSuggestionMode;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteText = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteText;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteTextColor;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteTokensWrapMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteTokensWrapMode;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteWatermark = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteWatermark;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.autocompleteWatermarkColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autocompleteWatermarkColor;
 			global::Com.Syncfusion.Autocomplete.Resource.Attribute.layoutManager = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layoutManager;
@@ -46,12 +165,26 @@ namespace DAE_ProyectoFinal_13.Droid
 			global::Com.Syncfusion.Autocomplete.Resource.Drawable.sfclosebutton = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.sfclosebutton;
 			global::Com.Syncfusion.Autocomplete.Resource.Drawable.styleinfo = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.styleinfo;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.Itemname = global::DAE_ProyectoFinal_13.Droid.Resource.Id.Itemname;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.append = global::DAE_ProyectoFinal_13.Droid.Resource.Id.append;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.bottom;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.contains = global::DAE_ProyectoFinal_13.Droid.Resource.Id.contains;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.containsWithCaseSensitive = global::DAE_ProyectoFinal_13.Droid.Resource.Id.containsWithCaseSensitive;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.custom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.custom;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.delimiter = global::DAE_ProyectoFinal_13.Droid.Resource.Id.delimiter;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.endsWith = global::DAE_ProyectoFinal_13.Droid.Resource.Id.endsWith;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.endsWithCaseSensitive = global::DAE_ProyectoFinal_13.Droid.Resource.Id.endsWithCaseSensitive;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.equals = global::DAE_ProyectoFinal_13.Droid.Resource.Id.equals;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.equalsWithCaseSensitive = global::DAE_ProyectoFinal_13.Droid.Resource.Id.equalsWithCaseSensitive;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.icon = global::DAE_ProyectoFinal_13.Droid.Resource.Id.icon;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.item_touch_helper_previous_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Id.item_touch_helper_previous_elevation;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.none = global::DAE_ProyectoFinal_13.Droid.Resource.Id.none;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.startsWith = global::DAE_ProyectoFinal_13.Droid.Resource.Id.startsWith;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.startsWithCaseSensitive = global::DAE_ProyectoFinal_13.Droid.Resource.Id.startsWithCaseSensitive;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.suggest = global::DAE_ProyectoFinal_13.Droid.Resource.Id.suggest;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.suggestAppend = global::DAE_ProyectoFinal_13.Droid.Resource.Id.suggestAppend;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.token = global::DAE_ProyectoFinal_13.Droid.Resource.Id.token;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.top = global::DAE_ProyectoFinal_13.Droid.Resource.Id.top;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.wrap = global::DAE_ProyectoFinal_13.Droid.Resource.Id.wrap;
 			global::Com.Syncfusion.Autocomplete.Resource.Layout.CustomizedView = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.CustomizedView;
 			global::Com.Syncfusion.Autocomplete.Resource.Layout.CustomizedView1 = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.CustomizedView1;
 			global::Com.Syncfusion.Autocomplete.Resource.Layout.sfautocomplete_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.sfautocomplete_layout;
@@ -65,11 +198,45 @@ namespace DAE_ProyectoFinal_13.Droid
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.RecyclerView_stackFromEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteBorderColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteBorderColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteClearButtonColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteClearButtonColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDisplayMemberPath = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDisplayMemberPath;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDropDownBackgroundColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDropDownBackgroundColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDropDownCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDropDownCornerRadius;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDropDownFooterViewHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDropDownFooterViewHeight;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDropDownHeaderViewHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDropDownHeaderViewHeight;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDropDownItemHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDropDownItemHeight;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDropDownOpen = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDropDownOpen;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDropDownTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDropDownTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteDropDownTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteDropDownTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteEnableSelectionIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteEnableSelectionIndicator;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteHighlightedTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteHighlightedTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteIgnoreDiacritic = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteIgnoreDiacritic;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteImageMemberPath = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteImageMemberPath;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteIndicatorText = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteIndicatorText;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteIndicatorTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteIndicatorTextColor;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteIndicatorTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteIndicatorTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteIsFocused = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteIsFocused;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteIsSelectedItemsVisibleInDropDown = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteIsSelectedItemsVisibleInDropDown;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteLoadMoreText = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteLoadMoreText;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteMaximumDropDownHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteMaximumDropDownHeight;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteMaximumSuggestion = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteMaximumSuggestion;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteMinimumPrefixCharacters = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteMinimumPrefixCharacters;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteMode;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteMultiSelectMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteMultiSelectMode;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteNoResultsFoundText = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteNoResultsFoundText;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompletePopUpDelay = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompletePopUpDelay;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteSelectedIndex = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteSelectedIndex;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowBorder = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowBorder;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowClearButton = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowClearButton;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowDropDownFooterView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowDropDownFooterView;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowDropDownHeaderView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowDropDownHeaderView;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteShowSuggestionsOnFocus = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteShowSuggestionsOnFocus;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteSuggestionBoxPlacement = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteSuggestionBoxPlacement;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteSuggestionMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteSuggestionMode;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteText = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteText;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteTextColor;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteTextSize;
+			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteTokensWrapMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteTokensWrapMode;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteWatermark = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteWatermark;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteWatermarkColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteWatermarkColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_in = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_fade_in;
@@ -783,6 +950,36 @@ namespace DAE_ProyectoFinal_13.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_vector_test = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_vector_test;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar1 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar10 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar11 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar12 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar13 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar14 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar15 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar16 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar17 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar18 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar19 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar2 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar20 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar21 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar22 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar23 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar24 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar25 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar26 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar27 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar28 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar29 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar3 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar30 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar4 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar5 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar6 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar7 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar8 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar9 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.Avatar9;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_hide_password = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.avd_hide_password;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_show_password = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.avd_show_password;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_bottom_navigation_item_background = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_bottom_navigation_item_background;
@@ -792,6 +989,7 @@ namespace DAE_ProyectoFinal_13.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_password_eye = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_password_eye;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_snackbar_background = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_snackbar_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.dropdownbuttonimage = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.dropdownbuttonimage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.input_layout_drop_down_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.input_layout_drop_down_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglecollapseicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglevisibleicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.navigation_empty_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.navigation_empty_icon;
@@ -2094,6 +2292,57 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F01000A
 			public const int abc_slide_out_top = 2130771978;
 			
+			// aapt resource value: 0x7F060002
+			public const int btn_checkbox_indeterminate_to_checked_box_inner_merged_animation = 2131099650;
+			
+			// aapt resource value: 0x7F060003
+			public const int btn_checkbox_indeterminate_to_checked_box_outer_merged_animation = 2131099651;
+			
+			// aapt resource value: 0x7F060004
+			public const int btn_checkbox_indeterminate_to_checked_icon_null_animation = 2131099652;
+			
+			// aapt resource value: 0x7F060005
+			public const int btn_checkbox_to_checked_box_inner_merged_animation = 2131099653;
+			
+			// aapt resource value: 0x7F060006
+			public const int btn_checkbox_to_checked_box_outer_merged_animation = 2131099654;
+			
+			// aapt resource value: 0x7F060007
+			public const int btn_checkbox_to_checked_icon_null_animation = 2131099655;
+			
+			// aapt resource value: 0x7F060008
+			public const int btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation = 2131099656;
+			
+			// aapt resource value: 0x7F060009
+			public const int btn_checkbox_to_indeterminate_from_checked_icon_null_animation = 2131099657;
+			
+			// aapt resource value: 0x7F060010
+			public const int btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation = 2131099664;
+			
+			// aapt resource value: 0x7F060011
+			public const int btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation = 2131099665;
+			
+			// aapt resource value: 0x7F060012
+			public const int btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation = 2131099666;
+			
+			// aapt resource value: 0x7F060013
+			public const int btn_checkbox_to_unchecked_box_inner_merged_animation = 2131099667;
+			
+			// aapt resource value: 0x7F060014
+			public const int btn_checkbox_to_unchecked_check_path_merged_animation = 2131099668;
+			
+			// aapt resource value: 0x7F060015
+			public const int btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation = 2131099669;
+			
+			// aapt resource value: 0x7F060016
+			public const int btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation = 2131099670;
+			
+			// aapt resource value: 0x7F060017
+			public const int btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation = 2131099671;
+			
+			// aapt resource value: 0x7F060018
+			public const int btn_checkbox_to_unchecked_icon_null_animation = 2131099672;
+			
 			// aapt resource value: 0x7F01000B
 			public const int design_bottom_sheet_slide_in = 2130771979;
 			
@@ -2255,8 +2504,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F040026
 			public const int alertDialogTheme = 2130968614;
 			
-			// aapt resource value: 0x7F080019
-			public const int allowNull = 2131230745;
+			// aapt resource value: 0x7F100069
+			public const int allowNull = 2131755113;
 			
 			// aapt resource value: 0x7F040027
 			public const int allowStacking = 2130968615;
@@ -2273,32 +2522,134 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04002B
 			public const int arrowShaftLength = 2130968619;
 			
-			// aapt resource value: 0x7F080006
-			public const int autocompleteBorderColor = 2131230726;
+			// aapt resource value: 0x7F100022
+			public const int autocompleteBorderColor = 2131755042;
 			
-			// aapt resource value: 0x7F080002
-			public const int autocompleteShowBorder = 2131230722;
+			// aapt resource value: 0x7F100043
+			public const int autocompleteClearButtonColor = 2131755075;
 			
-			// aapt resource value: 0x7F080003
-			public const int autocompleteShowClearButton = 2131230723;
+			// aapt resource value: 0x7F100031
+			public const int autocompleteDisplayMemberPath = 2131755057;
 			
-			// aapt resource value: 0x7F080008
-			public const int autocompleteText = 2131230728;
+			// aapt resource value: 0x7F100036
+			public const int autocompleteDropDownBackgroundColor = 2131755062;
 			
-			// aapt resource value: 0x7F080005
-			public const int autocompleteTextColor = 2131230725;
+			// aapt resource value: 0x7F100052
+			public const int autocompleteDropDownCornerRadius = 2131755090;
 			
-			// aapt resource value: 0x7F080009
-			public const int autocompleteTextSize = 2131230729;
+			// aapt resource value: 0x7F100054
+			public const int autocompleteDropDownFooterViewHeight = 2131755092;
+			
+			// aapt resource value: 0x7F100053
+			public const int autocompleteDropDownHeaderViewHeight = 2131755091;
+			
+			// aapt resource value: 0x7F100051
+			public const int autocompleteDropDownItemHeight = 2131755089;
+			
+			// aapt resource value: 0x7F100026
+			public const int autocompleteDropDownOpen = 2131755046;
+			
+			// aapt resource value: 0x7F100037
+			public const int autocompleteDropDownTextColor = 2131755063;
+			
+			// aapt resource value: 0x7F100039
+			public const int autocompleteDropDownTextSize = 2131755065;
+			
+			// aapt resource value: 0x7F100032
+			public const int autocompleteEnableSelectionIndicator = 2131755058;
+			
+			// aapt resource value: 0x7F100049
+			public const int autocompleteHighlightedTextColor = 2131755081;
+			
+			// aapt resource value: 0x7F100044
+			public const int autocompleteIgnoreDiacritic = 2131755076;
+			
+			// aapt resource value: 0x7F100040
+			public const int autocompleteImageMemberPath = 2131755072;
+			
+			// aapt resource value: 0x7F100033
+			public const int autocompleteIndicatorText = 2131755059;
+			
+			// aapt resource value: 0x7F100034
+			public const int autocompleteIndicatorTextColor = 2131755060;
+			
+			// aapt resource value: 0x7F100050
+			public const int autocompleteIndicatorTextSize = 2131755088;
+			
+			// aapt resource value: 0x7F100045
+			public const int autocompleteIsFocused = 2131755077;
+			
+			// aapt resource value: 0x7F100048
+			public const int autocompleteIsSelectedItemsVisibleInDropDown = 2131755080;
+			
+			// aapt resource value: 0x7F100046
+			public const int autocompleteLoadMoreText = 2131755078;
+			
+			// aapt resource value: 0x7F100038
+			public const int autocompleteMaximumDropDownHeight = 2131755064;
+			
+			// aapt resource value: 0x7F100027
+			public const int autocompleteMaximumSuggestion = 2131755047;
+			
+			// aapt resource value: 0x7F100035
+			public const int autocompleteMinimumPrefixCharacters = 2131755061;
+			
+			// aapt resource value: 0x7F100059
+			public const int autocompleteMode = 2131755097;
+			
+			// aapt resource value: 0x7F100058
+			public const int autocompleteMultiSelectMode = 2131755096;
+			
+			// aapt resource value: 0x7F100047
+			public const int autocompleteNoResultsFoundText = 2131755079;
+			
+			// aapt resource value: 0x7F100030
+			public const int autocompletePopUpDelay = 2131755056;
+			
+			// aapt resource value: 0x7F100028
+			public const int autocompleteSelectedIndex = 2131755048;
+			
+			// aapt resource value: 0x7F100018
+			public const int autocompleteShowBorder = 2131755032;
+			
+			// aapt resource value: 0x7F100019
+			public const int autocompleteShowClearButton = 2131755033;
+			
+			// aapt resource value: 0x7F100042
+			public const int autocompleteShowDropDownFooterView = 2131755074;
+			
+			// aapt resource value: 0x7F100041
+			public const int autocompleteShowDropDownHeaderView = 2131755073;
+			
+			// aapt resource value: 0x7F100029
+			public const int autocompleteShowSuggestionsOnFocus = 2131755049;
+			
+			// aapt resource value: 0x7F100056
+			public const int autocompleteSuggestionBoxPlacement = 2131755094;
+			
+			// aapt resource value: 0x7F100055
+			public const int autocompleteSuggestionMode = 2131755093;
+			
+			// aapt resource value: 0x7F100024
+			public const int autocompleteText = 2131755044;
+			
+			// aapt resource value: 0x7F100021
+			public const int autocompleteTextColor = 2131755041;
+			
+			// aapt resource value: 0x7F100025
+			public const int autocompleteTextSize = 2131755045;
 			
 			// aapt resource value: 0x7F04002C
 			public const int autoCompleteTextViewStyle = 2130968620;
 			
-			// aapt resource value: 0x7F080007
-			public const int autocompleteWatermark = 2131230727;
+			// aapt resource value: 0x7F100057
+			public const int autocompleteTokensWrapMode = 2131755095;
 			
-			// aapt resource value: 0x7F080004
-			public const int autocompleteWatermarkColor = 2131230724;
+			// aapt resource value: 0x7F100023
+			public const int autocompleteWatermark = 2131755043;
+			
+			// aapt resource value: 0x7F100020
+			public const int autocompleteWatermarkColor = 2131755040;
 			
 			// aapt resource value: 0x7F04002D
 			public const int autoSizeMaxTextSize = 2130968621;
@@ -2348,8 +2699,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04003C
 			public const int behavior_skipCollapsed = 2130968636;
 			
-			// aapt resource value: 0x7F080020
-			public const int borderColor = 2131230752;
+			// aapt resource value: 0x7F100070
+			public const int borderColor = 2131755120;
 			
 			// aapt resource value: 0x7F04003E
 			public const int borderlessButtonStyle = 2130968638;
@@ -2416,6 +2767,9 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F04004C
 			public const int checkboxStyle = 2130968652;
+			
+			// aapt resource value: 0x7F100005
+			public const int @checked = 2131755013;
 			
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
@@ -2516,6 +2870,9 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F040068
 			public const int controlBackground = 2130968680;
 			
+			// aapt resource value: 0x7F100004
+			public const int cornerradius = 2131755012;
+			
 			// aapt resource value: 0x7F040069
 			public const int counterEnabled = 2130968681;
 			
@@ -2528,8 +2885,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04006C
 			public const int counterTextAppearance = 2130968684;
 			
-			// aapt resource value: 0x7F080022
-			public const int culture = 2131230754;
+			// aapt resource value: 0x7F100072
+			public const int culture = 2131755122;
 			
 			// aapt resource value: 0x7F04006D
 			public const int customNavigationLayout = 2130968685;
@@ -2582,8 +2939,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04007D
 			public const int elevation = 2130968701;
 			
-			// aapt resource value: 0x7F080013
-			public const int enableGroupSeparator = 2131230739;
+			// aapt resource value: 0x7F100063
+			public const int enableGroupSeparator = 2131755107;
 			
 			// aapt resource value: 0x7F04007E
 			public const int errorEnabled = 2130968702;
@@ -2663,8 +3020,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F040007
 			public const int fontProviderQuery = 2130968583;
 			
-			// aapt resource value: 0x7F080018
-			public const int fontSize = 2131230744;
+			// aapt resource value: 0x7F100068
+			public const int fontSize = 2131755112;
 			
 			// aapt resource value: 0x7F040008
 			public const int fontStyle = 2130968584;
@@ -2731,6 +3088,9 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F0400AC
 			public const int isLightTheme = 2130968748;
+			
+			// aapt resource value: 0x7F100003
+			public const int isthreestate = 2131755011;
 			
 			// aapt resource value: 0x7F0400AD
 			public const int itemBackground = 2130968749;
@@ -2831,8 +3191,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400CD
 			public const int maxButtonHeight = 2130968781;
 			
-			// aapt resource value: 0x7F080016
-			public const int maximumDecimalDigits = 2131230742;
+			// aapt resource value: 0x7F100066
+			public const int maximumDecimalDigits = 2131755110;
 			
 			// aapt resource value: 0x7F0400CE
 			public const int measureWithLargestChild = 2130968782;
@@ -2891,14 +3251,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400D3
 			public const int navigationMode = 2130968787;
 			
-			// aapt resource value: 0x7F080014
-			public const int numberFormat = 2131230740;
+			// aapt resource value: 0x7F100064
+			public const int numberFormat = 2131755108;
 			
 			// aapt resource value: 0x7F0400D4
 			public const int numericModifiers = 2130968788;
 			
-			// aapt resource value: 0x7F080023
-			public const int numericTextBoxValue = 2131230755;
+			// aapt resource value: 0x7F100073
+			public const int numericTextBoxValue = 2131755123;
 			
 			// aapt resource value: 0x7F0400D5
 			public const int overlapAnchor = 2130968789;
@@ -2924,8 +3284,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400DC
 			public const int panelMenuListWidth = 2130968796;
 			
-			// aapt resource value: 0x7F080010
-			public const int parsingMode = 2131230736;
+			// aapt resource value: 0x7F100060
+			public const int parsingMode = 2131755104;
 			
 			// aapt resource value: 0x7F0400DD
 			public const int passwordToggleContentDescription = 2130968797;
@@ -2942,86 +3302,86 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400E1
 			public const int passwordToggleTintMode = 2130968801;
 			
-			// aapt resource value: 0x7F080011
-			public const int percentDisplayMode = 2131230737;
+			// aapt resource value: 0x7F100061
+			public const int percentDisplayMode = 2131755105;
 			
-			// aapt resource value: 0x7F080025
-			public const int pickerBackgroundColor = 2131230757;
+			// aapt resource value: 0x7F100075
+			public const int pickerBackgroundColor = 2131755125;
 			
-			// aapt resource value: 0x7F080041
-			public const int pickerBorderColor = 2131230785;
+			// aapt resource value: 0x7F100091
+			public const int pickerBorderColor = 2131755153;
 			
-			// aapt resource value: 0x7F080038
-			public const int pickerColumnHeaderBackgroundColor = 2131230776;
+			// aapt resource value: 0x7F100088
+			public const int pickerColumnHeaderBackgroundColor = 2131755144;
 			
-			// aapt resource value: 0x7F080034
-			public const int pickerColumnHeaderHeight = 2131230772;
+			// aapt resource value: 0x7F100084
+			public const int pickerColumnHeaderHeight = 2131755140;
 			
-			// aapt resource value: 0x7F080049
-			public const int pickerColumnHeaderTextColor = 2131230793;
+			// aapt resource value: 0x7F100099
+			public const int pickerColumnHeaderTextColor = 2131755161;
 			
-			// aapt resource value: 0x7F080045
-			public const int pickerColumnHeaderTextSize = 2131230789;
+			// aapt resource value: 0x7F100095
+			public const int pickerColumnHeaderTextSize = 2131755157;
 			
-			// aapt resource value: 0x7F080030
-			public const int pickerEnableLooping = 2131230768;
+			// aapt resource value: 0x7F100080
+			public const int pickerEnableLooping = 2131755136;
 			
-			// aapt resource value: 0x7F080027
-			public const int pickerFooterHeight = 2131230759;
+			// aapt resource value: 0x7F100077
+			public const int pickerFooterHeight = 2131755127;
 			
-			// aapt resource value: 0x7F080037
-			public const int pickerHeaderBackgroundColor = 2131230775;
+			// aapt resource value: 0x7F100087
+			public const int pickerHeaderBackgroundColor = 2131755143;
 			
-			// aapt resource value: 0x7F080026
-			public const int pickerHeaderHeight = 2131230758;
+			// aapt resource value: 0x7F100076
+			public const int pickerHeaderHeight = 2131755126;
 			
-			// aapt resource value: 0x7F080042
-			public const int pickerHeaderText = 2131230786;
+			// aapt resource value: 0x7F100092
+			public const int pickerHeaderText = 2131755154;
 			
-			// aapt resource value: 0x7F080048
-			public const int pickerHeaderTextColor = 2131230792;
+			// aapt resource value: 0x7F100098
+			public const int pickerHeaderTextColor = 2131755160;
 			
-			// aapt resource value: 0x7F080044
-			public const int pickerHeaderTextSize = 2131230788;
+			// aapt resource value: 0x7F100094
+			public const int pickerHeaderTextSize = 2131755156;
 			
-			// aapt resource value: 0x7F080028
-			public const int pickerHeight = 2131230760;
+			// aapt resource value: 0x7F100078
+			public const int pickerHeight = 2131755128;
 			
-			// aapt resource value: 0x7F080029
-			public const int pickerIsOpen = 2131230761;
+			// aapt resource value: 0x7F100079
+			public const int pickerIsOpen = 2131755129;
 			
-			// aapt resource value: 0x7F080035
-			public const int pickerItemHeight = 2131230773;
+			// aapt resource value: 0x7F100085
+			public const int pickerItemHeight = 2131755141;
 			
-			// aapt resource value: 0x7F080024
-			public const int pickerMode = 2131230756;
+			// aapt resource value: 0x7F100074
+			public const int pickerMode = 2131755124;
 			
-			// aapt resource value: 0x7F080036
-			public const int pickerSelectedItemTextcolor = 2131230774;
+			// aapt resource value: 0x7F100086
+			public const int pickerSelectedItemTextcolor = 2131755142;
 			
-			// aapt resource value: 0x7F080047
-			public const int pickerSelectedItemTextSize = 2131230791;
+			// aapt resource value: 0x7F100097
+			public const int pickerSelectedItemTextSize = 2131755159;
 			
-			// aapt resource value: 0x7F080040
-			public const int pickerSelectionBorderColor = 2131230784;
+			// aapt resource value: 0x7F100090
+			public const int pickerSelectionBorderColor = 2131755152;
 			
-			// aapt resource value: 0x7F080033
-			public const int pickerShowColumnHeader = 2131230771;
+			// aapt resource value: 0x7F100083
+			public const int pickerShowColumnHeader = 2131755139;
 			
-			// aapt resource value: 0x7F080032
-			public const int pickerShowFooter = 2131230770;
+			// aapt resource value: 0x7F100082
+			public const int pickerShowFooter = 2131755138;
 			
-			// aapt resource value: 0x7F080031
-			public const int pickerShowHeader = 2131230769;
+			// aapt resource value: 0x7F100081
+			public const int pickerShowHeader = 2131755137;
 			
-			// aapt resource value: 0x7F080039
-			public const int pickerUnselectedItemTextColor = 2131230777;
+			// aapt resource value: 0x7F100089
+			public const int pickerUnselectedItemTextColor = 2131755145;
 			
-			// aapt resource value: 0x7F080046
-			public const int pickerUnselectedItemTextSize = 2131230790;
+			// aapt resource value: 0x7F100096
+			public const int pickerUnselectedItemTextSize = 2131755158;
 			
-			// aapt resource value: 0x7F080043
-			public const int pickerWidth = 2131230787;
+			// aapt resource value: 0x7F100093
+			public const int pickerWidth = 2131755155;
 			
 			// aapt resource value: 0x7F0400E2
 			public const int popupMenuStyle = 2130968802;
@@ -3086,14 +3446,50 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400F6
 			public const int seekBarStyle = 2130968822;
 			
+			// aapt resource value: 0x7F100007
+			public const int segmentBackColor = 2131755015;
+			
+			// aapt resource value: 0x7F100008
+			public const int segmentBorderColor = 2131755016;
+			
+			// aapt resource value: 0x7F100009
+			public const int segmentBorderThickness = 2131755017;
+			
+			// aapt resource value: 0x7F100010
+			public const int segmentColor = 2131755024;
+			
+			// aapt resource value: 0x7F100015
+			public const int segmentCornerRadius = 2131755029;
+			
+			// aapt resource value: 0x7F100017
+			public const int segmentDisplayMode = 2131755031;
+			
+			// aapt resource value: 0x7F100012
+			public const int segmentedHeight = 2131755026;
+			
+			// aapt resource value: 0x7F100011
+			public const int segmentedPadding = 2131755025;
+			
+			// aapt resource value: 0x7F100013
+			public const int segmentedWidth = 2131755027;
+			
+			// aapt resource value: 0x7F100016
+			public const int segmentPosition = 2131755030;
+			
+			// aapt resource value: 0x7F100006
+			public const int segmentSelectedIndex = 2131755014;
+			
+			// aapt resource value: 0x7F100014
+			public const int segmentStrokeThickness = 2131755028;
+			
 			// aapt resource value: 0x7F0400F7
 			public const int selectableItemBackground = 2130968823;
 			
 			// aapt resource value: 0x7F0400F8
 			public const int selectableItemBackgroundBorderless = 2130968824;
 			
-			// aapt resource value: 0x7F080017
-			public const int selectAllOnFocus = 2131230743;
+			// aapt resource value: 0x7F100067
+			public const int selectAllOnFocus = 2131755111;
 			
 			// aapt resource value: 0x7F0400F9
 			public const int showAsAction = 2130968825;
@@ -3139,6 +3535,9 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F040107
 			public const int state_collapsible = 2130968839;
+			
+			// aapt resource value: 0x7F100002
+			public const int state_indeterminate = 2131755010;
 			
 			// aapt resource value: 0x7F040108
 			public const int statusBarBackground = 2130968840;
@@ -3356,17 +3755,17 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04014F
 			public const int useCompatPadding = 2130968911;
 			
-			// aapt resource value: 0x7F080012
-			public const int valueChangeMode = 2131230738;
+			// aapt resource value: 0x7F100062
+			public const int valueChangeMode = 2131755106;
 			
 			// aapt resource value: 0x7F040150
 			public const int voiceIcon = 2130968912;
 			
-			// aapt resource value: 0x7F080015
-			public const int watermark = 2131230741;
+			// aapt resource value: 0x7F100065
+			public const int watermark = 2131755109;
 			
-			// aapt resource value: 0x7F080021
-			public const int watermarkColor = 2131230753;
+			// aapt resource value: 0x7F100071
+			public const int watermarkColor = 2131755121;
 			
 			// aapt resource value: 0x7F040151
 			public const int windowActionBar = 2130968913;
@@ -3573,6 +3972,9 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F040004
 			public const int colorPrimaryDark = 2130968580;
+			
+			// aapt resource value: 0x7F040006
+			public const int control_checkable_material = 2130968582;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -4121,6 +4523,9 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F080075
 			public const int design_tab_text_size_2line = 2131230837;
 			
+			// aapt resource value: 0x7F110002
+			public const int disabledAlpha = 2131820546;
+			
 			// aapt resource value: 0x7F080076
 			public const int disabled_alpha_material_dark = 2131230838;
 			
@@ -4515,11 +4920,131 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F090053
 			public const int abc_vector_test = 2131296339;
 			
+			// aapt resource value: 0x7F070012
+			public const int Avatar1 = 2131165202;
+			
+			// aapt resource value: 0x7F070013
+			public const int Avatar10 = 2131165203;
+			
+			// aapt resource value: 0x7F070014
+			public const int Avatar11 = 2131165204;
+			
+			// aapt resource value: 0x7F070015
+			public const int Avatar12 = 2131165205;
+			
+			// aapt resource value: 0x7F070016
+			public const int Avatar13 = 2131165206;
+			
+			// aapt resource value: 0x7F070017
+			public const int Avatar14 = 2131165207;
+			
+			// aapt resource value: 0x7F070018
+			public const int Avatar15 = 2131165208;
+			
+			// aapt resource value: 0x7F070019
+			public const int Avatar16 = 2131165209;
+			
+			// aapt resource value: 0x7F070020
+			public const int Avatar17 = 2131165216;
+			
+			// aapt resource value: 0x7F070021
+			public const int Avatar18 = 2131165217;
+			
+			// aapt resource value: 0x7F070022
+			public const int Avatar19 = 2131165218;
+			
+			// aapt resource value: 0x7F070023
+			public const int Avatar2 = 2131165219;
+			
+			// aapt resource value: 0x7F070024
+			public const int Avatar20 = 2131165220;
+			
+			// aapt resource value: 0x7F070025
+			public const int Avatar21 = 2131165221;
+			
+			// aapt resource value: 0x7F070026
+			public const int Avatar22 = 2131165222;
+			
+			// aapt resource value: 0x7F070027
+			public const int Avatar23 = 2131165223;
+			
+			// aapt resource value: 0x7F070028
+			public const int Avatar24 = 2131165224;
+			
+			// aapt resource value: 0x7F070029
+			public const int Avatar25 = 2131165225;
+			
+			// aapt resource value: 0x7F070030
+			public const int Avatar26 = 2131165232;
+			
+			// aapt resource value: 0x7F070031
+			public const int Avatar27 = 2131165233;
+			
+			// aapt resource value: 0x7F070032
+			public const int Avatar28 = 2131165234;
+			
+			// aapt resource value: 0x7F070033
+			public const int Avatar29 = 2131165235;
+			
+			// aapt resource value: 0x7F070034
+			public const int Avatar3 = 2131165236;
+			
+			// aapt resource value: 0x7F070035
+			public const int Avatar30 = 2131165237;
+			
+			// aapt resource value: 0x7F070036
+			public const int Avatar4 = 2131165238;
+			
+			// aapt resource value: 0x7F070037
+			public const int Avatar5 = 2131165239;
+			
+			// aapt resource value: 0x7F070038
+			public const int Avatar6 = 2131165240;
+			
+			// aapt resource value: 0x7F070039
+			public const int Avatar7 = 2131165241;
+			
+			// aapt resource value: 0x7F070040
+			public const int Avatar8 = 2131165248;
+			
+			// aapt resource value: 0x7F070041
+			public const int Avatar9 = 2131165249;
+			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
 			
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
+			
+			// aapt resource value: 0x7F070002
+			public const int btn_checkbox = 2131165186;
+			
+			// aapt resource value: 0x7F070003
+			public const int btn_checkbox_checked = 2131165187;
+			
+			// aapt resource value: 0x7F070004
+			public const int btn_checkbox_checked_to_indeterminate_animation = 2131165188;
+			
+			// aapt resource value: 0x7F070005
+			public const int btn_checkbox_checked_to_unchecked_animation = 2131165189;
+			
+			// aapt resource value: 0x7F070006
+			public const int btn_checkbox_indeterminate = 2131165190;
+			
+			// aapt resource value: 0x7F070007
+			public const int btn_checkbox_indeterminate_to_checked_animation = 2131165191;
+			
+			// aapt resource value: 0x7F070008
+			public const int btn_checkbox_indeterminate_to_unchecked_animation = 2131165192;
+			
+			// aapt resource value: 0x7F070009
+			public const int btn_checkbox_unchecked = 2131165193;
+			
+			// aapt resource value: 0x7F070010
+			public const int btn_checkbox_unchecked_to_checked_animation = 2131165200;
+			
+			// aapt resource value: 0x7F070011
+			public const int btn_checkbox_unchecked_to_indeterminate_animation = 2131165201;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -4539,8 +5064,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F060006
-			public const int dropdownbuttonimage = 2131099654;
+			// aapt resource value: 0x7F070047
+			public const int dropdownbuttonimage = 2131165255;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -5073,11 +5598,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F060002
-			public const int inputlayout_togglecollapseicon = 2131099650;
+			// aapt resource value: 0x7F070042
+			public const int inputlayout_togglecollapseicon = 2131165250;
 			
-			// aapt resource value: 0x7F060003
-			public const int inputlayout_togglevisibleicon = 2131099651;
+			// aapt resource value: 0x7F070043
+			public const int inputlayout_togglevisibleicon = 2131165251;
+			
+			// aapt resource value: 0x7F070044
+			public const int input_layout_drop_down_icon = 2131165252;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -5178,11 +5706,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F060004
-			public const int sfclosebutton = 2131099652;
+			// aapt resource value: 0x7F070045
+			public const int sfclosebutton = 2131165253;
 			
-			// aapt resource value: 0x7F060005
-			public const int styleinfo = 2131099653;
+			// aapt resource value: 0x7F070046
+			public const int styleinfo = 2131165254;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -5269,6 +5797,9 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
+			// aapt resource value: 0x7F010030
+			public const int append = 2130772016;
+			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
 			
@@ -5278,8 +5809,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
-			// aapt resource value: 0x7F0C001A
-			public const int bottom = 2131492890;
+			// aapt resource value: 0x7F010010
+			public const int border = 2130771984;
+			
+			// aapt resource value: 0x7F010008
+			public const int bottom = 2130771976;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -5293,14 +5827,23 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C001E
 			public const int checkbox = 2131492894;
 			
+			// aapt resource value: 0x7F010005
+			public const int @checked = 2130771973;
+			
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x7F010008
-			public const int compute = 2130771976;
+			// aapt resource value: 0x7F010034
+			public const int compute = 2130772020;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
+			
+			// aapt resource value: 0x7F010018
+			public const int contains = 2130771992;
+			
+			// aapt resource value: 0x7F010019
+			public const int containsWithCaseSensitive = 2130771993;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
@@ -5308,23 +5851,26 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
 			
-			// aapt resource value: 0x7F0C0023
-			public const int custom = 2131492899;
+			// aapt resource value: 0x7F010024
+			public const int custom = 2130772004;
 			
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F010006
-			public const int decimalMode = 2130771974;
+			// aapt resource value: 0x7F010032
+			public const int decimalMode = 2130772018;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
 			
-			// aapt resource value: 0x7F010012
-			public const int Default = 2130771986;
+			// aapt resource value: 0x7F010038
+			public const int Default = 2130772024;
 			
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
+			
+			// aapt resource value: 0x7F010028
+			public const int delimiter = 2130772008;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -5341,11 +5887,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x7F010013
-			public const int Dialog = 2130771987;
+			// aapt resource value: 0x7F010039
+			public const int Dialog = 2130772025;
 			
-			// aapt resource value: 0x7F010007
-			public const int doubleMode = 2130771975;
+			// aapt resource value: 0x7F010033
+			public const int doubleMode = 2130772019;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -5353,8 +5899,20 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
 			
+			// aapt resource value: 0x7F010020
+			public const int endsWith = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int endsWithCaseSensitive = 2130772001;
+			
 			// aapt resource value: 0x7F0C002E
 			public const int end_padder = 2131492910;
+			
+			// aapt resource value: 0x7F010022
+			public const int equals = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public const int equalsWithCaseSensitive = 2130772003;
 			
 			// aapt resource value: 0x7F0C0030
 			public const int expanded_menu = 2131492912;
@@ -5362,8 +5920,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
 			
-			// aapt resource value: 0x7F0C0031
-			public const int fill = 2131492913;
+			// aapt resource value: 0x7F010009
+			public const int fill = 2130771977;
 			
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
@@ -5377,14 +5935,20 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
-			// aapt resource value: 0x7F010005
-			public const int icon = 2130771973;
+			// aapt resource value: 0x7F010015
+			public const int icon = 2130771989;
 			
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F0C0038
-			public const int image = 2131492920;
+			// aapt resource value: 0x7F010011
+			public const int image = 2130771985;
+			
+			// aapt resource value: 0x7F010013
+			public const int imagewithtext = 2130771987;
+			
+			// aapt resource value: 0x7F010004
+			public const int indeterminate = 2130771972;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -5392,8 +5956,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
 			
-			// aapt resource value: 0x7F010004
-			public const int Itemname = 2130771972;
+			// aapt resource value: 0x7F010014
+			public const int Itemname = 2130771988;
 			
 			// aapt resource value: 0x7F0C003B
 			public const int item_touch_helper_previous_elevation = 2131492923;
@@ -5509,8 +6073,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F0C0048
-			public const int none = 2131492936;
+			// aapt resource value: 0x7F010025
+			public const int none = 2130772005;
 			
 			// aapt resource value: 0x7F0C0010
 			public const int normal = 2131492880;
@@ -5524,11 +6088,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
-			// aapt resource value: 0x7F010011
-			public const int onKeyFocus = 2130771985;
+			// aapt resource value: 0x7F010037
+			public const int onKeyFocus = 2130772023;
 			
-			// aapt resource value: 0x7F010010
-			public const int onLostFocus = 2130771984;
+			// aapt resource value: 0x7F010036
+			public const int onLostFocus = 2130772022;
 			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
@@ -5650,6 +6214,12 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
+			// aapt resource value: 0x7F010016
+			public const int startsWith = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int startsWithCaseSensitive = 2130771991;
+			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
 			
@@ -5659,14 +6229,20 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0076
 			public const int submit_area = 2131492982;
 			
+			// aapt resource value: 0x7F010029
+			public const int suggest = 2130772009;
+			
+			// aapt resource value: 0x7F010031
+			public const int suggestAppend = 2130772017;
+			
 			// aapt resource value: 0x7F0C0077
 			public const int tabMode = 2131492983;
 			
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
-			// aapt resource value: 0x7F0C0017
-			public const int text = 2131492887;
+			// aapt resource value: 0x7F010012
+			public const int text = 2130771986;
 			
 			// aapt resource value: 0x7F0C0018
 			public const int text2 = 2131492888;
@@ -5698,11 +6274,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
 			
+			// aapt resource value: 0x7F010027
+			public const int token = 2130772007;
+			
 			// aapt resource value: 0x7F010003
 			public const int toolbar = 2130771971;
 			
-			// aapt resource value: 0x7F0C0084
-			public const int top = 2131492996;
+			// aapt resource value: 0x7F010007
+			public const int top = 2130771975;
 			
 			// aapt resource value: 0x7F0C0085
 			public const int topPanel = 2131492997;
@@ -5725,14 +6304,17 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
+			// aapt resource value: 0x7F010006
+			public const int @unchecked = 2130771974;
+			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
 			
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F010009
-			public const int value = 2130771977;
+			// aapt resource value: 0x7F010035
+			public const int value = 2130772021;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -5742,6 +6324,9 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F0C007D
 			public const int volume_item_container = 2131492989;
+			
+			// aapt resource value: 0x7F010026
+			public const int wrap = 2130772006;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -5810,6 +6395,21 @@ namespace DAE_ProyectoFinal_13.Droid
 		
 		public partial class Interpolator
 		{
+			
+			// aapt resource value: 0x7F080002
+			public const int btn_checkbox_checked_animation_interpolator_0 = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int btn_checkbox_checked_animation_interpolator_1 = 2131230723;
+			
+			// aapt resource value: 0x7F080004
+			public const int btn_checkbox_indeterminate_animation_interpolator_1 = 2131230724;
+			
+			// aapt resource value: 0x7F080005
+			public const int btn_checkbox_unchecked_animation_interpolator_0 = 2131230725;
+			
+			// aapt resource value: 0x7F080006
+			public const int btn_checkbox_unchecked_animation_interpolator_1 = 2131230726;
 			
 			// aapt resource value: 0x7F0E0001
 			public const int mr_fast_out_slow_in = 2131623937;
@@ -6180,23 +6780,23 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
-			// aapt resource value: 0x7F090004
-			public const int cancel_drop = 2131296260;
+			// aapt resource value: 0x7F120004
+			public const int cancel_drop = 2131886084;
 			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F090005
-			public const int drop_above = 2131296261;
+			// aapt resource value: 0x7F120005
+			public const int drop_above = 2131886085;
 			
-			// aapt resource value: 0x7F090006
-			public const int drop_below = 2131296262;
+			// aapt resource value: 0x7F120006
+			public const int drop_below = 2131886086;
 			
-			// aapt resource value: 0x7F090002
-			public const int library_name = 2131296258;
+			// aapt resource value: 0x7F120002
+			public const int library_name = 2131886082;
 			
-			// aapt resource value: 0x7F090003
-			public const int load_more_items = 2131296259;
+			// aapt resource value: 0x7F120003
+			public const int load_more_items = 2131886083;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
@@ -7548,11 +8148,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070098
-			public const int ActionBarLayout_android_layout_gravity = 2131165336;
+			// aapt resource value: 0x7F090151
+			public const int ActionBarLayout_android_layout_gravity = 2131296593;
 			
-			// aapt resource value: 0x7F070068
-			public const int ActionBar_background = 2131165288;
+			// aapt resource value: 0x7F090121
+			public const int ActionBar_background = 2131296545;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -7641,8 +8241,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070100
-			public const int ActionMenuItemView_android_minWidth = 2131165440;
+			// aapt resource value: 0x7F090153
+			public const int ActionMenuItemView_android_minWidth = 2131296595;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -7652,8 +8252,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F070102
-			public const int ActionMode_background = 2131165442;
+			// aapt resource value: 0x7F090155
+			public const int ActionMode_background = 2131296597;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -7674,8 +8274,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F070109
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165449;
+			// aapt resource value: 0x7F090162
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131296610;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -7689,8 +8289,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F070112
-			public const int AlertDialog_android_layout = 2131165458;
+			// aapt resource value: 0x7F090165
+			public const int AlertDialog_android_layout = 2131296613;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -7721,14 +8321,14 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F070126
-			public const int AppBarLayoutStates_state_collapsed = 2131165478;
+			// aapt resource value: 0x7F090179
+			public const int AppBarLayoutStates_state_collapsed = 2131296633;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F070120
-			public const int AppBarLayout_android_background = 2131165472;
+			// aapt resource value: 0x7F090173
+			public const int AppBarLayout_android_background = 2131296627;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -7746,8 +8346,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F070129
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165481;
+			// aapt resource value: 0x7F090182
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131296642;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -7758,8 +8358,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F070132
-			public const int AppCompatImageView_android_src = 2131165490;
+			// aapt resource value: 0x7F090185
+			public const int AppCompatImageView_android_src = 2131296645;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -7776,8 +8376,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F070137
-			public const int AppCompatSeekBar_android_thumb = 2131165495;
+			// aapt resource value: 0x7F090190
+			public const int AppCompatSeekBar_android_thumb = 2131296656;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -7797,8 +8397,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F070142
-			public const int AppCompatTextHelper_android_drawableBottom = 2131165506;
+			// aapt resource value: 0x7F090195
+			public const int AppCompatTextHelper_android_drawableBottom = 2131296661;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -7828,8 +8428,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070150
-			public const int AppCompatTextView_android_textAppearance = 2131165520;
+			// aapt resource value: 0x7F090203
+			public const int AppCompatTextView_android_textAppearance = 2131296771;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -7973,8 +8573,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F070159
-			public const int AppCompatTheme_actionBarDivider = 2131165529;
+			// aapt resource value: 0x7F090212
+			public const int AppCompatTheme_actionBarDivider = 2131296786;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -8337,8 +8937,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070279
-			public const int BottomNavigationView_elevation = 2131165817;
+			// aapt resource value: 0x7F090332
+			public const int BottomNavigationView_elevation = 2131297074;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -8357,8 +8957,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F070285
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165829;
+			// aapt resource value: 0x7F090338
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131297080;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -8369,8 +8969,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F070289
-			public const int ButtonBarLayout_allowStacking = 2131165833;
+			// aapt resource value: 0x7F090342
+			public const int ButtonBarLayout_allowStacking = 2131297090;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -8387,8 +8987,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F070592
-			public const int CardView_android_minHeight = 2131166610;
+			// aapt resource value: 0x7F090645
+			public const int CardView_android_minHeight = 2131297861;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -8444,8 +9044,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F070291
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165841;
+			// aapt resource value: 0x7F090344
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131297092;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -8478,8 +9078,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F070308
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165960;
+			// aapt resource value: 0x7F090361
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131297121;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -8507,8 +9107,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F070311
-			public const int ColorStateListItem_alpha = 2131165969;
+			// aapt resource value: 0x7F090364
+			public const int ColorStateListItem_alpha = 2131297124;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -8521,8 +9121,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F070315
-			public const int CompoundButton_android_button = 2131165973;
+			// aapt resource value: 0x7F090368
+			public const int CompoundButton_android_button = 2131297128;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -8534,8 +9134,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F070319
-			public const int CoordinatorLayout_keylines = 2131165977;
+			// aapt resource value: 0x7F090372
+			public const int CoordinatorLayout_keylines = 2131297138;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -8546,8 +9146,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F070322
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165986;
+			// aapt resource value: 0x7F090375
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131297141;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -8575,14 +9175,20 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F070330
-			public const int DesignTheme_bottomSheetDialogTheme = 2131166000;
+			// aapt resource value: 0x7F090383
+			public const int DesignTheme_bottomSheetDialogTheme = 2131297155;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
 			// aapt resource value: 0x2
 			public const int DesignTheme_textColorError = 2;
+			
+			public static int[] DrawableStates = new int[] {
+					0};
+			
+			// aapt resource value: 0x7F090002
+			public const int DrawableStates_state_indeterminate = 2131296258;
 			
 			public static int[] DrawerArrowToggle = new int[] {
 					2130968618,
@@ -8594,8 +9200,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F070334
-			public const int DrawerArrowToggle_arrowHeadLength = 2131166004;
+			// aapt resource value: 0x7F090387
+			public const int DrawerArrowToggle_arrowHeadLength = 2131297159;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -8628,8 +9234,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F070343
-			public const int FloatingActionButton_backgroundTint = 2131166019;
+			// aapt resource value: 0x7F090396
+			public const int FloatingActionButton_backgroundTint = 2131297174;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -8637,8 +9243,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F070352
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131166034;
+			// aapt resource value: 0x7F090405
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131297285;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -8674,8 +9280,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F070061
-			public const int FontFamilyFont_android_font = 2131165281;
+			// aapt resource value: 0x7F090114
+			public const int FontFamilyFont_android_font = 2131296532;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -8692,8 +9298,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F070054
-			public const int FontFamily_fontProviderAuthority = 2131165268;
+			// aapt resource value: 0x7F090107
+			public const int FontFamily_fontProviderAuthority = 2131296519;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -8715,8 +9321,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F070354
-			public const int ForegroundLinearLayout_android_foreground = 2131166036;
+			// aapt resource value: 0x7F090407
+			public const int ForegroundLinearLayout_android_foreground = 2131297287;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -8735,8 +9341,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F070358
-			public const int LinearLayoutCompat_android_baselineAligned = 2131166040;
+			// aapt resource value: 0x7F090411
+			public const int LinearLayoutCompat_android_baselineAligned = 2131297297;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -8762,8 +9368,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F070368
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166056;
+			// aapt resource value: 0x7F090421
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131297313;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -8784,8 +9390,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070373
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166067;
+			// aapt resource value: 0x7F090426
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131297318;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -8796,8 +9402,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F070606
-			public const int MediaRouteButton_android_minHeight = 2131166726;
+			// aapt resource value: 0x7F090659
+			public const int MediaRouteButton_android_minHeight = 2131297881;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -8816,8 +9422,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F070376
-			public const int MenuGroup_android_checkableBehavior = 2131166070;
+			// aapt resource value: 0x7F090429
+			public const int MenuGroup_android_checkableBehavior = 2131297321;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -8859,8 +9465,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F070383
-			public const int MenuItem_actionLayout = 2131166083;
+			// aapt resource value: 0x7F090436
+			public const int MenuItem_actionLayout = 2131297334;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -8939,8 +9545,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F070407
-			public const int MenuView_android_headerBackground = 2131166215;
+			// aapt resource value: 0x7F090460
+			public const int MenuView_android_headerBackground = 2131297376;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -8978,8 +9584,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070417
-			public const int NavigationView_android_background = 2131166231;
+			// aapt resource value: 0x7F090470
+			public const int NavigationView_android_background = 2131297392;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -9016,11 +9622,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F070432
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166258;
+			// aapt resource value: 0x7F090485
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131297413;
 			
-			// aapt resource value: 0x7F070428
-			public const int PopupWindow_android_popupAnimationStyle = 2131166248;
+			// aapt resource value: 0x7F090481
+			public const int PopupWindow_android_popupAnimationStyle = 2131297409;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -9032,8 +9638,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F070434
-			public const int RecycleListView_paddingBottomNoButtons = 2131166260;
+			// aapt resource value: 0x7F090487
+			public const int RecycleListView_paddingBottomNoButtons = 2131297415;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -9051,8 +9657,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F070437
-			public const int RecyclerView_android_descendantFocusability = 2131166263;
+			// aapt resource value: 0x7F090490
+			public const int RecyclerView_android_descendantFocusability = 2131297424;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -9087,14 +9693,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F070449
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166281;
+			// aapt resource value: 0x7F090502
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131297538;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F070451
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166289;
+			// aapt resource value: 0x7F090504
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131297540;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -9115,8 +9721,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F070453
-			public const int SearchView_android_focusable = 2131166291;
+			// aapt resource value: 0x7F090506
+			public const int SearchView_android_focusable = 2131297542;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -9174,31 +9780,181 @@ namespace DAE_ProyectoFinal_13.Droid
 					0,
 					0,
 					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
 					0};
 			
-			// aapt resource value: 0x7F070006
-			public const int SfAutoComplete_autocompleteBorderColor = 2131165190;
+			// aapt resource value: 0x7F090025
+			public const int SfAutoComplete_autocompleteBorderColor = 2131296293;
 			
-			// aapt resource value: 0x7F070002
-			public const int SfAutoComplete_autocompleteShowBorder = 2131165186;
+			// aapt resource value: 0x7F090046
+			public const int SfAutoComplete_autocompleteClearButtonColor = 2131296326;
 			
-			// aapt resource value: 0x7F070003
-			public const int SfAutoComplete_autocompleteShowClearButton = 2131165187;
+			// aapt resource value: 0x7F090034
+			public const int SfAutoComplete_autocompleteDisplayMemberPath = 2131296308;
 			
-			// aapt resource value: 0x7F070008
-			public const int SfAutoComplete_autocompleteText = 2131165192;
+			// aapt resource value: 0x7F090039
+			public const int SfAutoComplete_autocompleteDropDownBackgroundColor = 2131296313;
 			
-			// aapt resource value: 0x7F070005
-			public const int SfAutoComplete_autocompleteTextColor = 2131165189;
+			// aapt resource value: 0x7F090055
+			public const int SfAutoComplete_autocompleteDropDownCornerRadius = 2131296341;
 			
-			// aapt resource value: 0x7F070009
-			public const int SfAutoComplete_autocompleteTextSize = 2131165193;
+			// aapt resource value: 0x7F090057
+			public const int SfAutoComplete_autocompleteDropDownFooterViewHeight = 2131296343;
 			
-			// aapt resource value: 0x7F070007
-			public const int SfAutoComplete_autocompleteWatermark = 2131165191;
+			// aapt resource value: 0x7F090056
+			public const int SfAutoComplete_autocompleteDropDownHeaderViewHeight = 2131296342;
 			
-			// aapt resource value: 0x7F070004
-			public const int SfAutoComplete_autocompleteWatermarkColor = 2131165188;
+			// aapt resource value: 0x7F090054
+			public const int SfAutoComplete_autocompleteDropDownItemHeight = 2131296340;
+			
+			// aapt resource value: 0x7F090029
+			public const int SfAutoComplete_autocompleteDropDownOpen = 2131296297;
+			
+			// aapt resource value: 0x7F090040
+			public const int SfAutoComplete_autocompleteDropDownTextColor = 2131296320;
+			
+			// aapt resource value: 0x7F090042
+			public const int SfAutoComplete_autocompleteDropDownTextSize = 2131296322;
+			
+			// aapt resource value: 0x7F090035
+			public const int SfAutoComplete_autocompleteEnableSelectionIndicator = 2131296309;
+			
+			// aapt resource value: 0x7F090052
+			public const int SfAutoComplete_autocompleteHighlightedTextColor = 2131296338;
+			
+			// aapt resource value: 0x7F090047
+			public const int SfAutoComplete_autocompleteIgnoreDiacritic = 2131296327;
+			
+			// aapt resource value: 0x7F090043
+			public const int SfAutoComplete_autocompleteImageMemberPath = 2131296323;
+			
+			// aapt resource value: 0x7F090036
+			public const int SfAutoComplete_autocompleteIndicatorText = 2131296310;
+			
+			// aapt resource value: 0x7F090037
+			public const int SfAutoComplete_autocompleteIndicatorTextColor = 2131296311;
+			
+			// aapt resource value: 0x7F090053
+			public const int SfAutoComplete_autocompleteIndicatorTextSize = 2131296339;
+			
+			// aapt resource value: 0x7F090048
+			public const int SfAutoComplete_autocompleteIsFocused = 2131296328;
+			
+			// aapt resource value: 0x7F090051
+			public const int SfAutoComplete_autocompleteIsSelectedItemsVisibleInDropDown = 2131296337;
+			
+			// aapt resource value: 0x7F090049
+			public const int SfAutoComplete_autocompleteLoadMoreText = 2131296329;
+			
+			// aapt resource value: 0x7F090041
+			public const int SfAutoComplete_autocompleteMaximumDropDownHeight = 2131296321;
+			
+			// aapt resource value: 0x7F090030
+			public const int SfAutoComplete_autocompleteMaximumSuggestion = 2131296304;
+			
+			// aapt resource value: 0x7F090038
+			public const int SfAutoComplete_autocompleteMinimumPrefixCharacters = 2131296312;
+			
+			// aapt resource value: 0x7F090062
+			public const int SfAutoComplete_autocompleteMode = 2131296354;
+			
+			// aapt resource value: 0x7F090061
+			public const int SfAutoComplete_autocompleteMultiSelectMode = 2131296353;
+			
+			// aapt resource value: 0x7F090050
+			public const int SfAutoComplete_autocompleteNoResultsFoundText = 2131296336;
+			
+			// aapt resource value: 0x7F090033
+			public const int SfAutoComplete_autocompletePopUpDelay = 2131296307;
+			
+			// aapt resource value: 0x7F090031
+			public const int SfAutoComplete_autocompleteSelectedIndex = 2131296305;
+			
+			// aapt resource value: 0x7F090021
+			public const int SfAutoComplete_autocompleteShowBorder = 2131296289;
+			
+			// aapt resource value: 0x7F090022
+			public const int SfAutoComplete_autocompleteShowClearButton = 2131296290;
+			
+			// aapt resource value: 0x7F090045
+			public const int SfAutoComplete_autocompleteShowDropDownFooterView = 2131296325;
+			
+			// aapt resource value: 0x7F090044
+			public const int SfAutoComplete_autocompleteShowDropDownHeaderView = 2131296324;
+			
+			// aapt resource value: 0x7F090032
+			public const int SfAutoComplete_autocompleteShowSuggestionsOnFocus = 2131296306;
+			
+			// aapt resource value: 0x7F090059
+			public const int SfAutoComplete_autocompleteSuggestionBoxPlacement = 2131296345;
+			
+			// aapt resource value: 0x7F090058
+			public const int SfAutoComplete_autocompleteSuggestionMode = 2131296344;
+			
+			// aapt resource value: 0x7F090027
+			public const int SfAutoComplete_autocompleteText = 2131296295;
+			
+			// aapt resource value: 0x7F090024
+			public const int SfAutoComplete_autocompleteTextColor = 2131296292;
+			
+			// aapt resource value: 0x7F090028
+			public const int SfAutoComplete_autocompleteTextSize = 2131296296;
+			
+			// aapt resource value: 0x7F090060
+			public const int SfAutoComplete_autocompleteTokensWrapMode = 2131296352;
+			
+			// aapt resource value: 0x7F090026
+			public const int SfAutoComplete_autocompleteWatermark = 2131296294;
+			
+			// aapt resource value: 0x7F090023
+			public const int SfAutoComplete_autocompleteWatermarkColor = 2131296291;
+			
+			public static int[] SfCheckBox = new int[] {
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F090006
+			public const int SfCheckBox_checked = 2131296262;
+			
+			// aapt resource value: 0x7F090005
+			public const int SfCheckBox_cornerradius = 2131296261;
+			
+			// aapt resource value: 0x7F090004
+			public const int SfCheckBox_isthreestate = 2131296260;
 			
 			public static int[] SfNumericTextBox = new int[] {
 					0,
@@ -9216,47 +9972,47 @@ namespace DAE_ProyectoFinal_13.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070020
-			public const int SfNumericTextBox_allowNull = 2131165216;
+			// aapt resource value: 0x7F090073
+			public const int SfNumericTextBox_allowNull = 2131296371;
 			
-			// aapt resource value: 0x7F070021
-			public const int SfNumericTextBox_borderColor = 2131165217;
+			// aapt resource value: 0x7F090074
+			public const int SfNumericTextBox_borderColor = 2131296372;
 			
-			// aapt resource value: 0x7F070023
-			public const int SfNumericTextBox_culture = 2131165219;
+			// aapt resource value: 0x7F090076
+			public const int SfNumericTextBox_culture = 2131296374;
 			
-			// aapt resource value: 0x7F070014
-			public const int SfNumericTextBox_enableGroupSeparator = 2131165204;
+			// aapt resource value: 0x7F090067
+			public const int SfNumericTextBox_enableGroupSeparator = 2131296359;
 			
-			// aapt resource value: 0x7F070019
-			public const int SfNumericTextBox_fontSize = 2131165209;
+			// aapt resource value: 0x7F090072
+			public const int SfNumericTextBox_fontSize = 2131296370;
 			
-			// aapt resource value: 0x7F070017
-			public const int SfNumericTextBox_maximumDecimalDigits = 2131165207;
+			// aapt resource value: 0x7F090070
+			public const int SfNumericTextBox_maximumDecimalDigits = 2131296368;
 			
-			// aapt resource value: 0x7F070015
-			public const int SfNumericTextBox_numberFormat = 2131165205;
+			// aapt resource value: 0x7F090068
+			public const int SfNumericTextBox_numberFormat = 2131296360;
 			
-			// aapt resource value: 0x7F070024
-			public const int SfNumericTextBox_numericTextBoxValue = 2131165220;
+			// aapt resource value: 0x7F090077
+			public const int SfNumericTextBox_numericTextBoxValue = 2131296375;
 			
-			// aapt resource value: 0x7F070011
-			public const int SfNumericTextBox_parsingMode = 2131165201;
+			// aapt resource value: 0x7F090064
+			public const int SfNumericTextBox_parsingMode = 2131296356;
 			
-			// aapt resource value: 0x7F070012
-			public const int SfNumericTextBox_percentDisplayMode = 2131165202;
+			// aapt resource value: 0x7F090065
+			public const int SfNumericTextBox_percentDisplayMode = 2131296357;
 			
-			// aapt resource value: 0x7F070018
-			public const int SfNumericTextBox_selectAllOnFocus = 2131165208;
+			// aapt resource value: 0x7F090071
+			public const int SfNumericTextBox_selectAllOnFocus = 2131296369;
 			
-			// aapt resource value: 0x7F070013
-			public const int SfNumericTextBox_valueChangeMode = 2131165203;
+			// aapt resource value: 0x7F090066
+			public const int SfNumericTextBox_valueChangeMode = 2131296358;
 			
-			// aapt resource value: 0x7F070016
-			public const int SfNumericTextBox_watermark = 2131165206;
+			// aapt resource value: 0x7F090069
+			public const int SfNumericTextBox_watermark = 2131296361;
 			
-			// aapt resource value: 0x7F070022
-			public const int SfNumericTextBox_watermarkColor = 2131165218;
+			// aapt resource value: 0x7F090075
+			public const int SfNumericTextBox_watermarkColor = 2131296373;
 			
 			public static int[] SfPicker = new int[] {
 					0,
@@ -9286,91 +10042,141 @@ namespace DAE_ProyectoFinal_13.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070027
-			public const int SfPicker_pickerBackgroundColor = 2131165223;
+			// aapt resource value: 0x7F090080
+			public const int SfPicker_pickerBackgroundColor = 2131296384;
 			
-			// aapt resource value: 0x7F070043
-			public const int SfPicker_pickerBorderColor = 2131165251;
+			// aapt resource value: 0x7F090096
+			public const int SfPicker_pickerBorderColor = 2131296406;
 			
-			// aapt resource value: 0x7F070040
-			public const int SfPicker_pickerColumnHeaderBackgroundColor = 2131165248;
+			// aapt resource value: 0x7F090093
+			public const int SfPicker_pickerColumnHeaderBackgroundColor = 2131296403;
 			
-			// aapt resource value: 0x7F070036
-			public const int SfPicker_pickerColumnHeaderHeight = 2131165238;
+			// aapt resource value: 0x7F090089
+			public const int SfPicker_pickerColumnHeaderHeight = 2131296393;
 			
-			// aapt resource value: 0x7F070051
-			public const int SfPicker_pickerColumnHeaderTextColor = 2131165265;
+			// aapt resource value: 0x7F090104
+			public const int SfPicker_pickerColumnHeaderTextColor = 2131296516;
 			
-			// aapt resource value: 0x7F070047
-			public const int SfPicker_pickerColumnHeaderTextSize = 2131165255;
+			// aapt resource value: 0x7F090100
+			public const int SfPicker_pickerColumnHeaderTextSize = 2131296512;
 			
-			// aapt resource value: 0x7F070032
-			public const int SfPicker_pickerEnableLooping = 2131165234;
+			// aapt resource value: 0x7F090085
+			public const int SfPicker_pickerEnableLooping = 2131296389;
 			
-			// aapt resource value: 0x7F070029
-			public const int SfPicker_pickerFooterHeight = 2131165225;
+			// aapt resource value: 0x7F090082
+			public const int SfPicker_pickerFooterHeight = 2131296386;
 			
-			// aapt resource value: 0x7F070039
-			public const int SfPicker_pickerHeaderBackgroundColor = 2131165241;
+			// aapt resource value: 0x7F090092
+			public const int SfPicker_pickerHeaderBackgroundColor = 2131296402;
 			
-			// aapt resource value: 0x7F070028
-			public const int SfPicker_pickerHeaderHeight = 2131165224;
+			// aapt resource value: 0x7F090081
+			public const int SfPicker_pickerHeaderHeight = 2131296385;
 			
-			// aapt resource value: 0x7F070044
-			public const int SfPicker_pickerHeaderText = 2131165252;
+			// aapt resource value: 0x7F090097
+			public const int SfPicker_pickerHeaderText = 2131296407;
 			
-			// aapt resource value: 0x7F070050
-			public const int SfPicker_pickerHeaderTextColor = 2131165264;
+			// aapt resource value: 0x7F090103
+			public const int SfPicker_pickerHeaderTextColor = 2131296515;
 			
-			// aapt resource value: 0x7F070046
-			public const int SfPicker_pickerHeaderTextSize = 2131165254;
+			// aapt resource value: 0x7F090099
+			public const int SfPicker_pickerHeaderTextSize = 2131296409;
 			
-			// aapt resource value: 0x7F070030
-			public const int SfPicker_pickerHeight = 2131165232;
+			// aapt resource value: 0x7F090083
+			public const int SfPicker_pickerHeight = 2131296387;
 			
-			// aapt resource value: 0x7F070031
-			public const int SfPicker_pickerIsOpen = 2131165233;
+			// aapt resource value: 0x7F090084
+			public const int SfPicker_pickerIsOpen = 2131296388;
 			
-			// aapt resource value: 0x7F070037
-			public const int SfPicker_pickerItemHeight = 2131165239;
+			// aapt resource value: 0x7F090090
+			public const int SfPicker_pickerItemHeight = 2131296400;
 			
-			// aapt resource value: 0x7F070026
-			public const int SfPicker_pickerMode = 2131165222;
+			// aapt resource value: 0x7F090079
+			public const int SfPicker_pickerMode = 2131296377;
 			
-			// aapt resource value: 0x7F070038
-			public const int SfPicker_pickerSelectedItemTextcolor = 2131165240;
+			// aapt resource value: 0x7F090091
+			public const int SfPicker_pickerSelectedItemTextcolor = 2131296401;
 			
-			// aapt resource value: 0x7F070049
-			public const int SfPicker_pickerSelectedItemTextSize = 2131165257;
+			// aapt resource value: 0x7F090102
+			public const int SfPicker_pickerSelectedItemTextSize = 2131296514;
 			
-			// aapt resource value: 0x7F070042
-			public const int SfPicker_pickerSelectionBorderColor = 2131165250;
+			// aapt resource value: 0x7F090095
+			public const int SfPicker_pickerSelectionBorderColor = 2131296405;
 			
-			// aapt resource value: 0x7F070035
-			public const int SfPicker_pickerShowColumnHeader = 2131165237;
+			// aapt resource value: 0x7F090088
+			public const int SfPicker_pickerShowColumnHeader = 2131296392;
 			
-			// aapt resource value: 0x7F070034
-			public const int SfPicker_pickerShowFooter = 2131165236;
+			// aapt resource value: 0x7F090087
+			public const int SfPicker_pickerShowFooter = 2131296391;
 			
-			// aapt resource value: 0x7F070033
-			public const int SfPicker_pickerShowHeader = 2131165235;
+			// aapt resource value: 0x7F090086
+			public const int SfPicker_pickerShowHeader = 2131296390;
 			
-			// aapt resource value: 0x7F070041
-			public const int SfPicker_pickerUnselectedItemTextColor = 2131165249;
+			// aapt resource value: 0x7F090094
+			public const int SfPicker_pickerUnselectedItemTextColor = 2131296404;
 			
-			// aapt resource value: 0x7F070048
-			public const int SfPicker_pickerUnselectedItemTextSize = 2131165256;
+			// aapt resource value: 0x7F090101
+			public const int SfPicker_pickerUnselectedItemTextSize = 2131296513;
 			
-			// aapt resource value: 0x7F070045
-			public const int SfPicker_pickerWidth = 2131165253;
+			// aapt resource value: 0x7F090098
+			public const int SfPicker_pickerWidth = 2131296408;
+			
+			public static int[] SfSegmentedControl = new int[] {
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F090009
+			public const int SfSegmentedControl_segmentBackColor = 2131296265;
+			
+			// aapt resource value: 0x7F090010
+			public const int SfSegmentedControl_segmentBorderColor = 2131296272;
+			
+			// aapt resource value: 0x7F090011
+			public const int SfSegmentedControl_segmentBorderThickness = 2131296273;
+			
+			// aapt resource value: 0x7F090012
+			public const int SfSegmentedControl_segmentColor = 2131296274;
+			
+			// aapt resource value: 0x7F090017
+			public const int SfSegmentedControl_segmentCornerRadius = 2131296279;
+			
+			// aapt resource value: 0x7F090019
+			public const int SfSegmentedControl_segmentDisplayMode = 2131296281;
+			
+			// aapt resource value: 0x7F090014
+			public const int SfSegmentedControl_segmentedHeight = 2131296276;
+			
+			// aapt resource value: 0x7F090013
+			public const int SfSegmentedControl_segmentedPadding = 2131296275;
+			
+			// aapt resource value: 0x7F090015
+			public const int SfSegmentedControl_segmentedWidth = 2131296277;
+			
+			// aapt resource value: 0x7F090018
+			public const int SfSegmentedControl_segmentPosition = 2131296280;
+			
+			// aapt resource value: 0x7F090008
+			public const int SfSegmentedControl_segmentSelectedIndex = 2131296264;
+			
+			// aapt resource value: 0x7F090016
+			public const int SfSegmentedControl_segmentStrokeThickness = 2131296278;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F070471
-			public const int SnackbarLayout_android_maxWidth = 2131166321;
+			// aapt resource value: 0x7F090524
+			public const int SnackbarLayout_android_maxWidth = 2131297572;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -9385,8 +10191,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F070475
-			public const int Spinner_android_dropDownWidth = 2131166325;
+			// aapt resource value: 0x7F090528
+			public const int Spinner_android_dropDownWidth = 2131297576;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -9416,8 +10222,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F070481
-			public const int SwitchCompat_android_textOff = 2131166337;
+			// aapt resource value: 0x7F090534
+			public const int SwitchCompat_android_textOff = 2131297588;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -9463,8 +10269,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070496
-			public const int TabItem_android_icon = 2131166358;
+			// aapt resource value: 0x7F090549
+			public const int TabItem_android_icon = 2131297609;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -9490,8 +10296,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F070500
-			public const int TabLayout_tabBackground = 2131166464;
+			// aapt resource value: 0x7F090553
+			public const int TabLayout_tabBackground = 2131297619;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -9553,8 +10359,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070517
-			public const int TextAppearance_android_fontFamily = 2131166487;
+			// aapt resource value: 0x7F090570
+			public const int TextAppearance_android_fontFamily = 2131297648;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -9610,8 +10416,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F070531
-			public const int TextInputLayout_android_hint = 2131166513;
+			// aapt resource value: 0x7F090584
+			public const int TextInputLayout_android_hint = 2131297668;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -9689,8 +10495,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F070548
-			public const int Toolbar_android_gravity = 2131166536;
+			// aapt resource value: 0x7F090601
+			public const int Toolbar_android_gravity = 2131297793;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -9788,8 +10594,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F070584
-			public const int ViewBackgroundHelper_android_background = 2131166596;
+			// aapt resource value: 0x7F090637
+			public const int ViewBackgroundHelper_android_background = 2131297847;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -9802,8 +10608,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F070588
-			public const int ViewStubCompat_android_id = 2131166600;
+			// aapt resource value: 0x7F090641
+			public const int ViewStubCompat_android_id = 2131297857;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -9811,8 +10617,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F070578
-			public const int View_android_focusable = 2131166584;
+			// aapt resource value: 0x7F090631
+			public const int View_android_focusable = 2131297841;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

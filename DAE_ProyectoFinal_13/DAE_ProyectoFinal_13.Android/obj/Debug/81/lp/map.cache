@@ -90,3 +90,5 @@ System.Diagnostics.Debug
 System.Linq.Queryable
 System.ComponentModel
 System.Collections.Concurrent
+Syncfusion.Buttons.XForms.Android
+Syncfusion.Buttons.XForms

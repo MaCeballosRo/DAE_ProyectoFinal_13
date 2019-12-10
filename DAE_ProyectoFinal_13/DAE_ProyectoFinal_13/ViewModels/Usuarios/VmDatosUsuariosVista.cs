@@ -118,6 +118,18 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
             get { return empresa; }
         }
 
+        private string imagenUsuario;
+        public string ImagenUsuario
+        {
+            get { return imagenUsuario; }
+        }
+
+        private string imagenDesarrollador;
+        public string ImagenDesarrollador
+        {
+            get { return imagenDesarrollador; }
+        }
+
         public VmDatosUsuariosVista(InterfaceDatosUsuario PaIFSrvDatosUsuariosLista)
         {
             IFSrvDatosUsuariosLista = PaIFSrvDatosUsuariosLista;
@@ -144,6 +156,7 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                     correoUsuario = acu.DireccionWeb;
                     telefonoUsuario = acu.Telefono;
                     empresa = acu.DesInstituto;
+                    imagenUsuario = acu.RutaFoto;
                 }
                 //Se refresca la fuente del grid en la vista
 
@@ -154,6 +167,7 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                 RaisePropertyChanged("CorreoUsuario");
                 RaisePropertyChanged("TelefonoUsuario");
                 RaisePropertyChanged("Empresa");
+                RaisePropertyChanged("ImagenUsuario");
 
             }
             catch (Exception e)
@@ -234,6 +248,7 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                     fechaNacDesarrollador = acu.FechaNac.ToString();
                     correoDesarrollador = acu.DireccionWeb;
                     telefonoDesarrollador = acu.Telefono;
+                    imagenDesarrollador = acu.RutaFoto;
                 }
                 //Se refresca la fuente del grid en la vista
                 
@@ -241,7 +256,8 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                 RaisePropertyChanged("NombreDesarrollador");
                 RaisePropertyChanged("FechaNacDesarrollador");
                 RaisePropertyChanged("CorreoDesarrollador");
-                RaisePropertyChanged("TelefonoDesarrollador");                              
+                RaisePropertyChanged("TelefonoDesarrollador");
+                RaisePropertyChanged("ImagenDesarrollador");
 
             }
             catch (Exception e)

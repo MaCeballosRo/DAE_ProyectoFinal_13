@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DAE_ProyectoFinal_13.Views.Usuario.Page1"
+             
              xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
              xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="DAE_ProyectoFinal_13.Views.Usuario.Page1"
              xmlns:sfavatar="clr-namespace:Syncfusion.XForms.AvatarView;assembly=Syncfusion.Core.XForms">
 
 
@@ -41,22 +42,23 @@
                     <Entry x:Name="Entry_NombreApp"
                        Placeholder="Nombre Aplicación"
                        WidthRequest="150"
-                       Margin="15,0,0,0"/>
-                </StackLayout>
+                       Margin="15,0,15,0"/>
 
-                <buttons:SfButton x:Name="Button_Consultar"/>
-                <Button x:Name="Button_Consultar"
+                    <Button x:Name="Button_Consultar"
                         Text="Consultar"
                         BackgroundColor="WhiteSmoke"
                         HorizontalOptions="Center"
                         WidthRequest="160"
-                        HeightRequest="50"
+                        HeightRequest="40"
                         BorderWidth="4"
                         BorderRadius="4"
-                        Margin="0,15,0,15"
+                        Margin="0,0,0,0"
                         TextColor="Black"
                         FontSize="Small"
                         Clicked="Button_Clicked_Consultar"/>
+                </StackLayout>
+
+                <!--<buttons:SfButton x:Name="SfButton" Text="Button" IsCheckable="True"/>-->
 
                 <StackLayout Orientation="Horizontal">
                     <Frame BackgroundColor="#dedae3" 
@@ -83,17 +85,19 @@
                                         <Frame Padding="0,0,0,0"
                                            CornerRadius="50">
                                             <Image HeightRequest="100" WidthRequest="100" HorizontalOptions="Fill" VerticalOptions="Fill">
-                                                    <Image.Source>
-                                                        <UriImageSource
-                                                CacheValidity="14"
-                                                CachingEnabled="true"
-                                                Uri="{Binding PONER_ATRIBUTO_IMAGEN_USUARIO}" />
-                                                    </Image.Source>
-                                                </Image>
+                                                <Image.Source>
+                                                    <UriImageSource
+                                                        CacheValidity="14"
+                                                        CachingEnabled="true"                                                       
+                                                        Uri="{Binding ImagenUsuario}"/>
+                                                </Image.Source>
+                                            </Image>
                                         </Frame>
                                     </StackLayout>
-                            
-                            <StackLayout Orientation="Horizontal">
+
+                                    
+
+                                    <StackLayout Orientation="Horizontal">
                                 <Label  
                                    Text="Usuario:"
                                    HorizontalOptions="Center" 
@@ -177,9 +181,9 @@
                                             <Image HeightRequest="100" WidthRequest="100" HorizontalOptions="Fill" VerticalOptions="Fill">
                                                 <Image.Source>
                                                     <UriImageSource
-                                                CacheValidity="14"
-                                                CachingEnabled="true"
-                                                Uri="{Binding PONER_ATRIBUTO_IMAGEN_DESARROLLADOR}" />
+                                                        CacheValidity="14"
+                                                        CachingEnabled="true"
+                                                        Uri="{Binding ImagenDesarrollador}" />
                                                 </Image.Source>
                                             </Image>
                                         </Frame>
