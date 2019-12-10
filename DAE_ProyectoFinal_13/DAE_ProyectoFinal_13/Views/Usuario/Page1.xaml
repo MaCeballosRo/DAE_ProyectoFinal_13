@@ -36,13 +36,12 @@
                        TextColor="White"/>
                     <Entry x:Name="Entry_IdUsuario"
                        Placeholder="Usuario"/>
-                    <Label Text="Desarrollador"
-                       TextColor="White"
-                       Margin="50,0,0,0"/>
-                    <Entry x:Name="Entry_IdDesarrollador"
-                       Placeholder="Desarrollador"/>
+                    <Entry x:Name="Entry_NombreApp"
+                       Placeholder="Nombre Aplicación"
+                       WidthRequest="150"
+                       Margin="15,0,0,0"/>
                 </StackLayout>
-                
+
                 <Button x:Name="Button_Consultar"
                         Text="Consultar"
                         BackgroundColor="WhiteSmoke"
@@ -70,7 +69,8 @@
                                 <Label  
                                    Text="Usuario:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding Usuario}"
                                    HorizontalOptions="Center" 
@@ -82,7 +82,8 @@
                                 <Label
                                    Text="Nombre:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding NombreUsuario}"
                                    HorizontalOptions="Center" 
@@ -94,7 +95,8 @@
                                 <Label
                                    Text="Telefono:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding TelefonoUsuario}"
                                    HorizontalOptions="Center" 
@@ -106,7 +108,8 @@
                                 <Label
                                    Text="Correo:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding CorreoUsuario}"
                                    HorizontalOptions="Center" 
@@ -118,7 +121,8 @@
                                 <Label
                                    Text="Fecha Nacimiento:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding FechaNacUsuario}"
                                    HorizontalOptions="Center" 
@@ -140,7 +144,8 @@
                                 <Label  
                                    Text="Desarrollador:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding Desarrollador}"
                                    HorizontalOptions="Center" 
@@ -152,7 +157,8 @@
                                 <Label
                                    Text="Nombre:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding NombreDesarrollador}"
                                    HorizontalOptions="Center" 
@@ -164,7 +170,8 @@
                                 <Label
                                    Text="Telefono:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding TelefonoDesarrollador}"
                                    HorizontalOptions="Center" 
@@ -176,7 +183,8 @@
                                 <Label
                                    Text="Correo:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding CorreoDesarrollador}"
                                    HorizontalOptions="Center" 
@@ -188,7 +196,8 @@
                                 <Label
                                    Text="Fecha Nacimiento:"
                                    HorizontalOptions="Center" 
-                                   FontSize="Medium"/>
+                                   FontSize="Small"
+                                    FontAttributes="Bold"/>
                                 <Label
                                    Text="{Binding FechaNacDesarrollador}"
                                    HorizontalOptions="Center" 
@@ -207,8 +216,72 @@
                        HorizontalOptions="CenterAndExpand">
 
                     <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="WhiteSmoke">
-                        <Label Text="Datos del desarrollador" FontSize="Medium" HorizontalOptions="Center"/>
-                        
+                        <Label Text="Datos de la App" FontSize="Medium" HorizontalOptions="Center"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+                                   Text="App:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                FontAttributes="Bold"/>
+                            <Label
+                                   Text="{Binding NombreApp}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+                                   Text="Version Instalada:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                FontAttributes="Bold"/>
+                            <Label
+                                   Text="{Binding VersionInstApp}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+                                   Text="Version Actual:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                FontAttributes="Bold"/>
+                            <Label
+                                   Text="{Binding VersionActApp}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+                                   Text="Estado:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                FontAttributes="Bold"/>
+                            <Label
+                                   Text="{Binding EstatusApp}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+                                   Text="Empresa:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                FontAttributes="Bold"/>
+                            <Label
+                                   Text="{Binding Empresa}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                        </StackLayout>
+
                     </StackLayout>
 
                 </Frame>

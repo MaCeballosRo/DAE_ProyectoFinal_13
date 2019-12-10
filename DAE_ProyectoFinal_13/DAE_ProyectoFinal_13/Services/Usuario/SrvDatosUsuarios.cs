@@ -41,15 +41,15 @@ namespace DAE_ProyectoFinal_13.Services
             }
         }
 
-        public async Task<string> IMetGetPersonas (int PaIdUsuario)
+        public async Task<List<cat_datosUsuario>> IMetGetDatosUsuarioDesarrollador(string PaUsuarioDesarrollador)
         {
-            string FicURL = AppSettings.UrlBase.ToString() + "api/usuarios/todasPersonas?PaIdUsuario=" + PaIdUsuario;//poner la dirección correspondiente de la API
+            string FicURL = AppSettings.UrlBase.ToString() + "api/usuarios/datosDesarrollador?usuarioDesarrollador=" + PaUsuarioDesarrollador;//poner la dirección correspondiente de la API
             try
             {
 
                 var Respuesta = await HttpClient.GetAsync(FicURL);
                 Console.WriteLine("Respuesta: " + Respuesta);
-                return Respuesta.IsSuccessStatusCode ? JsonConvert.DeserializeObject<string>(await Respuesta.Content.ReadAsStringAsync()) : null;
+                return Respuesta.IsSuccessStatusCode ? JsonConvert.DeserializeObject<List<cat_datosUsuario>>(await Respuesta.Content.ReadAsStringAsync()) : null;
             }
             catch (Exception e)
             {
@@ -57,5 +57,23 @@ namespace DAE_ProyectoFinal_13.Services
                 return null;
             }
         }
+
+        public async Task<List<cat_datosApp>> IMetGetApp(string PaNombreApp)
+        {
+            string FicURL = AppSettings.UrlBase.ToString() + "api/usuarios/datosApp?PaNombreAplicacion=" + PaNombreApp;//poner la dirección correspondiente de la API
+            try
+            {
+
+                var Respuesta = await HttpClient.GetAsync(FicURL);
+                Console.WriteLine("Respuesta: " + Respuesta);
+                return Respuesta.IsSuccessStatusCode ? JsonConvert.DeserializeObject<List<cat_datosApp>>(await Respuesta.Content.ReadAsStringAsync()) : null;
+            }
+            catch (Exception e)
+            {
+                await new Page().DisplayAlert("ERROR", e.Message.ToString(), "Ok");
+                return null;
+            }
+        }
+        
     }
 }

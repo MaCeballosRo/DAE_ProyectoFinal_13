@@ -20,7 +20,7 @@ namespace DAE_ProyectoFinal_13.Views.Usuario {
         private global::Xamarin.Forms.Entry Entry_IdUsuario;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry Entry_IdDesarrollador;
+        private global::Xamarin.Forms.Entry Entry_NombreApp;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button Button_Consultar;
@@ -29,7 +29,7 @@ namespace DAE_ProyectoFinal_13.Views.Usuario {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page1));
             Entry_IdUsuario = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Entry_IdUsuario");
-            Entry_IdDesarrollador = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Entry_IdDesarrollador");
+            Entry_NombreApp = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Entry_NombreApp");
             Button_Consultar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Button_Consultar");
         }
     }

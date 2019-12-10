@@ -18,16 +18,6 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
     {
         private InterfaceDatosUsuario IFSrvDatosUsuariosLista;
 
-        private ObservableCollection<cat_datosUsuario> OcSfDataGrid_ItemSource_Usuarios;
-        public ObservableCollection<cat_datosUsuario> SfDataGrid_ItemSource_Usuarios
-        {
-            get { return OcSfDataGrid_ItemSource_Usuarios; }
-            //set
-            //{
-            //    if (value != null) FicOcSfDataGrid_ItemSource_Acumulado = value;
-            //    RaisePropertyChanged("FicLabel_Binding_Bitacora");
-            //}
-        }
         private string usuario;
         public string Usuario
         {
@@ -98,12 +88,40 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
 
         }
 
+        private string nombreApp;
+        public string NombreApp
+        {
+            get { return nombreApp; }
+        }
+
+        private string versionInstApp;
+        public string VersionInstApp
+        {
+            get { return versionInstApp; }
+        }
+
+        private string versionActApp;
+        public string VersionActApp
+        {
+            get { return versionActApp; }
+        }
+
+        private string estatusApp;
+        public string EstatusApp
+        {
+            get { return estatusApp; }
+        }
+
+        private string empresa;
+        public string Empresa
+        {
+            get { return empresa; }
+        }
 
         public VmDatosUsuariosVista(InterfaceDatosUsuario PaIFSrvDatosUsuariosLista)
         {
             IFSrvDatosUsuariosLista = PaIFSrvDatosUsuariosLista;
         }
-
         
         public void OnAppearing()
         {
@@ -118,10 +136,6 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                 var ListaUsuarios = await IFSrvDatosUsuariosLista
                     .IMetGetDatosUsuarioWebApi(PaIdUsuarios);
 
-                //Actualizar el binding de la fuente que llena el grid
-                //OcSfDataGrid_ItemSource_Usuarios = new ObservableCollection<cat_datosUsuario>();
-                //se realiza ciclo for para llenar la fuente del grid
-
                 foreach (cat_datosUsuario acu in ListaUsuarios)
                 {
                     usuario = acu.Usuario;
@@ -129,7 +143,7 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                     fechaNacUsuario = acu.FechaNac.ToString();
                     correoUsuario = acu.DireccionWeb;
                     telefonoUsuario = acu.Telefono;
-                    //OcSfDataGrid_ItemSource_Usuarios.Add(acu);
+                    empresa = acu.DesInstituto;
                 }
                 //Se refresca la fuente del grid en la vista
 
@@ -139,6 +153,7 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                 RaisePropertyChanged("FechaNacUsuario");
                 RaisePropertyChanged("CorreoUsuario");
                 RaisePropertyChanged("TelefonoUsuario");
+                RaisePropertyChanged("Empresa");
 
             }
             catch (Exception e)
@@ -154,10 +169,6 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                 var ListaUsuarios = await IFSrvDatosUsuariosLista
                     .IMetGetDatosUsuarioWebApi(PaIdDesarrollador);
 
-                //Actualizar el binding de la fuente que llena el grid
-                OcSfDataGrid_ItemSource_Usuarios = new ObservableCollection<cat_datosUsuario>();
-                //se realiza ciclo for para llenar la fuente del grid
-
                 foreach (cat_datosUsuario acu in ListaUsuarios)
                 {
                     desarrollador = acu.Usuario;
@@ -165,7 +176,6 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                     fechaNacDesarrollador = acu.FechaNac.ToString();
                     correoDesarrollador = acu.DireccionWeb;
                     telefonoDesarrollador = acu.Telefono;
-                    //OcSfDataGrid_ItemSource_Usuarios.Add(acu);
                 }
                 //Se refresca la fuente del grid en la vista
 
@@ -181,9 +191,66 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
             {
                 await App.Current.MainPage.DisplayAlert("Alerta", e.Message.ToString(), "Ok");
             }
+        }//Ya no se usa
+
+        public async void LoMetGetDatosAplicacion(string PaNombreAplicacion)
+        {
+            try
+            {
+                var ListaUsuarios = await IFSrvDatosUsuariosLista
+                    .IMetGetApp(PaNombreAplicacion);
+
+                //Actualizar el binding de la fuente que llena el grid
+                //se realiza ciclo for para llenar la fuente del grid
+                var aux = "";
+                foreach (cat_datosApp acu in ListaUsuarios)
+                {
+                    nombreApp = acu.DesModulo;
+                    versionInstApp = acu.VersionInstalado;
+                    versionActApp = acu.VersionActual;
+                    if(acu.Estatus == "A")
+                    {
+                        estatusApp = "Actualizado";
+                    }
+                    else
+                    {
+                        estatusApp = "Obsoleto";
+                    }
+                    
+                    aux = acu.UsuarioReg;
+                }
+
+                RaisePropertyChanged("NombreApp");
+                RaisePropertyChanged("VersionInstApp");
+                RaisePropertyChanged("VersionActApp");
+                RaisePropertyChanged("EstatusApp");
+
+                var usuarioDesarrollador = await IFSrvDatosUsuariosLista.IMetGetDatosUsuarioDesarrollador(aux);
+
+                foreach (cat_datosUsuario acu in usuarioDesarrollador)
+                {
+                    desarrollador = acu.Usuario;
+                    nombreDesarrollador = acu.Nombre;
+                    fechaNacDesarrollador = acu.FechaNac.ToString();
+                    correoDesarrollador = acu.DireccionWeb;
+                    telefonoDesarrollador = acu.Telefono;
+                }
+                //Se refresca la fuente del grid en la vista
+                
+                RaisePropertyChanged("Desarrollador");
+                RaisePropertyChanged("NombreDesarrollador");
+                RaisePropertyChanged("FechaNacDesarrollador");
+                RaisePropertyChanged("CorreoDesarrollador");
+                RaisePropertyChanged("TelefonoDesarrollador");                              
+
+            }
+            catch (Exception e)
+            {
+                await App.Current.MainPage.DisplayAlert("Alerta", e.Message.ToString(), "Ok");
+            }
         }
 
-
+        
         #region  INotifyPropertyChanged
 
         public event PropertyChangedEventHandler PropertyChanged;

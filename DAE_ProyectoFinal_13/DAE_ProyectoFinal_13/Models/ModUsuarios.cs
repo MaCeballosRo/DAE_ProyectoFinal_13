@@ -9,7 +9,7 @@ namespace DAE_ProyectoFinal_13.Models
     public class cat_institutos
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public Int16 IdInstituto { get; set; }//PK
+        public int IdInstituto { get; set; }//PK
         [StringLength(50)]
         public string DesInstituto { get; set; }
         [StringLength(20)]
@@ -68,7 +68,7 @@ namespace DAE_ProyectoFinal_13.Models
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IdPersona { get; set; }//PKD:\AppEvaWebSrv\AppEvaWebSrv\Models\Eva\FicModPersonas.cs
-        public Nullable<Int16> IdInstituto { get; set; } //FK
+        public int IdInstituto { get; set; } //FK
         public cat_institutos cat_institutos { get; set; }
         [StringLength(20)]
         public string NumControl { get; set; }
@@ -217,10 +217,10 @@ namespace DAE_ProyectoFinal_13.Models
     public class seg_cat_modulos
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public Int16 IdModulo { get; set; }//PK
+        public int IdModulo { get; set; }//PK
         [StringLength(100)]
         public string DesModulo { get; set; }
-        public Nullable<Int16> Prioridad { get; set; }
+        public int Prioridad { get; set; }
         [StringLength(255)]
         public string RutaIcono { get; set; }
         [StringLength(10)]
@@ -241,7 +241,7 @@ namespace DAE_ProyectoFinal_13.Models
     public class seg_versiones_sys
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public Int16 IdModulo { get; set; }//PK FK
+        public int IdModulo { get; set; }//PK FK
         public seg_cat_modulos seg_cat_modulos { get; set; }
         [StringLength(20)]
         public string VersionActual { get; set; }
@@ -249,10 +249,6 @@ namespace DAE_ProyectoFinal_13.Models
         public string VersionInstalado { get; set; }
         [StringLength(1)]
         public string Estatus { get; set; }
-        [StringLength(1)]
-        public string Activo { get; set; }
-        [StringLength(1)]
-        public string Borrado { get; set; }
         public Nullable<DateTime> FechaReg { get; set; }
         [StringLength(20)]
         public string UsuarioReg { get; set; }
@@ -260,6 +256,10 @@ namespace DAE_ProyectoFinal_13.Models
         public Nullable<DateTime> FechaUltMod { get; set; }
         [StringLength(20)]
         public string UsuarioMod { get; set; }
+        [StringLength(1)]
+        public string Activo { get; set; }
+        [StringLength(1)]
+        public string Borrado { get; set; }
     }
 
     //-------
@@ -274,7 +274,18 @@ namespace DAE_ProyectoFinal_13.Models
         public Nullable<DateTime> FechaNac { get; set; }
         public string DireccionWeb { get; set; }
         public string Telefono { get; set; }
+        public string DesInstituto { get; set; }
         //public string NumTelefono { get; set; }
     }
 
+    public class cat_datosApp
+    {
+        public int IdModulo { get; set; }
+        public string DesModulo { get; set; }
+        public string RutaIcono { get; set; }
+        public string VersionActual { get; set; }
+        public string VersionInstalado { get; set; }
+        public string Estatus { get; set; }
+        public string UsuarioReg { get; set; }
+    }
 }

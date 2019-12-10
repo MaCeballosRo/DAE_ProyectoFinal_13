@@ -20,10 +20,12 @@ namespace DAE_ProyectoFinal_13.Views.Usuario
 
         void Button_Clicked_Consultar(object sender, EventArgs arg)
         {
-            int IdUsuario = Convert.ToInt32(Entry_IdUsuario.Text);
-            int IdDesarrollador = Convert.ToInt32(Entry_IdDesarrollador.Text);
-            (BindingContext as VmDatosUsuariosVista).LoMetGetDatosUsuarios(IdUsuario);
-            (BindingContext as VmDatosUsuariosVista).LoMetGetDatosDesarrollador(IdDesarrollador);
+            if (!(Entry_IdUsuario.Text == "") && !(Entry_NombreApp.Text == ""))
+            {
+                int IdUsuario = Convert.ToInt32(Entry_IdUsuario.Text);
+                (BindingContext as VmDatosUsuariosVista).LoMetGetDatosUsuarios(IdUsuario);
+                (BindingContext as VmDatosUsuariosVista).LoMetGetDatosAplicacion(Entry_NombreApp.Text);
+            }          
 
         }
 

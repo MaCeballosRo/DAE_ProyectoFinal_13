@@ -327,7 +327,272 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int autocompleteBorderColor=0x7f010225;
+        public static int autocompleteBorderColor=0x7f01019f;
+        /** clear button color of autocomplete
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteClearButtonColor=0x7f0101b4;
+        /** specifies the property path with which filtering is done on business objects
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDisplayMemberPath=0x7f0101a8;
+        /** drop down background color of autocomplete
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDropDownBackgroundColor=0x7f0101ad;
+        /** determines the drop down corner radius of autocomplete 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDropDownCornerRadius=0x7f0101bd;
+        /** determines the drop down footer view height of autocomplete
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDropDownFooterViewHeight=0x7f0101bf;
+        /** determines the drop down header view height of autocomplete 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDropDownHeaderViewHeight=0x7f0101be;
+        /** determines the height of the drop down of autocomplete 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDropDownItemHeight=0x7f0101bc;
+        /** determine whether drop down has to be shown or not
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDropDownOpen=0x7f0101a3;
+        /** drop down text color of autocomplete
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDropDownTextColor=0x7f0101ae;
+        /** determines the size of the drop down text of autocomplete
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteDropDownTextSize=0x7f0101b0;
+        /** determine whether selection indicator has to be shown or not
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteEnableSelectionIndicator=0x7f0101a9;
+        /** Highlighted text color of autocomplete
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteHighlightedTextColor=0x7f0101ba;
+        /** determine whether the letters containing diacritics has to be shown or not
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteIgnoreDiacritic=0x7f0101b5;
+        /** determines the image member path of autocomplete 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteImageMemberPath=0x7f0101b1;
+        /** determine the indicator text of autocomplete 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteIndicatorText=0x7f0101aa;
+        /** indicator text color of autocomplete
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteIndicatorTextColor=0x7f0101ab;
+        /** determines the size of the Indicator text of autocomplete 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteIndicatorTextSize=0x7f0101bb;
+        /** determine whether the autocomplete has to be focused or not
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteIsFocused=0x7f0101b6;
+        /** determine whether the selected items has to be shown in the drop down or not
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteIsSelectedItemsVisibleInDropDown=0x7f0101b9;
+        /** determines the load more text of autocomplete 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteLoadMoreText=0x7f0101b7;
+        /** determines the maximum height of the drop down of autocomplete
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteMaximumDropDownHeight=0x7f0101af;
+        /** determine the maximum suggestion of autocomplete
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteMaximumSuggestion=0x7f0101a4;
+        /** matches can be filtered and displayed after a few character entries
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteMinimumPrefixCharacters=0x7f0101ac;
+        /** determines the mode for autocomplete
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>suggest</code></td><td>0</td><td></td></tr>
+<tr><td><code>append</code></td><td>1</td><td></td></tr>
+<tr><td><code>suggestAppend</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int autocompleteMode=0x7f0101c4;
+        /** determines the multi select mode for autocomplete
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>token</code></td><td>1</td><td></td></tr>
+<tr><td><code>delimiter</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int autocompleteMultiSelectMode=0x7f0101c3;
+        /** determines the no results found text of autocomplete 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteNoResultsFoundText=0x7f0101b8;
+        /** determine the popup delay in autocomplete
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompletePopUpDelay=0x7f0101a7;
+        /** determine the index of the selected item in autocomplete
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteSelectedIndex=0x7f0101a5;
         /**         show the border of autocomplete
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -336,7 +601,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int autocompleteShowBorder=0x7f010221;
+        public static int autocompleteShowBorder=0x7f01019b;
         /**         determine whether clear button has to be shown or not
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -345,7 +610,66 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int autocompleteShowClearButton=0x7f010222;
+        public static int autocompleteShowClearButton=0x7f01019c;
+        /** determine whether the drop down footer view has to be shown or not
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteShowDropDownFooterView=0x7f0101b3;
+        /** determine whether the drop down header view has to be shown or not
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteShowDropDownHeaderView=0x7f0101b2;
+        /** determine whether suggestion has to be shown or not when autocomplete is on focus
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int autocompleteShowSuggestionsOnFocus=0x7f0101a6;
+        /** determines the suggestion box placement for autocomplete
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bottom</code></td><td>0</td><td></td></tr>
+<tr><td><code>top</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int autocompleteSuggestionBoxPlacement=0x7f0101c1;
+        /** determines the suggestion mode for autocomplete
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>startsWith</code></td><td>0</td><td></td></tr>
+<tr><td><code>startsWithCaseSensitive</code></td><td>1</td><td></td></tr>
+<tr><td><code>contains</code></td><td>2</td><td></td></tr>
+<tr><td><code>containsWithCaseSensitive</code></td><td>3</td><td></td></tr>
+<tr><td><code>endsWith</code></td><td>4</td><td></td></tr>
+<tr><td><code>endsWithCaseSensitive</code></td><td>5</td><td></td></tr>
+<tr><td><code>equals</code></td><td>6</td><td></td></tr>
+<tr><td><code>equalsWithCaseSensitive</code></td><td>7</td><td></td></tr>
+<tr><td><code>custom</code></td><td>8</td><td></td></tr>
+</table>
+         */
+        public static int autocompleteSuggestionMode=0x7f0101c0;
         /**         text value of autocomplete
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -354,7 +678,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int autocompleteText=0x7f010227;
+        public static int autocompleteText=0x7f0101a1;
         /**         text colot of autoocmplete text
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -364,7 +688,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int autocompleteTextColor=0x7f010224;
+        public static int autocompleteTextColor=0x7f01019e;
         /**         size of autocomplete text
          <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
@@ -373,7 +697,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int autocompleteTextSize=0x7f010228;
+        public static int autocompleteTextSize=0x7f0101a2;
+        /** determines the token wrap mode for autocomplete
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>wrap</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int autocompleteTokensWrapMode=0x7f0101c2;
         /**         hint text of autocomplete
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -382,7 +718,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int autocompleteWatermark=0x7f010226;
+        public static int autocompleteWatermark=0x7f0101a0;
         /**         hint color of autocomplete
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -392,7 +728,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int autocompleteWatermarkColor=0x7f010223;
+        public static int autocompleteWatermarkColor=0x7f01019d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -443,57 +779,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int barLength=0x7f0100d5;
-        /** Determines the bar pointer color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int barPointerColor=0x7f01020f;
-        /**  Determines the corner radius for the bar pointer . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int barPointerCornerRadius=0x7f010212;
-        /** Determines the corner radius type for the bar pointer.
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>start</code></td><td>0</td><td></td></tr>
-<tr><td><code>end</code></td><td>1</td><td></td></tr>
-<tr><td><code>both</code></td><td>2</td><td></td></tr>
-<tr><td><code>none</code></td><td>3</td><td></td></tr>
-</table>
-         */
-        public static int barPointerCornerRadiusType=0x7f010211;
-        /** Determines the bar pointer stroke width for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int barPointerStrokeWidth=0x7f010210;
-        /** Determines the bar pointer value for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int barPointerValue=0x7f01020e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -699,57 +984,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int cardUseCompatPadding=0x7f01001b;
-        /** Determines the character height of the digital gauge.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int characterHeight=0x7f01021a;
-        /** Determines the character spacing of the digital gauge.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int characterSpacing=0x7f01021b;
-        /** Determines the character stroke color of the digital gauge.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int characterStrokeColor=0x7f010219;
-        /** Determines the character type of the digital gauge .
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>segmentSeven</code></td><td>0</td><td></td></tr>
-<tr><td><code>segmentFourteen</code></td><td>1</td><td></td></tr>
-<tr><td><code>segmentSixteen</code></td><td>2</td><td></td></tr>
-<tr><td><code>eightCrossEightDotMatrix</code></td><td>3</td><td></td></tr>
-</table>
-         */
-        public static int characterType=0x7f010220;
-        /** Determines the character width of the digital gauge.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int characterWidth=0x7f01021c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -758,184 +992,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int checkedTextViewStyle=0x7f0100be;
-        /** Determines the scale direction for the scale .
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>clockwise</code></td><td>0</td><td></td></tr>
-<tr><td><code>anticlockwise</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static int circularGaugeScaleDirection=0x7f0101a2;
-        /** Determines the interval for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleInterval=0x7f0101a0;
-        /**  Determines the label offset for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleLabelOffset=0x7f0101b1;
-        /** Determines the postfix for the label of the gauge.
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleLabelPostfix=0x7f0101af;
-        /** Determines the prefix for the label of the gauge.
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleLabelPrefix=0x7f0101ae;
-        /**  Determines the label color for the scale . 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleLabelTextColor=0x7f0101b2;
-        /**  Determines the label text size for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleLabelTextSize=0x7f0101b0;
-        /** Determines the major tick color for the scale.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleMajorTickColor=0x7f0101b4;
-        /** Determines the major tick offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleMajorTickOffset=0x7f0101b6;
-        /**  Determines the maximum labels for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleMaximumLabels=0x7f0101c2;
-        /** Determines the minor tick color for the scale.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleMinorTickColor=0x7f0101ba;
-        /** Determines the minor tick offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleMinorTickOffset=0x7f0101bc;
-        /**  Determines the minor ticks per interval for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleMinorTicksPerInterval=0x7f0101c1;
-        /** Determines the range color for the scale.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleRangeColor=0x7f0101cc;
-        /** Determines the range end value for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleRangeEndValue=0x7f0101c9;
-        /** Determines the range offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleRangeOffset=0x7f0101cb;
-        /** Determines the range start value for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleRangeStartValue=0x7f0101c8;
-        /** Determines the label for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleShowLabels=0x7f0101c3;
-        /** Determines the ticks for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int circularScaleShowTicks=0x7f0101c4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1268,25 +1324,6 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int dialogTheme=0x7f01007f;
-        /** Determines the dimmed segment color of the digital gauge.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int dimmedSegmentAlpha=0x7f01021f;
-        /** Determines the dimmed segment color of the digital gauge.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int dimmedSegmentColor=0x7f01021e;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1634,89 +1671,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int gapBetweenBars=0x7f0100d2;
-        /** Determines the circular coefficient for the gauge.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int gaugeCircularCoefficient=0x7f01019b;
-        /** Determines the  header alignment for gauge
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>gaugeLeft</code></td><td>0</td><td></td></tr>
-<tr><td><code>gaugeRight</code></td><td>1</td><td></td></tr>
-<tr><td><code>gaugeTop</code></td><td>2</td><td></td></tr>
-<tr><td><code>gaugeCenter</code></td><td>3</td><td></td></tr>
-<tr><td><code>gaugeBottom</code></td><td>4</td><td></td></tr>
-<tr><td><code>gaugeTopLeft</code></td><td>5</td><td></td></tr>
-<tr><td><code>gaugeTopRight</code></td><td>6</td><td></td></tr>
-<tr><td><code>gaugeBottomLeft</code></td><td>7</td><td></td></tr>
-<tr><td><code>gaugeBottomRight</code></td><td>8</td><td></td></tr>
-<tr><td><code>gaugeCustom</code></td><td>9</td><td></td></tr>
-</table>
-         */
-        public static int gaugeHeaderAlignment=0x7f0101a8;
-        /** Determines the  horizontal header posistion for gauge
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>gaugeHorizontalHeaderStart</code></td><td>0</td><td></td></tr>
-<tr><td><code>gaugeHorizontalHeaderCenter</code></td><td>1</td><td></td></tr>
-<tr><td><code>gaugeHorizontalHeaderEnd</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static int gaugeHorizontalHeaderPosition=0x7f0101a3;
-        /** Determines the text for the label of the gauge.
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int gaugeText=0x7f0101a5;
-        /** Determines the text  color for the label of the gauge.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int gaugeTextColor=0x7f0101a7;
-        /** Determines the text  size for the label of the gauge.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int gaugeTextSize=0x7f0101a6;
-        /** Determines the  vertical header position for gauge
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>gaugeVerticalHeaderStart</code></td><td>0</td><td></td></tr>
-<tr><td><code>gaugeVerticalHeaderCenter</code></td><td>1</td><td></td></tr>
-<tr><td><code>gaugeVerticalHeaderEnd</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static int gaugeVerticalHeaderPosition=0x7f0101a4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2089,68 +2043,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int logoDescription=0x7f010110;
-        /** Determines the marker pointer color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int markerPointerColor=0x7f0101e8;
-        /** Determines the marker pointer height for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int markerPointerHeight=0x7f0101e9;
-        /** Determines the marker pointer offset for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int markerPointerOffset=0x7f0101eb;
-        /** Determines the marker pointer value for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int markerPointerValue=0x7f0101e6;
-        /** Determines the marker pointer width for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int markerPointerWidth=0x7f0101ea;
-        /** Determines the marker shapes for the pointer .
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>triangle</code></td><td>0</td><td></td></tr>
-<tr><td><code>rectangle</code></td><td>1</td><td></td></tr>
-<tr><td><code>circle</code></td><td>2</td><td></td></tr>
-<tr><td><code>diamond</code></td><td>3</td><td></td></tr>
-<tr><td><code>invertedTriangle</code></td><td>4</td><td></td></tr>
-<tr><td><code>image</code></td><td>5</td><td></td></tr>
-</table>
-         */
-        public static int markerShape=0x7f0101e7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2179,15 +2071,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int maximumDecimalDigits=0x7f010193;
-        /**  Determines the maximum labels for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int maximumLabels=0x7f010202;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2285,131 +2168,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static int navigationMode=0x7f010026;
-        /** Determines the needle pointer color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerColor=0x7f0101d3;
-        /** Determines the needle pointer knob color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerKnobColor=0x7f0101d8;
-        /** Determines the needle pointer knob radius for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerKnobRadius=0x7f0101d6;
-        /** Determines the needle pointer knob stroke color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerKnobStrokeColor=0x7f0101d7;
-        /** Determines the needle pointer knob stroke width for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerKnobStrokeWidth=0x7f0101d9;
-        /** Determines the needle pointer length factor for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerLengthFactor=0x7f0101d5;
-        /** Determines the needle pointer tail color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerTailColor=0x7f0101da;
-        /** Determines the needle pointer tail length factor for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerTailLengthFactor=0x7f0101db;
-        /** Determines the needle pointer tail stroke color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerTailStrokeColor=0x7f0101dd;
-        /** Determines the needle pointer tail stroke width for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerTailStrokeWidth=0x7f0101dc;
-        /** Determines the needle pointer type for the pointer .
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>bar</code></td><td>0</td><td></td></tr>
-<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static int needlePointerType=0x7f0101d2;
-        /** Determines the needle pointer value for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerValue=0x7f0101d1;
-        /** Determines the needle pointer width for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int needlePointerWidth=0x7f0101d4;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2852,184 +2610,6 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int radioButtonStyle=0x7f0100c0;
-        /** Determines the range color for the scale.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeColor=0x7f01020d;
-        /** Determines the range end value for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeEndValue=0x7f010209;
-        /** Determines the range end width for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeEndWidth=0x7f01020b;
-        /** Determines the range inner end offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeInnerEndOffset=0x7f0101ce;
-        /** Determines the range inner start offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeInnerStartOffset=0x7f0101cd;
-        /** Determines the range offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeOffset=0x7f01020c;
-        /** Determines the range outer end offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeOuterEndOffset=0x7f0101d0;
-        /** Determines the range outer start offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeOuterStartOffset=0x7f0101cf;
-        /** Determines the range pointer caps for the pointer .
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>start</code></td><td>0</td><td></td></tr>
-<tr><td><code>end</code></td><td>1</td><td></td></tr>
-<tr><td><code>both</code></td><td>2</td><td></td></tr>
-<tr><td><code>none</code></td><td>3</td><td></td></tr>
-</table>
-         */
-        public static int rangePointerCap=0x7f0101e5;
-        /** Determines the range pointer color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangePointerColor=0x7f0101e0;
-        /** Determines the range pointer end offset for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangePointerEndOffset=0x7f0101e4;
-        /** Determines the range pointer offset for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangePointerOffset=0x7f0101e2;
-        /** Determines the range pointer start offset for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangePointerStartOffset=0x7f0101e3;
-        /** Determines the range pointer start value for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangePointerStartValue=0x7f0101de;
-        /** Determines the range pointer value for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangePointerValue=0x7f0101df;
-        /** Determines the range pointer width for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangePointerWidth=0x7f0101e1;
-        /** Determines the range start value for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeStartValue=0x7f010208;
-        /** Determines the range start width for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeStartWidth=0x7f01020a;
-        /** Determines the range width for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int rangeWidth=0x7f0101ca;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -3059,481 +2639,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int rippleColor=0x7f01013c;
-        /** Determines the auto angle for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleAutoAngle=0x7f0101ad;
-        /** Determines the auto interval for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleAutoInterval=0x7f0101a1;
-        /** Determines the scale bar color for the scale.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleBarColor=0x7f0101f7;
-        /** Determines the scale bar length for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleBarLength=0x7f0101f9;
-        /** Determines the scale bar size for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleBarSize=0x7f0101f8;
-        /**  Determines the corner radius for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleCornerRadius=0x7f010206;
-        /** Determines the corner radius type for the scale.
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>start</code></td><td>0</td><td></td></tr>
-<tr><td><code>end</code></td><td>1</td><td></td></tr>
-<tr><td><code>both</code></td><td>2</td><td></td></tr>
-<tr><td><code>none</code></td><td>3</td><td></td></tr>
-</table>
-         */
-        public static int scaleCornerRadiusType=0x7f010205;
-        /** Determines the direction for the scale.
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>backward</code></td><td>0</td><td></td></tr>
-<tr><td><code>forward</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static int scaleDirection=0x7f010204;
-        /**  Determines the end angle for the scale. 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleEndAngle=0x7f01019d;
-        /** Determines the scale end offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleEndOffset=0x7f0101ac;
-        /** Determines the maximum for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleEndValue=0x7f01019f;
-        /** Determines the interval for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleInterval=0x7f0101ee;
-        /** Determines the label color for the scale.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleLabelColor=0x7f0101fa;
-        /**  Determines the label font size for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleLabelFontSize=0x7f0101fd;
-        /**  Determines the label offset for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleLabelOffset=0x7f0101fe;
-        /** Determines the postfix for the label of the gauge.
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleLabelPostfix=0x7f0101fc;
-        /** Determines the prefix for the label of the gauge.
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleLabelPrefix=0x7f0101fb;
-        /** Determines the major tick color for the scale.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMajorTickColor=0x7f0101f0;
-        /** Determines the major tick end offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMajorTickEndOffset=0x7f0101b8;
-        /** Determines the major tick length for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMajorTickLength=0x7f0101ef;
-        /** Determines the major tick stroke offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMajorTickOffset=0x7f0101f2;
-        /** Determines the major tick size for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMajorTickSize=0x7f0101b3;
-        /** Determines the major tick start offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMajorTickStartOffset=0x7f0101b7;
-        /** Determines the major tick stroke width for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMajorTickStrokeWidth=0x7f0101f1;
-        /** Determines the major tick width for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMajorTickWidth=0x7f0101b5;
-        /** Determines the maximum for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMaximum=0x7f0101ed;
-        /** Determines the minimum for the scale. 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinimum=0x7f0101ec;
-        /** Determines the minor tick color for the scale.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTickColor=0x7f0101f4;
-        /** Determines the minor tick end offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTickEndOffset=0x7f0101be;
-        /** Determines the minor tick length for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTickLength=0x7f0101f3;
-        /** Determines the minor tick stroke offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTickOffset=0x7f0101f6;
-        /** Determines the minor tick size for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTickSize=0x7f0101b9;
-        /** Determines the minor tick start offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTickStartOffset=0x7f0101bd;
-        /** Determines the minor tick stroke width for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTickStrokeWidth=0x7f0101f5;
-        /** Determines the minor tick width for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTickWidth=0x7f0101bb;
-        /**  Determines the minor ticks per interval for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleMinorTicksPerInterval=0x7f010201;
-        /** Determines the number of decimal digits for the scale.
-         <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleNumberofDecimalDigits=0x7f0101c7;
-        /**  Determines the offset for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleOffset=0x7f010207;
-        /** Determines the opposite position for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleOpposedPosition=0x7f010203;
-        /** Determines the scale orientation for the scale .
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>horizontal</code></td><td>0</td><td></td></tr>
-<tr><td><code>vertical</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static int scaleOrientation=0x7f010218;
-        /** Determines the radius factor for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleRadiusFactor=0x7f0101c6;
-        /**  Determines the rim color for the scale . 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleRimColor=0x7f0101bf;
-        /**  Determines the rim width for the scale . 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleRimWidth=0x7f0101c0;
-        /** Determines the first label behaviour for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleShowFirstLabel=0x7f0101a9;
-        /** Determines the label for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleShowLabels=0x7f0101ff;
-        /** Determines the last label behaviour for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleShowLastLabel=0x7f0101aa;
-        /** Determines the rim for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleShowRim=0x7f0101c5;
-        /** Determines the ticks visibility for the scale.
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleShowTicks=0x7f010200;
-        /** Determines the start angle for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleStartAngle=0x7f01019c;
-        /** Determines the scale start offset for the scale.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleStartOffset=0x7f0101ab;
-        /** Determines the minimum for the scale. 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int scaleStartValue=0x7f01019e;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -3568,15 +2673,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int seekBarStyle=0x7f0100c4;
-        /** Determines the segment stroke width of the digital gauge.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int segmentStrokeWidth=0x7f01021d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -3786,55 +2882,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int switchTextAppearance=0x7f0100fd;
-        /** Determines the symbol pointer color for the pointer.
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int symbolPointerColor=0x7f010214;
-        /** Determines the symbol pointer offset for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int symbolPointerOffset=0x7f010216;
-        /** Determines the symbol pointer stroke width for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int symbolPointerStrokeWidth=0x7f010215;
-        /** Determines the symbol pointer value for the pointer.
-         <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static int symbolPointerValue=0x7f010213;
-        /** Determines the symbol position for the pointer .
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>far</code></td><td>0</td><td></td></tr>
-<tr><td><code>away</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static int symbolPosition=0x7f010217;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -4708,8 +3755,6 @@ containing a value of this type.
         public static int notification_subtext_size=0x7f0800a1;
         public static int notification_top_pad=0x7f0800a2;
         public static int notification_top_pad_large_text=0x7f0800a3;
-        public static int pading_bottom=0x7f0800a5;
-        public static int pading_top=0x7f0800a4;
         public static int tooltip_corner_radius=0x7f080062;
         public static int tooltip_horizontal_padding=0x7f080063;
         public static int tooltip_margin=0x7f080064;
@@ -4803,237 +3848,268 @@ containing a value of this type.
         public static int abc_textfield_search_default_mtrl_alpha=0x7f020050;
         public static int abc_textfield_search_material=0x7f020051;
         public static int abc_vector_test=0x7f020052;
-        public static int avd_hide_password=0x7f020053;
-        public static int avd_hide_password_1=0x7f020134;
-        public static int avd_hide_password_2=0x7f020135;
-        public static int avd_hide_password_3=0x7f020136;
-        public static int avd_show_password=0x7f020054;
-        public static int avd_show_password_1=0x7f020137;
-        public static int avd_show_password_2=0x7f020138;
-        public static int avd_show_password_3=0x7f020139;
-        public static int design_bottom_navigation_item_background=0x7f020055;
-        public static int design_fab_background=0x7f020056;
-        public static int design_ic_visibility=0x7f020057;
-        public static int design_ic_visibility_off=0x7f020058;
-        public static int design_password_eye=0x7f020059;
-        public static int design_snackbar_background=0x7f02005a;
-        public static int dropdownbuttonimage=0x7f02005b;
-        public static int ic_audiotrack_dark=0x7f02005c;
-        public static int ic_audiotrack_light=0x7f02005d;
-        public static int ic_dialog_close_dark=0x7f02005e;
-        public static int ic_dialog_close_light=0x7f02005f;
-        public static int ic_group_collapse_00=0x7f020060;
-        public static int ic_group_collapse_01=0x7f020061;
-        public static int ic_group_collapse_02=0x7f020062;
-        public static int ic_group_collapse_03=0x7f020063;
-        public static int ic_group_collapse_04=0x7f020064;
-        public static int ic_group_collapse_05=0x7f020065;
-        public static int ic_group_collapse_06=0x7f020066;
-        public static int ic_group_collapse_07=0x7f020067;
-        public static int ic_group_collapse_08=0x7f020068;
-        public static int ic_group_collapse_09=0x7f020069;
-        public static int ic_group_collapse_10=0x7f02006a;
-        public static int ic_group_collapse_11=0x7f02006b;
-        public static int ic_group_collapse_12=0x7f02006c;
-        public static int ic_group_collapse_13=0x7f02006d;
-        public static int ic_group_collapse_14=0x7f02006e;
-        public static int ic_group_collapse_15=0x7f02006f;
-        public static int ic_group_expand_00=0x7f020070;
-        public static int ic_group_expand_01=0x7f020071;
-        public static int ic_group_expand_02=0x7f020072;
-        public static int ic_group_expand_03=0x7f020073;
-        public static int ic_group_expand_04=0x7f020074;
-        public static int ic_group_expand_05=0x7f020075;
-        public static int ic_group_expand_06=0x7f020076;
-        public static int ic_group_expand_07=0x7f020077;
-        public static int ic_group_expand_08=0x7f020078;
-        public static int ic_group_expand_09=0x7f020079;
-        public static int ic_group_expand_10=0x7f02007a;
-        public static int ic_group_expand_11=0x7f02007b;
-        public static int ic_group_expand_12=0x7f02007c;
-        public static int ic_group_expand_13=0x7f02007d;
-        public static int ic_group_expand_14=0x7f02007e;
-        public static int ic_group_expand_15=0x7f02007f;
-        public static int ic_media_pause_dark=0x7f020080;
-        public static int ic_media_pause_light=0x7f020081;
-        public static int ic_media_play_dark=0x7f020082;
-        public static int ic_media_play_light=0x7f020083;
-        public static int ic_media_stop_dark=0x7f020084;
-        public static int ic_media_stop_light=0x7f020085;
-        public static int ic_mr_button_connected_00_dark=0x7f020086;
-        public static int ic_mr_button_connected_00_light=0x7f020087;
-        public static int ic_mr_button_connected_01_dark=0x7f020088;
-        public static int ic_mr_button_connected_01_light=0x7f020089;
-        public static int ic_mr_button_connected_02_dark=0x7f02008a;
-        public static int ic_mr_button_connected_02_light=0x7f02008b;
-        public static int ic_mr_button_connected_03_dark=0x7f02008c;
-        public static int ic_mr_button_connected_03_light=0x7f02008d;
-        public static int ic_mr_button_connected_04_dark=0x7f02008e;
-        public static int ic_mr_button_connected_04_light=0x7f02008f;
-        public static int ic_mr_button_connected_05_dark=0x7f020090;
-        public static int ic_mr_button_connected_05_light=0x7f020091;
-        public static int ic_mr_button_connected_06_dark=0x7f020092;
-        public static int ic_mr_button_connected_06_light=0x7f020093;
-        public static int ic_mr_button_connected_07_dark=0x7f020094;
-        public static int ic_mr_button_connected_07_light=0x7f020095;
-        public static int ic_mr_button_connected_08_dark=0x7f020096;
-        public static int ic_mr_button_connected_08_light=0x7f020097;
-        public static int ic_mr_button_connected_09_dark=0x7f020098;
-        public static int ic_mr_button_connected_09_light=0x7f020099;
-        public static int ic_mr_button_connected_10_dark=0x7f02009a;
-        public static int ic_mr_button_connected_10_light=0x7f02009b;
-        public static int ic_mr_button_connected_11_dark=0x7f02009c;
-        public static int ic_mr_button_connected_11_light=0x7f02009d;
-        public static int ic_mr_button_connected_12_dark=0x7f02009e;
-        public static int ic_mr_button_connected_12_light=0x7f02009f;
-        public static int ic_mr_button_connected_13_dark=0x7f0200a0;
-        public static int ic_mr_button_connected_13_light=0x7f0200a1;
-        public static int ic_mr_button_connected_14_dark=0x7f0200a2;
-        public static int ic_mr_button_connected_14_light=0x7f0200a3;
-        public static int ic_mr_button_connected_15_dark=0x7f0200a4;
-        public static int ic_mr_button_connected_15_light=0x7f0200a5;
-        public static int ic_mr_button_connected_16_dark=0x7f0200a6;
-        public static int ic_mr_button_connected_16_light=0x7f0200a7;
-        public static int ic_mr_button_connected_17_dark=0x7f0200a8;
-        public static int ic_mr_button_connected_17_light=0x7f0200a9;
-        public static int ic_mr_button_connected_18_dark=0x7f0200aa;
-        public static int ic_mr_button_connected_18_light=0x7f0200ab;
-        public static int ic_mr_button_connected_19_dark=0x7f0200ac;
-        public static int ic_mr_button_connected_19_light=0x7f0200ad;
-        public static int ic_mr_button_connected_20_dark=0x7f0200ae;
-        public static int ic_mr_button_connected_20_light=0x7f0200af;
-        public static int ic_mr_button_connected_21_dark=0x7f0200b0;
-        public static int ic_mr_button_connected_21_light=0x7f0200b1;
-        public static int ic_mr_button_connected_22_dark=0x7f0200b2;
-        public static int ic_mr_button_connected_22_light=0x7f0200b3;
-        public static int ic_mr_button_connected_23_dark=0x7f0200b4;
-        public static int ic_mr_button_connected_23_light=0x7f0200b5;
-        public static int ic_mr_button_connected_24_dark=0x7f0200b6;
-        public static int ic_mr_button_connected_24_light=0x7f0200b7;
-        public static int ic_mr_button_connected_25_dark=0x7f0200b8;
-        public static int ic_mr_button_connected_25_light=0x7f0200b9;
-        public static int ic_mr_button_connected_26_dark=0x7f0200ba;
-        public static int ic_mr_button_connected_26_light=0x7f0200bb;
-        public static int ic_mr_button_connected_27_dark=0x7f0200bc;
-        public static int ic_mr_button_connected_27_light=0x7f0200bd;
-        public static int ic_mr_button_connected_28_dark=0x7f0200be;
-        public static int ic_mr_button_connected_28_light=0x7f0200bf;
-        public static int ic_mr_button_connected_29_dark=0x7f0200c0;
-        public static int ic_mr_button_connected_29_light=0x7f0200c1;
-        public static int ic_mr_button_connected_30_dark=0x7f0200c2;
-        public static int ic_mr_button_connected_30_light=0x7f0200c3;
-        public static int ic_mr_button_connecting_00_dark=0x7f0200c4;
-        public static int ic_mr_button_connecting_00_light=0x7f0200c5;
-        public static int ic_mr_button_connecting_01_dark=0x7f0200c6;
-        public static int ic_mr_button_connecting_01_light=0x7f0200c7;
-        public static int ic_mr_button_connecting_02_dark=0x7f0200c8;
-        public static int ic_mr_button_connecting_02_light=0x7f0200c9;
-        public static int ic_mr_button_connecting_03_dark=0x7f0200ca;
-        public static int ic_mr_button_connecting_03_light=0x7f0200cb;
-        public static int ic_mr_button_connecting_04_dark=0x7f0200cc;
-        public static int ic_mr_button_connecting_04_light=0x7f0200cd;
-        public static int ic_mr_button_connecting_05_dark=0x7f0200ce;
-        public static int ic_mr_button_connecting_05_light=0x7f0200cf;
-        public static int ic_mr_button_connecting_06_dark=0x7f0200d0;
-        public static int ic_mr_button_connecting_06_light=0x7f0200d1;
-        public static int ic_mr_button_connecting_07_dark=0x7f0200d2;
-        public static int ic_mr_button_connecting_07_light=0x7f0200d3;
-        public static int ic_mr_button_connecting_08_dark=0x7f0200d4;
-        public static int ic_mr_button_connecting_08_light=0x7f0200d5;
-        public static int ic_mr_button_connecting_09_dark=0x7f0200d6;
-        public static int ic_mr_button_connecting_09_light=0x7f0200d7;
-        public static int ic_mr_button_connecting_10_dark=0x7f0200d8;
-        public static int ic_mr_button_connecting_10_light=0x7f0200d9;
-        public static int ic_mr_button_connecting_11_dark=0x7f0200da;
-        public static int ic_mr_button_connecting_11_light=0x7f0200db;
-        public static int ic_mr_button_connecting_12_dark=0x7f0200dc;
-        public static int ic_mr_button_connecting_12_light=0x7f0200dd;
-        public static int ic_mr_button_connecting_13_dark=0x7f0200de;
-        public static int ic_mr_button_connecting_13_light=0x7f0200df;
-        public static int ic_mr_button_connecting_14_dark=0x7f0200e0;
-        public static int ic_mr_button_connecting_14_light=0x7f0200e1;
-        public static int ic_mr_button_connecting_15_dark=0x7f0200e2;
-        public static int ic_mr_button_connecting_15_light=0x7f0200e3;
-        public static int ic_mr_button_connecting_16_dark=0x7f0200e4;
-        public static int ic_mr_button_connecting_16_light=0x7f0200e5;
-        public static int ic_mr_button_connecting_17_dark=0x7f0200e6;
-        public static int ic_mr_button_connecting_17_light=0x7f0200e7;
-        public static int ic_mr_button_connecting_18_dark=0x7f0200e8;
-        public static int ic_mr_button_connecting_18_light=0x7f0200e9;
-        public static int ic_mr_button_connecting_19_dark=0x7f0200ea;
-        public static int ic_mr_button_connecting_19_light=0x7f0200eb;
-        public static int ic_mr_button_connecting_20_dark=0x7f0200ec;
-        public static int ic_mr_button_connecting_20_light=0x7f0200ed;
-        public static int ic_mr_button_connecting_21_dark=0x7f0200ee;
-        public static int ic_mr_button_connecting_21_light=0x7f0200ef;
-        public static int ic_mr_button_connecting_22_dark=0x7f0200f0;
-        public static int ic_mr_button_connecting_22_light=0x7f0200f1;
-        public static int ic_mr_button_connecting_23_dark=0x7f0200f2;
-        public static int ic_mr_button_connecting_23_light=0x7f0200f3;
-        public static int ic_mr_button_connecting_24_dark=0x7f0200f4;
-        public static int ic_mr_button_connecting_24_light=0x7f0200f5;
-        public static int ic_mr_button_connecting_25_dark=0x7f0200f6;
-        public static int ic_mr_button_connecting_25_light=0x7f0200f7;
-        public static int ic_mr_button_connecting_26_dark=0x7f0200f8;
-        public static int ic_mr_button_connecting_26_light=0x7f0200f9;
-        public static int ic_mr_button_connecting_27_dark=0x7f0200fa;
-        public static int ic_mr_button_connecting_27_light=0x7f0200fb;
-        public static int ic_mr_button_connecting_28_dark=0x7f0200fc;
-        public static int ic_mr_button_connecting_28_light=0x7f0200fd;
-        public static int ic_mr_button_connecting_29_dark=0x7f0200fe;
-        public static int ic_mr_button_connecting_29_light=0x7f0200ff;
-        public static int ic_mr_button_connecting_30_dark=0x7f020100;
-        public static int ic_mr_button_connecting_30_light=0x7f020101;
-        public static int ic_mr_button_disabled_dark=0x7f020102;
-        public static int ic_mr_button_disabled_light=0x7f020103;
-        public static int ic_mr_button_disconnected_dark=0x7f020104;
-        public static int ic_mr_button_disconnected_light=0x7f020105;
-        public static int ic_mr_button_grey=0x7f020106;
-        public static int ic_vol_type_speaker_dark=0x7f020107;
-        public static int ic_vol_type_speaker_group_dark=0x7f020108;
-        public static int ic_vol_type_speaker_group_light=0x7f020109;
-        public static int ic_vol_type_speaker_light=0x7f02010a;
-        public static int ic_vol_type_tv_dark=0x7f02010b;
-        public static int ic_vol_type_tv_light=0x7f02010c;
-        public static int inputlayout_togglecollapseicon=0x7f02010d;
-        public static int inputlayout_togglevisibleicon=0x7f02010e;
-        public static int mr_button_connected_dark=0x7f02010f;
-        public static int mr_button_connected_light=0x7f020110;
-        public static int mr_button_connecting_dark=0x7f020111;
-        public static int mr_button_connecting_light=0x7f020112;
-        public static int mr_button_dark=0x7f020113;
-        public static int mr_button_light=0x7f020114;
-        public static int mr_dialog_close_dark=0x7f020115;
-        public static int mr_dialog_close_light=0x7f020116;
-        public static int mr_dialog_material_background_dark=0x7f020117;
-        public static int mr_dialog_material_background_light=0x7f020118;
-        public static int mr_group_collapse=0x7f020119;
-        public static int mr_group_expand=0x7f02011a;
-        public static int mr_media_pause_dark=0x7f02011b;
-        public static int mr_media_pause_light=0x7f02011c;
-        public static int mr_media_play_dark=0x7f02011d;
-        public static int mr_media_play_light=0x7f02011e;
-        public static int mr_media_stop_dark=0x7f02011f;
-        public static int mr_media_stop_light=0x7f020120;
-        public static int mr_vol_type_audiotrack_dark=0x7f020121;
-        public static int mr_vol_type_audiotrack_light=0x7f020122;
-        public static int navigation_empty_icon=0x7f020123;
-        public static int notification_action_background=0x7f020124;
-        public static int notification_bg=0x7f020125;
-        public static int notification_bg_low=0x7f020126;
-        public static int notification_bg_low_normal=0x7f020127;
-        public static int notification_bg_low_pressed=0x7f020128;
-        public static int notification_bg_normal=0x7f020129;
-        public static int notification_bg_normal_pressed=0x7f02012a;
-        public static int notification_icon_background=0x7f02012b;
-        public static int notification_template_icon_bg=0x7f020132;
-        public static int notification_template_icon_low_bg=0x7f020133;
-        public static int notification_tile_bg=0x7f02012c;
-        public static int notify_panel_notification_icon_bg=0x7f02012d;
-        public static int sfclosebutton=0x7f02012e;
-        public static int styleinfo=0x7f02012f;
-        public static int tooltip_frame_dark=0x7f020130;
-        public static int tooltip_frame_light=0x7f020131;
+        public static int avatar1=0x7f020053;
+        public static int avatar10=0x7f020054;
+        public static int avatar11=0x7f020055;
+        public static int avatar12=0x7f020056;
+        public static int avatar13=0x7f020057;
+        public static int avatar14=0x7f020058;
+        public static int avatar15=0x7f020059;
+        public static int avatar16=0x7f02005a;
+        public static int avatar17=0x7f02005b;
+        public static int avatar18=0x7f02005c;
+        public static int avatar19=0x7f02005d;
+        public static int avatar2=0x7f02005e;
+        public static int avatar20=0x7f02005f;
+        public static int avatar21=0x7f020060;
+        public static int avatar22=0x7f020061;
+        public static int avatar23=0x7f020062;
+        public static int avatar24=0x7f020063;
+        public static int avatar25=0x7f020064;
+        public static int avatar26=0x7f020065;
+        public static int avatar27=0x7f020066;
+        public static int avatar28=0x7f020067;
+        public static int avatar29=0x7f020068;
+        public static int avatar3=0x7f020069;
+        public static int avatar30=0x7f02006a;
+        public static int avatar4=0x7f02006b;
+        public static int avatar5=0x7f02006c;
+        public static int avatar6=0x7f02006d;
+        public static int avatar7=0x7f02006e;
+        public static int avatar8=0x7f02006f;
+        public static int avatar9=0x7f020070;
+        public static int avd_hide_password=0x7f020071;
+        public static int avd_hide_password_1=0x7f020153;
+        public static int avd_hide_password_2=0x7f020154;
+        public static int avd_hide_password_3=0x7f020155;
+        public static int avd_show_password=0x7f020072;
+        public static int avd_show_password_1=0x7f020156;
+        public static int avd_show_password_2=0x7f020157;
+        public static int avd_show_password_3=0x7f020158;
+        public static int design_bottom_navigation_item_background=0x7f020073;
+        public static int design_fab_background=0x7f020074;
+        public static int design_ic_visibility=0x7f020075;
+        public static int design_ic_visibility_off=0x7f020076;
+        public static int design_password_eye=0x7f020077;
+        public static int design_snackbar_background=0x7f020078;
+        public static int dropdownbuttonimage=0x7f020079;
+        public static int ic_audiotrack_dark=0x7f02007a;
+        public static int ic_audiotrack_light=0x7f02007b;
+        public static int ic_dialog_close_dark=0x7f02007c;
+        public static int ic_dialog_close_light=0x7f02007d;
+        public static int ic_group_collapse_00=0x7f02007e;
+        public static int ic_group_collapse_01=0x7f02007f;
+        public static int ic_group_collapse_02=0x7f020080;
+        public static int ic_group_collapse_03=0x7f020081;
+        public static int ic_group_collapse_04=0x7f020082;
+        public static int ic_group_collapse_05=0x7f020083;
+        public static int ic_group_collapse_06=0x7f020084;
+        public static int ic_group_collapse_07=0x7f020085;
+        public static int ic_group_collapse_08=0x7f020086;
+        public static int ic_group_collapse_09=0x7f020087;
+        public static int ic_group_collapse_10=0x7f020088;
+        public static int ic_group_collapse_11=0x7f020089;
+        public static int ic_group_collapse_12=0x7f02008a;
+        public static int ic_group_collapse_13=0x7f02008b;
+        public static int ic_group_collapse_14=0x7f02008c;
+        public static int ic_group_collapse_15=0x7f02008d;
+        public static int ic_group_expand_00=0x7f02008e;
+        public static int ic_group_expand_01=0x7f02008f;
+        public static int ic_group_expand_02=0x7f020090;
+        public static int ic_group_expand_03=0x7f020091;
+        public static int ic_group_expand_04=0x7f020092;
+        public static int ic_group_expand_05=0x7f020093;
+        public static int ic_group_expand_06=0x7f020094;
+        public static int ic_group_expand_07=0x7f020095;
+        public static int ic_group_expand_08=0x7f020096;
+        public static int ic_group_expand_09=0x7f020097;
+        public static int ic_group_expand_10=0x7f020098;
+        public static int ic_group_expand_11=0x7f020099;
+        public static int ic_group_expand_12=0x7f02009a;
+        public static int ic_group_expand_13=0x7f02009b;
+        public static int ic_group_expand_14=0x7f02009c;
+        public static int ic_group_expand_15=0x7f02009d;
+        public static int ic_media_pause_dark=0x7f02009e;
+        public static int ic_media_pause_light=0x7f02009f;
+        public static int ic_media_play_dark=0x7f0200a0;
+        public static int ic_media_play_light=0x7f0200a1;
+        public static int ic_media_stop_dark=0x7f0200a2;
+        public static int ic_media_stop_light=0x7f0200a3;
+        public static int ic_mr_button_connected_00_dark=0x7f0200a4;
+        public static int ic_mr_button_connected_00_light=0x7f0200a5;
+        public static int ic_mr_button_connected_01_dark=0x7f0200a6;
+        public static int ic_mr_button_connected_01_light=0x7f0200a7;
+        public static int ic_mr_button_connected_02_dark=0x7f0200a8;
+        public static int ic_mr_button_connected_02_light=0x7f0200a9;
+        public static int ic_mr_button_connected_03_dark=0x7f0200aa;
+        public static int ic_mr_button_connected_03_light=0x7f0200ab;
+        public static int ic_mr_button_connected_04_dark=0x7f0200ac;
+        public static int ic_mr_button_connected_04_light=0x7f0200ad;
+        public static int ic_mr_button_connected_05_dark=0x7f0200ae;
+        public static int ic_mr_button_connected_05_light=0x7f0200af;
+        public static int ic_mr_button_connected_06_dark=0x7f0200b0;
+        public static int ic_mr_button_connected_06_light=0x7f0200b1;
+        public static int ic_mr_button_connected_07_dark=0x7f0200b2;
+        public static int ic_mr_button_connected_07_light=0x7f0200b3;
+        public static int ic_mr_button_connected_08_dark=0x7f0200b4;
+        public static int ic_mr_button_connected_08_light=0x7f0200b5;
+        public static int ic_mr_button_connected_09_dark=0x7f0200b6;
+        public static int ic_mr_button_connected_09_light=0x7f0200b7;
+        public static int ic_mr_button_connected_10_dark=0x7f0200b8;
+        public static int ic_mr_button_connected_10_light=0x7f0200b9;
+        public static int ic_mr_button_connected_11_dark=0x7f0200ba;
+        public static int ic_mr_button_connected_11_light=0x7f0200bb;
+        public static int ic_mr_button_connected_12_dark=0x7f0200bc;
+        public static int ic_mr_button_connected_12_light=0x7f0200bd;
+        public static int ic_mr_button_connected_13_dark=0x7f0200be;
+        public static int ic_mr_button_connected_13_light=0x7f0200bf;
+        public static int ic_mr_button_connected_14_dark=0x7f0200c0;
+        public static int ic_mr_button_connected_14_light=0x7f0200c1;
+        public static int ic_mr_button_connected_15_dark=0x7f0200c2;
+        public static int ic_mr_button_connected_15_light=0x7f0200c3;
+        public static int ic_mr_button_connected_16_dark=0x7f0200c4;
+        public static int ic_mr_button_connected_16_light=0x7f0200c5;
+        public static int ic_mr_button_connected_17_dark=0x7f0200c6;
+        public static int ic_mr_button_connected_17_light=0x7f0200c7;
+        public static int ic_mr_button_connected_18_dark=0x7f0200c8;
+        public static int ic_mr_button_connected_18_light=0x7f0200c9;
+        public static int ic_mr_button_connected_19_dark=0x7f0200ca;
+        public static int ic_mr_button_connected_19_light=0x7f0200cb;
+        public static int ic_mr_button_connected_20_dark=0x7f0200cc;
+        public static int ic_mr_button_connected_20_light=0x7f0200cd;
+        public static int ic_mr_button_connected_21_dark=0x7f0200ce;
+        public static int ic_mr_button_connected_21_light=0x7f0200cf;
+        public static int ic_mr_button_connected_22_dark=0x7f0200d0;
+        public static int ic_mr_button_connected_22_light=0x7f0200d1;
+        public static int ic_mr_button_connected_23_dark=0x7f0200d2;
+        public static int ic_mr_button_connected_23_light=0x7f0200d3;
+        public static int ic_mr_button_connected_24_dark=0x7f0200d4;
+        public static int ic_mr_button_connected_24_light=0x7f0200d5;
+        public static int ic_mr_button_connected_25_dark=0x7f0200d6;
+        public static int ic_mr_button_connected_25_light=0x7f0200d7;
+        public static int ic_mr_button_connected_26_dark=0x7f0200d8;
+        public static int ic_mr_button_connected_26_light=0x7f0200d9;
+        public static int ic_mr_button_connected_27_dark=0x7f0200da;
+        public static int ic_mr_button_connected_27_light=0x7f0200db;
+        public static int ic_mr_button_connected_28_dark=0x7f0200dc;
+        public static int ic_mr_button_connected_28_light=0x7f0200dd;
+        public static int ic_mr_button_connected_29_dark=0x7f0200de;
+        public static int ic_mr_button_connected_29_light=0x7f0200df;
+        public static int ic_mr_button_connected_30_dark=0x7f0200e0;
+        public static int ic_mr_button_connected_30_light=0x7f0200e1;
+        public static int ic_mr_button_connecting_00_dark=0x7f0200e2;
+        public static int ic_mr_button_connecting_00_light=0x7f0200e3;
+        public static int ic_mr_button_connecting_01_dark=0x7f0200e4;
+        public static int ic_mr_button_connecting_01_light=0x7f0200e5;
+        public static int ic_mr_button_connecting_02_dark=0x7f0200e6;
+        public static int ic_mr_button_connecting_02_light=0x7f0200e7;
+        public static int ic_mr_button_connecting_03_dark=0x7f0200e8;
+        public static int ic_mr_button_connecting_03_light=0x7f0200e9;
+        public static int ic_mr_button_connecting_04_dark=0x7f0200ea;
+        public static int ic_mr_button_connecting_04_light=0x7f0200eb;
+        public static int ic_mr_button_connecting_05_dark=0x7f0200ec;
+        public static int ic_mr_button_connecting_05_light=0x7f0200ed;
+        public static int ic_mr_button_connecting_06_dark=0x7f0200ee;
+        public static int ic_mr_button_connecting_06_light=0x7f0200ef;
+        public static int ic_mr_button_connecting_07_dark=0x7f0200f0;
+        public static int ic_mr_button_connecting_07_light=0x7f0200f1;
+        public static int ic_mr_button_connecting_08_dark=0x7f0200f2;
+        public static int ic_mr_button_connecting_08_light=0x7f0200f3;
+        public static int ic_mr_button_connecting_09_dark=0x7f0200f4;
+        public static int ic_mr_button_connecting_09_light=0x7f0200f5;
+        public static int ic_mr_button_connecting_10_dark=0x7f0200f6;
+        public static int ic_mr_button_connecting_10_light=0x7f0200f7;
+        public static int ic_mr_button_connecting_11_dark=0x7f0200f8;
+        public static int ic_mr_button_connecting_11_light=0x7f0200f9;
+        public static int ic_mr_button_connecting_12_dark=0x7f0200fa;
+        public static int ic_mr_button_connecting_12_light=0x7f0200fb;
+        public static int ic_mr_button_connecting_13_dark=0x7f0200fc;
+        public static int ic_mr_button_connecting_13_light=0x7f0200fd;
+        public static int ic_mr_button_connecting_14_dark=0x7f0200fe;
+        public static int ic_mr_button_connecting_14_light=0x7f0200ff;
+        public static int ic_mr_button_connecting_15_dark=0x7f020100;
+        public static int ic_mr_button_connecting_15_light=0x7f020101;
+        public static int ic_mr_button_connecting_16_dark=0x7f020102;
+        public static int ic_mr_button_connecting_16_light=0x7f020103;
+        public static int ic_mr_button_connecting_17_dark=0x7f020104;
+        public static int ic_mr_button_connecting_17_light=0x7f020105;
+        public static int ic_mr_button_connecting_18_dark=0x7f020106;
+        public static int ic_mr_button_connecting_18_light=0x7f020107;
+        public static int ic_mr_button_connecting_19_dark=0x7f020108;
+        public static int ic_mr_button_connecting_19_light=0x7f020109;
+        public static int ic_mr_button_connecting_20_dark=0x7f02010a;
+        public static int ic_mr_button_connecting_20_light=0x7f02010b;
+        public static int ic_mr_button_connecting_21_dark=0x7f02010c;
+        public static int ic_mr_button_connecting_21_light=0x7f02010d;
+        public static int ic_mr_button_connecting_22_dark=0x7f02010e;
+        public static int ic_mr_button_connecting_22_light=0x7f02010f;
+        public static int ic_mr_button_connecting_23_dark=0x7f020110;
+        public static int ic_mr_button_connecting_23_light=0x7f020111;
+        public static int ic_mr_button_connecting_24_dark=0x7f020112;
+        public static int ic_mr_button_connecting_24_light=0x7f020113;
+        public static int ic_mr_button_connecting_25_dark=0x7f020114;
+        public static int ic_mr_button_connecting_25_light=0x7f020115;
+        public static int ic_mr_button_connecting_26_dark=0x7f020116;
+        public static int ic_mr_button_connecting_26_light=0x7f020117;
+        public static int ic_mr_button_connecting_27_dark=0x7f020118;
+        public static int ic_mr_button_connecting_27_light=0x7f020119;
+        public static int ic_mr_button_connecting_28_dark=0x7f02011a;
+        public static int ic_mr_button_connecting_28_light=0x7f02011b;
+        public static int ic_mr_button_connecting_29_dark=0x7f02011c;
+        public static int ic_mr_button_connecting_29_light=0x7f02011d;
+        public static int ic_mr_button_connecting_30_dark=0x7f02011e;
+        public static int ic_mr_button_connecting_30_light=0x7f02011f;
+        public static int ic_mr_button_disabled_dark=0x7f020120;
+        public static int ic_mr_button_disabled_light=0x7f020121;
+        public static int ic_mr_button_disconnected_dark=0x7f020122;
+        public static int ic_mr_button_disconnected_light=0x7f020123;
+        public static int ic_mr_button_grey=0x7f020124;
+        public static int ic_vol_type_speaker_dark=0x7f020125;
+        public static int ic_vol_type_speaker_group_dark=0x7f020126;
+        public static int ic_vol_type_speaker_group_light=0x7f020127;
+        public static int ic_vol_type_speaker_light=0x7f020128;
+        public static int ic_vol_type_tv_dark=0x7f020129;
+        public static int ic_vol_type_tv_light=0x7f02012a;
+        public static int input_layout_drop_down_icon=0x7f02012b;
+        public static int inputlayout_togglecollapseicon=0x7f02012c;
+        public static int inputlayout_togglevisibleicon=0x7f02012d;
+        public static int mr_button_connected_dark=0x7f02012e;
+        public static int mr_button_connected_light=0x7f02012f;
+        public static int mr_button_connecting_dark=0x7f020130;
+        public static int mr_button_connecting_light=0x7f020131;
+        public static int mr_button_dark=0x7f020132;
+        public static int mr_button_light=0x7f020133;
+        public static int mr_dialog_close_dark=0x7f020134;
+        public static int mr_dialog_close_light=0x7f020135;
+        public static int mr_dialog_material_background_dark=0x7f020136;
+        public static int mr_dialog_material_background_light=0x7f020137;
+        public static int mr_group_collapse=0x7f020138;
+        public static int mr_group_expand=0x7f020139;
+        public static int mr_media_pause_dark=0x7f02013a;
+        public static int mr_media_pause_light=0x7f02013b;
+        public static int mr_media_play_dark=0x7f02013c;
+        public static int mr_media_play_light=0x7f02013d;
+        public static int mr_media_stop_dark=0x7f02013e;
+        public static int mr_media_stop_light=0x7f02013f;
+        public static int mr_vol_type_audiotrack_dark=0x7f020140;
+        public static int mr_vol_type_audiotrack_light=0x7f020141;
+        public static int navigation_empty_icon=0x7f020142;
+        public static int notification_action_background=0x7f020143;
+        public static int notification_bg=0x7f020144;
+        public static int notification_bg_low=0x7f020145;
+        public static int notification_bg_low_normal=0x7f020146;
+        public static int notification_bg_low_pressed=0x7f020147;
+        public static int notification_bg_normal=0x7f020148;
+        public static int notification_bg_normal_pressed=0x7f020149;
+        public static int notification_icon_background=0x7f02014a;
+        public static int notification_template_icon_bg=0x7f020151;
+        public static int notification_template_icon_low_bg=0x7f020152;
+        public static int notification_tile_bg=0x7f02014b;
+        public static int notify_panel_notification_icon_bg=0x7f02014c;
+        public static int sfclosebutton=0x7f02014d;
+        public static int styleinfo=0x7f02014e;
+        public static int tooltip_frame_dark=0x7f02014f;
+        public static int tooltip_frame_light=0x7f020150;
     }
     public static final class id {
         public static int ALT=0x7f090032;
@@ -5041,252 +4117,226 @@ containing a value of this type.
         public static int Default=0x7f09005a;
         public static int Dialog=0x7f09005b;
         public static int FUNCTION=0x7f090034;
-        public static int Itemname=0x7f0900b7;
+        public static int Itemname=0x7f0900a1;
         public static int META=0x7f090035;
         public static int SHIFT=0x7f090036;
         public static int SYM=0x7f090037;
-        public static int action0=0x7f0900e7;
-        public static int action_bar=0x7f0900a7;
+        public static int action0=0x7f0900cd;
+        public static int action_bar=0x7f090092;
         public static int action_bar_activity_content=0x7f090001;
-        public static int action_bar_container=0x7f0900a6;
-        public static int action_bar_root=0x7f0900a2;
+        public static int action_bar_container=0x7f090091;
+        public static int action_bar_root=0x7f09008d;
         public static int action_bar_spinner=0x7f090002;
-        public static int action_bar_subtitle=0x7f090087;
-        public static int action_bar_title=0x7f090086;
-        public static int action_container=0x7f0900e4;
-        public static int action_context_bar=0x7f0900a8;
-        public static int action_divider=0x7f0900eb;
-        public static int action_image=0x7f0900e5;
+        public static int action_bar_subtitle=0x7f090072;
+        public static int action_bar_title=0x7f090071;
+        public static int action_container=0x7f0900ca;
+        public static int action_context_bar=0x7f090093;
+        public static int action_divider=0x7f0900d1;
+        public static int action_image=0x7f0900cb;
         public static int action_menu_divider=0x7f090003;
         public static int action_menu_presenter=0x7f090004;
-        public static int action_mode_bar=0x7f0900a4;
-        public static int action_mode_bar_stub=0x7f0900a3;
-        public static int action_mode_close_button=0x7f090088;
-        public static int action_text=0x7f0900e6;
-        public static int actions=0x7f0900f4;
-        public static int activity_chooser_view_content=0x7f090089;
+        public static int action_mode_bar=0x7f09008f;
+        public static int action_mode_bar_stub=0x7f09008e;
+        public static int action_mode_close_button=0x7f090073;
+        public static int action_text=0x7f0900cc;
+        public static int actions=0x7f0900da;
+        public static int activity_chooser_view_content=0x7f090074;
         public static int add=0x7f090027;
-        public static int alertTitle=0x7f09009b;
+        public static int alertTitle=0x7f090086;
         public static int all=0x7f090052;
         public static int always=0x7f090038;
-        public static int anticlockwise=0x7f090062;
+        public static int append=0x7f09006e;
         public static int async=0x7f090056;
         public static int auto=0x7f090044;
-        public static int away=0x7f09007e;
-        public static int backward=0x7f09007c;
-        public static int bar=0x7f090074;
         public static int beginning=0x7f09002f;
         public static int blocking=0x7f090057;
-        public static int both=0x7f090076;
         public static int bottom=0x7f09003d;
-        public static int buttonPanel=0x7f09008e;
-        public static int cancel_action=0x7f0900e8;
+        public static int buttonPanel=0x7f09007a;
+        public static int cancel_action=0x7f0900ce;
         public static int center=0x7f090045;
         public static int center_horizontal=0x7f090046;
         public static int center_vertical=0x7f090047;
-        public static int checkbox=0x7f09009e;
-        public static int chronometer=0x7f0900f0;
-        public static int circle=0x7f090077;
+        public static int checkbox=0x7f090089;
+        public static int chronometer=0x7f0900d6;
         public static int clip_horizontal=0x7f09004e;
         public static int clip_vertical=0x7f09004f;
-        public static int clockwise=0x7f090063;
         public static int collapseActionView=0x7f090039;
         public static int compute=0x7f09005e;
-        public static int container=0x7f0900ba;
-        public static int contentPanel=0x7f090091;
-        public static int coordinator=0x7f0900bb;
-        public static int custom=0x7f090098;
-        public static int customPanel=0x7f090097;
+        public static int container=0x7f0900a4;
+        public static int contains=0x7f090062;
+        public static int containsWithCaseSensitive=0x7f090063;
+        public static int contentPanel=0x7f09007d;
+        public static int coordinator=0x7f0900a5;
+        public static int custom=0x7f090064;
+        public static int customPanel=0x7f090083;
         public static int decimalMode=0x7f09005c;
-        public static int decor_content_parent=0x7f0900a5;
-        public static int default_activity_button=0x7f09008b;
-        public static int design_bottom_sheet=0x7f0900bd;
-        public static int design_menu_item_action_area=0x7f0900c4;
-        public static int design_menu_item_action_area_stub=0x7f0900c3;
-        public static int design_menu_item_text=0x7f0900c2;
-        public static int design_navigation_view=0x7f0900c1;
-        public static int diamond=0x7f090078;
+        public static int decor_content_parent=0x7f090090;
+        public static int default_activity_button=0x7f090077;
+        public static int delimiter=0x7f09006c;
+        public static int design_bottom_sheet=0x7f0900a7;
+        public static int design_menu_item_action_area=0x7f0900ae;
+        public static int design_menu_item_action_area_stub=0x7f0900ad;
+        public static int design_menu_item_text=0x7f0900ac;
+        public static int design_navigation_view=0x7f0900ab;
         public static int disableHome=0x7f090020;
         public static int doubleMode=0x7f09005d;
-        public static int edit_query=0x7f0900a9;
-        public static int eightCrossEightDotMatrix=0x7f090082;
-        public static int eightsegment=0x7f0900c7;
+        public static int edit_query=0x7f090094;
         public static int end=0x7f090030;
-        public static int end_padder=0x7f0900f6;
+        public static int end_padder=0x7f0900dc;
+        public static int endsWith=0x7f090065;
+        public static int endsWithCaseSensitive=0x7f090066;
         public static int enterAlways=0x7f09003f;
         public static int enterAlwaysCollapsed=0x7f090040;
+        public static int equals=0x7f090067;
+        public static int equalsWithCaseSensitive=0x7f090068;
         public static int exitUntilCollapsed=0x7f090041;
-        public static int expand_activities_button=0x7f09008a;
-        public static int expanded_menu=0x7f09009d;
-        public static int far=0x7f09007f;
+        public static int expand_activities_button=0x7f090075;
+        public static int expanded_menu=0x7f090088;
         public static int fill=0x7f090050;
         public static int fill_horizontal=0x7f090051;
         public static int fill_vertical=0x7f090048;
         public static int fixed=0x7f090054;
         public static int forever=0x7f090058;
-        public static int forward=0x7f09007d;
-        public static int fourteensegment=0x7f0900c8;
-        public static int gaugeBottom=0x7f09006a;
-        public static int gaugeBottomLeft=0x7f09006b;
-        public static int gaugeBottomRight=0x7f09006c;
-        public static int gaugeCenter=0x7f09006d;
-        public static int gaugeCustom=0x7f09006e;
-        public static int gaugeHorizontalHeaderCenter=0x7f090064;
-        public static int gaugeHorizontalHeaderEnd=0x7f090065;
-        public static int gaugeHorizontalHeaderStart=0x7f090066;
-        public static int gaugeLeft=0x7f09006f;
-        public static int gaugeRight=0x7f090070;
-        public static int gaugeTop=0x7f090071;
-        public static int gaugeTopLeft=0x7f090072;
-        public static int gaugeTopRight=0x7f090073;
-        public static int gaugeVerticalHeaderCenter=0x7f090067;
-        public static int gaugeVerticalHeaderEnd=0x7f090068;
-        public static int gaugeVerticalHeaderStart=0x7f090069;
         public static int ghost_view=0x7f09000a;
         public static int home=0x7f090005;
         public static int homeAsUp=0x7f090021;
-        public static int horizontal=0x7f090080;
-        public static int icon=0x7f09008d;
-        public static int icon_group=0x7f0900f5;
+        public static int icon=0x7f090079;
+        public static int icon_group=0x7f0900db;
         public static int ifRoom=0x7f09003a;
-        public static int image=0x7f090079;
-        public static int info=0x7f0900f1;
-        public static int invertedTriangle=0x7f09007a;
+        public static int image=0x7f090076;
+        public static int info=0x7f0900d7;
         public static int italic=0x7f090059;
         public static int item_touch_helper_previous_elevation=0x7f090000;
-        public static int largeLabel=0x7f0900b9;
+        public static int largeLabel=0x7f0900a3;
         public static int left=0x7f090049;
         public static int line1=0x7f090017;
         public static int line3=0x7f090018;
         public static int listMode=0x7f09001d;
-        public static int list_item=0x7f09008c;
-        public static int masked=0x7f0900fb;
-        public static int media_actions=0x7f0900ea;
-        public static int message=0x7f0900f9;
+        public static int list_item=0x7f090078;
+        public static int masked=0x7f0900e1;
+        public static int media_actions=0x7f0900d0;
+        public static int message=0x7f0900df;
         public static int middle=0x7f090031;
         public static int mini=0x7f090053;
-        public static int mr_art=0x7f0900d6;
-        public static int mr_chooser_list=0x7f0900cb;
-        public static int mr_chooser_route_desc=0x7f0900ce;
-        public static int mr_chooser_route_icon=0x7f0900cc;
-        public static int mr_chooser_route_name=0x7f0900cd;
-        public static int mr_chooser_title=0x7f0900ca;
-        public static int mr_close=0x7f0900d3;
-        public static int mr_control_divider=0x7f0900d9;
-        public static int mr_control_playback_ctrl=0x7f0900df;
-        public static int mr_control_subtitle=0x7f0900e2;
-        public static int mr_control_title=0x7f0900e1;
-        public static int mr_control_title_container=0x7f0900e0;
-        public static int mr_custom_control=0x7f0900d4;
-        public static int mr_default_control=0x7f0900d5;
-        public static int mr_dialog_area=0x7f0900d0;
-        public static int mr_expandable_area=0x7f0900cf;
-        public static int mr_group_expand_collapse=0x7f0900e3;
-        public static int mr_media_main_control=0x7f0900d7;
-        public static int mr_name=0x7f0900d2;
-        public static int mr_playback_control=0x7f0900d8;
-        public static int mr_title_bar=0x7f0900d1;
-        public static int mr_volume_control=0x7f0900da;
-        public static int mr_volume_group_list=0x7f0900db;
-        public static int mr_volume_item_icon=0x7f0900dd;
-        public static int mr_volume_slider=0x7f0900de;
+        public static int mr_art=0x7f0900bc;
+        public static int mr_chooser_list=0x7f0900b1;
+        public static int mr_chooser_route_desc=0x7f0900b4;
+        public static int mr_chooser_route_icon=0x7f0900b2;
+        public static int mr_chooser_route_name=0x7f0900b3;
+        public static int mr_chooser_title=0x7f0900b0;
+        public static int mr_close=0x7f0900b9;
+        public static int mr_control_divider=0x7f0900bf;
+        public static int mr_control_playback_ctrl=0x7f0900c5;
+        public static int mr_control_subtitle=0x7f0900c8;
+        public static int mr_control_title=0x7f0900c7;
+        public static int mr_control_title_container=0x7f0900c6;
+        public static int mr_custom_control=0x7f0900ba;
+        public static int mr_default_control=0x7f0900bb;
+        public static int mr_dialog_area=0x7f0900b6;
+        public static int mr_expandable_area=0x7f0900b5;
+        public static int mr_group_expand_collapse=0x7f0900c9;
+        public static int mr_media_main_control=0x7f0900bd;
+        public static int mr_name=0x7f0900b8;
+        public static int mr_playback_control=0x7f0900be;
+        public static int mr_title_bar=0x7f0900b7;
+        public static int mr_volume_control=0x7f0900c0;
+        public static int mr_volume_group_list=0x7f0900c1;
+        public static int mr_volume_item_icon=0x7f0900c3;
+        public static int mr_volume_slider=0x7f0900c4;
         public static int multiply=0x7f090028;
-        public static int navigation_header_container=0x7f0900c0;
+        public static int navigation_header_container=0x7f0900aa;
         public static int never=0x7f09003b;
         public static int none=0x7f090022;
         public static int normal=0x7f09001e;
-        public static int notification_background=0x7f0900f3;
-        public static int notification_main_column=0x7f0900ed;
-        public static int notification_main_column_container=0x7f0900ec;
+        public static int notification_background=0x7f0900d9;
+        public static int notification_main_column=0x7f0900d3;
+        public static int notification_main_column_container=0x7f0900d2;
         public static int onKeyFocus=0x7f090060;
         public static int onLostFocus=0x7f090061;
         public static int parallax=0x7f09004c;
-        public static int parentPanel=0x7f090090;
+        public static int parentPanel=0x7f09007c;
         public static int parent_matrix=0x7f09000b;
         public static int pin=0x7f09004d;
         public static int progress_circular=0x7f090006;
         public static int progress_horizontal=0x7f090007;
-        public static int radio=0x7f0900a0;
-        public static int rectangle=0x7f09007b;
+        public static int radio=0x7f09008b;
         public static int right=0x7f09004a;
-        public static int right_icon=0x7f0900f2;
-        public static int right_side=0x7f0900ee;
-        public static int rootLayout=0x7f0900b6;
+        public static int right_icon=0x7f0900d8;
+        public static int right_side=0x7f0900d4;
         public static int save_image_matrix=0x7f09000c;
         public static int save_non_transition_alpha=0x7f09000d;
         public static int save_scale_type=0x7f09000e;
         public static int screen=0x7f090029;
         public static int scroll=0x7f090042;
-        public static int scrollIndicatorDown=0x7f090096;
-        public static int scrollIndicatorUp=0x7f090092;
-        public static int scrollView=0x7f090093;
+        public static int scrollIndicatorDown=0x7f090082;
+        public static int scrollIndicatorUp=0x7f09007e;
+        public static int scrollView=0x7f09007f;
         public static int scrollable=0x7f090055;
-        public static int search_badge=0x7f0900ab;
-        public static int search_bar=0x7f0900aa;
-        public static int search_button=0x7f0900ac;
-        public static int search_close_btn=0x7f0900b1;
-        public static int search_edit_frame=0x7f0900ad;
-        public static int search_go_btn=0x7f0900b3;
-        public static int search_mag_icon=0x7f0900ae;
-        public static int search_plate=0x7f0900af;
-        public static int search_src_text=0x7f0900b0;
-        public static int search_voice_btn=0x7f0900b4;
-        public static int segmentFourteen=0x7f090083;
-        public static int segmentSeven=0x7f090084;
-        public static int segmentSixteen=0x7f090085;
-        public static int select_dialog_listview=0x7f0900b5;
-        public static int sevensegment=0x7f0900c6;
-        public static int shortcut=0x7f09009f;
+        public static int search_badge=0x7f090096;
+        public static int search_bar=0x7f090095;
+        public static int search_button=0x7f090097;
+        public static int search_close_btn=0x7f09009c;
+        public static int search_edit_frame=0x7f090098;
+        public static int search_go_btn=0x7f09009e;
+        public static int search_mag_icon=0x7f090099;
+        public static int search_plate=0x7f09009a;
+        public static int search_src_text=0x7f09009b;
+        public static int search_voice_btn=0x7f09009f;
+        public static int select_dialog_listview=0x7f0900a0;
+        public static int shortcut=0x7f09008a;
         public static int showCustom=0x7f090023;
         public static int showHome=0x7f090024;
         public static int showTitle=0x7f090025;
-        public static int sixteensegment=0x7f0900c9;
-        public static int sliding_tabs=0x7f0900f7;
-        public static int smallLabel=0x7f0900b8;
-        public static int snackbar_action=0x7f0900bf;
-        public static int snackbar_text=0x7f0900be;
+        public static int sliding_tabs=0x7f0900dd;
+        public static int smallLabel=0x7f0900a2;
+        public static int snackbar_action=0x7f0900a9;
+        public static int snackbar_text=0x7f0900a8;
         public static int snap=0x7f090043;
-        public static int spacer=0x7f09008f;
+        public static int spacer=0x7f09007b;
         public static int split_action_bar=0x7f090008;
         public static int src_atop=0x7f09002a;
         public static int src_in=0x7f09002b;
         public static int src_over=0x7f09002c;
         public static int start=0x7f09004b;
-        public static int status_bar_latest_event_content=0x7f0900e9;
-        public static int submenuarrow=0x7f0900a1;
-        public static int submit_area=0x7f0900b2;
+        public static int startsWith=0x7f090069;
+        public static int startsWithCaseSensitive=0x7f09006a;
+        public static int status_bar_latest_event_content=0x7f0900cf;
+        public static int submenuarrow=0x7f09008c;
+        public static int submit_area=0x7f09009d;
+        public static int suggest=0x7f09006f;
+        public static int suggestAppend=0x7f090070;
         public static int tabMode=0x7f09001f;
         public static int tag_transition_group=0x7f090019;
         public static int text=0x7f09001a;
         public static int text2=0x7f09001b;
-        public static int textSpacerNoButtons=0x7f090095;
-        public static int textSpacerNoTitle=0x7f090094;
-        public static int text_input_password_toggle=0x7f0900c5;
+        public static int textSpacerNoButtons=0x7f090081;
+        public static int textSpacerNoTitle=0x7f090080;
+        public static int text_input_password_toggle=0x7f0900af;
         public static int textinput_counter=0x7f090014;
         public static int textinput_error=0x7f090015;
-        public static int time=0x7f0900ef;
+        public static int time=0x7f0900d5;
         public static int title=0x7f09001c;
-        public static int titleDividerNoCustom=0x7f09009c;
-        public static int title_template=0x7f09009a;
-        public static int toolbar=0x7f0900f8;
+        public static int titleDividerNoCustom=0x7f090087;
+        public static int title_template=0x7f090085;
+        public static int token=0x7f09006d;
+        public static int toolbar=0x7f0900de;
         public static int top=0x7f09003e;
-        public static int topPanel=0x7f090099;
-        public static int touch_outside=0x7f0900bc;
+        public static int topPanel=0x7f090084;
+        public static int touch_outside=0x7f0900a6;
         public static int transition_current_scene=0x7f09000f;
         public static int transition_layout_save=0x7f090010;
         public static int transition_position=0x7f090011;
         public static int transition_scene_layoutid_cache=0x7f090012;
         public static int transition_transform=0x7f090013;
-        public static int triangle=0x7f090075;
         public static int uniform=0x7f09002d;
         public static int up=0x7f090009;
         public static int useLogo=0x7f090026;
         public static int value=0x7f09005f;
-        public static int vertical=0x7f090081;
         public static int view_offset_helper=0x7f090016;
-        public static int visible=0x7f0900fa;
-        public static int volume_item_container=0x7f0900dc;
+        public static int visible=0x7f0900e0;
+        public static int volume_item_container=0x7f0900c2;
         public static int withText=0x7f09003c;
+        public static int wrap=0x7f09006b;
         public static int wrap_content=0x7f09002e;
     }
     public static final class integer {
@@ -5335,56 +4385,54 @@ containing a value of this type.
         public static int abc_search_dropdown_item_icons_2line=0x7f040017;
         public static int abc_search_view=0x7f040018;
         public static int abc_select_dialog_material=0x7f040019;
-        public static int circulargauge_layout=0x7f04001a;
-        public static int customizedimageview=0x7f04001b;
-        public static int customizedview=0x7f04001c;
-        public static int customizedview1=0x7f04001d;
-        public static int design_bottom_navigation_item=0x7f04001e;
-        public static int design_bottom_sheet_dialog=0x7f04001f;
-        public static int design_layout_snackbar=0x7f040020;
-        public static int design_layout_snackbar_include=0x7f040021;
-        public static int design_layout_tab_icon=0x7f040022;
-        public static int design_layout_tab_text=0x7f040023;
-        public static int design_menu_item_action_area=0x7f040024;
-        public static int design_navigation_item=0x7f040025;
-        public static int design_navigation_item_header=0x7f040026;
-        public static int design_navigation_item_separator=0x7f040027;
-        public static int design_navigation_item_subheader=0x7f040028;
-        public static int design_navigation_menu=0x7f040029;
-        public static int design_navigation_menu_item=0x7f04002a;
-        public static int design_text_input_password_icon=0x7f04002b;
-        public static int digitalgauge_layout=0x7f04002c;
-        public static int mr_chooser_dialog=0x7f04002d;
-        public static int mr_chooser_list_item=0x7f04002e;
-        public static int mr_controller_material_dialog_b=0x7f04002f;
-        public static int mr_controller_volume_item=0x7f040030;
-        public static int mr_playback_control=0x7f040031;
-        public static int mr_volume_control=0x7f040032;
-        public static int notification_action=0x7f040033;
-        public static int notification_action_tombstone=0x7f040034;
-        public static int notification_media_action=0x7f040035;
-        public static int notification_media_cancel_action=0x7f040036;
-        public static int notification_template_big_media=0x7f040037;
-        public static int notification_template_big_media_custom=0x7f040038;
-        public static int notification_template_big_media_narrow=0x7f040039;
-        public static int notification_template_big_media_narrow_custom=0x7f04003a;
-        public static int notification_template_custom_big=0x7f04003b;
-        public static int notification_template_icon_group=0x7f04003c;
-        public static int notification_template_lines_media=0x7f04003d;
-        public static int notification_template_media=0x7f04003e;
-        public static int notification_template_media_custom=0x7f04003f;
-        public static int notification_template_part_chronometer=0x7f040040;
-        public static int notification_template_part_time=0x7f040041;
-        public static int scrollviewer=0x7f040042;
-        public static int select_dialog_item_material=0x7f040043;
-        public static int select_dialog_multichoice_material=0x7f040044;
-        public static int select_dialog_singlechoice_material=0x7f040045;
-        public static int sfautocomplete_layout=0x7f040046;
-        public static int sfcombobox_layout=0x7f040047;
-        public static int support_simple_spinner_dropdown_item=0x7f040048;
-        public static int tabbar=0x7f040049;
-        public static int toolbar=0x7f04004a;
-        public static int tooltip=0x7f04004b;
+        public static int customizedimageview=0x7f04001a;
+        public static int customizedview=0x7f04001b;
+        public static int customizedview1=0x7f04001c;
+        public static int design_bottom_navigation_item=0x7f04001d;
+        public static int design_bottom_sheet_dialog=0x7f04001e;
+        public static int design_layout_snackbar=0x7f04001f;
+        public static int design_layout_snackbar_include=0x7f040020;
+        public static int design_layout_tab_icon=0x7f040021;
+        public static int design_layout_tab_text=0x7f040022;
+        public static int design_menu_item_action_area=0x7f040023;
+        public static int design_navigation_item=0x7f040024;
+        public static int design_navigation_item_header=0x7f040025;
+        public static int design_navigation_item_separator=0x7f040026;
+        public static int design_navigation_item_subheader=0x7f040027;
+        public static int design_navigation_menu=0x7f040028;
+        public static int design_navigation_menu_item=0x7f040029;
+        public static int design_text_input_password_icon=0x7f04002a;
+        public static int mr_chooser_dialog=0x7f04002b;
+        public static int mr_chooser_list_item=0x7f04002c;
+        public static int mr_controller_material_dialog_b=0x7f04002d;
+        public static int mr_controller_volume_item=0x7f04002e;
+        public static int mr_playback_control=0x7f04002f;
+        public static int mr_volume_control=0x7f040030;
+        public static int notification_action=0x7f040031;
+        public static int notification_action_tombstone=0x7f040032;
+        public static int notification_media_action=0x7f040033;
+        public static int notification_media_cancel_action=0x7f040034;
+        public static int notification_template_big_media=0x7f040035;
+        public static int notification_template_big_media_custom=0x7f040036;
+        public static int notification_template_big_media_narrow=0x7f040037;
+        public static int notification_template_big_media_narrow_custom=0x7f040038;
+        public static int notification_template_custom_big=0x7f040039;
+        public static int notification_template_icon_group=0x7f04003a;
+        public static int notification_template_lines_media=0x7f04003b;
+        public static int notification_template_media=0x7f04003c;
+        public static int notification_template_media_custom=0x7f04003d;
+        public static int notification_template_part_chronometer=0x7f04003e;
+        public static int notification_template_part_time=0x7f04003f;
+        public static int scrollviewer=0x7f040040;
+        public static int select_dialog_item_material=0x7f040041;
+        public static int select_dialog_multichoice_material=0x7f040042;
+        public static int select_dialog_singlechoice_material=0x7f040043;
+        public static int sfautocomplete_layout=0x7f040044;
+        public static int sfcombobox_layout=0x7f040045;
+        public static int support_simple_spinner_dropdown_item=0x7f040046;
+        public static int tabbar=0x7f040047;
+        public static int toolbar=0x7f040048;
+        public static int tooltip=0x7f040049;
     }
     public static final class mipmap {
         public static int icon=0x7f030000;
@@ -5392,9 +4440,6 @@ containing a value of this type.
         public static int launcher_foreground=0x7f030002;
     }
     public static final class string {
-        public static int ApplicationName=0x7f0a003e;
-        public static int Hello=0x7f0a003d;
-        public static int Load_More=0x7f0a003f;
         public static int abc_action_bar_home_description=0x7f0a0015;
         public static int abc_action_bar_up_description=0x7f0a0016;
         public static int abc_action_menu_overflow_description=0x7f0a0017;
@@ -5426,12 +4471,12 @@ containing a value of this type.
         public static int abc_toolbar_collapse_description=0x7f0a0025;
         public static int appbar_scrolling_view_behavior=0x7f0a0033;
         public static int bottom_sheet_behavior=0x7f0a0034;
-        public static int cancel_drop=0x7f0a0041;
+        public static int cancel_drop=0x7f0a003e;
         public static int character_counter_pattern=0x7f0a0035;
-        public static int drop_above=0x7f0a0042;
-        public static int drop_below=0x7f0a0043;
+        public static int drop_above=0x7f0a003f;
+        public static int drop_below=0x7f0a0040;
         public static int library_name=0x7f0a003c;
-        public static int load_more_items=0x7f0a0040;
+        public static int load_more_items=0x7f0a003d;
         public static int mr_button_content_description=0x7f0a0000;
         public static int mr_cast_button_connected=0x7f0a0001;
         public static int mr_cast_button_connecting=0x7f0a0002;
@@ -11807,26 +10852,103 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SfAutoComplete_autocompleteBorderColor android.support.v4:autocompleteBorderColor}</code></td><td>        border color of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteClearButtonColor android.support.v4:autocompleteClearButtonColor}</code></td><td>clear button color of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDisplayMemberPath android.support.v4:autocompleteDisplayMemberPath}</code></td><td>specifies the property path with which filtering is done on business objects</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDropDownBackgroundColor android.support.v4:autocompleteDropDownBackgroundColor}</code></td><td>drop down background color of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDropDownCornerRadius android.support.v4:autocompleteDropDownCornerRadius}</code></td><td>determines the drop down corner radius of autocomplete </td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDropDownFooterViewHeight android.support.v4:autocompleteDropDownFooterViewHeight}</code></td><td>determines the drop down footer view height of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDropDownHeaderViewHeight android.support.v4:autocompleteDropDownHeaderViewHeight}</code></td><td>determines the drop down header view height of autocomplete </td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDropDownItemHeight android.support.v4:autocompleteDropDownItemHeight}</code></td><td>determines the height of the drop down of autocomplete </td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDropDownOpen android.support.v4:autocompleteDropDownOpen}</code></td><td>determine whether drop down has to be shown or not</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDropDownTextColor android.support.v4:autocompleteDropDownTextColor}</code></td><td>drop down text color of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteDropDownTextSize android.support.v4:autocompleteDropDownTextSize}</code></td><td>determines the size of the drop down text of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteEnableSelectionIndicator android.support.v4:autocompleteEnableSelectionIndicator}</code></td><td>determine whether selection indicator has to be shown or not</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteHighlightedTextColor android.support.v4:autocompleteHighlightedTextColor}</code></td><td>Highlighted text color of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteIgnoreDiacritic android.support.v4:autocompleteIgnoreDiacritic}</code></td><td>determine whether the letters containing diacritics has to be shown or not</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteImageMemberPath android.support.v4:autocompleteImageMemberPath}</code></td><td>determines the image member path of autocomplete </td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteIndicatorText android.support.v4:autocompleteIndicatorText}</code></td><td>determine the indicator text of autocomplete </td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteIndicatorTextColor android.support.v4:autocompleteIndicatorTextColor}</code></td><td>indicator text color of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteIndicatorTextSize android.support.v4:autocompleteIndicatorTextSize}</code></td><td>determines the size of the Indicator text of autocomplete </td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteIsFocused android.support.v4:autocompleteIsFocused}</code></td><td>determine whether the autocomplete has to be focused or not</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteIsSelectedItemsVisibleInDropDown android.support.v4:autocompleteIsSelectedItemsVisibleInDropDown}</code></td><td>determine whether the selected items has to be shown in the drop down or not</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteLoadMoreText android.support.v4:autocompleteLoadMoreText}</code></td><td>determines the load more text of autocomplete </td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteMaximumDropDownHeight android.support.v4:autocompleteMaximumDropDownHeight}</code></td><td>determines the maximum height of the drop down of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteMaximumSuggestion android.support.v4:autocompleteMaximumSuggestion}</code></td><td>determine the maximum suggestion of autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteMinimumPrefixCharacters android.support.v4:autocompleteMinimumPrefixCharacters}</code></td><td>matches can be filtered and displayed after a few character entries</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteMode android.support.v4:autocompleteMode}</code></td><td>determines the mode for autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteMultiSelectMode android.support.v4:autocompleteMultiSelectMode}</code></td><td>determines the multi select mode for autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteNoResultsFoundText android.support.v4:autocompleteNoResultsFoundText}</code></td><td>determines the no results found text of autocomplete </td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompletePopUpDelay android.support.v4:autocompletePopUpDelay}</code></td><td>determine the popup delay in autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteSelectedIndex android.support.v4:autocompleteSelectedIndex}</code></td><td>determine the index of the selected item in autocomplete</td></tr>
            <tr><td><code>{@link #SfAutoComplete_autocompleteShowBorder android.support.v4:autocompleteShowBorder}</code></td><td>        show the border of autocomplete</td></tr>
            <tr><td><code>{@link #SfAutoComplete_autocompleteShowClearButton android.support.v4:autocompleteShowClearButton}</code></td><td>        determine whether clear button has to be shown or not</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteShowDropDownFooterView android.support.v4:autocompleteShowDropDownFooterView}</code></td><td>determine whether the drop down footer view has to be shown or not</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteShowDropDownHeaderView android.support.v4:autocompleteShowDropDownHeaderView}</code></td><td>determine whether the drop down header view has to be shown or not</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteShowSuggestionsOnFocus android.support.v4:autocompleteShowSuggestionsOnFocus}</code></td><td>determine whether suggestion has to be shown or not when autocomplete is on focus</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteSuggestionBoxPlacement android.support.v4:autocompleteSuggestionBoxPlacement}</code></td><td>determines the suggestion box placement for autocomplete</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteSuggestionMode android.support.v4:autocompleteSuggestionMode}</code></td><td>determines the suggestion mode for autocomplete</td></tr>
            <tr><td><code>{@link #SfAutoComplete_autocompleteText android.support.v4:autocompleteText}</code></td><td>        text value of autocomplete</td></tr>
            <tr><td><code>{@link #SfAutoComplete_autocompleteTextColor android.support.v4:autocompleteTextColor}</code></td><td>        text colot of autoocmplete text</td></tr>
            <tr><td><code>{@link #SfAutoComplete_autocompleteTextSize android.support.v4:autocompleteTextSize}</code></td><td>        size of autocomplete text</td></tr>
+           <tr><td><code>{@link #SfAutoComplete_autocompleteTokensWrapMode android.support.v4:autocompleteTokensWrapMode}</code></td><td>determines the token wrap mode for autocomplete</td></tr>
            <tr><td><code>{@link #SfAutoComplete_autocompleteWatermark android.support.v4:autocompleteWatermark}</code></td><td>        hint text of autocomplete</td></tr>
            <tr><td><code>{@link #SfAutoComplete_autocompleteWatermarkColor android.support.v4:autocompleteWatermarkColor}</code></td><td>        hint color of autocomplete</td></tr>
            </table>
            @see #SfAutoComplete_autocompleteBorderColor
+           @see #SfAutoComplete_autocompleteClearButtonColor
+           @see #SfAutoComplete_autocompleteDisplayMemberPath
+           @see #SfAutoComplete_autocompleteDropDownBackgroundColor
+           @see #SfAutoComplete_autocompleteDropDownCornerRadius
+           @see #SfAutoComplete_autocompleteDropDownFooterViewHeight
+           @see #SfAutoComplete_autocompleteDropDownHeaderViewHeight
+           @see #SfAutoComplete_autocompleteDropDownItemHeight
+           @see #SfAutoComplete_autocompleteDropDownOpen
+           @see #SfAutoComplete_autocompleteDropDownTextColor
+           @see #SfAutoComplete_autocompleteDropDownTextSize
+           @see #SfAutoComplete_autocompleteEnableSelectionIndicator
+           @see #SfAutoComplete_autocompleteHighlightedTextColor
+           @see #SfAutoComplete_autocompleteIgnoreDiacritic
+           @see #SfAutoComplete_autocompleteImageMemberPath
+           @see #SfAutoComplete_autocompleteIndicatorText
+           @see #SfAutoComplete_autocompleteIndicatorTextColor
+           @see #SfAutoComplete_autocompleteIndicatorTextSize
+           @see #SfAutoComplete_autocompleteIsFocused
+           @see #SfAutoComplete_autocompleteIsSelectedItemsVisibleInDropDown
+           @see #SfAutoComplete_autocompleteLoadMoreText
+           @see #SfAutoComplete_autocompleteMaximumDropDownHeight
+           @see #SfAutoComplete_autocompleteMaximumSuggestion
+           @see #SfAutoComplete_autocompleteMinimumPrefixCharacters
+           @see #SfAutoComplete_autocompleteMode
+           @see #SfAutoComplete_autocompleteMultiSelectMode
+           @see #SfAutoComplete_autocompleteNoResultsFoundText
+           @see #SfAutoComplete_autocompletePopUpDelay
+           @see #SfAutoComplete_autocompleteSelectedIndex
            @see #SfAutoComplete_autocompleteShowBorder
            @see #SfAutoComplete_autocompleteShowClearButton
+           @see #SfAutoComplete_autocompleteShowDropDownFooterView
+           @see #SfAutoComplete_autocompleteShowDropDownHeaderView
+           @see #SfAutoComplete_autocompleteShowSuggestionsOnFocus
+           @see #SfAutoComplete_autocompleteSuggestionBoxPlacement
+           @see #SfAutoComplete_autocompleteSuggestionMode
            @see #SfAutoComplete_autocompleteText
            @see #SfAutoComplete_autocompleteTextColor
            @see #SfAutoComplete_autocompleteTextSize
+           @see #SfAutoComplete_autocompleteTokensWrapMode
            @see #SfAutoComplete_autocompleteWatermark
            @see #SfAutoComplete_autocompleteWatermarkColor
          */
         public static final int[] SfAutoComplete = {
-            0x7f010221, 0x7f010222, 0x7f010223, 0x7f010224,
-            0x7f010225, 0x7f010226, 0x7f010227, 0x7f010228
+            0x7f01019b, 0x7f01019c, 0x7f01019d, 0x7f01019e,
+            0x7f01019f, 0x7f0101a0, 0x7f0101a1, 0x7f0101a2,
+            0x7f0101a3, 0x7f0101a4, 0x7f0101a5, 0x7f0101a6,
+            0x7f0101a7, 0x7f0101a8, 0x7f0101a9, 0x7f0101aa,
+            0x7f0101ab, 0x7f0101ac, 0x7f0101ad, 0x7f0101ae,
+            0x7f0101af, 0x7f0101b0, 0x7f0101b1, 0x7f0101b2,
+            0x7f0101b3, 0x7f0101b4, 0x7f0101b5, 0x7f0101b6,
+            0x7f0101b7, 0x7f0101b8, 0x7f0101b9, 0x7f0101ba,
+            0x7f0101bb, 0x7f0101bc, 0x7f0101bd, 0x7f0101be,
+            0x7f0101bf, 0x7f0101c0, 0x7f0101c1, 0x7f0101c2,
+            0x7f0101c3, 0x7f0101c4
         };
         /**
           <p>
@@ -11845,6 +10967,467 @@ containing a value of this type.
           @attr name android.support.v4:autocompleteBorderColor
         */
         public static int SfAutoComplete_autocompleteBorderColor = 4;
+        /**
+          <p>
+          @attr description
+          clear button color of autocomplete
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteClearButtonColor
+        */
+        public static int SfAutoComplete_autocompleteClearButtonColor = 25;
+        /**
+          <p>
+          @attr description
+          specifies the property path with which filtering is done on business objects
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDisplayMemberPath
+        */
+        public static int SfAutoComplete_autocompleteDisplayMemberPath = 13;
+        /**
+          <p>
+          @attr description
+          drop down background color of autocomplete
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDropDownBackgroundColor
+        */
+        public static int SfAutoComplete_autocompleteDropDownBackgroundColor = 18;
+        /**
+          <p>
+          @attr description
+          determines the drop down corner radius of autocomplete 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDropDownCornerRadius
+        */
+        public static int SfAutoComplete_autocompleteDropDownCornerRadius = 34;
+        /**
+          <p>
+          @attr description
+          determines the drop down footer view height of autocomplete
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDropDownFooterViewHeight
+        */
+        public static int SfAutoComplete_autocompleteDropDownFooterViewHeight = 36;
+        /**
+          <p>
+          @attr description
+          determines the drop down header view height of autocomplete 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDropDownHeaderViewHeight
+        */
+        public static int SfAutoComplete_autocompleteDropDownHeaderViewHeight = 35;
+        /**
+          <p>
+          @attr description
+          determines the height of the drop down of autocomplete 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDropDownItemHeight
+        */
+        public static int SfAutoComplete_autocompleteDropDownItemHeight = 33;
+        /**
+          <p>
+          @attr description
+          determine whether drop down has to be shown or not
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDropDownOpen
+        */
+        public static int SfAutoComplete_autocompleteDropDownOpen = 8;
+        /**
+          <p>
+          @attr description
+          drop down text color of autocomplete
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDropDownTextColor
+        */
+        public static int SfAutoComplete_autocompleteDropDownTextColor = 19;
+        /**
+          <p>
+          @attr description
+          determines the size of the drop down text of autocomplete
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteDropDownTextSize
+        */
+        public static int SfAutoComplete_autocompleteDropDownTextSize = 21;
+        /**
+          <p>
+          @attr description
+          determine whether selection indicator has to be shown or not
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteEnableSelectionIndicator
+        */
+        public static int SfAutoComplete_autocompleteEnableSelectionIndicator = 14;
+        /**
+          <p>
+          @attr description
+          Highlighted text color of autocomplete
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteHighlightedTextColor
+        */
+        public static int SfAutoComplete_autocompleteHighlightedTextColor = 31;
+        /**
+          <p>
+          @attr description
+          determine whether the letters containing diacritics has to be shown or not
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteIgnoreDiacritic
+        */
+        public static int SfAutoComplete_autocompleteIgnoreDiacritic = 26;
+        /**
+          <p>
+          @attr description
+          determines the image member path of autocomplete 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteImageMemberPath
+        */
+        public static int SfAutoComplete_autocompleteImageMemberPath = 22;
+        /**
+          <p>
+          @attr description
+          determine the indicator text of autocomplete 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteIndicatorText
+        */
+        public static int SfAutoComplete_autocompleteIndicatorText = 15;
+        /**
+          <p>
+          @attr description
+          indicator text color of autocomplete
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteIndicatorTextColor
+        */
+        public static int SfAutoComplete_autocompleteIndicatorTextColor = 16;
+        /**
+          <p>
+          @attr description
+          determines the size of the Indicator text of autocomplete 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteIndicatorTextSize
+        */
+        public static int SfAutoComplete_autocompleteIndicatorTextSize = 32;
+        /**
+          <p>
+          @attr description
+          determine whether the autocomplete has to be focused or not
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteIsFocused
+        */
+        public static int SfAutoComplete_autocompleteIsFocused = 27;
+        /**
+          <p>
+          @attr description
+          determine whether the selected items has to be shown in the drop down or not
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteIsSelectedItemsVisibleInDropDown
+        */
+        public static int SfAutoComplete_autocompleteIsSelectedItemsVisibleInDropDown = 30;
+        /**
+          <p>
+          @attr description
+          determines the load more text of autocomplete 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteLoadMoreText
+        */
+        public static int SfAutoComplete_autocompleteLoadMoreText = 28;
+        /**
+          <p>
+          @attr description
+          determines the maximum height of the drop down of autocomplete
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteMaximumDropDownHeight
+        */
+        public static int SfAutoComplete_autocompleteMaximumDropDownHeight = 20;
+        /**
+          <p>
+          @attr description
+          determine the maximum suggestion of autocomplete
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteMaximumSuggestion
+        */
+        public static int SfAutoComplete_autocompleteMaximumSuggestion = 9;
+        /**
+          <p>
+          @attr description
+          matches can be filtered and displayed after a few character entries
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteMinimumPrefixCharacters
+        */
+        public static int SfAutoComplete_autocompleteMinimumPrefixCharacters = 17;
+        /**
+          <p>
+          @attr description
+          determines the mode for autocomplete
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>suggest</code></td><td>0</td><td></td></tr>
+<tr><td><code>append</code></td><td>1</td><td></td></tr>
+<tr><td><code>suggestAppend</code></td><td>2</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteMode
+        */
+        public static int SfAutoComplete_autocompleteMode = 41;
+        /**
+          <p>
+          @attr description
+          determines the multi select mode for autocomplete
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>token</code></td><td>1</td><td></td></tr>
+<tr><td><code>delimiter</code></td><td>2</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteMultiSelectMode
+        */
+        public static int SfAutoComplete_autocompleteMultiSelectMode = 40;
+        /**
+          <p>
+          @attr description
+          determines the no results found text of autocomplete 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteNoResultsFoundText
+        */
+        public static int SfAutoComplete_autocompleteNoResultsFoundText = 29;
+        /**
+          <p>
+          @attr description
+          determine the popup delay in autocomplete
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompletePopUpDelay
+        */
+        public static int SfAutoComplete_autocompletePopUpDelay = 12;
+        /**
+          <p>
+          @attr description
+          determine the index of the selected item in autocomplete
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteSelectedIndex
+        */
+        public static int SfAutoComplete_autocompleteSelectedIndex = 10;
         /**
           <p>
           @attr description
@@ -11877,6 +11460,100 @@ containing a value of this type.
           @attr name android.support.v4:autocompleteShowClearButton
         */
         public static int SfAutoComplete_autocompleteShowClearButton = 1;
+        /**
+          <p>
+          @attr description
+          determine whether the drop down footer view has to be shown or not
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteShowDropDownFooterView
+        */
+        public static int SfAutoComplete_autocompleteShowDropDownFooterView = 24;
+        /**
+          <p>
+          @attr description
+          determine whether the drop down header view has to be shown or not
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteShowDropDownHeaderView
+        */
+        public static int SfAutoComplete_autocompleteShowDropDownHeaderView = 23;
+        /**
+          <p>
+          @attr description
+          determine whether suggestion has to be shown or not when autocomplete is on focus
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteShowSuggestionsOnFocus
+        */
+        public static int SfAutoComplete_autocompleteShowSuggestionsOnFocus = 11;
+        /**
+          <p>
+          @attr description
+          determines the suggestion box placement for autocomplete
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bottom</code></td><td>0</td><td></td></tr>
+<tr><td><code>top</code></td><td>1</td><td></td></tr>
+<tr><td><code>none</code></td><td>2</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteSuggestionBoxPlacement
+        */
+        public static int SfAutoComplete_autocompleteSuggestionBoxPlacement = 38;
+        /**
+          <p>
+          @attr description
+          determines the suggestion mode for autocomplete
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>startsWith</code></td><td>0</td><td></td></tr>
+<tr><td><code>startsWithCaseSensitive</code></td><td>1</td><td></td></tr>
+<tr><td><code>contains</code></td><td>2</td><td></td></tr>
+<tr><td><code>containsWithCaseSensitive</code></td><td>3</td><td></td></tr>
+<tr><td><code>endsWith</code></td><td>4</td><td></td></tr>
+<tr><td><code>endsWithCaseSensitive</code></td><td>5</td><td></td></tr>
+<tr><td><code>equals</code></td><td>6</td><td></td></tr>
+<tr><td><code>equalsWithCaseSensitive</code></td><td>7</td><td></td></tr>
+<tr><td><code>custom</code></td><td>8</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteSuggestionMode
+        */
+        public static int SfAutoComplete_autocompleteSuggestionMode = 37;
         /**
           <p>
           @attr description
@@ -11929,6 +11606,25 @@ containing a value of this type.
         /**
           <p>
           @attr description
+          determines the token wrap mode for autocomplete
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>wrap</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v4:autocompleteTokensWrapMode
+        */
+        public static int SfAutoComplete_autocompleteTokensWrapMode = 39;
+        /**
+          <p>
+          @attr description
                   hint text of autocomplete
 
 
@@ -11959,2566 +11655,6 @@ containing a value of this type.
           @attr name android.support.v4:autocompleteWatermarkColor
         */
         public static int SfAutoComplete_autocompleteWatermarkColor = 2;
-        /** Attributes that can be used with a SfCircularGauge.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularGaugeScaleDirection android.support.v4:circularGaugeScaleDirection}</code></td><td>Determines the scale direction for the scale .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleInterval android.support.v4:circularScaleInterval}</code></td><td>Determines the interval for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelOffset android.support.v4:circularScaleLabelOffset}</code></td><td> Determines the label offset for the scale .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelPostfix android.support.v4:circularScaleLabelPostfix}</code></td><td>Determines the postfix for the label of the gauge.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelPrefix android.support.v4:circularScaleLabelPrefix}</code></td><td>Determines the prefix for the label of the gauge.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelTextColor android.support.v4:circularScaleLabelTextColor}</code></td><td> Determines the label color for the scale .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelTextSize android.support.v4:circularScaleLabelTextSize}</code></td><td> Determines the label text size for the scale .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleMajorTickColor android.support.v4:circularScaleMajorTickColor}</code></td><td>Determines the major tick color for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleMajorTickOffset android.support.v4:circularScaleMajorTickOffset}</code></td><td>Determines the major tick offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleMaximumLabels android.support.v4:circularScaleMaximumLabels}</code></td><td> Determines the maximum labels for the scale .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTickColor android.support.v4:circularScaleMinorTickColor}</code></td><td>Determines the minor tick color for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTickOffset android.support.v4:circularScaleMinorTickOffset}</code></td><td>Determines the minor tick offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTicksPerInterval android.support.v4:circularScaleMinorTicksPerInterval}</code></td><td> Determines the minor ticks per interval for the scale .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeColor android.support.v4:circularScaleRangeColor}</code></td><td>Determines the range color for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeEndValue android.support.v4:circularScaleRangeEndValue}</code></td><td>Determines the range end value for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeOffset android.support.v4:circularScaleRangeOffset}</code></td><td>Determines the range offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeStartValue android.support.v4:circularScaleRangeStartValue}</code></td><td>Determines the range start value for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleShowLabels android.support.v4:circularScaleShowLabels}</code></td><td>Determines the label for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_circularScaleShowTicks android.support.v4:circularScaleShowTicks}</code></td><td>Determines the ticks for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_gaugeCircularCoefficient android.support.v4:gaugeCircularCoefficient}</code></td><td>Determines the circular coefficient for the gauge.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_gaugeHeaderAlignment android.support.v4:gaugeHeaderAlignment}</code></td><td>Determines the  header alignment for gauge</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_gaugeHorizontalHeaderPosition android.support.v4:gaugeHorizontalHeaderPosition}</code></td><td>Determines the  horizontal header posistion for gauge</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_gaugeText android.support.v4:gaugeText}</code></td><td>Determines the text for the label of the gauge.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_gaugeTextColor android.support.v4:gaugeTextColor}</code></td><td>Determines the text  color for the label of the gauge.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_gaugeTextSize android.support.v4:gaugeTextSize}</code></td><td>Determines the text  size for the label of the gauge.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_gaugeVerticalHeaderPosition android.support.v4:gaugeVerticalHeaderPosition}</code></td><td>Determines the  vertical header position for gauge</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_markerPointerColor android.support.v4:markerPointerColor}</code></td><td>Determines the marker pointer color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_markerPointerHeight android.support.v4:markerPointerHeight}</code></td><td>Determines the marker pointer height for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_markerPointerOffset android.support.v4:markerPointerOffset}</code></td><td>Determines the marker pointer offset for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_markerPointerValue android.support.v4:markerPointerValue}</code></td><td>Determines the marker pointer value for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_markerPointerWidth android.support.v4:markerPointerWidth}</code></td><td>Determines the marker pointer width for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_markerShape android.support.v4:markerShape}</code></td><td>Determines the marker shapes for the pointer .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerColor android.support.v4:needlePointerColor}</code></td><td>Determines the needle pointer color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobColor android.support.v4:needlePointerKnobColor}</code></td><td>Determines the needle pointer knob color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobRadius android.support.v4:needlePointerKnobRadius}</code></td><td>Determines the needle pointer knob radius for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobStrokeColor android.support.v4:needlePointerKnobStrokeColor}</code></td><td>Determines the needle pointer knob stroke color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobStrokeWidth android.support.v4:needlePointerKnobStrokeWidth}</code></td><td>Determines the needle pointer knob stroke width for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerLengthFactor android.support.v4:needlePointerLengthFactor}</code></td><td>Determines the needle pointer length factor for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerTailColor android.support.v4:needlePointerTailColor}</code></td><td>Determines the needle pointer tail color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerTailLengthFactor android.support.v4:needlePointerTailLengthFactor}</code></td><td>Determines the needle pointer tail length factor for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerTailStrokeColor android.support.v4:needlePointerTailStrokeColor}</code></td><td>Determines the needle pointer tail stroke color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerTailStrokeWidth android.support.v4:needlePointerTailStrokeWidth}</code></td><td>Determines the needle pointer tail stroke width for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerType android.support.v4:needlePointerType}</code></td><td>Determines the needle pointer type for the pointer .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerValue android.support.v4:needlePointerValue}</code></td><td>Determines the needle pointer value for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_needlePointerWidth android.support.v4:needlePointerWidth}</code></td><td>Determines the needle pointer width for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangeInnerEndOffset android.support.v4:rangeInnerEndOffset}</code></td><td>Determines the range inner end offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangeInnerStartOffset android.support.v4:rangeInnerStartOffset}</code></td><td>Determines the range inner start offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangeOuterEndOffset android.support.v4:rangeOuterEndOffset}</code></td><td>Determines the range outer end offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangeOuterStartOffset android.support.v4:rangeOuterStartOffset}</code></td><td>Determines the range outer start offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangePointerCap android.support.v4:rangePointerCap}</code></td><td>Determines the range pointer caps for the pointer .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangePointerColor android.support.v4:rangePointerColor}</code></td><td>Determines the range pointer color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangePointerEndOffset android.support.v4:rangePointerEndOffset}</code></td><td>Determines the range pointer end offset for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangePointerOffset android.support.v4:rangePointerOffset}</code></td><td>Determines the range pointer offset for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangePointerStartOffset android.support.v4:rangePointerStartOffset}</code></td><td>Determines the range pointer start offset for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangePointerStartValue android.support.v4:rangePointerStartValue}</code></td><td>Determines the range pointer start value for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangePointerValue android.support.v4:rangePointerValue}</code></td><td>Determines the range pointer value for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangePointerWidth android.support.v4:rangePointerWidth}</code></td><td>Determines the range pointer width for the pointer.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_rangeWidth android.support.v4:rangeWidth}</code></td><td>Determines the range width for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleAutoAngle android.support.v4:scaleAutoAngle}</code></td><td>Determines the auto angle for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleAutoInterval android.support.v4:scaleAutoInterval}</code></td><td>Determines the auto interval for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleEndAngle android.support.v4:scaleEndAngle}</code></td><td> Determines the end angle for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleEndOffset android.support.v4:scaleEndOffset}</code></td><td>Determines the scale end offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleEndValue android.support.v4:scaleEndValue}</code></td><td>Determines the maximum for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickEndOffset android.support.v4:scaleMajorTickEndOffset}</code></td><td>Determines the major tick end offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickSize android.support.v4:scaleMajorTickSize}</code></td><td>Determines the major tick size for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickStartOffset android.support.v4:scaleMajorTickStartOffset}</code></td><td>Determines the major tick start offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickWidth android.support.v4:scaleMajorTickWidth}</code></td><td>Determines the major tick width for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickEndOffset android.support.v4:scaleMinorTickEndOffset}</code></td><td>Determines the minor tick end offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickSize android.support.v4:scaleMinorTickSize}</code></td><td>Determines the minor tick size for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickStartOffset android.support.v4:scaleMinorTickStartOffset}</code></td><td>Determines the minor tick start offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickWidth android.support.v4:scaleMinorTickWidth}</code></td><td>Determines the minor tick width for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleNumberofDecimalDigits android.support.v4:scaleNumberofDecimalDigits}</code></td><td>Determines the number of decimal digits for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleRadiusFactor android.support.v4:scaleRadiusFactor}</code></td><td>Determines the radius factor for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleRimColor android.support.v4:scaleRimColor}</code></td><td> Determines the rim color for the scale .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleRimWidth android.support.v4:scaleRimWidth}</code></td><td> Determines the rim width for the scale .</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleShowFirstLabel android.support.v4:scaleShowFirstLabel}</code></td><td>Determines the first label behaviour for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleShowLastLabel android.support.v4:scaleShowLastLabel}</code></td><td>Determines the last label behaviour for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleShowRim android.support.v4:scaleShowRim}</code></td><td>Determines the rim for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleStartAngle android.support.v4:scaleStartAngle}</code></td><td>Determines the start angle for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleStartOffset android.support.v4:scaleStartOffset}</code></td><td>Determines the scale start offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfCircularGauge_scaleStartValue android.support.v4:scaleStartValue}</code></td><td>Determines the minimum for the scale.</td></tr>
-           </table>
-           @see #SfCircularGauge_circularGaugeScaleDirection
-           @see #SfCircularGauge_circularScaleInterval
-           @see #SfCircularGauge_circularScaleLabelOffset
-           @see #SfCircularGauge_circularScaleLabelPostfix
-           @see #SfCircularGauge_circularScaleLabelPrefix
-           @see #SfCircularGauge_circularScaleLabelTextColor
-           @see #SfCircularGauge_circularScaleLabelTextSize
-           @see #SfCircularGauge_circularScaleMajorTickColor
-           @see #SfCircularGauge_circularScaleMajorTickOffset
-           @see #SfCircularGauge_circularScaleMaximumLabels
-           @see #SfCircularGauge_circularScaleMinorTickColor
-           @see #SfCircularGauge_circularScaleMinorTickOffset
-           @see #SfCircularGauge_circularScaleMinorTicksPerInterval
-           @see #SfCircularGauge_circularScaleRangeColor
-           @see #SfCircularGauge_circularScaleRangeEndValue
-           @see #SfCircularGauge_circularScaleRangeOffset
-           @see #SfCircularGauge_circularScaleRangeStartValue
-           @see #SfCircularGauge_circularScaleShowLabels
-           @see #SfCircularGauge_circularScaleShowTicks
-           @see #SfCircularGauge_gaugeCircularCoefficient
-           @see #SfCircularGauge_gaugeHeaderAlignment
-           @see #SfCircularGauge_gaugeHorizontalHeaderPosition
-           @see #SfCircularGauge_gaugeText
-           @see #SfCircularGauge_gaugeTextColor
-           @see #SfCircularGauge_gaugeTextSize
-           @see #SfCircularGauge_gaugeVerticalHeaderPosition
-           @see #SfCircularGauge_markerPointerColor
-           @see #SfCircularGauge_markerPointerHeight
-           @see #SfCircularGauge_markerPointerOffset
-           @see #SfCircularGauge_markerPointerValue
-           @see #SfCircularGauge_markerPointerWidth
-           @see #SfCircularGauge_markerShape
-           @see #SfCircularGauge_needlePointerColor
-           @see #SfCircularGauge_needlePointerKnobColor
-           @see #SfCircularGauge_needlePointerKnobRadius
-           @see #SfCircularGauge_needlePointerKnobStrokeColor
-           @see #SfCircularGauge_needlePointerKnobStrokeWidth
-           @see #SfCircularGauge_needlePointerLengthFactor
-           @see #SfCircularGauge_needlePointerTailColor
-           @see #SfCircularGauge_needlePointerTailLengthFactor
-           @see #SfCircularGauge_needlePointerTailStrokeColor
-           @see #SfCircularGauge_needlePointerTailStrokeWidth
-           @see #SfCircularGauge_needlePointerType
-           @see #SfCircularGauge_needlePointerValue
-           @see #SfCircularGauge_needlePointerWidth
-           @see #SfCircularGauge_rangeInnerEndOffset
-           @see #SfCircularGauge_rangeInnerStartOffset
-           @see #SfCircularGauge_rangeOuterEndOffset
-           @see #SfCircularGauge_rangeOuterStartOffset
-           @see #SfCircularGauge_rangePointerCap
-           @see #SfCircularGauge_rangePointerColor
-           @see #SfCircularGauge_rangePointerEndOffset
-           @see #SfCircularGauge_rangePointerOffset
-           @see #SfCircularGauge_rangePointerStartOffset
-           @see #SfCircularGauge_rangePointerStartValue
-           @see #SfCircularGauge_rangePointerValue
-           @see #SfCircularGauge_rangePointerWidth
-           @see #SfCircularGauge_rangeWidth
-           @see #SfCircularGauge_scaleAutoAngle
-           @see #SfCircularGauge_scaleAutoInterval
-           @see #SfCircularGauge_scaleEndAngle
-           @see #SfCircularGauge_scaleEndOffset
-           @see #SfCircularGauge_scaleEndValue
-           @see #SfCircularGauge_scaleMajorTickEndOffset
-           @see #SfCircularGauge_scaleMajorTickSize
-           @see #SfCircularGauge_scaleMajorTickStartOffset
-           @see #SfCircularGauge_scaleMajorTickWidth
-           @see #SfCircularGauge_scaleMinorTickEndOffset
-           @see #SfCircularGauge_scaleMinorTickSize
-           @see #SfCircularGauge_scaleMinorTickStartOffset
-           @see #SfCircularGauge_scaleMinorTickWidth
-           @see #SfCircularGauge_scaleNumberofDecimalDigits
-           @see #SfCircularGauge_scaleRadiusFactor
-           @see #SfCircularGauge_scaleRimColor
-           @see #SfCircularGauge_scaleRimWidth
-           @see #SfCircularGauge_scaleShowFirstLabel
-           @see #SfCircularGauge_scaleShowLastLabel
-           @see #SfCircularGauge_scaleShowRim
-           @see #SfCircularGauge_scaleStartAngle
-           @see #SfCircularGauge_scaleStartOffset
-           @see #SfCircularGauge_scaleStartValue
-         */
-        public static final int[] SfCircularGauge = {
-            0x7f01019b, 0x7f01019c, 0x7f01019d, 0x7f01019e,
-            0x7f01019f, 0x7f0101a0, 0x7f0101a1, 0x7f0101a2,
-            0x7f0101a3, 0x7f0101a4, 0x7f0101a5, 0x7f0101a6,
-            0x7f0101a7, 0x7f0101a8, 0x7f0101a9, 0x7f0101aa,
-            0x7f0101ab, 0x7f0101ac, 0x7f0101ad, 0x7f0101ae,
-            0x7f0101af, 0x7f0101b0, 0x7f0101b1, 0x7f0101b2,
-            0x7f0101b3, 0x7f0101b4, 0x7f0101b5, 0x7f0101b6,
-            0x7f0101b7, 0x7f0101b8, 0x7f0101b9, 0x7f0101ba,
-            0x7f0101bb, 0x7f0101bc, 0x7f0101bd, 0x7f0101be,
-            0x7f0101bf, 0x7f0101c0, 0x7f0101c1, 0x7f0101c2,
-            0x7f0101c3, 0x7f0101c4, 0x7f0101c5, 0x7f0101c6,
-            0x7f0101c7, 0x7f0101c8, 0x7f0101c9, 0x7f0101ca,
-            0x7f0101cb, 0x7f0101cc, 0x7f0101cd, 0x7f0101ce,
-            0x7f0101cf, 0x7f0101d0, 0x7f0101d1, 0x7f0101d2,
-            0x7f0101d3, 0x7f0101d4, 0x7f0101d5, 0x7f0101d6,
-            0x7f0101d7, 0x7f0101d8, 0x7f0101d9, 0x7f0101da,
-            0x7f0101db, 0x7f0101dc, 0x7f0101dd, 0x7f0101de,
-            0x7f0101df, 0x7f0101e0, 0x7f0101e1, 0x7f0101e2,
-            0x7f0101e3, 0x7f0101e4, 0x7f0101e5, 0x7f0101e6,
-            0x7f0101e7, 0x7f0101e8, 0x7f0101e9, 0x7f0101ea,
-            0x7f0101eb
-        };
-        /**
-          <p>
-          @attr description
-          Determines the scale direction for the scale .
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>clockwise</code></td><td>0</td><td></td></tr>
-<tr><td><code>anticlockwise</code></td><td>1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularGaugeScaleDirection
-        */
-        public static int SfCircularGauge_circularGaugeScaleDirection = 7;
-        /**
-          <p>
-          @attr description
-          Determines the interval for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleInterval
-        */
-        public static int SfCircularGauge_circularScaleInterval = 5;
-        /**
-          <p>
-          @attr description
-           Determines the label offset for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleLabelOffset
-        */
-        public static int SfCircularGauge_circularScaleLabelOffset = 22;
-        /**
-          <p>
-          @attr description
-          Determines the postfix for the label of the gauge.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleLabelPostfix
-        */
-        public static int SfCircularGauge_circularScaleLabelPostfix = 20;
-        /**
-          <p>
-          @attr description
-          Determines the prefix for the label of the gauge.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleLabelPrefix
-        */
-        public static int SfCircularGauge_circularScaleLabelPrefix = 19;
-        /**
-          <p>
-          @attr description
-           Determines the label color for the scale . 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleLabelTextColor
-        */
-        public static int SfCircularGauge_circularScaleLabelTextColor = 23;
-        /**
-          <p>
-          @attr description
-           Determines the label text size for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleLabelTextSize
-        */
-        public static int SfCircularGauge_circularScaleLabelTextSize = 21;
-        /**
-          <p>
-          @attr description
-          Determines the major tick color for the scale.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleMajorTickColor
-        */
-        public static int SfCircularGauge_circularScaleMajorTickColor = 25;
-        /**
-          <p>
-          @attr description
-          Determines the major tick offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleMajorTickOffset
-        */
-        public static int SfCircularGauge_circularScaleMajorTickOffset = 27;
-        /**
-          <p>
-          @attr description
-           Determines the maximum labels for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleMaximumLabels
-        */
-        public static int SfCircularGauge_circularScaleMaximumLabels = 39;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick color for the scale.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleMinorTickColor
-        */
-        public static int SfCircularGauge_circularScaleMinorTickColor = 31;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleMinorTickOffset
-        */
-        public static int SfCircularGauge_circularScaleMinorTickOffset = 33;
-        /**
-          <p>
-          @attr description
-           Determines the minor ticks per interval for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleMinorTicksPerInterval
-        */
-        public static int SfCircularGauge_circularScaleMinorTicksPerInterval = 38;
-        /**
-          <p>
-          @attr description
-          Determines the range color for the scale.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleRangeColor
-        */
-        public static int SfCircularGauge_circularScaleRangeColor = 49;
-        /**
-          <p>
-          @attr description
-          Determines the range end value for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleRangeEndValue
-        */
-        public static int SfCircularGauge_circularScaleRangeEndValue = 46;
-        /**
-          <p>
-          @attr description
-          Determines the range offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleRangeOffset
-        */
-        public static int SfCircularGauge_circularScaleRangeOffset = 48;
-        /**
-          <p>
-          @attr description
-          Determines the range start value for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleRangeStartValue
-        */
-        public static int SfCircularGauge_circularScaleRangeStartValue = 45;
-        /**
-          <p>
-          @attr description
-          Determines the label for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleShowLabels
-        */
-        public static int SfCircularGauge_circularScaleShowLabels = 40;
-        /**
-          <p>
-          @attr description
-          Determines the ticks for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:circularScaleShowTicks
-        */
-        public static int SfCircularGauge_circularScaleShowTicks = 41;
-        /**
-          <p>
-          @attr description
-          Determines the circular coefficient for the gauge.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:gaugeCircularCoefficient
-        */
-        public static int SfCircularGauge_gaugeCircularCoefficient = 0;
-        /**
-          <p>
-          @attr description
-          Determines the  header alignment for gauge
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>gaugeLeft</code></td><td>0</td><td></td></tr>
-<tr><td><code>gaugeRight</code></td><td>1</td><td></td></tr>
-<tr><td><code>gaugeTop</code></td><td>2</td><td></td></tr>
-<tr><td><code>gaugeCenter</code></td><td>3</td><td></td></tr>
-<tr><td><code>gaugeBottom</code></td><td>4</td><td></td></tr>
-<tr><td><code>gaugeTopLeft</code></td><td>5</td><td></td></tr>
-<tr><td><code>gaugeTopRight</code></td><td>6</td><td></td></tr>
-<tr><td><code>gaugeBottomLeft</code></td><td>7</td><td></td></tr>
-<tr><td><code>gaugeBottomRight</code></td><td>8</td><td></td></tr>
-<tr><td><code>gaugeCustom</code></td><td>9</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:gaugeHeaderAlignment
-        */
-        public static int SfCircularGauge_gaugeHeaderAlignment = 13;
-        /**
-          <p>
-          @attr description
-          Determines the  horizontal header posistion for gauge
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>gaugeHorizontalHeaderStart</code></td><td>0</td><td></td></tr>
-<tr><td><code>gaugeHorizontalHeaderCenter</code></td><td>1</td><td></td></tr>
-<tr><td><code>gaugeHorizontalHeaderEnd</code></td><td>2</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:gaugeHorizontalHeaderPosition
-        */
-        public static int SfCircularGauge_gaugeHorizontalHeaderPosition = 8;
-        /**
-          <p>
-          @attr description
-          Determines the text for the label of the gauge.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:gaugeText
-        */
-        public static int SfCircularGauge_gaugeText = 10;
-        /**
-          <p>
-          @attr description
-          Determines the text  color for the label of the gauge.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:gaugeTextColor
-        */
-        public static int SfCircularGauge_gaugeTextColor = 12;
-        /**
-          <p>
-          @attr description
-          Determines the text  size for the label of the gauge.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:gaugeTextSize
-        */
-        public static int SfCircularGauge_gaugeTextSize = 11;
-        /**
-          <p>
-          @attr description
-          Determines the  vertical header position for gauge
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>gaugeVerticalHeaderStart</code></td><td>0</td><td></td></tr>
-<tr><td><code>gaugeVerticalHeaderCenter</code></td><td>1</td><td></td></tr>
-<tr><td><code>gaugeVerticalHeaderEnd</code></td><td>2</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:gaugeVerticalHeaderPosition
-        */
-        public static int SfCircularGauge_gaugeVerticalHeaderPosition = 9;
-        /**
-          <p>
-          @attr description
-          Determines the marker pointer color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:markerPointerColor
-        */
-        public static int SfCircularGauge_markerPointerColor = 77;
-        /**
-          <p>
-          @attr description
-          Determines the marker pointer height for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:markerPointerHeight
-        */
-        public static int SfCircularGauge_markerPointerHeight = 78;
-        /**
-          <p>
-          @attr description
-          Determines the marker pointer offset for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:markerPointerOffset
-        */
-        public static int SfCircularGauge_markerPointerOffset = 80;
-        /**
-          <p>
-          @attr description
-          Determines the marker pointer value for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:markerPointerValue
-        */
-        public static int SfCircularGauge_markerPointerValue = 75;
-        /**
-          <p>
-          @attr description
-          Determines the marker pointer width for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:markerPointerWidth
-        */
-        public static int SfCircularGauge_markerPointerWidth = 79;
-        /**
-          <p>
-          @attr description
-          Determines the marker shapes for the pointer .
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>triangle</code></td><td>0</td><td></td></tr>
-<tr><td><code>rectangle</code></td><td>1</td><td></td></tr>
-<tr><td><code>circle</code></td><td>2</td><td></td></tr>
-<tr><td><code>diamond</code></td><td>3</td><td></td></tr>
-<tr><td><code>invertedTriangle</code></td><td>4</td><td></td></tr>
-<tr><td><code>image</code></td><td>5</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:markerShape
-        */
-        public static int SfCircularGauge_markerShape = 76;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerColor
-        */
-        public static int SfCircularGauge_needlePointerColor = 56;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer knob color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerKnobColor
-        */
-        public static int SfCircularGauge_needlePointerKnobColor = 61;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer knob radius for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerKnobRadius
-        */
-        public static int SfCircularGauge_needlePointerKnobRadius = 59;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer knob stroke color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerKnobStrokeColor
-        */
-        public static int SfCircularGauge_needlePointerKnobStrokeColor = 60;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer knob stroke width for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerKnobStrokeWidth
-        */
-        public static int SfCircularGauge_needlePointerKnobStrokeWidth = 62;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer length factor for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerLengthFactor
-        */
-        public static int SfCircularGauge_needlePointerLengthFactor = 58;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer tail color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerTailColor
-        */
-        public static int SfCircularGauge_needlePointerTailColor = 63;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer tail length factor for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerTailLengthFactor
-        */
-        public static int SfCircularGauge_needlePointerTailLengthFactor = 64;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer tail stroke color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerTailStrokeColor
-        */
-        public static int SfCircularGauge_needlePointerTailStrokeColor = 66;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer tail stroke width for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerTailStrokeWidth
-        */
-        public static int SfCircularGauge_needlePointerTailStrokeWidth = 65;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer type for the pointer .
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>bar</code></td><td>0</td><td></td></tr>
-<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerType
-        */
-        public static int SfCircularGauge_needlePointerType = 55;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer value for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerValue
-        */
-        public static int SfCircularGauge_needlePointerValue = 54;
-        /**
-          <p>
-          @attr description
-          Determines the needle pointer width for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:needlePointerWidth
-        */
-        public static int SfCircularGauge_needlePointerWidth = 57;
-        /**
-          <p>
-          @attr description
-          Determines the range inner end offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeInnerEndOffset
-        */
-        public static int SfCircularGauge_rangeInnerEndOffset = 51;
-        /**
-          <p>
-          @attr description
-          Determines the range inner start offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeInnerStartOffset
-        */
-        public static int SfCircularGauge_rangeInnerStartOffset = 50;
-        /**
-          <p>
-          @attr description
-          Determines the range outer end offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeOuterEndOffset
-        */
-        public static int SfCircularGauge_rangeOuterEndOffset = 53;
-        /**
-          <p>
-          @attr description
-          Determines the range outer start offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeOuterStartOffset
-        */
-        public static int SfCircularGauge_rangeOuterStartOffset = 52;
-        /**
-          <p>
-          @attr description
-          Determines the range pointer caps for the pointer .
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>start</code></td><td>0</td><td></td></tr>
-<tr><td><code>end</code></td><td>1</td><td></td></tr>
-<tr><td><code>both</code></td><td>2</td><td></td></tr>
-<tr><td><code>none</code></td><td>3</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangePointerCap
-        */
-        public static int SfCircularGauge_rangePointerCap = 74;
-        /**
-          <p>
-          @attr description
-          Determines the range pointer color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangePointerColor
-        */
-        public static int SfCircularGauge_rangePointerColor = 69;
-        /**
-          <p>
-          @attr description
-          Determines the range pointer end offset for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangePointerEndOffset
-        */
-        public static int SfCircularGauge_rangePointerEndOffset = 73;
-        /**
-          <p>
-          @attr description
-          Determines the range pointer offset for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangePointerOffset
-        */
-        public static int SfCircularGauge_rangePointerOffset = 71;
-        /**
-          <p>
-          @attr description
-          Determines the range pointer start offset for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangePointerStartOffset
-        */
-        public static int SfCircularGauge_rangePointerStartOffset = 72;
-        /**
-          <p>
-          @attr description
-          Determines the range pointer start value for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangePointerStartValue
-        */
-        public static int SfCircularGauge_rangePointerStartValue = 67;
-        /**
-          <p>
-          @attr description
-          Determines the range pointer value for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangePointerValue
-        */
-        public static int SfCircularGauge_rangePointerValue = 68;
-        /**
-          <p>
-          @attr description
-          Determines the range pointer width for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangePointerWidth
-        */
-        public static int SfCircularGauge_rangePointerWidth = 70;
-        /**
-          <p>
-          @attr description
-          Determines the range width for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeWidth
-        */
-        public static int SfCircularGauge_rangeWidth = 47;
-        /**
-          <p>
-          @attr description
-          Determines the auto angle for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleAutoAngle
-        */
-        public static int SfCircularGauge_scaleAutoAngle = 18;
-        /**
-          <p>
-          @attr description
-          Determines the auto interval for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleAutoInterval
-        */
-        public static int SfCircularGauge_scaleAutoInterval = 6;
-        /**
-          <p>
-          @attr description
-           Determines the end angle for the scale. 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleEndAngle
-        */
-        public static int SfCircularGauge_scaleEndAngle = 2;
-        /**
-          <p>
-          @attr description
-          Determines the scale end offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleEndOffset
-        */
-        public static int SfCircularGauge_scaleEndOffset = 17;
-        /**
-          <p>
-          @attr description
-          Determines the maximum for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleEndValue
-        */
-        public static int SfCircularGauge_scaleEndValue = 4;
-        /**
-          <p>
-          @attr description
-          Determines the major tick end offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMajorTickEndOffset
-        */
-        public static int SfCircularGauge_scaleMajorTickEndOffset = 29;
-        /**
-          <p>
-          @attr description
-          Determines the major tick size for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMajorTickSize
-        */
-        public static int SfCircularGauge_scaleMajorTickSize = 24;
-        /**
-          <p>
-          @attr description
-          Determines the major tick start offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMajorTickStartOffset
-        */
-        public static int SfCircularGauge_scaleMajorTickStartOffset = 28;
-        /**
-          <p>
-          @attr description
-          Determines the major tick width for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMajorTickWidth
-        */
-        public static int SfCircularGauge_scaleMajorTickWidth = 26;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick end offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTickEndOffset
-        */
-        public static int SfCircularGauge_scaleMinorTickEndOffset = 35;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick size for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTickSize
-        */
-        public static int SfCircularGauge_scaleMinorTickSize = 30;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick start offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTickStartOffset
-        */
-        public static int SfCircularGauge_scaleMinorTickStartOffset = 34;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick width for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTickWidth
-        */
-        public static int SfCircularGauge_scaleMinorTickWidth = 32;
-        /**
-          <p>
-          @attr description
-          Determines the number of decimal digits for the scale.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleNumberofDecimalDigits
-        */
-        public static int SfCircularGauge_scaleNumberofDecimalDigits = 44;
-        /**
-          <p>
-          @attr description
-          Determines the radius factor for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleRadiusFactor
-        */
-        public static int SfCircularGauge_scaleRadiusFactor = 43;
-        /**
-          <p>
-          @attr description
-           Determines the rim color for the scale . 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleRimColor
-        */
-        public static int SfCircularGauge_scaleRimColor = 36;
-        /**
-          <p>
-          @attr description
-           Determines the rim width for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleRimWidth
-        */
-        public static int SfCircularGauge_scaleRimWidth = 37;
-        /**
-          <p>
-          @attr description
-          Determines the first label behaviour for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleShowFirstLabel
-        */
-        public static int SfCircularGauge_scaleShowFirstLabel = 14;
-        /**
-          <p>
-          @attr description
-          Determines the last label behaviour for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleShowLastLabel
-        */
-        public static int SfCircularGauge_scaleShowLastLabel = 15;
-        /**
-          <p>
-          @attr description
-          Determines the rim for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleShowRim
-        */
-        public static int SfCircularGauge_scaleShowRim = 42;
-        /**
-          <p>
-          @attr description
-          Determines the start angle for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleStartAngle
-        */
-        public static int SfCircularGauge_scaleStartAngle = 1;
-        /**
-          <p>
-          @attr description
-          Determines the scale start offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleStartOffset
-        */
-        public static int SfCircularGauge_scaleStartOffset = 16;
-        /**
-          <p>
-          @attr description
-          Determines the minimum for the scale. 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleStartValue
-        */
-        public static int SfCircularGauge_scaleStartValue = 3;
-        /** Attributes that can be used with a SfDigitalGauge.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SfDigitalGauge_characterHeight android.support.v4:characterHeight}</code></td><td>Determines the character height of the digital gauge.</td></tr>
-           <tr><td><code>{@link #SfDigitalGauge_characterSpacing android.support.v4:characterSpacing}</code></td><td>Determines the character spacing of the digital gauge.</td></tr>
-           <tr><td><code>{@link #SfDigitalGauge_characterStrokeColor android.support.v4:characterStrokeColor}</code></td><td>Determines the character stroke color of the digital gauge.</td></tr>
-           <tr><td><code>{@link #SfDigitalGauge_characterType android.support.v4:characterType}</code></td><td>Determines the character type of the digital gauge .</td></tr>
-           <tr><td><code>{@link #SfDigitalGauge_characterWidth android.support.v4:characterWidth}</code></td><td>Determines the character width of the digital gauge.</td></tr>
-           <tr><td><code>{@link #SfDigitalGauge_dimmedSegmentAlpha android.support.v4:dimmedSegmentAlpha}</code></td><td>Determines the dimmed segment color of the digital gauge.</td></tr>
-           <tr><td><code>{@link #SfDigitalGauge_dimmedSegmentColor android.support.v4:dimmedSegmentColor}</code></td><td>Determines the dimmed segment color of the digital gauge.</td></tr>
-           <tr><td><code>{@link #SfDigitalGauge_segmentStrokeWidth android.support.v4:segmentStrokeWidth}</code></td><td>Determines the segment stroke width of the digital gauge.</td></tr>
-           </table>
-           @see #SfDigitalGauge_characterHeight
-           @see #SfDigitalGauge_characterSpacing
-           @see #SfDigitalGauge_characterStrokeColor
-           @see #SfDigitalGauge_characterType
-           @see #SfDigitalGauge_characterWidth
-           @see #SfDigitalGauge_dimmedSegmentAlpha
-           @see #SfDigitalGauge_dimmedSegmentColor
-           @see #SfDigitalGauge_segmentStrokeWidth
-         */
-        public static final int[] SfDigitalGauge = {
-            0x7f010219, 0x7f01021a, 0x7f01021b, 0x7f01021c,
-            0x7f01021d, 0x7f01021e, 0x7f01021f, 0x7f010220
-        };
-        /**
-          <p>
-          @attr description
-          Determines the character height of the digital gauge.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:characterHeight
-        */
-        public static int SfDigitalGauge_characterHeight = 1;
-        /**
-          <p>
-          @attr description
-          Determines the character spacing of the digital gauge.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:characterSpacing
-        */
-        public static int SfDigitalGauge_characterSpacing = 2;
-        /**
-          <p>
-          @attr description
-          Determines the character stroke color of the digital gauge.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:characterStrokeColor
-        */
-        public static int SfDigitalGauge_characterStrokeColor = 0;
-        /**
-          <p>
-          @attr description
-          Determines the character type of the digital gauge .
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>segmentSeven</code></td><td>0</td><td></td></tr>
-<tr><td><code>segmentFourteen</code></td><td>1</td><td></td></tr>
-<tr><td><code>segmentSixteen</code></td><td>2</td><td></td></tr>
-<tr><td><code>eightCrossEightDotMatrix</code></td><td>3</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:characterType
-        */
-        public static int SfDigitalGauge_characterType = 7;
-        /**
-          <p>
-          @attr description
-          Determines the character width of the digital gauge.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:characterWidth
-        */
-        public static int SfDigitalGauge_characterWidth = 3;
-        /**
-          <p>
-          @attr description
-          Determines the dimmed segment color of the digital gauge.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:dimmedSegmentAlpha
-        */
-        public static int SfDigitalGauge_dimmedSegmentAlpha = 6;
-        /**
-          <p>
-          @attr description
-          Determines the dimmed segment color of the digital gauge.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:dimmedSegmentColor
-        */
-        public static int SfDigitalGauge_dimmedSegmentColor = 5;
-        /**
-          <p>
-          @attr description
-          Determines the segment stroke width of the digital gauge.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:segmentStrokeWidth
-        */
-        public static int SfDigitalGauge_segmentStrokeWidth = 4;
-        /** Attributes that can be used with a SfLinearGauge.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SfLinearGauge_barPointerColor android.support.v4:barPointerColor}</code></td><td>Determines the bar pointer color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_barPointerCornerRadius android.support.v4:barPointerCornerRadius}</code></td><td> Determines the corner radius for the bar pointer .</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_barPointerCornerRadiusType android.support.v4:barPointerCornerRadiusType}</code></td><td>Determines the corner radius type for the bar pointer.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_barPointerStrokeWidth android.support.v4:barPointerStrokeWidth}</code></td><td>Determines the bar pointer stroke width for the pointer.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_barPointerValue android.support.v4:barPointerValue}</code></td><td>Determines the bar pointer value for the pointer.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_maximumLabels android.support.v4:maximumLabels}</code></td><td> Determines the maximum labels for the scale .</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_rangeColor android.support.v4:rangeColor}</code></td><td>Determines the range color for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_rangeEndValue android.support.v4:rangeEndValue}</code></td><td>Determines the range end value for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_rangeEndWidth android.support.v4:rangeEndWidth}</code></td><td>Determines the range end width for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_rangeOffset android.support.v4:rangeOffset}</code></td><td>Determines the range offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_rangeStartValue android.support.v4:rangeStartValue}</code></td><td>Determines the range start value for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_rangeStartWidth android.support.v4:rangeStartWidth}</code></td><td>Determines the range start width for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleBarColor android.support.v4:scaleBarColor}</code></td><td>Determines the scale bar color for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleBarLength android.support.v4:scaleBarLength}</code></td><td>Determines the scale bar length for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleBarSize android.support.v4:scaleBarSize}</code></td><td>Determines the scale bar size for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleCornerRadius android.support.v4:scaleCornerRadius}</code></td><td> Determines the corner radius for the scale .</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleCornerRadiusType android.support.v4:scaleCornerRadiusType}</code></td><td>Determines the corner radius type for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleDirection android.support.v4:scaleDirection}</code></td><td>Determines the direction for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleInterval android.support.v4:scaleInterval}</code></td><td>Determines the interval for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleLabelColor android.support.v4:scaleLabelColor}</code></td><td>Determines the label color for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleLabelFontSize android.support.v4:scaleLabelFontSize}</code></td><td> Determines the label font size for the scale .</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleLabelOffset android.support.v4:scaleLabelOffset}</code></td><td> Determines the label offset for the scale .</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleLabelPostfix android.support.v4:scaleLabelPostfix}</code></td><td>Determines the postfix for the label of the gauge.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleLabelPrefix android.support.v4:scaleLabelPrefix}</code></td><td>Determines the prefix for the label of the gauge.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickColor android.support.v4:scaleMajorTickColor}</code></td><td>Determines the major tick color for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickLength android.support.v4:scaleMajorTickLength}</code></td><td>Determines the major tick length for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickOffset android.support.v4:scaleMajorTickOffset}</code></td><td>Determines the major tick stroke offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickStrokeWidth android.support.v4:scaleMajorTickStrokeWidth}</code></td><td>Determines the major tick stroke width for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMaximum android.support.v4:scaleMaximum}</code></td><td>Determines the maximum for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMinimum android.support.v4:scaleMinimum}</code></td><td>Determines the minimum for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickColor android.support.v4:scaleMinorTickColor}</code></td><td>Determines the minor tick color for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickLength android.support.v4:scaleMinorTickLength}</code></td><td>Determines the minor tick length for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickOffset android.support.v4:scaleMinorTickOffset}</code></td><td>Determines the minor tick stroke offset for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickStrokeWidth android.support.v4:scaleMinorTickStrokeWidth}</code></td><td>Determines the minor tick stroke width for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleMinorTicksPerInterval android.support.v4:scaleMinorTicksPerInterval}</code></td><td> Determines the minor ticks per interval for the scale .</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleOffset android.support.v4:scaleOffset}</code></td><td> Determines the offset for the scale .</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleOpposedPosition android.support.v4:scaleOpposedPosition}</code></td><td>Determines the opposite position for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleOrientation android.support.v4:scaleOrientation}</code></td><td>Determines the scale orientation for the scale .</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleShowLabels android.support.v4:scaleShowLabels}</code></td><td>Determines the label for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_scaleShowTicks android.support.v4:scaleShowTicks}</code></td><td>Determines the ticks visibility for the scale.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_symbolPointerColor android.support.v4:symbolPointerColor}</code></td><td>Determines the symbol pointer color for the pointer.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_symbolPointerOffset android.support.v4:symbolPointerOffset}</code></td><td>Determines the symbol pointer offset for the pointer.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_symbolPointerStrokeWidth android.support.v4:symbolPointerStrokeWidth}</code></td><td>Determines the symbol pointer stroke width for the pointer.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_symbolPointerValue android.support.v4:symbolPointerValue}</code></td><td>Determines the symbol pointer value for the pointer.</td></tr>
-           <tr><td><code>{@link #SfLinearGauge_symbolPosition android.support.v4:symbolPosition}</code></td><td>Determines the symbol position for the pointer .</td></tr>
-           </table>
-           @see #SfLinearGauge_barPointerColor
-           @see #SfLinearGauge_barPointerCornerRadius
-           @see #SfLinearGauge_barPointerCornerRadiusType
-           @see #SfLinearGauge_barPointerStrokeWidth
-           @see #SfLinearGauge_barPointerValue
-           @see #SfLinearGauge_maximumLabels
-           @see #SfLinearGauge_rangeColor
-           @see #SfLinearGauge_rangeEndValue
-           @see #SfLinearGauge_rangeEndWidth
-           @see #SfLinearGauge_rangeOffset
-           @see #SfLinearGauge_rangeStartValue
-           @see #SfLinearGauge_rangeStartWidth
-           @see #SfLinearGauge_scaleBarColor
-           @see #SfLinearGauge_scaleBarLength
-           @see #SfLinearGauge_scaleBarSize
-           @see #SfLinearGauge_scaleCornerRadius
-           @see #SfLinearGauge_scaleCornerRadiusType
-           @see #SfLinearGauge_scaleDirection
-           @see #SfLinearGauge_scaleInterval
-           @see #SfLinearGauge_scaleLabelColor
-           @see #SfLinearGauge_scaleLabelFontSize
-           @see #SfLinearGauge_scaleLabelOffset
-           @see #SfLinearGauge_scaleLabelPostfix
-           @see #SfLinearGauge_scaleLabelPrefix
-           @see #SfLinearGauge_scaleMajorTickColor
-           @see #SfLinearGauge_scaleMajorTickLength
-           @see #SfLinearGauge_scaleMajorTickOffset
-           @see #SfLinearGauge_scaleMajorTickStrokeWidth
-           @see #SfLinearGauge_scaleMaximum
-           @see #SfLinearGauge_scaleMinimum
-           @see #SfLinearGauge_scaleMinorTickColor
-           @see #SfLinearGauge_scaleMinorTickLength
-           @see #SfLinearGauge_scaleMinorTickOffset
-           @see #SfLinearGauge_scaleMinorTickStrokeWidth
-           @see #SfLinearGauge_scaleMinorTicksPerInterval
-           @see #SfLinearGauge_scaleOffset
-           @see #SfLinearGauge_scaleOpposedPosition
-           @see #SfLinearGauge_scaleOrientation
-           @see #SfLinearGauge_scaleShowLabels
-           @see #SfLinearGauge_scaleShowTicks
-           @see #SfLinearGauge_symbolPointerColor
-           @see #SfLinearGauge_symbolPointerOffset
-           @see #SfLinearGauge_symbolPointerStrokeWidth
-           @see #SfLinearGauge_symbolPointerValue
-           @see #SfLinearGauge_symbolPosition
-         */
-        public static final int[] SfLinearGauge = {
-            0x7f0101ec, 0x7f0101ed, 0x7f0101ee, 0x7f0101ef,
-            0x7f0101f0, 0x7f0101f1, 0x7f0101f2, 0x7f0101f3,
-            0x7f0101f4, 0x7f0101f5, 0x7f0101f6, 0x7f0101f7,
-            0x7f0101f8, 0x7f0101f9, 0x7f0101fa, 0x7f0101fb,
-            0x7f0101fc, 0x7f0101fd, 0x7f0101fe, 0x7f0101ff,
-            0x7f010200, 0x7f010201, 0x7f010202, 0x7f010203,
-            0x7f010204, 0x7f010205, 0x7f010206, 0x7f010207,
-            0x7f010208, 0x7f010209, 0x7f01020a, 0x7f01020b,
-            0x7f01020c, 0x7f01020d, 0x7f01020e, 0x7f01020f,
-            0x7f010210, 0x7f010211, 0x7f010212, 0x7f010213,
-            0x7f010214, 0x7f010215, 0x7f010216, 0x7f010217,
-            0x7f010218
-        };
-        /**
-          <p>
-          @attr description
-          Determines the bar pointer color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:barPointerColor
-        */
-        public static int SfLinearGauge_barPointerColor = 35;
-        /**
-          <p>
-          @attr description
-           Determines the corner radius for the bar pointer . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:barPointerCornerRadius
-        */
-        public static int SfLinearGauge_barPointerCornerRadius = 38;
-        /**
-          <p>
-          @attr description
-          Determines the corner radius type for the bar pointer.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>start</code></td><td>0</td><td></td></tr>
-<tr><td><code>end</code></td><td>1</td><td></td></tr>
-<tr><td><code>both</code></td><td>2</td><td></td></tr>
-<tr><td><code>none</code></td><td>3</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:barPointerCornerRadiusType
-        */
-        public static int SfLinearGauge_barPointerCornerRadiusType = 37;
-        /**
-          <p>
-          @attr description
-          Determines the bar pointer stroke width for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:barPointerStrokeWidth
-        */
-        public static int SfLinearGauge_barPointerStrokeWidth = 36;
-        /**
-          <p>
-          @attr description
-          Determines the bar pointer value for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:barPointerValue
-        */
-        public static int SfLinearGauge_barPointerValue = 34;
-        /**
-          <p>
-          @attr description
-           Determines the maximum labels for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:maximumLabels
-        */
-        public static int SfLinearGauge_maximumLabels = 22;
-        /**
-          <p>
-          @attr description
-          Determines the range color for the scale.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeColor
-        */
-        public static int SfLinearGauge_rangeColor = 33;
-        /**
-          <p>
-          @attr description
-          Determines the range end value for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeEndValue
-        */
-        public static int SfLinearGauge_rangeEndValue = 29;
-        /**
-          <p>
-          @attr description
-          Determines the range end width for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeEndWidth
-        */
-        public static int SfLinearGauge_rangeEndWidth = 31;
-        /**
-          <p>
-          @attr description
-          Determines the range offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeOffset
-        */
-        public static int SfLinearGauge_rangeOffset = 32;
-        /**
-          <p>
-          @attr description
-          Determines the range start value for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeStartValue
-        */
-        public static int SfLinearGauge_rangeStartValue = 28;
-        /**
-          <p>
-          @attr description
-          Determines the range start width for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:rangeStartWidth
-        */
-        public static int SfLinearGauge_rangeStartWidth = 30;
-        /**
-          <p>
-          @attr description
-          Determines the scale bar color for the scale.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleBarColor
-        */
-        public static int SfLinearGauge_scaleBarColor = 11;
-        /**
-          <p>
-          @attr description
-          Determines the scale bar length for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleBarLength
-        */
-        public static int SfLinearGauge_scaleBarLength = 13;
-        /**
-          <p>
-          @attr description
-          Determines the scale bar size for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleBarSize
-        */
-        public static int SfLinearGauge_scaleBarSize = 12;
-        /**
-          <p>
-          @attr description
-           Determines the corner radius for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleCornerRadius
-        */
-        public static int SfLinearGauge_scaleCornerRadius = 26;
-        /**
-          <p>
-          @attr description
-          Determines the corner radius type for the scale.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>start</code></td><td>0</td><td></td></tr>
-<tr><td><code>end</code></td><td>1</td><td></td></tr>
-<tr><td><code>both</code></td><td>2</td><td></td></tr>
-<tr><td><code>none</code></td><td>3</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleCornerRadiusType
-        */
-        public static int SfLinearGauge_scaleCornerRadiusType = 25;
-        /**
-          <p>
-          @attr description
-          Determines the direction for the scale.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>backward</code></td><td>0</td><td></td></tr>
-<tr><td><code>forward</code></td><td>1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleDirection
-        */
-        public static int SfLinearGauge_scaleDirection = 24;
-        /**
-          <p>
-          @attr description
-          Determines the interval for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleInterval
-        */
-        public static int SfLinearGauge_scaleInterval = 2;
-        /**
-          <p>
-          @attr description
-          Determines the label color for the scale.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleLabelColor
-        */
-        public static int SfLinearGauge_scaleLabelColor = 14;
-        /**
-          <p>
-          @attr description
-           Determines the label font size for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleLabelFontSize
-        */
-        public static int SfLinearGauge_scaleLabelFontSize = 17;
-        /**
-          <p>
-          @attr description
-           Determines the label offset for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleLabelOffset
-        */
-        public static int SfLinearGauge_scaleLabelOffset = 18;
-        /**
-          <p>
-          @attr description
-          Determines the postfix for the label of the gauge.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleLabelPostfix
-        */
-        public static int SfLinearGauge_scaleLabelPostfix = 16;
-        /**
-          <p>
-          @attr description
-          Determines the prefix for the label of the gauge.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleLabelPrefix
-        */
-        public static int SfLinearGauge_scaleLabelPrefix = 15;
-        /**
-          <p>
-          @attr description
-          Determines the major tick color for the scale.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMajorTickColor
-        */
-        public static int SfLinearGauge_scaleMajorTickColor = 4;
-        /**
-          <p>
-          @attr description
-          Determines the major tick length for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMajorTickLength
-        */
-        public static int SfLinearGauge_scaleMajorTickLength = 3;
-        /**
-          <p>
-          @attr description
-          Determines the major tick stroke offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMajorTickOffset
-        */
-        public static int SfLinearGauge_scaleMajorTickOffset = 6;
-        /**
-          <p>
-          @attr description
-          Determines the major tick stroke width for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMajorTickStrokeWidth
-        */
-        public static int SfLinearGauge_scaleMajorTickStrokeWidth = 5;
-        /**
-          <p>
-          @attr description
-          Determines the maximum for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMaximum
-        */
-        public static int SfLinearGauge_scaleMaximum = 1;
-        /**
-          <p>
-          @attr description
-          Determines the minimum for the scale. 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinimum
-        */
-        public static int SfLinearGauge_scaleMinimum = 0;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick color for the scale.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTickColor
-        */
-        public static int SfLinearGauge_scaleMinorTickColor = 8;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick length for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTickLength
-        */
-        public static int SfLinearGauge_scaleMinorTickLength = 7;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick stroke offset for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTickOffset
-        */
-        public static int SfLinearGauge_scaleMinorTickOffset = 10;
-        /**
-          <p>
-          @attr description
-          Determines the minor tick stroke width for the scale.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTickStrokeWidth
-        */
-        public static int SfLinearGauge_scaleMinorTickStrokeWidth = 9;
-        /**
-          <p>
-          @attr description
-           Determines the minor ticks per interval for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleMinorTicksPerInterval
-        */
-        public static int SfLinearGauge_scaleMinorTicksPerInterval = 21;
-        /**
-          <p>
-          @attr description
-           Determines the offset for the scale . 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleOffset
-        */
-        public static int SfLinearGauge_scaleOffset = 27;
-        /**
-          <p>
-          @attr description
-          Determines the opposite position for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleOpposedPosition
-        */
-        public static int SfLinearGauge_scaleOpposedPosition = 23;
-        /**
-          <p>
-          @attr description
-          Determines the scale orientation for the scale .
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>horizontal</code></td><td>0</td><td></td></tr>
-<tr><td><code>vertical</code></td><td>1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleOrientation
-        */
-        public static int SfLinearGauge_scaleOrientation = 44;
-        /**
-          <p>
-          @attr description
-          Determines the label for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleShowLabels
-        */
-        public static int SfLinearGauge_scaleShowLabels = 19;
-        /**
-          <p>
-          @attr description
-          Determines the ticks visibility for the scale.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:scaleShowTicks
-        */
-        public static int SfLinearGauge_scaleShowTicks = 20;
-        /**
-          <p>
-          @attr description
-          Determines the symbol pointer color for the pointer.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:symbolPointerColor
-        */
-        public static int SfLinearGauge_symbolPointerColor = 40;
-        /**
-          <p>
-          @attr description
-          Determines the symbol pointer offset for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:symbolPointerOffset
-        */
-        public static int SfLinearGauge_symbolPointerOffset = 42;
-        /**
-          <p>
-          @attr description
-          Determines the symbol pointer stroke width for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:symbolPointerStrokeWidth
-        */
-        public static int SfLinearGauge_symbolPointerStrokeWidth = 41;
-        /**
-          <p>
-          @attr description
-          Determines the symbol pointer value for the pointer.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android.support.v4:symbolPointerValue
-        */
-        public static int SfLinearGauge_symbolPointerValue = 39;
-        /**
-          <p>
-          @attr description
-          Determines the symbol position for the pointer .
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>far</code></td><td>0</td><td></td></tr>
-<tr><td><code>away</code></td><td>1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name android.support.v4:symbolPosition
-        */
-        public static int SfLinearGauge_symbolPosition = 43;
         /** Attributes that can be used with a SfNumericTextBox.
            <p>Includes the following attributes:</p>
            <table>
