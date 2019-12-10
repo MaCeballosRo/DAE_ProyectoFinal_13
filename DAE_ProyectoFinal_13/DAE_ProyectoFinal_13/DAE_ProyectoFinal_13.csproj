@@ -10,23 +10,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="4.8.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-    <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="16.4.0.46" />
-    <PackageReference Include="Syncfusion.Xamarin.GridCommon" Version="16.4.0.46" />
-    <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="16.4.0.46" />
-    <PackageReference Include="Syncfusion.Xamarin.SfComboBox" Version="16.4.0.46" />
-    <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="16.4.0.46" />
-    <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="16.4.0.46" />
-    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.4.0.46" />
-    <PackageReference Include="Syncfusion.Xamarin.SfNumericUpDown" Version="16.4.0.46" />
-    <PackageReference Include="Syncfusion.Xamarin.SfPicker" Version="16.4.0.46" />
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="MagicGradients" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="17.3.0.33" />
+    <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="17.3.0.33" />
+    <PackageReference Include="Syncfusion.Xamarin.GridCommon" Version="17.3.0.33" />
+    <PackageReference Include="Syncfusion.Xamarin.SfAutoComplete" Version="17.3.0.33" />
+    <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="17.3.0.33" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPicker" Version="17.3.0.33" />
     <PackageReference Include="System.Buffers" Version="4.5.0" />
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.991221" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Views\Usuario\Page1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\Usuario\ViUsuario.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

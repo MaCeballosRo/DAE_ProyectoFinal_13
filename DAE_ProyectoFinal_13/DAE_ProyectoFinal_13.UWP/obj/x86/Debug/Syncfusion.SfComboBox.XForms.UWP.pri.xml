@@ -4,6 +4,11 @@
 		<Qualifiers/>
 		<ResourceMapSubtree name="Files">
 			<ResourceMapSubtree name="Syncfusion.SfComboBox.XForms.UWP">
+				<NamedResource name="darkthemeimage.png" uri="ms-resource://Syncfusion.SfComboBox.XForms.UWP/Files/Syncfusion.SfComboBox.XForms.UWP/darkthemeimage.png">
+					<Candidate type="Path">
+						<Value>Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="dropdownbuttonimage.png" uri="ms-resource://Syncfusion.SfComboBox.XForms.UWP/Files/Syncfusion.SfComboBox.XForms.UWP/dropdownbuttonimage.png">
 					<Candidate type="Path">
 						<Value>Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png</Value>
@@ -21,8 +26,8 @@
 						</Candidate>
 					</NamedResource>
 					<NamedResource name="Generic.xbf" uri="ms-resource://Syncfusion.SfComboBox.XForms.UWP/Files/Syncfusion.SfComboBox.XForms.UWP/Themes/Generic.xbf">
-						<Candidate type="Path">
-							<Value>Syncfusion.SfComboBox.XForms.UWP\Themes\Generic.xbf</Value>
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>

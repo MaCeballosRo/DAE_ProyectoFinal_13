@@ -18,8 +18,8 @@
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Themes">
 					<NamedResource name="generic.xbf" uri="ms-resource://Syncfusion.SfShared.UWP/Files/Syncfusion.SfShared.UWP/Themes/generic.xbf">
-						<Candidate type="Path">
-							<Value>Syncfusion.SfShared.UWP\Themes\generic.xbf</Value>
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>

@@ -161,6 +161,13 @@
     <RootPropertyPathName Name="MS" />
     <RootPropertyPathName Name="MR" />
     <RootPropertyPathName Name="MC" />
+    <RootPropertyPathName Name="ParentCalendar" />
+    <RootPropertyPathName Name="DayCellFontStyle" />
+    <RootPropertyPathName Name="DayCellFontFamily" />
+    <RootPropertyPathName Name="DayCellFontSize" />
+    <RootPropertyPathName Name="ArrowRightText" />
+    <RootPropertyPathName Name="ArrowLeftText" />
+    <RootPropertyPathName Name="Appointments" />
     <RootPropertyPathName Name="MinHeight" />
     <RootPropertyPathName Name="HighlightedBackground" />
     <RootPropertyPathName Name="ErrorBorderBrush" />
@@ -273,6 +280,10 @@
       <RootMethod Name="SetItemType" />
       <RootMethod Name="GetAccessibilityView" />
       <RootMethod Name="SetAccessibilityView" />
+      <RootMethod Name="GetName" />
+      <RootMethod Name="SetName" />
+      <RootMethod Name="GetAutomationId" />
+      <RootMethod Name="SetAutomationId" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
       <RootProperty Name="Content" />
@@ -406,6 +417,7 @@
       <RootProperty Name="IsReadOnly" />
       <RootProperty Name="Text" />
       <RootProperty Name="InputScope" />
+      <RootProperty Name="ShowClearButton" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Margin" />
@@ -414,6 +426,7 @@
       <RootProperty Name="HorizontalScrollBarVisibility" />
       <RootProperty Name="VerticalScrollBarVisibility" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Padding" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="IsTabStop" />
       <RootProperty Name="IsHorizontalRailEnabled" />
@@ -427,7 +440,6 @@
       <RootProperty Name="VerticalSnapPointsType" />
       <RootProperty Name="VerticalSnapPointsAlignment" />
       <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="Padding" />
       <RootProperty Name="MinHeight" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
@@ -744,9 +756,8 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Resources" />
       <RootProperty Name="ColumnDefinitions" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Background" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Background" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
@@ -757,6 +768,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Name" />
       <RootProperty Name="IsTapEnabled" />
       <RootProperty Name="RenderTransformOrigin" />
@@ -1087,5 +1099,6 @@
       <RootProperty Name="Orientation" />
     </RootType>
     <RootType FullName="Syncfusion.UI.Xaml.Controls.Input.ResourceWrapper" />
+    <RootType FullName="Syncfusion.UI.Xaml.Controls.Input.AccessibilityConverter" />
   </Roots.RootTypes>
 </Roots>

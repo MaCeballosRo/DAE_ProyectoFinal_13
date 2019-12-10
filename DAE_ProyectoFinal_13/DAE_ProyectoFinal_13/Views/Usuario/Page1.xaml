@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DAE_ProyectoFinal_13.Views.Usuario.Page1"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="FicLabelGrid" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="Small" />
+            </Style>
+            <Style x:Key="FicGrid" TargetType="Grid">
+                <Setter Property="BackgroundColor" Value="WhiteSmoke"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <gradient:SfGradientView>
+                <gradient:SfGradientView.BackgroundBrush>
+                    <gradient:SfLinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <gradient:SfLinearGradientBrush.GradientStops>
+                            <gradient:SfGradientStop Color="#FF9800" Offset="0.0" />
+                            <gradient:SfGradientStop Color="#FF5722" Offset="1.0" />
+                        </gradient:SfLinearGradientBrush.GradientStops>
+                    </gradient:SfLinearGradientBrush>
+                </gradient:SfGradientView.BackgroundBrush>
+            </gradient:SfGradientView>
+            <StackLayout Orientation="Vertical" Padding="20">
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="50,0,0,0">
+                    <Label Text="Usuario"
+                       TextColor="White"/>
+                    <Entry x:Name="Entry_IdUsuario"
+                       Placeholder="Usuario"/>
+                    <Label Text="Desarrollador"
+                       TextColor="White"
+                       Margin="50,0,0,0"/>
+                    <Entry x:Name="Entry_IdDesarrollador"
+                       Placeholder="Desarrollador"/>
+                </StackLayout>
+                
+                <Button x:Name="Button_Consultar"
+                        Text="Consultar"
+                        BackgroundColor="WhiteSmoke"
+                        HorizontalOptions="Center"
+                        WidthRequest="160"
+                        HeightRequest="50"
+                        BorderWidth="4"
+                        BorderRadius="4"
+                        Margin="0,15,0,30"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="Button_Clicked_Consultar"/>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="GhostWhite" 
+                       CornerRadius="5"
+                       Padding="20,15,20,15"                       
+                       WidthRequest="450"
+                       Margin="20,0,20,0">
+
+                        <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="WhiteSmoke">
+                            <Label Text="Datos del usuario" FontSize="Medium" HorizontalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label  
+                                   Text="Usuario:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding Usuario}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label
+                                   Text="Nombre:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding NombreUsuario}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label
+                                   Text="Telefono:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding TelefonoUsuario}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+                            
+                            <StackLayout Orientation="Horizontal">
+                                <Label
+                                   Text="Correo:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding CorreoUsuario}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label
+                                   Text="Fecha Nacimiento:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding FechaNacUsuario}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="GhostWhite" 
+                       CornerRadius="5"
+                       Padding="15,20,15,20"
+                       WidthRequest="450"
+                       Margin="20,0,20,0">
+
+                       <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="WhiteSmoke">
+                            <Label Text="Datos del desarrollador" FontSize="Medium" HorizontalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label  
+                                   Text="Desarrollador:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding Desarrollador}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label
+                                   Text="Nombre:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding NombreDesarrollador}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label
+                                   Text="Telefono:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding TelefonoDesarrollador}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label
+                                   Text="Correo:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding CorreoDesarrollador}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label
+                                   Text="Fecha Nacimiento:"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Medium"/>
+                                <Label
+                                   Text="{Binding FechaNacDesarrollador}"
+                                   HorizontalOptions="Center" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+                <Frame BackgroundColor="GhostWhite" 
+                       CornerRadius="5"
+                       Padding="15,20,15,20"
+                       WidthRequest="900"
+                       Margin="20,30,20,0"
+                       HorizontalOptions="CenterAndExpand">
+
+                    <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="WhiteSmoke">
+                        <Label Text="Datos del desarrollador" FontSize="Medium" HorizontalOptions="Center"/>
+                        
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

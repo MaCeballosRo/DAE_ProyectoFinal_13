@@ -4,7 +4,7 @@ using Xamarin.Forms.Xaml;
 using DAE_ProyectoFinal_13.Views.Usuario;
 using DAE_ProyectoFinal_13.ViewModels.Base;
 
-[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+//[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace DAE_ProyectoFinal_13
 {
     public partial class App : Application
@@ -19,8 +19,8 @@ namespace DAE_ProyectoFinal_13
         public App()
         {
             InitializeComponent();
-            MainPage = new ViUsuario();
-            //MainPage = new VistaUsuarios();
+            //MainPage = new ViUsuario();
+            MainPage = new Page1();
         }
 
         protected override void OnStart()

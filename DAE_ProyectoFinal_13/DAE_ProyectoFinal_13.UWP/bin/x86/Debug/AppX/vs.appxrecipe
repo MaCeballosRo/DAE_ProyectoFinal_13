@@ -30,97 +30,105 @@
     <AppXManifest Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-09T10:58:18.637</Modified>
+      <Modified>2019-12-10T02:54:24.165</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\DAE_ProyectoFinal_13.UWP.exe">
       <PackagePath>entrypoint\DAE_ProyectoFinal_13.UWP.exe</PackagePath>
-      <Modified>2019-12-09T10:58:15.325</Modified>
+      <Modified>2019-12-10T02:54:21.671</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\autofac\4.8.1\lib\netstandard1.1\Autofac.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\autofac\4.9.4\lib\netstandard2.0\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
-      <Modified>2018-05-09T17:57:54.000</Modified>
+      <Modified>2019-08-15T19:05:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.data.sqlite.core\2.2.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\magicgradients\1.0.0\lib\netstandard2.0\MagicGradients.dll">
+      <PackagePath>MagicGradients.dll</PackagePath>
+      <Modified>2019-10-11T14:50:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+      <Modified>2019-11-15T15:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.bcl.hashcode\1.1.0\lib\netstandard2.0\Microsoft.Bcl.HashCode.dll">
+      <PackagePath>Microsoft.Bcl.HashCode.dll</PackagePath>
+      <Modified>2019-11-15T15:36:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.data.sqlite.core\3.1.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
-      <Modified>2018-11-13T00:31:06.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.dotnet.platformabstractions\2.1.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.dotnet.platformabstractions\3.1.0\lib\netstandard2.0\Microsoft.DotNet.PlatformAbstractions.dll">
       <PackagePath>Microsoft.DotNet.PlatformAbstractions.dll</PackagePath>
-      <Modified>2018-05-16T03:01:34.000</Modified>
+      <Modified>2019-11-15T22:51:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.entityframeworkcore\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.entityframeworkcore\3.1.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
-      <Modified>2018-11-13T00:31:14.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.entityframeworkcore.abstractions\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.entityframeworkcore.abstractions\3.1.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
-      <Modified>2018-11-13T00:31:02.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.entityframeworkcore.relational\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.entityframeworkcore.relational\3.1.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
-      <Modified>2018-11-13T00:31:20.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\3.1.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Sqlite.dll</PackagePath>
-      <Modified>2018-11-13T00:31:40.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.caching.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.caching.abstractions\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
-      <Modified>2018-11-11T07:26:38.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.caching.memory\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.caching.memory\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
       <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
-      <Modified>2018-11-11T07:26:46.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.configuration\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.configuration\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
-      <Modified>2018-11-11T07:27:02.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.configuration.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.configuration.abstractions\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
-      <Modified>2018-11-11T07:26:38.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.configuration.binder\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.configuration.binder\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
-      <Modified>2018-11-11T07:27:02.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.dependencyinjection\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.dependencyinjection\3.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
-      <Modified>2018-11-11T07:26:38.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\3.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
-      <Modified>2018-11-11T07:26:36.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.dependencymodel\2.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.dependencymodel\3.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyModel.dll">
       <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
-      <Modified>2018-05-16T03:01:34.000</Modified>
+      <Modified>2019-11-15T22:50:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.logging\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.logging\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
-      <Modified>2018-11-11T07:27:18.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.logging.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.logging.abstractions\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
-      <Modified>2018-11-11T07:26:40.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.options\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.options\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
-      <Modified>2018-11-11T07:26:38.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.primitives\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\microsoft.extensions.primitives\3.1.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
-      <Modified>2018-11-11T07:26:36.000</Modified>
+      <Modified>1980-01-01T07:00:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2018-11-28T01:07:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\remotion.linq\2.2.0\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
-      <PackagePath>Remotion.Linq.dll</PackagePath>
-      <Modified>2018-02-07T05:25:00.000</Modified>
+      <Modified>2019-11-09T07:56:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -666,10 +674,6 @@
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
       <Modified>2018-05-16T23:28:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\lib\uap10.0.15138\System.Threading.Tasks.Extensions.dll">
-      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
-      <Modified>2018-05-16T23:28:36.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\lib\uap10.0.15138\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
       <Modified>2018-05-16T23:28:36.000</Modified>
@@ -770,145 +774,149 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-05-16T23:28:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
-      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
-      <Modified>2018-05-02T17:43:56.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\skiasharp\1.68.0\runtimes\win10-x86\nativeassets\uap10.0\libEGL.dll">
+      <PackagePath>libEGL.dll</PackagePath>
+      <Modified>2018-12-03T05:21:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\skiasharp\1.68.0\runtimes\win10-x86\nativeassets\uap10.0\libGLESv2.dll">
+      <PackagePath>libGLESv2.dll</PackagePath>
+      <Modified>2018-12-03T05:21:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\skiasharp\1.68.0\runtimes\win10-x86\nativeassets\uap10.0\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+      <Modified>2018-12-03T05:21:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\skiasharp\1.68.0\lib\uap10.0\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+      <Modified>2018-12-03T05:21:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\skiasharp.views\1.68.0\runtimes\win10-x86\nativeassets\uap10.0\SkiaSharp.Views.Interop.UWP.dll">
+      <PackagePath>SkiaSharp.Views.Interop.UWP.dll</PackagePath>
+      <Modified>2018-12-03T05:22:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\skiasharp.views\1.68.0\lib\uap10.0\SkiaSharp.Views.UWP.dll">
+      <PackagePath>SkiaSharp.Views.UWP.dll</PackagePath>
+      <Modified>2018-12-03T05:22:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\skiasharp.views.forms\1.68.0\lib\uap10.0\SkiaSharp.Views.Forms.dll">
+      <PackagePath>SkiaSharp.Views.Forms.dll</PackagePath>
+      <Modified>2018-12-03T05:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.0.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
       <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
-      <Modified>2018-05-02T17:43:56.000</Modified>
+      <Modified>2019-11-02T00:24:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.core\1.1.11\lib\uap10.0\SQLitePCLRaw.core.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.core\2.0.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
-      <Modified>2018-05-02T17:43:54.000</Modified>
+      <Modified>2019-11-02T00:23:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.2\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
-      <Modified>2018-05-02T17:44:46.000</Modified>
+      <Modified>2019-08-16T00:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.2\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
-      <Modified>2018-05-02T17:44:20.000</Modified>
+      <Modified>2019-11-02T00:23:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.licensing\16.4.0.46\lib\uap10.0\Syncfusion.Licensing.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.licensing\17.3.0.33\lib\uap10.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>
-      <Modified>2019-01-07T20:41:06.000</Modified>
+      <Modified>2019-12-04T19:40:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\16.4.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
-      <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:24:50.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\16.4.0.46\lib\uap10.0\Syncfusion.Core.XForms.dll">
-      <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:24:22.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.datasource\16.4.0.46\lib\uap10.0\Syncfusion.DataSource.Portable.dll">
-      <PackagePath>Syncfusion.DataSource.Portable.dll</PackagePath>
-      <Modified>2019-01-07T21:06:20.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.gridcommon\16.4.0.46\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
-      <PackagePath>Syncfusion.GridCommon.Portable.dll</PackagePath>
-      <Modified>2019-01-07T21:06:10.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfautocomplete\16.4.0.46\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.UWP.dll">
-      <PackagePath>Syncfusion.SfAutoComplete.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:29:36.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfautocomplete\16.4.0.46\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.dll">
-      <PackagePath>Syncfusion.SfAutoComplete.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:29:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfautocomplete\16.4.0.46\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfinput.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
       <PackagePath>Syncfusion.SfInput.UWP.dll</PackagePath>
-      <Modified>2019-01-07T20:52:50.000</Modified>
+      <Modified>2019-12-04T20:05:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfautocomplete\16.4.0.46\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfshared.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
       <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
-      <Modified>2019-01-07T20:52:26.000</Modified>
+      <Modified>2019-12-04T20:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\16.4.0.46\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
+      <Modified>2019-12-04T20:30:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.dll">
+      <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
+      <Modified>2019-12-04T20:29:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.datasource\17.3.0.33\lib\uap10.0\Syncfusion.DataSource.Portable.dll">
+      <PackagePath>Syncfusion.DataSource.Portable.dll</PackagePath>
+      <Modified>2019-12-04T20:13:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.gridcommon\17.3.0.33\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
+      <PackagePath>Syncfusion.GridCommon.Portable.dll</PackagePath>
+      <Modified>2019-12-04T20:13:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfautocomplete\17.3.0.33\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfAutoComplete.XForms.UWP.dll</PackagePath>
+      <Modified>2019-12-04T20:35:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfautocomplete\17.3.0.33\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.dll">
+      <PackagePath>Syncfusion.SfAutoComplete.XForms.dll</PackagePath>
+      <Modified>2019-12-04T20:35:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\17.3.0.33\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:46:06.000</Modified>
+      <Modified>2019-12-04T20:37:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\16.4.0.46\lib\uap10.0\Syncfusion.SfComboBox.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\17.3.0.33\lib\uap10.0\Syncfusion.SfComboBox.XForms.dll">
       <PackagePath>Syncfusion.SfComboBox.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:45:40.000</Modified>
+      <Modified>2019-12-04T20:36:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.4.0.46\lib\uap10.0\Syncfusion.Data.Portable.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfdatagrid\17.3.0.33\lib\uap10.0\Syncfusion.Data.Portable.dll">
       <PackagePath>Syncfusion.Data.Portable.dll</PackagePath>
-      <Modified>2019-01-07T21:06:14.000</Modified>
+      <Modified>2019-12-04T19:55:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.4.0.46\lib\uap10.0\Syncfusion.SfDataGrid.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfdatagrid\17.3.0.33\lib\uap10.0\Syncfusion.SfDataGrid.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfDataGrid.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:31:02.000</Modified>
+      <Modified>2019-12-04T20:37:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.4.0.46\lib\uap10.0\Syncfusion.SfDataGrid.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfdatagrid\17.3.0.33\lib\uap10.0\Syncfusion.SfDataGrid.XForms.dll">
       <PackagePath>Syncfusion.SfDataGrid.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:30:34.000</Modified>
+      <Modified>2019-12-04T20:37:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.UWP.dll">
-      <PackagePath>Syncfusion.SfGauge.UWP.dll</PackagePath>
-      <Modified>2019-01-07T20:57:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.XForms.UWP.dll">
-      <PackagePath>Syncfusion.SfGauge.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:26:18.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.XForms.dll">
-      <PackagePath>Syncfusion.SfGauge.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:25:56.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sflistview\16.4.0.46\lib\uap10.0\Syncfusion.SfListView.XForms.UWP.dll">
-      <PackagePath>Syncfusion.SfListView.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:41:00.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sflistview\16.4.0.46\lib\uap10.0\Syncfusion.SfListView.XForms.dll">
-      <PackagePath>Syncfusion.SfListView.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:40:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.46\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\17.3.0.33\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfNumericTextBox.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:30:12.000</Modified>
+      <Modified>2019-12-04T20:36:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.46\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\17.3.0.33\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.dll">
       <PackagePath>Syncfusion.SfNumericTextBox.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:29:52.000</Modified>
+      <Modified>2019-12-04T20:35:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfnumericupdown\16.4.0.46\lib\uap10.0\Syncfusion.SfNumericUpDown.XForms.UWP.dll">
-      <PackagePath>Syncfusion.SfNumericUpDown.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:35:32.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfnumericupdown\16.4.0.46\lib\uap10.0\Syncfusion.SfNumericUpDown.XForms.dll">
-      <PackagePath>Syncfusion.SfNumericUpDown.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:35:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfPicker.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\17.3.0.33\lib\uap10.0\Syncfusion.SfPicker.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfPicker.XForms.UWP.dll</PackagePath>
-      <Modified>2019-01-07T21:44:44.000</Modified>
+      <Modified>2019-12-04T20:52:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfPicker.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\17.3.0.33\lib\uap10.0\Syncfusion.SfPicker.XForms.dll">
       <PackagePath>Syncfusion.SfPicker.XForms.dll</PackagePath>
-      <Modified>2019-01-07T21:44:22.000</Modified>
+      <Modified>2019-12-04T20:51:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.collections.immutable\1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.collections.immutable\1.7.0\lib\netstandard2.0\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2018-05-15T19:29:34.000</Modified>
+      <Modified>2019-11-15T15:37:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.diagnostics.diagnosticsource\4.5.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.diagnostics.diagnosticsource\4.7.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
-      <Modified>2018-05-15T19:29:40.000</Modified>
+      <Modified>2019-11-15T15:54:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.interactive.async\3.2.0\lib\netstandard2.0\System.Interactive.Async.dll">
-      <PackagePath>System.Interactive.Async.dll</PackagePath>
-      <Modified>2018-07-11T19:48:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.memory\4.5.1\lib\netstandard2.0\System.Memory.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.memory\4.5.3\lib\netstandard2.0\System.Memory.dll">
       <PackagePath>System.Memory.dll</PackagePath>
-      <Modified>2018-06-06T19:29:04.000</Modified>
+      <Modified>2019-04-17T22:24:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
-      <Modified>2018-06-06T19:29:04.000</Modified>
+      <Modified>2019-11-15T15:37:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.text.encodings.web\4.7.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+      <Modified>2019-11-15T15:37:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.text.json\4.7.0\lib\netstandard2.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2019-11-15T15:37:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\system.threading.tasks.extensions\4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2018-11-29T22:39:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -928,7 +936,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\bin\Debug\netstandard2.0\DAE_ProyectoFinal_13.dll">
       <PackagePath>DAE_ProyectoFinal_13.dll</PackagePath>
-      <Modified>2019-12-09T10:58:00.748</Modified>
+      <Modified>2019-12-10T02:54:11.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -1079,95 +1087,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-09T10:58:14.996</Modified>
+      <Modified>2019-12-10T02:54:20.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-09T10:58:14.997</Modified>
+      <Modified>2019-12-10T02:54:20.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-10-23T06:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\16.4.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
-      <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
-      <Modified>2019-01-07T21:24:50.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\16.4.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf">
-      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf</PackagePath>
-      <Modified>2019-01-07T21:24:50.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\16.4.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf">
-      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf</PackagePath>
-      <Modified>2019-01-07T21:24:50.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfinput.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
       <PackagePath>Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml</PackagePath>
-      <Modified>2019-01-07T20:52:50.000</Modified>
+      <Modified>2019-12-04T20:04:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfinput.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
       <PackagePath>Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml</PackagePath>
-      <Modified>2018-12-24T05:04:38.000</Modified>
+      <Modified>2019-12-04T19:03:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfInput.UWP\Themes\generic.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\Themes\generic.xbf</PackagePath>
-      <Modified>2019-01-07T20:53:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf</PackagePath>
-      <Modified>2019-01-07T20:53:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfInput.UWP\Themes\InputStyles.xbf">
-      <PackagePath>Syncfusion.SfInput.UWP\Themes\InputStyles.xbf</PackagePath>
-      <Modified>2019-01-07T20:53:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfshared.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
       <PackagePath>Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml</PackagePath>
-      <Modified>2019-01-07T20:52:26.000</Modified>
+      <Modified>2019-12-04T20:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.sfshared.uwp\17.3.0.33\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
       <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
-      <Modified>2018-12-24T05:04:12.000</Modified>
+      <Modified>2019-12-04T19:00:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfpicker\16.4.0.46\lib\uap10.0\Syncfusion.SfShared.UWP\Themes\generic.xbf">
-      <PackagePath>Syncfusion.SfShared.UWP\Themes\generic.xbf</PackagePath>
-      <Modified>2019-01-07T20:52:34.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
+      <Modified>2019-12-04T20:30:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\16.4.0.46\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\DropDownIcon.xaml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\DropDownIcon.xaml</PackagePath>
+      <Modified>2019-12-04T20:30:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleCollapsedIcon.xaml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleCollapsedIcon.xaml</PackagePath>
+      <Modified>2019-12-04T20:30:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.core\17.3.0.33\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleVisibleIcon.xaml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleVisibleIcon.xaml</PackagePath>
+      <Modified>2019-12-04T20:30:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\17.3.0.33\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png</PackagePath>
+      <Modified>2019-12-04T16:35:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\17.3.0.33\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png</PackagePath>
-      <Modified>2018-12-24T04:56:12.000</Modified>
+      <Modified>2019-12-04T16:35:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\16.4.0.46\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\17.3.0.33\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml</PackagePath>
-      <Modified>2019-01-07T21:46:04.000</Modified>
+      <Modified>2019-12-04T20:36:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\16.4.0.46\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Themes\Generic.xbf">
-      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\Themes\Generic.xbf</PackagePath>
-      <Modified>2019-01-07T21:46:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.UWP\Syncfusion.SfGauge.UWP.xr.xml">
-      <PackagePath>Syncfusion.SfGauge.UWP\Syncfusion.SfGauge.UWP.xr.xml</PackagePath>
-      <Modified>2019-01-07T20:57:26.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.UWP\CircularGauge\Themes\CircularGauge.xbf">
-      <PackagePath>Syncfusion.SfGauge.UWP\CircularGauge\Themes\CircularGauge.xbf</PackagePath>
-      <Modified>2019-01-07T20:57:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.UWP\DigitalGauge\Themes\DigitalGauge.xbf">
-      <PackagePath>Syncfusion.SfGauge.UWP\DigitalGauge\Themes\DigitalGauge.xbf</PackagePath>
-      <Modified>2019-01-07T20:57:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.UWP\LinearGauge\Themes\LinearGauge.xbf">
-      <PackagePath>Syncfusion.SfGauge.UWP\LinearGauge\Themes\LinearGauge.xbf</PackagePath>
-      <Modified>2019-01-07T20:57:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.UWP\Properties\Syncfusion.SfGauge.UWP.rd.xml">
-      <PackagePath>Syncfusion.SfGauge.UWP\Properties\Syncfusion.SfGauge.UWP.rd.xml</PackagePath>
-      <Modified>2018-12-24T05:04:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfgauge\16.4.0.46\lib\uap10.0\Syncfusion.SfGauge.UWP\Themes\Generic.xbf">
-      <PackagePath>Syncfusion.SfGauge.UWP\Themes\Generic.xbf</PackagePath>
-      <Modified>2019-01-07T20:57:34.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\syncfusion.xamarin.sfcombobox\17.3.0.33\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\Themes\Generic.xaml</PackagePath>
+      <Modified>2019-12-04T20:36:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marcos\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
@@ -1175,11 +1151,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-09T02:34:06.930</Modified>
+      <Modified>2019-12-09T17:40:57.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Tec\9no Semestre\Aplicaciones Empresariales\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13\DAE_ProyectoFinal_13.UWP\bin\x86\Debug\Core\DAE_ProyectoFinal_13.UWP.exe">
       <PackagePath>DAE_ProyectoFinal_13.UWP.exe</PackagePath>
-      <Modified>2019-12-09T10:58:18.627</Modified>
+      <Modified>2019-12-10T02:54:24.157</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

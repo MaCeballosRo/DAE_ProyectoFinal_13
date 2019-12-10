@@ -46,8 +46,12 @@ namespace DAE_ProyectoFinal_13.Droid
 			global::Com.Syncfusion.Autocomplete.Resource.Drawable.sfclosebutton = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.sfclosebutton;
 			global::Com.Syncfusion.Autocomplete.Resource.Drawable.styleinfo = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.styleinfo;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.Itemname = global::DAE_ProyectoFinal_13.Droid.Resource.Id.Itemname;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.bottom;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.custom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.custom;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.icon = global::DAE_ProyectoFinal_13.Droid.Resource.Id.icon;
 			global::Com.Syncfusion.Autocomplete.Resource.Id.item_touch_helper_previous_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.none = global::DAE_ProyectoFinal_13.Droid.Resource.Id.none;
+			global::Com.Syncfusion.Autocomplete.Resource.Id.top = global::DAE_ProyectoFinal_13.Droid.Resource.Id.top;
 			global::Com.Syncfusion.Autocomplete.Resource.Layout.CustomizedView = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.CustomizedView;
 			global::Com.Syncfusion.Autocomplete.Resource.Layout.CustomizedView1 = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.CustomizedView1;
 			global::Com.Syncfusion.Autocomplete.Resource.Layout.sfautocomplete_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.sfautocomplete_layout;
@@ -68,398 +72,1901 @@ namespace DAE_ProyectoFinal_13.Droid
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteTextSize;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteWatermark = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteWatermark;
 			global::Com.Syncfusion.Autocomplete.Resource.Styleable.SfAutoComplete_autocompleteWatermarkColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfAutoComplete_autocompleteWatermarkColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_in = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_fade_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_out = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_fade_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_grow_fade_in_from_bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_popup_enter = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_popup_enter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_popup_exit = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_popup_exit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_shrink_fade_out_from_bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_in_bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_in_top = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_slide_in_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_top = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.abc_slide_out_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_in = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_out = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_in = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.design_snackbar_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_out = global::DAE_ProyectoFinal_13.Droid.Resource.Animation.design_snackbar_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_appbar_state_list_animator = global::DAE_ProyectoFinal_13.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarDivider = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarItemBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarPopupTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarSplitStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarWidgetTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionDropDownStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionMenuTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionMenuTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCloseButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCloseDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCopyDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCutDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeFindDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModePasteDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModePopupWindowStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeSelectAllDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeShareDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeSplitBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeWebSearchDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowMenuStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionProviderClass = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionProviderClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionViewClass = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.actionViewClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.activityChooserViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogButtonGroupStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogCenterButtons = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.alertDialogStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.alertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.allowStacking = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.allowStacking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alphabeticModifiers = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowHeadLength = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.arrowHeadLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowShaftLength = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.arrowShaftLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoCompleteTextViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeMaxTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeMinTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizePresetSizes = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeStepGranularity = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeTextType = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.autoSizeTextType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.background = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundSplit = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundStacked = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.backgroundStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.barLength = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.barLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_autoHide = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_hideable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.behavior_hideable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_overlapTop = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_peekHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_skipCollapsed = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.borderWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderlessButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetDialogTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNegativeButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNeutralButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarPositiveButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonPanelSideLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonStyleSmall = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonTint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.buttonTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardBackgroundColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardElevation = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardMaxElevation = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardPreventCornerOverlap = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardUseCompatPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkboxStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.checkboxStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedTextViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.closeIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeItemLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.closeItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseContentDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.collapseContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.collapseIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.color = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorAccent = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorAccent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorBackgroundFloating = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorButtonNormal = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorButtonNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlActivated = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorControlActivated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlHighlight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorControlHighlight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlNormal = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorControlNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorError = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimary = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorPrimary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimaryDark = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSwitchThumbNormal = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.commitIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.commitIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetEndWithActions = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetRight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetStart = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetStartWithNavigation = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingRight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingTop = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentScrim = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.contentScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.controlBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.controlBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.counterEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterMaxLength = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.counterMaxLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterOverflowTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.counterTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.customNavigationLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.customNavigationLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.defaultQueryHint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.defaultQueryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogPreferredPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.displayOptions = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.displayOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.divider = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerHorizontal = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dividerHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dividerPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerVertical = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dividerVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.drawableSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawerArrowStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropDownListViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropdownListPreferredItemHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.editTextBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.editTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.editTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.errorEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.errorTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandActivityOverflowButtonDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expanded = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMargin = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginStart = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginTop = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fabSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollVerticalThumbDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollVerticalTrackDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.font = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontFamily = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderAuthority = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderCerts = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontProviderCerts;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderFetchStrategy = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderFetchTimeout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderPackage = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontProviderPackage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderQuery = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontProviderQuery;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontWeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.foregroundInsidePadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.gapBetweenBars = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.gapBetweenBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.goIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.goIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.headerLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.headerLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.height = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideOnContentScroll = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintAnimationEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.hintEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.hintTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeAsUpIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.homeLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.icon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.iconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.iconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconifiedByDefault = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.imageButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.imageButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.indeterminateProgressStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.initialActivityCount = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.initialActivityCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.insetForeground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.insetForeground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.isLightTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.isLightTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconTint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.itemPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.keylines = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.keylines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layoutManager = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layoutManager;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_anchor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_anchorGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_behavior = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_collapseMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_collapseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_collapseParallaxMultiplier = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_dodgeInsetEdges = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_insetEdge = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_insetEdge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_keyline = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_keyline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollFlags = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollInterpolator = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceBackgroundIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listDividerAlertDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listItemLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listMenuViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPopupWindowStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightLarge = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightSmall = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingRight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logo = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logoDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.logoDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxActionInlineWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxButtonHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.maxButtonHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.measureWithLargestChild = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.menu = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.multiChoiceItemLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationContentDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.navigationContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.navigationIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.navigationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.numericModifiers = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.numericModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.overlapAnchor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.overlapAnchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingBottomNoButtons = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.paddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingStart = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.paddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingTopNoTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.panelBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelMenuListTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelMenuListWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleContentDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.passwordToggleTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupMenuStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.popupMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupWindowStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.popupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.preserveIconSpacing = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.pressedTranslationZ = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.progressBarPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.progressBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.queryBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryHint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.queryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.radioButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.radioButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.ratingBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleSmall = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.ratingBarStyleSmall;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.reverseLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.reverseLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.rippleColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimAnimationDuration = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimVisibleHeightTrigger = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchHintIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.searchHintIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.searchIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.searchViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.seekBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.seekBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.selectableItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackgroundBorderless = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showAsAction = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.showAsAction;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showDividers = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.showDividers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showText = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.showText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleChoiceItemLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spanCount = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.spanCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinBars = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.spinBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerDropDownItemStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.spinnerStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.splitTrack = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.splitTrack;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.srcCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.srcCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.stackFromEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_above_anchor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.state_above_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsed = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.state_collapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsible = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.state_collapsible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarScrim = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.statusBarScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subMenuArrow = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.subMenuArrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.submitBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.submitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.subtitleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suggestionRowLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchMinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.switchMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.switchPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.switchStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.switchTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabContentStart = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabContentStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMaxWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabMaxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingStart = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabPaddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingTop = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabSelectedTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tabTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAllCaps = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceLargePopupMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItem = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSecondary = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSmall = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearancePopupMenuHeader = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSearchResultSubtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSearchResultTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSmallPopupMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorAlertDialogListItem = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorSearchUrl = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.theme = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thickness = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTextPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.thumbTextPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.thumbTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.thumbTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMark = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tickMark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tickMarkTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.title = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargin = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginStart = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginTop = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargins = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleMargins;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarId = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.toolbarId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarNavigationButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.toolbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipForegroundColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipFrameBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipText = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.tooltipText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.track = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTint = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.trackTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.trackTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.useCompatPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.useCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.voiceIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.voiceIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBarOverlay = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionModeOverlay = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedHeightMajor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedHeightMinor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedWidthMajor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedWidthMinor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMajor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMinor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowNoTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.windowNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_action_bar_embed_tabs = global::DAE_ProyectoFinal_13.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_allow_stacked_button_bar = global::DAE_ProyectoFinal_13.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::DAE_ProyectoFinal_13.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_background_cache_hint_selector_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_background_cache_hint_selector_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_borderless_text_material = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_text_material = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_color_highlight_material = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_color_highlight_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_input_method_navigation_guard = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_search_url_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_normal = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_pressed = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_selected = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_secondary_text_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_secondary_text_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_btn_checkable = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_default = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_tint_default;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_edittext = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_tint_edittext;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_seek_thumb = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_tint_spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_switch_track = global::DAE_ProyectoFinal_13.Droid.Resource.Color.abc_tint_switch_track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.accent_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.accent_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.background_floating_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.background_floating_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.background_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.background_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_disabled_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_disabled_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_inverse_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_inverse_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.bright_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.button_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.button_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.button_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.button_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_dark_background = global::DAE_ProyectoFinal_13.Droid.Resource.Color.cardview_dark_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_light_background = global::DAE_ProyectoFinal_13.Droid.Resource.Color.cardview_light_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_end_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_start_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_bottom_navigation_shadow_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_error = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_end_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_mid_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_start_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_inner_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_outer_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_inner_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_outer_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_snackbar_background_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_snackbar_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_tint_password_toggle = global::DAE_ProyectoFinal_13.Droid.Resource.Color.design_tint_password_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.dim_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.foreground_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.foreground_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.highlighted_text_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.highlighted_text_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.highlighted_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_800 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_blue_grey_800;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_900 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_blue_grey_900;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_950 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_blue_grey_950;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_deep_teal_200 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_deep_teal_200;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_deep_teal_500 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_deep_teal_500;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_100 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_grey_100;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_300 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_grey_300;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_50 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_grey_50;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_600 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_grey_600;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_800 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_grey_800;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_850 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_grey_850;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_900 = global::DAE_ProyectoFinal_13.Droid.Resource.Color.material_grey_900;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_action_color_filter = global::DAE_ProyectoFinal_13.Droid.Resource.Color.notification_action_color_filter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_icon_bg_color = global::DAE_ProyectoFinal_13.Droid.Resource.Color.notification_icon_bg_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_dark_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.primary_dark_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_dark_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.primary_dark_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.primary_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.primary_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.primary_text_default_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.ripple_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.ripple_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_disabled_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_disabled_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_disabled_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_disabled_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.switch_thumb_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Color.tooltip_background_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_light = global::DAE_ProyectoFinal_13.Droid.Resource.Color.tooltip_background_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_height_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_padding_end_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_padding_start_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_elevation_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_stacked_max_height = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_height_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_width_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_width_overflow_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_alert_dialog_button_bar_height = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_inset_horizontal_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_inset_vertical_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_padding_horizontal_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_padding_vertical_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_config_prefDialogWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_corner_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_inset_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_padding_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_height_major = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_height_minor = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_width_major = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_width_minor = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_min_width_major = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_min_width_minor = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_padding_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_padding_top_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_title_divider_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_disabled_alpha_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_disabled_alpha_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_icon_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_text_padding_left = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_text_padding_right = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_bottom_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_top_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_floating_window_z = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_padding_horizontal_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_panel_menu_list_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_progress_bar_height_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_search_view_preferred_height = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_search_view_preferred_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_seekbar_track_background_height_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_seekbar_track_progress_height_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_select_dialog_padding_start_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_switch_padding = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_switch_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_body_1_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_body_2_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_button_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_caption_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_1_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_2_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_3_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_4_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_headline_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_large_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_medium_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_menu_header_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_menu_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_small_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subhead_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material_toolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_compat_inset_shadow = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_default_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_default_radius = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_inset_horizontal_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_inset_vertical_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_padding_horizontal_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_padding_vertical_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_control_corner_material = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_appbar_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_text_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_height = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_item_max_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_item_min_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_margin = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_shadow_height = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_text_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_modal_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_peek_height_min = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_border_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_fab_border_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_fab_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_image_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_fab_image_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_size_mini = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_size_normal = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_translation_z_pressed = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_icon_padding = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_icon_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_max_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_padding_bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_separator_vertical_padding = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_action_inline_max_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_background_corner_radius = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_max_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_min_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_horizontal = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_vertical = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_text_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_max_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_tab_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_scrollable_min_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_text_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_tab_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_text_size_2line = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.disabled_alpha_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.disabled_alpha_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_default_thickness = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_margin = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.fastscroll_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_minimum_range = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_colored = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_alpha_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_alpha_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_pressed_alpha_material_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_pressed_alpha_material_light = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_icon_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_text_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_action_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_big_circle_margin = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_content_margin_start = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_large_icon_height = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_large_icon_width = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_main_column_padding_top = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_media_narrow_margin = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_right_icon_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_right_side_padding_top = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_small_icon_background_padding = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_small_icon_size_as_large = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_subtext_size = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_subtext_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_top_pad;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad_large_text = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_corner_radius = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_horizontal_padding = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_margin = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.tooltip_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_precise_anchor_threshold = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_vertical_padding = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_y_offset_non_touch = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_y_offset_touch = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_action_bar_item_background_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_borderless_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_colored_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_default_mtrl_shape = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_internal_bg = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_top_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_control_background_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_control_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_dialog_material_background = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_edit_text_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_ab_back_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_clear_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_go_search_api_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_overflow_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_search_api_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_16dp = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_36dp = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_48dp = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_16dp = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_36dp = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_48dp = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_voice_search_api_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_item_background_holo_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_item_background_holo_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_divider_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_focused_holo = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_longpressed_holo = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_pressed_holo_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_pressed_holo_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_disabled_holo_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_holo_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_holo_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_popup_background_mtrl_mult = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_indicator_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_small_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_thumb_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_tick_mark_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_track_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_spinner_textfield_background_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_thumb_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_track_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_cursor_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_material = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_vector_test = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.abc_vector_test;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_hide_password = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.avd_hide_password;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_show_password = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.avd_show_password;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_bottom_navigation_item_background = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_fab_background = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_fab_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_ic_visibility = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_ic_visibility;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_ic_visibility_off = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_password_eye = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_password_eye;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_snackbar_background = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.design_snackbar_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.dropdownbuttonimage = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.dropdownbuttonimage;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglecollapseicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglevisibleicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.navigation_empty_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_action_background = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_action_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_bg_low;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low_normal = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low_pressed = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_normal = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_bg_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_normal_pressed = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_icon_background = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_icon_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_bg = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_low_bg = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_tile_bg = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notification_tile_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notify_panel_notification_icon_bg = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_dark = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_light = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.Itemname = global::DAE_ProyectoFinal_13.Droid.Resource.Id.Itemname;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_activity_content = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_bar_activity_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_container = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_bar_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_root = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_bar_root;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_bar_spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_bar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_title = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_bar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_container = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_context_bar = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_context_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_divider = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_image = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_image;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_menu_divider = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_menu_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_menu_presenter = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_menu_presenter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_mode_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar_stub = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_mode_bar_stub;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_close_button = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_mode_close_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_text = global::DAE_ProyectoFinal_13.Droid.Resource.Id.action_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.actions = global::DAE_ProyectoFinal_13.Droid.Resource.Id.actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.activity_chooser_view_content = global::DAE_ProyectoFinal_13.Droid.Resource.Id.activity_chooser_view_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.add = global::DAE_ProyectoFinal_13.Droid.Resource.Id.add;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.alertTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Id.alertTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.async = global::DAE_ProyectoFinal_13.Droid.Resource.Id.async;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.auto = global::DAE_ProyectoFinal_13.Droid.Resource.Id.auto;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.blocking = global::DAE_ProyectoFinal_13.Droid.Resource.Id.blocking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.buttonPanel = global::DAE_ProyectoFinal_13.Droid.Resource.Id.buttonPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center = global::DAE_ProyectoFinal_13.Droid.Resource.Id.center;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.checkbox = global::DAE_ProyectoFinal_13.Droid.Resource.Id.checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chronometer = global::DAE_ProyectoFinal_13.Droid.Resource.Id.chronometer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.container = global::DAE_ProyectoFinal_13.Droid.Resource.Id.container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.contentPanel = global::DAE_ProyectoFinal_13.Droid.Resource.Id.contentPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.coordinator = global::DAE_ProyectoFinal_13.Droid.Resource.Id.coordinator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.custom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.custom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.customPanel = global::DAE_ProyectoFinal_13.Droid.Resource.Id.customPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.decor_content_parent = global::DAE_ProyectoFinal_13.Droid.Resource.Id.decor_content_parent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.default_activity_button = global::DAE_ProyectoFinal_13.Droid.Resource.Id.default_activity_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_bottom_sheet = global::DAE_ProyectoFinal_13.Droid.Resource.Id.design_bottom_sheet;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area = global::DAE_ProyectoFinal_13.Droid.Resource.Id.design_menu_item_action_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area_stub = global::DAE_ProyectoFinal_13.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_text = global::DAE_ProyectoFinal_13.Droid.Resource.Id.design_menu_item_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_navigation_view = global::DAE_ProyectoFinal_13.Droid.Resource.Id.design_navigation_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.edit_query = global::DAE_ProyectoFinal_13.Droid.Resource.Id.edit_query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end = global::DAE_ProyectoFinal_13.Droid.Resource.Id.end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expand_activities_button = global::DAE_ProyectoFinal_13.Droid.Resource.Id.expand_activities_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expanded_menu = global::DAE_ProyectoFinal_13.Droid.Resource.Id.expanded_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill = global::DAE_ProyectoFinal_13.Droid.Resource.Id.fill;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@fixed = global::DAE_ProyectoFinal_13.Droid.Resource.Id.@fixed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.forever = global::DAE_ProyectoFinal_13.Droid.Resource.Id.forever;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.home = global::DAE_ProyectoFinal_13.Droid.Resource.Id.home;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon = global::DAE_ProyectoFinal_13.Droid.Resource.Id.icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon_group = global::DAE_ProyectoFinal_13.Droid.Resource.Id.icon_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.image = global::DAE_ProyectoFinal_13.Droid.Resource.Id.image;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.info = global::DAE_ProyectoFinal_13.Droid.Resource.Id.info;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.italic = global::DAE_ProyectoFinal_13.Droid.Resource.Id.italic;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.item_touch_helper_previous_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.largeLabel = global::DAE_ProyectoFinal_13.Droid.Resource.Id.largeLabel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.left = global::DAE_ProyectoFinal_13.Droid.Resource.Id.left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.line1 = global::DAE_ProyectoFinal_13.Droid.Resource.Id.line1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.line3 = global::DAE_ProyectoFinal_13.Droid.Resource.Id.line3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.listMode = global::DAE_ProyectoFinal_13.Droid.Resource.Id.listMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.list_item = global::DAE_ProyectoFinal_13.Droid.Resource.Id.list_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.masked = global::DAE_ProyectoFinal_13.Droid.Resource.Id.masked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.message = global::DAE_ProyectoFinal_13.Droid.Resource.Id.message;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mini = global::DAE_ProyectoFinal_13.Droid.Resource.Id.mini;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.multiply = global::DAE_ProyectoFinal_13.Droid.Resource.Id.multiply;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.navigation_header_container = global::DAE_ProyectoFinal_13.Droid.Resource.Id.navigation_header_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.none = global::DAE_ProyectoFinal_13.Droid.Resource.Id.none;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.normal = global::DAE_ProyectoFinal_13.Droid.Resource.Id.normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_background = global::DAE_ProyectoFinal_13.Droid.Resource.Id.notification_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column = global::DAE_ProyectoFinal_13.Droid.Resource.Id.notification_main_column;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column_container = global::DAE_ProyectoFinal_13.Droid.Resource.Id.notification_main_column_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parallax = global::DAE_ProyectoFinal_13.Droid.Resource.Id.parallax;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parentPanel = global::DAE_ProyectoFinal_13.Droid.Resource.Id.parentPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.pin = global::DAE_ProyectoFinal_13.Droid.Resource.Id.pin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_circular = global::DAE_ProyectoFinal_13.Droid.Resource.Id.progress_circular;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_horizontal = global::DAE_ProyectoFinal_13.Droid.Resource.Id.progress_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.radio = global::DAE_ProyectoFinal_13.Droid.Resource.Id.radio;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right = global::DAE_ProyectoFinal_13.Droid.Resource.Id.right;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Id.right_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_side = global::DAE_ProyectoFinal_13.Droid.Resource.Id.right_side;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.screen = global::DAE_ProyectoFinal_13.Droid.Resource.Id.screen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorDown = global::DAE_ProyectoFinal_13.Droid.Resource.Id.scrollIndicatorDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorUp = global::DAE_ProyectoFinal_13.Droid.Resource.Id.scrollIndicatorUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollView = global::DAE_ProyectoFinal_13.Droid.Resource.Id.scrollView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollable = global::DAE_ProyectoFinal_13.Droid.Resource.Id.scrollable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_badge = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_bar = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_button = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_close_btn = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_close_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_edit_frame = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_edit_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_go_btn = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_go_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_mag_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_mag_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_plate = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_plate;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_src_text = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_src_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_voice_btn = global::DAE_ProyectoFinal_13.Droid.Resource.Id.search_voice_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.select_dialog_listview = global::DAE_ProyectoFinal_13.Droid.Resource.Id.select_dialog_listview;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shortcut = global::DAE_ProyectoFinal_13.Droid.Resource.Id.shortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.smallLabel = global::DAE_ProyectoFinal_13.Droid.Resource.Id.smallLabel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_action = global::DAE_ProyectoFinal_13.Droid.Resource.Id.snackbar_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_text = global::DAE_ProyectoFinal_13.Droid.Resource.Id.snackbar_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.spacer = global::DAE_ProyectoFinal_13.Droid.Resource.Id.spacer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.split_action_bar = global::DAE_ProyectoFinal_13.Droid.Resource.Id.split_action_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_atop = global::DAE_ProyectoFinal_13.Droid.Resource.Id.src_atop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_in = global::DAE_ProyectoFinal_13.Droid.Resource.Id.src_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_over = global::DAE_ProyectoFinal_13.Droid.Resource.Id.src_over;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.start = global::DAE_ProyectoFinal_13.Droid.Resource.Id.start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submenuarrow = global::DAE_ProyectoFinal_13.Droid.Resource.Id.submenuarrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submit_area = global::DAE_ProyectoFinal_13.Droid.Resource.Id.submit_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tabMode = global::DAE_ProyectoFinal_13.Droid.Resource.Id.tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_transition_group = global::DAE_ProyectoFinal_13.Droid.Resource.Id.tag_transition_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text = global::DAE_ProyectoFinal_13.Droid.Resource.Id.text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text2 = global::DAE_ProyectoFinal_13.Droid.Resource.Id.text2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoButtons = global::DAE_ProyectoFinal_13.Droid.Resource.Id.textSpacerNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Id.textSpacerNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text_input_password_toggle = global::DAE_ProyectoFinal_13.Droid.Resource.Id.text_input_password_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_counter = global::DAE_ProyectoFinal_13.Droid.Resource.Id.textinput_counter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_error = global::DAE_ProyectoFinal_13.Droid.Resource.Id.textinput_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.time = global::DAE_ProyectoFinal_13.Droid.Resource.Id.time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title = global::DAE_ProyectoFinal_13.Droid.Resource.Id.title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.titleDividerNoCustom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.titleDividerNoCustom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title_template = global::DAE_ProyectoFinal_13.Droid.Resource.Id.title_template;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.top = global::DAE_ProyectoFinal_13.Droid.Resource.Id.top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.topPanel = global::DAE_ProyectoFinal_13.Droid.Resource.Id.topPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.touch_outside = global::DAE_ProyectoFinal_13.Droid.Resource.Id.touch_outside;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.uniform = global::DAE_ProyectoFinal_13.Droid.Resource.Id.uniform;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.up = global::DAE_ProyectoFinal_13.Droid.Resource.Id.up;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_offset_helper = global::DAE_ProyectoFinal_13.Droid.Resource.Id.view_offset_helper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.visible = global::DAE_ProyectoFinal_13.Droid.Resource.Id.visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.wrap_content = global::DAE_ProyectoFinal_13.Droid.Resource.Id.wrap_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityDefaultDur = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityShortDur = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.app_bar_elevation_anim_duration = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.bottom_sheet_slide_duration = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.cancel_button_image_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.config_tooltipAnimTime = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.design_snackbar_text_max_lines = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.hide_password_duration = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.hide_password_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.show_password_duration = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.show_password_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.status_bar_notification_info_maxnum = global::DAE_ProyectoFinal_13.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_bar_title_item = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_bar_up_container = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_menu_item_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_menu_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_mode_bar = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_mode_close_item_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_activity_chooser_view = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_activity_chooser_view_list_item = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_button_bar_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_title_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_dialog_title_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_expanded_menu_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_checkbox = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_radio = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_popup_menu_header_item_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_popup_menu_item_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_content_include = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_screen_content_include;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_simple = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_screen_simple;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_simple_overlay_action_mode = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_toolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_search_dropdown_item_icons_2line = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_search_view = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_search_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_select_dialog_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedImageView = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.CustomizedImageView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedView = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.CustomizedView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_navigation_item = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_sheet_dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_layout_snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar_include = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_tab_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_tab_text = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_layout_tab_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_menu_item_action_area = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_navigation_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_header = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_navigation_item_header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_separator = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_subheader = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_navigation_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu_item = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_text_input_password_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.notification_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action_tombstone = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.notification_action_tombstone;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_custom_big = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.notification_template_custom_big;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_icon_group = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.notification_template_icon_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_part_chronometer = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_part_time = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.notification_template_part_time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_item_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.select_dialog_item_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_multichoice_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_singlechoice_material = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.select_dialog_singlechoice_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.sfcomboBox_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.sfcomboBox_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.support_simple_spinner_dropdown_item = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_home_description = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_action_bar_home_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_up_description = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_action_bar_up_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_menu_overflow_description = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_mode_done = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_action_mode_done;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activity_chooser_view_see_all = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activitychooserview_choose_application = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_off = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_capital_off;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_on = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_capital_on;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_body_1_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_body_2_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_button_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_button_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_caption_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_caption_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_display_1_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_display_2_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_display_3_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_display_4_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_headline_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_headline_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_menu_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_menu_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_subhead_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_title_material = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_font_family_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_search_hint = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_search_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_clear = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_searchview_description_clear;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_query = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_searchview_description_query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_search = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_searchview_description_search;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_submit = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_searchview_description_submit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_voice = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_searchview_description_voice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with_application = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_toolbar_collapse_description = global::DAE_ProyectoFinal_13.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.appbar_scrolling_view_behavior = global::DAE_ProyectoFinal_13.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.bottom_sheet_behavior = global::DAE_ProyectoFinal_13.Droid.Resource.String.bottom_sheet_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_pattern = global::DAE_ProyectoFinal_13.Droid.Resource.String.character_counter_pattern;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.password_toggle_content_description = global::DAE_ProyectoFinal_13.Droid.Resource.String.password_toggle_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye = global::DAE_ProyectoFinal_13.Droid.Resource.String.path_password_eye;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_strike_through = global::DAE_ProyectoFinal_13.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_visible = global::DAE_ProyectoFinal_13.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_strike_through = global::DAE_ProyectoFinal_13.Droid.Resource.String.path_password_strike_through;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.search_menu_title = global::DAE_ProyectoFinal_13.Droid.Resource.String.search_menu_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.status_bar_notification_info_overflow = global::DAE_ProyectoFinal_13.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_DropDownUp = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Tooltip = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_Design_BottomSheetDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Tooltip = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_CardView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitle_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Button = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Large = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Theme_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Theme_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionMode = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_EditText = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ImageButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SearchView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_Design_TabLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Dark = global::DAE_ProyectoFinal_13.Droid.Resource.Style.CardView_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V21_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V21_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V25_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V25_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_Widget_AppCompat_Spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body1 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body2 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Button = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Caption = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display1 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display2 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display3 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display4 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Headline = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Large = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Medium = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Menu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Subhead = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Tooltip = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Info = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Time = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Counter = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Counter_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Error = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Hint = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Snackbar_Message = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Tab = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::DAE_ProyectoFinal_13.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_CompactMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_Alert = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_NoActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_Design;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_BottomSheetDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_Design_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_NoActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_NoActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark = global::DAE_ProyectoFinal_13.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::DAE_ProyectoFinal_13.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Light = global::DAE_ProyectoFinal_13.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionMode = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActivityChooserView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Colored = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_EditText = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ImageButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_SearchView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListMenuView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListPopupWindow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView_DropDown = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView_Menu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupWindow = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ProgressBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar_Small = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SearchView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SeekBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Compat_NotificationActionContainer = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Compat_NotificationActionText = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_AppBarLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_BottomNavigationView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_BottomSheet_Modal = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_CollapsingToolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_FloatingActionButton = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_NavigationView = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_Snackbar = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TabLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TextInputLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_background = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundSplit = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundStacked = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetRight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetStart = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_customNavigationLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_displayOptions = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_divider = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_height = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_hideOnContentScroll = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_homeAsUpIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_homeLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_itemPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_logo = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_navigationMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_popupTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_progressBarPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_progressBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitleTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_title = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_titleTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView_android_minWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_background = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMode_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_backgroundSplit = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_closeItemLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_height = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMode_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_subtitleTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_titleTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView_initialActivityCount = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_android_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_listItemLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_listLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_showTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_background = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_expanded = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_android_src = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_srcCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_tint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_tintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_android_thumb = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMark = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_android_textAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_fontFamily = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_textAllCaps = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarDivider = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_checkboxStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorAccent = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlActivated = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlNormal = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorError = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorPrimary = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_controlBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerVertical = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_searchViewStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_seekBarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_spinnerStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_switchStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_toolbarStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionBar = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowNoTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomNavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemIconTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_menu = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout_allowStacking = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_android_minHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_android_minWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardBackgroundColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardElevation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardMaxElevation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardPreventCornerOverlap = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardUseCompatPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingRight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingTop = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_title = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ColorStateListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_alpha = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_color = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CompoundButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_android_button = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_keylines = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DesignTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme_bottomSheetStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_barLength = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_color = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_drawableSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_spinBars = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_thickness = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_borderWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_rippleColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_useCompatPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderAuthority = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderCerts = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderPackage = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderQuery = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamilyFont;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_font = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontWeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_font = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontWeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_gravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_orientation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_divider = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_showDividers = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_checkableBehavior = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_enabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_id = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_menuCategory = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_orderInCategory = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_visible = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionProviderClass = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionViewClass = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_alphabeticModifiers = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_checkable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_checked = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_enabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_id = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_menuCategory = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_numericShortcut = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_onClick = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_orderInCategory = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_title = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_titleCondensed = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_visible = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_contentDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_iconTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_iconTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_numericModifiers = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_showAsAction = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_tooltipText = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_headerBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_horizontalDivider = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_verticalDivider = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_windowAnimationStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_preserveIconSpacing = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_subMenuArrow = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_background = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_maxWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_headerLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_menu = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.NavigationView_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_overlapAnchor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecycleListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_descendantFocusability = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_orientation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_layoutManager = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_layoutManager;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_reverseLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_reverseLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_spanCount = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_spanCount;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_stackFromEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.allowNull = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.allowNull;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.borderColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.borderColor;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.culture = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.culture;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.enableGroupSeparator = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.enableGroupSeparator;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.fontSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.fontSize;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.maximumDecimalDigits = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.maximumDecimalDigits;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.numberFormat = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.numberFormat;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.numericTextBoxValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.numericTextBoxValue;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.parsingMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.parsingMode;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.percentDisplayMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.percentDisplayMode;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.selectAllOnFocus = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.selectAllOnFocus;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.valueChangeMode = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.valueChangeMode;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.watermark = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.watermark;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Attribute.watermarkColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.watermarkColor;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Id.compute = global::DAE_ProyectoFinal_13.Droid.Resource.Id.compute;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Id.decimalMode = global::DAE_ProyectoFinal_13.Droid.Resource.Id.decimalMode;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Id.doubleMode = global::DAE_ProyectoFinal_13.Droid.Resource.Id.doubleMode;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Id.onKeyFocus = global::DAE_ProyectoFinal_13.Droid.Resource.Id.onKeyFocus;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Id.onLostFocus = global::DAE_ProyectoFinal_13.Droid.Resource.Id.onLostFocus;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Id.value = global::DAE_ProyectoFinal_13.Droid.Resource.Id.value;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_focusable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_imeOptions = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_inputType = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_maxWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_closeIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_commitIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_defaultQueryHint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_goIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_iconifiedByDefault = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_queryBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_queryHint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_searchHintIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_searchIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_submitBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_suggestionRowLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_voiceIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SnackbarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_android_maxWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_elevation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_dropDownWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_entries = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_popupBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_prompt = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_popupTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOff = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOn = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_thumb = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_showText = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_splitTrack = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchMinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTextPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_track = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_icon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_text = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabItem_android_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabBackground = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabContentStart = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMaxWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMinWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPadding = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingStart = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingTop = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabSelectedTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_fontFamily = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowDx = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowDy = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorHint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorLink = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textStyle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_typeface = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontFamily = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textAllCaps = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_hint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_textColorHint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterMaxLength = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_android_gravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_android_minHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_buttonGravity = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_collapseContentDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_collapseIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetRight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetStart = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logo = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logoDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_maxButtonHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationContentDescription = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationIcon = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_popupTheme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitleTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitleTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_title = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargin = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginStart = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginTop = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargins = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextAppearance = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.View;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_focusable = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.View_android_focusable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_theme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.View_android_theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.View_paddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingStart = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.View_paddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_theme = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_android_background = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ViewStubCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_id = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_inflatedId = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Layout.ScrollViewer = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.ScrollViewer;
+			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.library_name = global::DAE_ProyectoFinal_13.Droid.Resource.String.library_name;
+			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.load_more_items = global::DAE_ProyectoFinal_13.Droid.Resource.String.load_more_items;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.cancel_drop = global::DAE_ProyectoFinal_13.Droid.Resource.String.cancel_drop;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.drop_above = global::DAE_ProyectoFinal_13.Droid.Resource.String.drop_above;
 			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.drop_below = global::DAE_ProyectoFinal_13.Droid.Resource.String.drop_below;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.library_name = global::DAE_ProyectoFinal_13.Droid.Resource.String.library_name;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.load_more_items = global::DAE_ProyectoFinal_13.Droid.Resource.String.load_more_items;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_allowNull = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_allowNull;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_borderColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_borderColor;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_culture = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_culture;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_enableGroupSeparator = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_enableGroupSeparator;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_fontSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_fontSize;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_maximumDecimalDigits = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_maximumDecimalDigits;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_numberFormat = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_numberFormat;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_numericTextBoxValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_numericTextBoxValue;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_parsingMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_parsingMode;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_percentDisplayMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_percentDisplayMode;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_selectAllOnFocus = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_selectAllOnFocus;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_valueChangeMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_valueChangeMode;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_watermark = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_watermark;
-			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Styleable.SfNumericTextBox_watermarkColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_watermarkColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.barPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.barPointerCornerRadius;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerCornerRadiusType = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.barPointerCornerRadiusType;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.barPointerStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.barPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.characterHeight;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterSpacing = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.characterSpacing;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterStrokeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.characterStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterType = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.characterType;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.characterWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.characterWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularGaugeScaleDirection = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularGaugeScaleDirection;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleLabelOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelPostfix = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleLabelPostfix;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelPrefix = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleLabelPrefix;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleLabelTextColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleLabelTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleLabelTextSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMajorTickColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleMajorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMajorTickOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleMajorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMaximumLabels = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleMaximumLabels;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTickColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleMinorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTickOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleMinorTicksPerInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleMinorTicksPerInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleRangeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeEndValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleRangeEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleRangeOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleRangeStartValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleRangeStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleShowLabels = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleShowLabels;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.circularScaleShowTicks = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.circularScaleShowTicks;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.dimmedSegmentAlpha = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dimmedSegmentAlpha;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.dimmedSegmentColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.dimmedSegmentColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeCircularCoefficient = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.gaugeCircularCoefficient;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeHeaderAlignment = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.gaugeHeaderAlignment;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeHorizontalHeaderPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.gaugeHorizontalHeaderPosition;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeText = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.gaugeText;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.gaugeTextColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.gaugeTextSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.gaugeVerticalHeaderPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.gaugeVerticalHeaderPosition;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.markerPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.markerPointerHeight;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.markerPointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.markerPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerPointerWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.markerPointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.markerShape = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.markerShape;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.maximumLabels = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.maximumLabels;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerKnobColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerKnobRadius;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobStrokeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerKnobStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerKnobStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerKnobStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerLengthFactor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerLengthFactor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerTailColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailLengthFactor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerTailLengthFactor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailStrokeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerTailStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerTailStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerTailStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerType = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerType;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.needlePointerWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.needlePointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeEndValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeEndWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeEndWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeInnerEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeInnerEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeInnerStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeInnerStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOuterEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeOuterEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeOuterStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeOuterStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerCap = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangePointerCap;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangePointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangePointerEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangePointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangePointerStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerStartValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangePointerStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangePointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangePointerWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangePointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeStartValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeStartWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeStartWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.rangeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.rangeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleAutoAngle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleAutoAngle;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleAutoInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleAutoInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleBarColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarLength = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleBarLength;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleBarSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleBarSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleCornerRadius;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleCornerRadiusType = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleCornerRadiusType;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleDirection = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleDirection;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndAngle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleEndAngle;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleEndValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleLabelColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelFontSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleLabelFontSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleLabelOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelPostfix = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleLabelPostfix;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleLabelPrefix = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleLabelPrefix;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMajorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMajorTickEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickLength = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMajorTickLength;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMajorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMajorTickSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMajorTickStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMajorTickStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMajorTickWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMajorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMaximum = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMaximum;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinimum = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinimum;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTickEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickLength = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTickLength;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickSize = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTickSize;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTickStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTickStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTicksPerInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleMinorTicksPerInterval;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleNumberofDecimalDigits = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleNumberofDecimalDigits;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOpposedPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleOpposedPosition;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOrientation = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleOrientation;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRadiusFactor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleRadiusFactor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRimColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleRimColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleRimWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleRimWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowFirstLabel = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleShowFirstLabel;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowLabels = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleShowLabels;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowLastLabel = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleShowLastLabel;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowRim = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleShowRim;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleShowTicks = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleShowTicks;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartAngle = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleStartAngle;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleStartValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.scaleStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.segmentStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.segmentStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.symbolPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.symbolPointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.symbolPointerStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.symbolPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.symbolPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.symbolPosition;
-			global::Com.Syncfusion.Gauges.Resource.Dimension.pading_bottom = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.pading_bottom;
-			global::Com.Syncfusion.Gauges.Resource.Dimension.pading_top = global::DAE_ProyectoFinal_13.Droid.Resource.Dimension.pading_top;
-			global::Com.Syncfusion.Gauges.Resource.Id.anticlockwise = global::DAE_ProyectoFinal_13.Droid.Resource.Id.anticlockwise;
-			global::Com.Syncfusion.Gauges.Resource.Id.away = global::DAE_ProyectoFinal_13.Droid.Resource.Id.away;
-			global::Com.Syncfusion.Gauges.Resource.Id.backward = global::DAE_ProyectoFinal_13.Droid.Resource.Id.backward;
-			global::Com.Syncfusion.Gauges.Resource.Id.bar = global::DAE_ProyectoFinal_13.Droid.Resource.Id.bar;
-			global::Com.Syncfusion.Gauges.Resource.Id.both = global::DAE_ProyectoFinal_13.Droid.Resource.Id.both;
-			global::Com.Syncfusion.Gauges.Resource.Id.circle = global::DAE_ProyectoFinal_13.Droid.Resource.Id.circle;
-			global::Com.Syncfusion.Gauges.Resource.Id.clockwise = global::DAE_ProyectoFinal_13.Droid.Resource.Id.clockwise;
-			global::Com.Syncfusion.Gauges.Resource.Id.diamond = global::DAE_ProyectoFinal_13.Droid.Resource.Id.diamond;
-			global::Com.Syncfusion.Gauges.Resource.Id.eightCrossEightDotMatrix = global::DAE_ProyectoFinal_13.Droid.Resource.Id.eightCrossEightDotMatrix;
-			global::Com.Syncfusion.Gauges.Resource.Id.eightsegment = global::DAE_ProyectoFinal_13.Droid.Resource.Id.eightsegment;
-			global::Com.Syncfusion.Gauges.Resource.Id.end = global::DAE_ProyectoFinal_13.Droid.Resource.Id.end;
-			global::Com.Syncfusion.Gauges.Resource.Id.far = global::DAE_ProyectoFinal_13.Droid.Resource.Id.far;
-			global::Com.Syncfusion.Gauges.Resource.Id.forward = global::DAE_ProyectoFinal_13.Droid.Resource.Id.forward;
-			global::Com.Syncfusion.Gauges.Resource.Id.fourteensegment = global::DAE_ProyectoFinal_13.Droid.Resource.Id.fourteensegment;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeBottom;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottomLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeBottomLeft;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeBottomRight = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeBottomRight;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeCenter = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeCenter;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeCustom = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeCustom;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderCenter = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeHorizontalHeaderCenter;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeHorizontalHeaderEnd;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeHorizontalHeaderStart = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeHorizontalHeaderStart;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeLeft;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeRight = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeRight;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTop = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeTop;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTopLeft = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeTopLeft;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeTopRight = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeTopRight;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderCenter = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeVerticalHeaderCenter;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderEnd = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeVerticalHeaderEnd;
-			global::Com.Syncfusion.Gauges.Resource.Id.gaugeVerticalHeaderStart = global::DAE_ProyectoFinal_13.Droid.Resource.Id.gaugeVerticalHeaderStart;
-			global::Com.Syncfusion.Gauges.Resource.Id.horizontal = global::DAE_ProyectoFinal_13.Droid.Resource.Id.horizontal;
-			global::Com.Syncfusion.Gauges.Resource.Id.image = global::DAE_ProyectoFinal_13.Droid.Resource.Id.image;
-			global::Com.Syncfusion.Gauges.Resource.Id.invertedTriangle = global::DAE_ProyectoFinal_13.Droid.Resource.Id.invertedTriangle;
-			global::Com.Syncfusion.Gauges.Resource.Id.none = global::DAE_ProyectoFinal_13.Droid.Resource.Id.none;
-			global::Com.Syncfusion.Gauges.Resource.Id.rectangle = global::DAE_ProyectoFinal_13.Droid.Resource.Id.rectangle;
-			global::Com.Syncfusion.Gauges.Resource.Id.rootLayout = global::DAE_ProyectoFinal_13.Droid.Resource.Id.rootLayout;
-			global::Com.Syncfusion.Gauges.Resource.Id.segmentFourteen = global::DAE_ProyectoFinal_13.Droid.Resource.Id.segmentFourteen;
-			global::Com.Syncfusion.Gauges.Resource.Id.segmentSeven = global::DAE_ProyectoFinal_13.Droid.Resource.Id.segmentSeven;
-			global::Com.Syncfusion.Gauges.Resource.Id.segmentSixteen = global::DAE_ProyectoFinal_13.Droid.Resource.Id.segmentSixteen;
-			global::Com.Syncfusion.Gauges.Resource.Id.sevensegment = global::DAE_ProyectoFinal_13.Droid.Resource.Id.sevensegment;
-			global::Com.Syncfusion.Gauges.Resource.Id.sixteensegment = global::DAE_ProyectoFinal_13.Droid.Resource.Id.sixteensegment;
-			global::Com.Syncfusion.Gauges.Resource.Id.start = global::DAE_ProyectoFinal_13.Droid.Resource.Id.start;
-			global::Com.Syncfusion.Gauges.Resource.Id.triangle = global::DAE_ProyectoFinal_13.Droid.Resource.Id.triangle;
-			global::Com.Syncfusion.Gauges.Resource.Id.vertical = global::DAE_ProyectoFinal_13.Droid.Resource.Id.vertical;
-			global::Com.Syncfusion.Gauges.Resource.Layout.circulargauge_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.circulargauge_layout;
-			global::Com.Syncfusion.Gauges.Resource.Layout.digitalgauge_layout = global::DAE_ProyectoFinal_13.Droid.Resource.Layout.digitalgauge_layout;
-			global::Com.Syncfusion.Gauges.Resource.String.ApplicationName = global::DAE_ProyectoFinal_13.Droid.Resource.String.ApplicationName;
-			global::Com.Syncfusion.Gauges.Resource.String.Hello = global::DAE_ProyectoFinal_13.Droid.Resource.String.Hello;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularGaugeScaleDirection = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularGaugeScaleDirection;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelPostfix = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelPostfix;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelPrefix = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelPrefix;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelTextColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleLabelTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleLabelTextSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMajorTickColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleMajorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMajorTickOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleMajorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMaximumLabels = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleMaximumLabels;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTickColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleMinorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTickOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleMinorTicksPerInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleMinorTicksPerInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleRangeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeEndValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleRangeEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleRangeOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleRangeStartValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleRangeStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleShowLabels = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleShowLabels;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_circularScaleShowTicks = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_circularScaleShowTicks;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeCircularCoefficient = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_gaugeCircularCoefficient;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeHeaderAlignment = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_gaugeHeaderAlignment;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeHorizontalHeaderPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_gaugeHorizontalHeaderPosition;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeText = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_gaugeText;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeTextColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_gaugeTextColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeTextSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_gaugeTextSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_gaugeVerticalHeaderPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_gaugeVerticalHeaderPosition;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_markerPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_markerPointerHeight;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_markerPointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_markerPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerPointerWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_markerPointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_markerShape = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_markerShape;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerKnobColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerKnobRadius;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerKnobStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerLengthFactor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerLengthFactor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerTailColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailLengthFactor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerTailLengthFactor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerTailStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerType = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerType;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_needlePointerWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_needlePointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeInnerEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangeInnerEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeInnerStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangeInnerStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeOuterEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangeOuterEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeOuterStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangeOuterStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerCap = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangePointerCap;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangePointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangePointerEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangePointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangePointerStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerStartValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangePointerStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangePointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangePointerWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangePointerWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_rangeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_rangeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleAutoAngle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleAutoAngle;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleAutoInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleAutoInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndAngle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleEndAngle;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleEndValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleMajorTickEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleMajorTickSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleMajorTickStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMajorTickWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleMajorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickEndOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleMinorTickEndOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleMinorTickSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleMinorTickStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleMinorTickWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleMinorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleNumberofDecimalDigits = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleNumberofDecimalDigits;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRadiusFactor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleRadiusFactor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRimColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleRimColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleRimWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleRimWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowFirstLabel = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleShowFirstLabel;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowLastLabel = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleShowLastLabel;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleShowRim = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleShowRim;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartAngle = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleStartAngle;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleStartOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfCircularGauge_scaleStartValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfCircularGauge_scaleStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterHeight = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge_characterHeight;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterSpacing = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge_characterSpacing;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterStrokeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge_characterStrokeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterType = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge_characterType;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_characterWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge_characterWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_dimmedSegmentAlpha = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge_dimmedSegmentAlpha;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_dimmedSegmentColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge_dimmedSegmentColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfDigitalGauge_segmentStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfDigitalGauge_segmentStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_barPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_barPointerCornerRadius;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerCornerRadiusType = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_barPointerCornerRadiusType;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_barPointerStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_barPointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_barPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_maximumLabels = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_maximumLabels;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_rangeColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeEndValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_rangeEndValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeEndWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_rangeEndWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_rangeOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeStartValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_rangeStartValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_rangeStartWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_rangeStartWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleBarColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarLength = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleBarLength;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleBarSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleBarSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleCornerRadius = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleCornerRadius;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleCornerRadiusType = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleCornerRadiusType;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleDirection = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleDirection;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleLabelColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelFontSize = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleLabelFontSize;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleLabelOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelPostfix = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleLabelPostfix;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleLabelPrefix = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleLabelPrefix;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMajorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickLength = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMajorTickLength;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMajorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMajorTickStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMajorTickStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMaximum = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMaximum;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinimum = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMinimum;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickLength = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickLength;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTicksPerInterval = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTicksPerInterval;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOpposedPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleOpposedPosition;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOrientation = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleOrientation;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleShowLabels = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleShowLabels;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleShowTicks = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_scaleShowTicks;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_symbolPointerColor;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerOffset = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_symbolPointerOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerStrokeWidth = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_symbolPointerStrokeWidth;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerValue = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_symbolPointerValue;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPosition = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfLinearGauge_symbolPosition;
-			global::Syncfusion.ListView.XForms.Android.Resource.Drawable.inputlayout_togglecollapseicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.ListView.XForms.Android.Resource.Drawable.inputlayout_togglevisibleicon = global::DAE_ProyectoFinal_13.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::DAE_ProyectoFinal_13.Droid.Resource.String.ApplicationName;
-			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::DAE_ProyectoFinal_13.Droid.Resource.String.Hello;
-			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::DAE_ProyectoFinal_13.Droid.Resource.String.Load_More;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.allowNull = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.allowNull;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.borderColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.borderColor;
 			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.culture = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.culture;
@@ -496,7 +2003,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_valueChangeMode = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_valueChangeMode;
 			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_watermark = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_watermark;
 			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_watermarkColor = global::DAE_ProyectoFinal_13.Droid.Resource.Styleable.SfNumericTextBox_watermarkColor;
-			global::Com.Syncfusion.Numericupdown.Resource.String.library_name = global::DAE_ProyectoFinal_13.Droid.Resource.String.library_name;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerBackgroundColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.pickerBackgroundColor;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerBorderColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.pickerBorderColor;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerColumnHeaderBackgroundColor = global::DAE_ProyectoFinal_13.Droid.Resource.Attribute.pickerColumnHeaderBackgroundColor;
@@ -749,8 +2255,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F040026
 			public const int alertDialogTheme = 2130968614;
 			
-			// aapt resource value: 0x7F080153
-			public const int allowNull = 2131231059;
+			// aapt resource value: 0x7F080019
+			public const int allowNull = 2131230745;
 			
 			// aapt resource value: 0x7F040027
 			public const int allowStacking = 2130968615;
@@ -827,21 +2333,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F040037
 			public const int barLength = 2130968631;
 			
-			// aapt resource value: 0x7F080126
-			public const int barPointerColor = 2131231014;
-			
-			// aapt resource value: 0x7F080129
-			public const int barPointerCornerRadius = 2131231017;
-			
-			// aapt resource value: 0x7F080128
-			public const int barPointerCornerRadiusType = 2131231016;
-			
-			// aapt resource value: 0x7F080127
-			public const int barPointerStrokeWidth = 2131231015;
-			
-			// aapt resource value: 0x7F080125
-			public const int barPointerValue = 2131231013;
-			
 			// aapt resource value: 0x7F040038
 			public const int behavior_autoHide = 2130968632;
 			
@@ -857,8 +2348,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04003C
 			public const int behavior_skipCollapsed = 2130968636;
 			
-			// aapt resource value: 0x7F080154
-			public const int borderColor = 2131231060;
+			// aapt resource value: 0x7F080020
+			public const int borderColor = 2131230752;
 			
 			// aapt resource value: 0x7F04003E
 			public const int borderlessButtonStyle = 2130968638;
@@ -923,83 +2414,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F040006
 			public const int cardUseCompatPadding = 2130968582;
 			
-			// aapt resource value: 0x7F080137
-			public const int characterHeight = 2131231031;
-			
-			// aapt resource value: 0x7F080138
-			public const int characterSpacing = 2131231032;
-			
-			// aapt resource value: 0x7F080136
-			public const int characterStrokeColor = 2131231030;
-			
-			// aapt resource value: 0x7F080143
-			public const int characterType = 2131231043;
-			
-			// aapt resource value: 0x7F080139
-			public const int characterWidth = 2131231033;
-			
 			// aapt resource value: 0x7F04004C
 			public const int checkboxStyle = 2130968652;
 			
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
-			
-			// aapt resource value: 0x7F080017
-			public const int circularGaugeScaleDirection = 2131230743;
-			
-			// aapt resource value: 0x7F080015
-			public const int circularScaleInterval = 2131230741;
-			
-			// aapt resource value: 0x7F080032
-			public const int circularScaleLabelOffset = 2131230770;
-			
-			// aapt resource value: 0x7F080030
-			public const int circularScaleLabelPostfix = 2131230768;
-			
-			// aapt resource value: 0x7F080029
-			public const int circularScaleLabelPrefix = 2131230761;
-			
-			// aapt resource value: 0x7F080033
-			public const int circularScaleLabelTextColor = 2131230771;
-			
-			// aapt resource value: 0x7F080031
-			public const int circularScaleLabelTextSize = 2131230769;
-			
-			// aapt resource value: 0x7F080035
-			public const int circularScaleMajorTickColor = 2131230773;
-			
-			// aapt resource value: 0x7F080037
-			public const int circularScaleMajorTickOffset = 2131230775;
-			
-			// aapt resource value: 0x7F080049
-			public const int circularScaleMaximumLabels = 2131230793;
-			
-			// aapt resource value: 0x7F080041
-			public const int circularScaleMinorTickColor = 2131230785;
-			
-			// aapt resource value: 0x7F080043
-			public const int circularScaleMinorTickOffset = 2131230787;
-			
-			// aapt resource value: 0x7F080048
-			public const int circularScaleMinorTicksPerInterval = 2131230792;
-			
-			// aapt resource value: 0x7F080059
-			public const int circularScaleRangeColor = 2131230809;
-			
-			// aapt resource value: 0x7F080056
-			public const int circularScaleRangeEndValue = 2131230806;
-			
-			// aapt resource value: 0x7F080058
-			public const int circularScaleRangeOffset = 2131230808;
-			
-			// aapt resource value: 0x7F080055
-			public const int circularScaleRangeStartValue = 2131230805;
-			
-			// aapt resource value: 0x7F080050
-			public const int circularScaleShowLabels = 2131230800;
-			
-			// aapt resource value: 0x7F080051
-			public const int circularScaleShowTicks = 2131230801;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -1109,8 +2528,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04006C
 			public const int counterTextAppearance = 2130968684;
 			
-			// aapt resource value: 0x7F080156
-			public const int culture = 2131231062;
+			// aapt resource value: 0x7F080022
+			public const int culture = 2131230754;
 			
 			// aapt resource value: 0x7F04006D
 			public const int customNavigationLayout = 2130968685;
@@ -1123,12 +2542,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F040070
 			public const int dialogTheme = 2130968688;
-			
-			// aapt resource value: 0x7F080142
-			public const int dimmedSegmentAlpha = 2131231042;
-			
-			// aapt resource value: 0x7F080141
-			public const int dimmedSegmentColor = 2131231041;
 			
 			// aapt resource value: 0x7F040071
 			public const int displayOptions = 2130968689;
@@ -1169,8 +2582,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04007D
 			public const int elevation = 2130968701;
 			
-			// aapt resource value: 0x7F080147
-			public const int enableGroupSeparator = 2131231047;
+			// aapt resource value: 0x7F080013
+			public const int enableGroupSeparator = 2131230739;
 			
 			// aapt resource value: 0x7F04007E
 			public const int errorEnabled = 2130968702;
@@ -1250,8 +2663,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F040007
 			public const int fontProviderQuery = 2130968583;
 			
-			// aapt resource value: 0x7F080152
-			public const int fontSize = 2131231058;
+			// aapt resource value: 0x7F080018
+			public const int fontSize = 2131230744;
 			
 			// aapt resource value: 0x7F040008
 			public const int fontStyle = 2130968584;
@@ -1264,27 +2677,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F04009A
 			public const int gapBetweenBars = 2130968730;
-			
-			// aapt resource value: 0x7F080010
-			public const int gaugeCircularCoefficient = 2131230736;
-			
-			// aapt resource value: 0x7F080023
-			public const int gaugeHeaderAlignment = 2131230755;
-			
-			// aapt resource value: 0x7F080018
-			public const int gaugeHorizontalHeaderPosition = 2131230744;
-			
-			// aapt resource value: 0x7F080020
-			public const int gaugeText = 2131230752;
-			
-			// aapt resource value: 0x7F080022
-			public const int gaugeTextColor = 2131230754;
-			
-			// aapt resource value: 0x7F080021
-			public const int gaugeTextSize = 2131230753;
-			
-			// aapt resource value: 0x7F080019
-			public const int gaugeVerticalHeaderPosition = 2131230745;
 			
 			// aapt resource value: 0x7F04009B
 			public const int goIcon = 2130968731;
@@ -1433,35 +2825,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400CB
 			public const int logoDescription = 2130968779;
 			
-			// aapt resource value: 0x7F080087
-			public const int markerPointerColor = 2131230855;
-			
-			// aapt resource value: 0x7F080088
-			public const int markerPointerHeight = 2131230856;
-			
-			// aapt resource value: 0x7F080090
-			public const int markerPointerOffset = 2131230864;
-			
-			// aapt resource value: 0x7F080085
-			public const int markerPointerValue = 2131230853;
-			
-			// aapt resource value: 0x7F080089
-			public const int markerPointerWidth = 2131230857;
-			
-			// aapt resource value: 0x7F080086
-			public const int markerShape = 2131230854;
-			
 			// aapt resource value: 0x7F0400CC
 			public const int maxActionInlineWidth = 2130968780;
 			
 			// aapt resource value: 0x7F0400CD
 			public const int maxButtonHeight = 2130968781;
 			
-			// aapt resource value: 0x7F080150
-			public const int maximumDecimalDigits = 2131231056;
-			
-			// aapt resource value: 0x7F080113
-			public const int maximumLabels = 2131230995;
+			// aapt resource value: 0x7F080016
+			public const int maximumDecimalDigits = 2131230742;
 			
 			// aapt resource value: 0x7F0400CE
 			public const int measureWithLargestChild = 2130968782;
@@ -1520,53 +2891,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400D3
 			public const int navigationMode = 2130968787;
 			
-			// aapt resource value: 0x7F080066
-			public const int needlePointerColor = 2131230822;
-			
-			// aapt resource value: 0x7F080071
-			public const int needlePointerKnobColor = 2131230833;
-			
-			// aapt resource value: 0x7F080069
-			public const int needlePointerKnobRadius = 2131230825;
-			
-			// aapt resource value: 0x7F080070
-			public const int needlePointerKnobStrokeColor = 2131230832;
-			
-			// aapt resource value: 0x7F080072
-			public const int needlePointerKnobStrokeWidth = 2131230834;
-			
-			// aapt resource value: 0x7F080068
-			public const int needlePointerLengthFactor = 2131230824;
-			
-			// aapt resource value: 0x7F080073
-			public const int needlePointerTailColor = 2131230835;
-			
-			// aapt resource value: 0x7F080074
-			public const int needlePointerTailLengthFactor = 2131230836;
-			
-			// aapt resource value: 0x7F080076
-			public const int needlePointerTailStrokeColor = 2131230838;
-			
-			// aapt resource value: 0x7F080075
-			public const int needlePointerTailStrokeWidth = 2131230837;
-			
-			// aapt resource value: 0x7F080065
-			public const int needlePointerType = 2131230821;
-			
-			// aapt resource value: 0x7F080064
-			public const int needlePointerValue = 2131230820;
-			
-			// aapt resource value: 0x7F080067
-			public const int needlePointerWidth = 2131230823;
-			
-			// aapt resource value: 0x7F080148
-			public const int numberFormat = 2131231048;
+			// aapt resource value: 0x7F080014
+			public const int numberFormat = 2131230740;
 			
 			// aapt resource value: 0x7F0400D4
 			public const int numericModifiers = 2130968788;
 			
-			// aapt resource value: 0x7F080157
-			public const int numericTextBoxValue = 2131231063;
+			// aapt resource value: 0x7F080023
+			public const int numericTextBoxValue = 2131230755;
 			
 			// aapt resource value: 0x7F0400D5
 			public const int overlapAnchor = 2130968789;
@@ -1592,8 +2924,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400DC
 			public const int panelMenuListWidth = 2130968796;
 			
-			// aapt resource value: 0x7F080144
-			public const int parsingMode = 2131231044;
+			// aapt resource value: 0x7F080010
+			public const int parsingMode = 2131230736;
 			
 			// aapt resource value: 0x7F0400DD
 			public const int passwordToggleContentDescription = 2130968797;
@@ -1610,86 +2942,86 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400E1
 			public const int passwordToggleTintMode = 2130968801;
 			
-			// aapt resource value: 0x7F080145
-			public const int percentDisplayMode = 2131231045;
+			// aapt resource value: 0x7F080011
+			public const int percentDisplayMode = 2131230737;
 			
-			// aapt resource value: 0x7F080159
-			public const int pickerBackgroundColor = 2131231065;
+			// aapt resource value: 0x7F080025
+			public const int pickerBackgroundColor = 2131230757;
 			
-			// aapt resource value: 0x7F080175
-			public const int pickerBorderColor = 2131231093;
+			// aapt resource value: 0x7F080041
+			public const int pickerBorderColor = 2131230785;
 			
-			// aapt resource value: 0x7F080172
-			public const int pickerColumnHeaderBackgroundColor = 2131231090;
+			// aapt resource value: 0x7F080038
+			public const int pickerColumnHeaderBackgroundColor = 2131230776;
 			
-			// aapt resource value: 0x7F080168
-			public const int pickerColumnHeaderHeight = 2131231080;
+			// aapt resource value: 0x7F080034
+			public const int pickerColumnHeaderHeight = 2131230772;
 			
-			// aapt resource value: 0x7F080183
-			public const int pickerColumnHeaderTextColor = 2131231107;
+			// aapt resource value: 0x7F080049
+			public const int pickerColumnHeaderTextColor = 2131230793;
 			
-			// aapt resource value: 0x7F080179
-			public const int pickerColumnHeaderTextSize = 2131231097;
+			// aapt resource value: 0x7F080045
+			public const int pickerColumnHeaderTextSize = 2131230789;
 			
-			// aapt resource value: 0x7F080164
-			public const int pickerEnableLooping = 2131231076;
+			// aapt resource value: 0x7F080030
+			public const int pickerEnableLooping = 2131230768;
 			
-			// aapt resource value: 0x7F080161
-			public const int pickerFooterHeight = 2131231073;
+			// aapt resource value: 0x7F080027
+			public const int pickerFooterHeight = 2131230759;
 			
-			// aapt resource value: 0x7F080171
-			public const int pickerHeaderBackgroundColor = 2131231089;
+			// aapt resource value: 0x7F080037
+			public const int pickerHeaderBackgroundColor = 2131230775;
 			
-			// aapt resource value: 0x7F080160
-			public const int pickerHeaderHeight = 2131231072;
+			// aapt resource value: 0x7F080026
+			public const int pickerHeaderHeight = 2131230758;
 			
-			// aapt resource value: 0x7F080176
-			public const int pickerHeaderText = 2131231094;
+			// aapt resource value: 0x7F080042
+			public const int pickerHeaderText = 2131230786;
 			
-			// aapt resource value: 0x7F080182
-			public const int pickerHeaderTextColor = 2131231106;
+			// aapt resource value: 0x7F080048
+			public const int pickerHeaderTextColor = 2131230792;
 			
-			// aapt resource value: 0x7F080178
-			public const int pickerHeaderTextSize = 2131231096;
+			// aapt resource value: 0x7F080044
+			public const int pickerHeaderTextSize = 2131230788;
 			
-			// aapt resource value: 0x7F080162
-			public const int pickerHeight = 2131231074;
+			// aapt resource value: 0x7F080028
+			public const int pickerHeight = 2131230760;
 			
-			// aapt resource value: 0x7F080163
-			public const int pickerIsOpen = 2131231075;
+			// aapt resource value: 0x7F080029
+			public const int pickerIsOpen = 2131230761;
 			
-			// aapt resource value: 0x7F080169
-			public const int pickerItemHeight = 2131231081;
+			// aapt resource value: 0x7F080035
+			public const int pickerItemHeight = 2131230773;
 			
-			// aapt resource value: 0x7F080158
-			public const int pickerMode = 2131231064;
+			// aapt resource value: 0x7F080024
+			public const int pickerMode = 2131230756;
 			
-			// aapt resource value: 0x7F080170
-			public const int pickerSelectedItemTextcolor = 2131231088;
+			// aapt resource value: 0x7F080036
+			public const int pickerSelectedItemTextcolor = 2131230774;
 			
-			// aapt resource value: 0x7F080181
-			public const int pickerSelectedItemTextSize = 2131231105;
+			// aapt resource value: 0x7F080047
+			public const int pickerSelectedItemTextSize = 2131230791;
 			
-			// aapt resource value: 0x7F080174
-			public const int pickerSelectionBorderColor = 2131231092;
+			// aapt resource value: 0x7F080040
+			public const int pickerSelectionBorderColor = 2131230784;
 			
-			// aapt resource value: 0x7F080167
-			public const int pickerShowColumnHeader = 2131231079;
+			// aapt resource value: 0x7F080033
+			public const int pickerShowColumnHeader = 2131230771;
 			
-			// aapt resource value: 0x7F080166
-			public const int pickerShowFooter = 2131231078;
+			// aapt resource value: 0x7F080032
+			public const int pickerShowFooter = 2131230770;
 			
-			// aapt resource value: 0x7F080165
-			public const int pickerShowHeader = 2131231077;
+			// aapt resource value: 0x7F080031
+			public const int pickerShowHeader = 2131230769;
 			
-			// aapt resource value: 0x7F080173
-			public const int pickerUnselectedItemTextColor = 2131231091;
+			// aapt resource value: 0x7F080039
+			public const int pickerUnselectedItemTextColor = 2131230777;
 			
-			// aapt resource value: 0x7F080180
-			public const int pickerUnselectedItemTextSize = 2131231104;
+			// aapt resource value: 0x7F080046
+			public const int pickerUnselectedItemTextSize = 2131230790;
 			
-			// aapt resource value: 0x7F080177
-			public const int pickerWidth = 2131231095;
+			// aapt resource value: 0x7F080043
+			public const int pickerWidth = 2131230787;
 			
 			// aapt resource value: 0x7F0400E2
 			public const int popupMenuStyle = 2130968802;
@@ -1721,63 +3053,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400EB
 			public const int radioButtonStyle = 2130968811;
 			
-			// aapt resource value: 0x7F080124
-			public const int rangeColor = 2131231012;
-			
-			// aapt resource value: 0x7F080120
-			public const int rangeEndValue = 2131231008;
-			
-			// aapt resource value: 0x7F080122
-			public const int rangeEndWidth = 2131231010;
-			
-			// aapt resource value: 0x7F080061
-			public const int rangeInnerEndOffset = 2131230817;
-			
-			// aapt resource value: 0x7F080060
-			public const int rangeInnerStartOffset = 2131230816;
-			
-			// aapt resource value: 0x7F080123
-			public const int rangeOffset = 2131231011;
-			
-			// aapt resource value: 0x7F080063
-			public const int rangeOuterEndOffset = 2131230819;
-			
-			// aapt resource value: 0x7F080062
-			public const int rangeOuterStartOffset = 2131230818;
-			
-			// aapt resource value: 0x7F080084
-			public const int rangePointerCap = 2131230852;
-			
-			// aapt resource value: 0x7F080079
-			public const int rangePointerColor = 2131230841;
-			
-			// aapt resource value: 0x7F080083
-			public const int rangePointerEndOffset = 2131230851;
-			
-			// aapt resource value: 0x7F080081
-			public const int rangePointerOffset = 2131230849;
-			
-			// aapt resource value: 0x7F080082
-			public const int rangePointerStartOffset = 2131230850;
-			
-			// aapt resource value: 0x7F080077
-			public const int rangePointerStartValue = 2131230839;
-			
-			// aapt resource value: 0x7F080078
-			public const int rangePointerValue = 2131230840;
-			
-			// aapt resource value: 0x7F080080
-			public const int rangePointerWidth = 2131230848;
-			
-			// aapt resource value: 0x7F080119
-			public const int rangeStartValue = 2131231001;
-			
-			// aapt resource value: 0x7F080121
-			public const int rangeStartWidth = 2131231009;
-			
-			// aapt resource value: 0x7F080057
-			public const int rangeWidth = 2131230807;
-			
 			// aapt resource value: 0x7F0400EC
 			public const int ratingBarStyle = 2130968812;
 			
@@ -1792,159 +3067,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F0400F0
 			public const int rippleColor = 2130968816;
-			
-			// aapt resource value: 0x7F080028
-			public const int scaleAutoAngle = 2131230760;
-			
-			// aapt resource value: 0x7F080016
-			public const int scaleAutoInterval = 2131230742;
-			
-			// aapt resource value: 0x7F080102
-			public const int scaleBarColor = 2131230978;
-			
-			// aapt resource value: 0x7F080104
-			public const int scaleBarLength = 2131230980;
-			
-			// aapt resource value: 0x7F080103
-			public const int scaleBarSize = 2131230979;
-			
-			// aapt resource value: 0x7F080117
-			public const int scaleCornerRadius = 2131230999;
-			
-			// aapt resource value: 0x7F080116
-			public const int scaleCornerRadiusType = 2131230998;
-			
-			// aapt resource value: 0x7F080115
-			public const int scaleDirection = 2131230997;
-			
-			// aapt resource value: 0x7F080012
-			public const int scaleEndAngle = 2131230738;
-			
-			// aapt resource value: 0x7F080027
-			public const int scaleEndOffset = 2131230759;
-			
-			// aapt resource value: 0x7F080014
-			public const int scaleEndValue = 2131230740;
-			
-			// aapt resource value: 0x7F080093
-			public const int scaleInterval = 2131230867;
-			
-			// aapt resource value: 0x7F080105
-			public const int scaleLabelColor = 2131230981;
-			
-			// aapt resource value: 0x7F080108
-			public const int scaleLabelFontSize = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int scaleLabelOffset = 2131230985;
-			
-			// aapt resource value: 0x7F080107
-			public const int scaleLabelPostfix = 2131230983;
-			
-			// aapt resource value: 0x7F080106
-			public const int scaleLabelPrefix = 2131230982;
-			
-			// aapt resource value: 0x7F080095
-			public const int scaleMajorTickColor = 2131230869;
-			
-			// aapt resource value: 0x7F080039
-			public const int scaleMajorTickEndOffset = 2131230777;
-			
-			// aapt resource value: 0x7F080094
-			public const int scaleMajorTickLength = 2131230868;
-			
-			// aapt resource value: 0x7F080097
-			public const int scaleMajorTickOffset = 2131230871;
-			
-			// aapt resource value: 0x7F080034
-			public const int scaleMajorTickSize = 2131230772;
-			
-			// aapt resource value: 0x7F080038
-			public const int scaleMajorTickStartOffset = 2131230776;
-			
-			// aapt resource value: 0x7F080096
-			public const int scaleMajorTickStrokeWidth = 2131230870;
-			
-			// aapt resource value: 0x7F080036
-			public const int scaleMajorTickWidth = 2131230774;
-			
-			// aapt resource value: 0x7F080092
-			public const int scaleMaximum = 2131230866;
-			
-			// aapt resource value: 0x7F080091
-			public const int scaleMinimum = 2131230865;
-			
-			// aapt resource value: 0x7F080099
-			public const int scaleMinorTickColor = 2131230873;
-			
-			// aapt resource value: 0x7F080045
-			public const int scaleMinorTickEndOffset = 2131230789;
-			
-			// aapt resource value: 0x7F080098
-			public const int scaleMinorTickLength = 2131230872;
-			
-			// aapt resource value: 0x7F080101
-			public const int scaleMinorTickOffset = 2131230977;
-			
-			// aapt resource value: 0x7F080040
-			public const int scaleMinorTickSize = 2131230784;
-			
-			// aapt resource value: 0x7F080112
-			public const int scaleMinorTicksPerInterval = 2131230994;
-			
-			// aapt resource value: 0x7F080044
-			public const int scaleMinorTickStartOffset = 2131230788;
-			
-			// aapt resource value: 0x7F080100
-			public const int scaleMinorTickStrokeWidth = 2131230976;
-			
-			// aapt resource value: 0x7F080042
-			public const int scaleMinorTickWidth = 2131230786;
-			
-			// aapt resource value: 0x7F080054
-			public const int scaleNumberofDecimalDigits = 2131230804;
-			
-			// aapt resource value: 0x7F080118
-			public const int scaleOffset = 2131231000;
-			
-			// aapt resource value: 0x7F080114
-			public const int scaleOpposedPosition = 2131230996;
-			
-			// aapt resource value: 0x7F080135
-			public const int scaleOrientation = 2131231029;
-			
-			// aapt resource value: 0x7F080053
-			public const int scaleRadiusFactor = 2131230803;
-			
-			// aapt resource value: 0x7F080046
-			public const int scaleRimColor = 2131230790;
-			
-			// aapt resource value: 0x7F080047
-			public const int scaleRimWidth = 2131230791;
-			
-			// aapt resource value: 0x7F080024
-			public const int scaleShowFirstLabel = 2131230756;
-			
-			// aapt resource value: 0x7F080110
-			public const int scaleShowLabels = 2131230992;
-			
-			// aapt resource value: 0x7F080025
-			public const int scaleShowLastLabel = 2131230757;
-			
-			// aapt resource value: 0x7F080052
-			public const int scaleShowRim = 2131230802;
-			
-			// aapt resource value: 0x7F080111
-			public const int scaleShowTicks = 2131230993;
-			
-			// aapt resource value: 0x7F080011
-			public const int scaleStartAngle = 2131230737;
-			
-			// aapt resource value: 0x7F080026
-			public const int scaleStartOffset = 2131230758;
-			
-			// aapt resource value: 0x7F080013
-			public const int scaleStartValue = 2131230739;
 			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
@@ -1964,17 +3086,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0400F6
 			public const int seekBarStyle = 2130968822;
 			
-			// aapt resource value: 0x7F080140
-			public const int segmentStrokeWidth = 2131231040;
-			
 			// aapt resource value: 0x7F0400F7
 			public const int selectableItemBackground = 2130968823;
 			
 			// aapt resource value: 0x7F0400F8
 			public const int selectableItemBackgroundBorderless = 2130968824;
 			
-			// aapt resource value: 0x7F080151
-			public const int selectAllOnFocus = 2131231057;
+			// aapt resource value: 0x7F080017
+			public const int selectAllOnFocus = 2131230743;
 			
 			// aapt resource value: 0x7F0400F9
 			public const int showAsAction = 2130968825;
@@ -2059,21 +3178,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F040114
 			public const int switchTextAppearance = 2130968852;
-			
-			// aapt resource value: 0x7F080131
-			public const int symbolPointerColor = 2131231025;
-			
-			// aapt resource value: 0x7F080133
-			public const int symbolPointerOffset = 2131231027;
-			
-			// aapt resource value: 0x7F080132
-			public const int symbolPointerStrokeWidth = 2131231026;
-			
-			// aapt resource value: 0x7F080130
-			public const int symbolPointerValue = 2131231024;
-			
-			// aapt resource value: 0x7F080134
-			public const int symbolPosition = 2131231028;
 			
 			// aapt resource value: 0x7F040115
 			public const int tabBackground = 2130968853;
@@ -2252,17 +3356,17 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F04014F
 			public const int useCompatPadding = 2130968911;
 			
-			// aapt resource value: 0x7F080146
-			public const int valueChangeMode = 2131231046;
+			// aapt resource value: 0x7F080012
+			public const int valueChangeMode = 2131230738;
 			
 			// aapt resource value: 0x7F040150
 			public const int voiceIcon = 2130968912;
 			
-			// aapt resource value: 0x7F080149
-			public const int watermark = 2131231049;
+			// aapt resource value: 0x7F080015
+			public const int watermark = 2131230741;
 			
-			// aapt resource value: 0x7F080155
-			public const int watermarkColor = 2131231061;
+			// aapt resource value: 0x7F080021
+			public const int watermarkColor = 2131230753;
 			
 			// aapt resource value: 0x7F040151
 			public const int windowActionBar = 2130968913;
@@ -3124,12 +4228,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F080014
 			public const int notification_top_pad_large_text = 2131230740;
-			
-			// aapt resource value: 0x7F100003
-			public const int pading_bottom = 2131755011;
-			
-			// aapt resource value: 0x7F100002
-			public const int pading_top = 2131755010;
 			
 			// aapt resource value: 0x7F080094
 			public const int tooltip_corner_radius = 2131230868;
@@ -4171,29 +5269,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
-			// aapt resource value: 0x7F010012
-			public const int anticlockwise = 2130771986;
-			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
 			
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
 			
-			// aapt resource value: 0x7F010043
-			public const int away = 2130772035;
-			
-			// aapt resource value: 0x7F010040
-			public const int backward = 2130772032;
-			
-			// aapt resource value: 0x7F010029
-			public const int bar = 2130772009;
-			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
-			
-			// aapt resource value: 0x7F010033
-			public const int both = 2130772019;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
@@ -4213,14 +5296,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x7F010036
-			public const int circle = 2130772022;
-			
-			// aapt resource value: 0x7F010011
-			public const int clockwise = 2130771985;
-			
-			// aapt resource value: 0x7F010052
-			public const int compute = 2130772050;
+			// aapt resource value: 0x7F010008
+			public const int compute = 2130771976;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
@@ -4237,14 +5314,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F010050
-			public const int decimalMode = 2130772048;
+			// aapt resource value: 0x7F010006
+			public const int decimalMode = 2130771974;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
 			
-			// aapt resource value: 0x7F010056
-			public const int Default = 2130772054;
+			// aapt resource value: 0x7F010012
+			public const int Default = 2130771986;
 			
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
@@ -4264,26 +5341,17 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x7F010057
-			public const int Dialog = 2130772055;
+			// aapt resource value: 0x7F010013
+			public const int Dialog = 2130771987;
 			
-			// aapt resource value: 0x7F010037
-			public const int diamond = 2130772023;
-			
-			// aapt resource value: 0x7F010051
-			public const int doubleMode = 2130772049;
+			// aapt resource value: 0x7F010007
+			public const int doubleMode = 2130771975;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
 			
-			// aapt resource value: 0x7F010049
-			public const int eightCrossEightDotMatrix = 2130772041;
-			
-			// aapt resource value: 0x7F010008
-			public const int eightsegment = 2130771976;
-			
-			// aapt resource value: 0x7F010032
-			public const int end = 2130772018;
+			// aapt resource value: 0x7F0C002D
+			public const int end = 2131492909;
 			
 			// aapt resource value: 0x7F0C002E
 			public const int end_padder = 2131492910;
@@ -4294,9 +5362,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
 			
-			// aapt resource value: 0x7F010042
-			public const int far = 2130772034;
-			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
 			
@@ -4306,68 +5371,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
-			// aapt resource value: 0x7F010041
-			public const int forward = 2130772033;
-			
-			// aapt resource value: 0x7F010009
-			public const int fourteensegment = 2130771977;
-			
-			// aapt resource value: 0x7F010023
-			public const int gaugeBottom = 2130772003;
-			
-			// aapt resource value: 0x7F010026
-			public const int gaugeBottomLeft = 2130772006;
-			
-			// aapt resource value: 0x7F010027
-			public const int gaugeBottomRight = 2130772007;
-			
-			// aapt resource value: 0x7F010022
-			public const int gaugeCenter = 2130772002;
-			
-			// aapt resource value: 0x7F010028
-			public const int gaugeCustom = 2130772008;
-			
-			// aapt resource value: 0x7F010014
-			public const int gaugeHorizontalHeaderCenter = 2130771988;
-			
-			// aapt resource value: 0x7F010015
-			public const int gaugeHorizontalHeaderEnd = 2130771989;
-			
-			// aapt resource value: 0x7F010013
-			public const int gaugeHorizontalHeaderStart = 2130771987;
-			
-			// aapt resource value: 0x7F010019
-			public const int gaugeLeft = 2130771993;
-			
-			// aapt resource value: 0x7F010020
-			public const int gaugeRight = 2130772000;
-			
-			// aapt resource value: 0x7F010021
-			public const int gaugeTop = 2130772001;
-			
-			// aapt resource value: 0x7F010024
-			public const int gaugeTopLeft = 2130772004;
-			
-			// aapt resource value: 0x7F010025
-			public const int gaugeTopRight = 2130772005;
-			
-			// aapt resource value: 0x7F010017
-			public const int gaugeVerticalHeaderCenter = 2130771991;
-			
-			// aapt resource value: 0x7F010018
-			public const int gaugeVerticalHeaderEnd = 2130771992;
-			
-			// aapt resource value: 0x7F010016
-			public const int gaugeVerticalHeaderStart = 2130771990;
-			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
-			
-			// aapt resource value: 0x7F010044
-			public const int horizontal = 2130772036;
 			
 			// aapt resource value: 0x7F010005
 			public const int icon = 2130771973;
@@ -4375,14 +5383,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F010039
-			public const int image = 2130772025;
+			// aapt resource value: 0x7F0C0038
+			public const int image = 2131492920;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
-			
-			// aapt resource value: 0x7F010038
-			public const int invertedTriangle = 2130772024;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
@@ -4504,8 +5509,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F010034
-			public const int none = 2130772020;
+			// aapt resource value: 0x7F0C0048
+			public const int none = 2131492936;
 			
 			// aapt resource value: 0x7F0C0010
 			public const int normal = 2131492880;
@@ -4519,11 +5524,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
-			// aapt resource value: 0x7F010055
-			public const int onKeyFocus = 2130772053;
+			// aapt resource value: 0x7F010011
+			public const int onKeyFocus = 2130771985;
 			
-			// aapt resource value: 0x7F010054
-			public const int onLostFocus = 2130772052;
+			// aapt resource value: 0x7F010010
+			public const int onLostFocus = 2130771984;
 			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
@@ -4546,9 +5551,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
-			// aapt resource value: 0x7F010035
-			public const int rectangle = 2130772021;
-			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
 			
@@ -4557,9 +5559,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
-			
-			// aapt resource value: 0x7F010006
-			public const int rootLayout = 2130771974;
 			
 			// aapt resource value: 0x7F0C0057
 			public const int save_image_matrix = 2131492951;
@@ -4615,26 +5614,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0068
 			public const int search_voice_btn = 2131492968;
 			
-			// aapt resource value: 0x7F010047
-			public const int segmentFourteen = 2130772039;
-			
-			// aapt resource value: 0x7F010046
-			public const int segmentSeven = 2130772038;
-			
-			// aapt resource value: 0x7F010048
-			public const int segmentSixteen = 2130772040;
-			
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
-			// aapt resource value: 0x7F010007
-			public const int sevensegment = 2130771975;
-			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
-			
-			// aapt resource value: 0x7F010010
-			public const int sixteensegment = 2130771984;
 			
 			// aapt resource value: 0x7F010002
 			public const int sliding_tabs = 2130771970;
@@ -4663,8 +5647,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F010031
-			public const int start = 2130772017;
+			// aapt resource value: 0x7F0C0073
+			public const int start = 2131492979;
 			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
@@ -4741,20 +5725,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
-			// aapt resource value: 0x7F010030
-			public const int triangle = 2130772016;
-			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
 			
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F010053
-			public const int value = 2130772051;
-			
-			// aapt resource value: 0x7F010045
-			public const int vertical = 2130772037;
+			// aapt resource value: 0x7F010009
+			public const int value = 2130771977;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -4930,9 +5908,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F020010
-			public const int circulargauge_layout = 2130837520;
-			
 			// aapt resource value: 0x7F020007
 			public const int CustomizedImageView = 2130837511;
 			
@@ -4983,9 +5958,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
-			
-			// aapt resource value: 0x7F020011
-			public const int digitalgauge_layout = 2130837521;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int mr_chooser_dialog = 2131689499;
@@ -5205,9 +6177,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
-			// aapt resource value: 0x7F090008
-			public const int ApplicationName = 2131296264;
-			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
@@ -5223,14 +6192,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F090006
 			public const int drop_below = 2131296262;
 			
-			// aapt resource value: 0x7F090007
-			public const int Hello = 2131296263;
-			
 			// aapt resource value: 0x7F090002
 			public const int library_name = 2131296258;
-			
-			// aapt resource value: 0x7F090009
-			public const int Load_More = 2131296265;
 			
 			// aapt resource value: 0x7F090003
 			public const int load_more_items = 2131296259;
@@ -6585,11 +7548,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070235
-			public const int ActionBarLayout_android_layout_gravity = 2131165749;
+			// aapt resource value: 0x7F070098
+			public const int ActionBarLayout_android_layout_gravity = 2131165336;
 			
-			// aapt resource value: 0x7F070205
-			public const int ActionBar_background = 2131165701;
+			// aapt resource value: 0x7F070068
+			public const int ActionBar_background = 2131165288;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -6678,8 +7641,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070237
-			public const int ActionMenuItemView_android_minWidth = 2131165751;
+			// aapt resource value: 0x7F070100
+			public const int ActionMenuItemView_android_minWidth = 2131165440;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -6689,8 +7652,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F070239
-			public const int ActionMode_background = 2131165753;
+			// aapt resource value: 0x7F070102
+			public const int ActionMode_background = 2131165442;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -6711,8 +7674,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F070246
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165766;
+			// aapt resource value: 0x7F070109
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165449;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -6726,8 +7689,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F070249
-			public const int AlertDialog_android_layout = 2131165769;
+			// aapt resource value: 0x7F070112
+			public const int AlertDialog_android_layout = 2131165458;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -6758,14 +7721,14 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F070263
-			public const int AppBarLayoutStates_state_collapsed = 2131165795;
+			// aapt resource value: 0x7F070126
+			public const int AppBarLayoutStates_state_collapsed = 2131165478;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F070257
-			public const int AppBarLayout_android_background = 2131165783;
+			// aapt resource value: 0x7F070120
+			public const int AppBarLayout_android_background = 2131165472;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -6783,8 +7746,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F070266
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165798;
+			// aapt resource value: 0x7F070129
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165481;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -6795,8 +7758,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F070269
-			public const int AppCompatImageView_android_src = 2131165801;
+			// aapt resource value: 0x7F070132
+			public const int AppCompatImageView_android_src = 2131165490;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -6813,8 +7776,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F070274
-			public const int AppCompatSeekBar_android_thumb = 2131165812;
+			// aapt resource value: 0x7F070137
+			public const int AppCompatSeekBar_android_thumb = 2131165495;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -6834,8 +7797,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F070279
-			public const int AppCompatTextHelper_android_drawableBottom = 2131165817;
+			// aapt resource value: 0x7F070142
+			public const int AppCompatTextHelper_android_drawableBottom = 2131165506;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -6865,8 +7828,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070287
-			public const int AppCompatTextView_android_textAppearance = 2131165831;
+			// aapt resource value: 0x7F070150
+			public const int AppCompatTextView_android_textAppearance = 2131165520;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -7010,8 +7973,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F070296
-			public const int AppCompatTheme_actionBarDivider = 2131165846;
+			// aapt resource value: 0x7F070159
+			public const int AppCompatTheme_actionBarDivider = 2131165529;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -7374,8 +8337,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070416
-			public const int BottomNavigationView_elevation = 2131166230;
+			// aapt resource value: 0x7F070279
+			public const int BottomNavigationView_elevation = 2131165817;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -7394,8 +8357,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F070422
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131166242;
+			// aapt resource value: 0x7F070285
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165829;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -7406,8 +8369,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F070426
-			public const int ButtonBarLayout_allowStacking = 2131166246;
+			// aapt resource value: 0x7F070289
+			public const int ButtonBarLayout_allowStacking = 2131165833;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -7424,8 +8387,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F070729
-			public const int CardView_android_minHeight = 2131167017;
+			// aapt resource value: 0x7F070592
+			public const int CardView_android_minHeight = 2131166610;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -7481,8 +8444,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F070428
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131166248;
+			// aapt resource value: 0x7F070291
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165841;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -7515,8 +8478,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F070445
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131166277;
+			// aapt resource value: 0x7F070308
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165960;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -7544,8 +8507,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F070448
-			public const int ColorStateListItem_alpha = 2131166280;
+			// aapt resource value: 0x7F070311
+			public const int ColorStateListItem_alpha = 2131165969;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -7558,8 +8521,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F070452
-			public const int CompoundButton_android_button = 2131166290;
+			// aapt resource value: 0x7F070315
+			public const int CompoundButton_android_button = 2131165973;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -7571,8 +8534,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F070456
-			public const int CoordinatorLayout_keylines = 2131166294;
+			// aapt resource value: 0x7F070319
+			public const int CoordinatorLayout_keylines = 2131165977;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -7583,8 +8546,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F070459
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131166297;
+			// aapt resource value: 0x7F070322
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165986;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -7612,8 +8575,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F070467
-			public const int DesignTheme_bottomSheetDialogTheme = 2131166311;
+			// aapt resource value: 0x7F070330
+			public const int DesignTheme_bottomSheetDialogTheme = 2131166000;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -7631,8 +8594,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F070471
-			public const int DrawerArrowToggle_arrowHeadLength = 2131166321;
+			// aapt resource value: 0x7F070334
+			public const int DrawerArrowToggle_arrowHeadLength = 2131166004;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -7665,8 +8628,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F070480
-			public const int FloatingActionButton_backgroundTint = 2131166336;
+			// aapt resource value: 0x7F070343
+			public const int FloatingActionButton_backgroundTint = 2131166019;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -7674,8 +8637,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F070489
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131166345;
+			// aapt resource value: 0x7F070352
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131166034;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -7711,8 +8674,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F070198
-			public const int FontFamilyFont_android_font = 2131165592;
+			// aapt resource value: 0x7F070061
+			public const int FontFamilyFont_android_font = 2131165281;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -7729,8 +8692,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F070191
-			public const int FontFamily_fontProviderAuthority = 2131165585;
+			// aapt resource value: 0x7F070054
+			public const int FontFamily_fontProviderAuthority = 2131165268;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -7752,8 +8715,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F070491
-			public const int ForegroundLinearLayout_android_foreground = 2131166353;
+			// aapt resource value: 0x7F070354
+			public const int ForegroundLinearLayout_android_foreground = 2131166036;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -7772,8 +8735,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F070495
-			public const int LinearLayoutCompat_android_baselineAligned = 2131166357;
+			// aapt resource value: 0x7F070358
+			public const int LinearLayoutCompat_android_baselineAligned = 2131166040;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -7799,8 +8762,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F070505
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166469;
+			// aapt resource value: 0x7F070368
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166056;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -7821,8 +8784,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070510
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166480;
+			// aapt resource value: 0x7F070373
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166067;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -7833,8 +8796,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F070743
-			public const int MediaRouteButton_android_minHeight = 2131167043;
+			// aapt resource value: 0x7F070606
+			public const int MediaRouteButton_android_minHeight = 2131166726;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -7853,8 +8816,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F070513
-			public const int MenuGroup_android_checkableBehavior = 2131166483;
+			// aapt resource value: 0x7F070376
+			public const int MenuGroup_android_checkableBehavior = 2131166070;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -7896,8 +8859,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F070520
-			public const int MenuItem_actionLayout = 2131166496;
+			// aapt resource value: 0x7F070383
+			public const int MenuItem_actionLayout = 2131166083;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -7976,8 +8939,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F070544
-			public const int MenuView_android_headerBackground = 2131166532;
+			// aapt resource value: 0x7F070407
+			public const int MenuView_android_headerBackground = 2131166215;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -8015,8 +8978,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070554
-			public const int NavigationView_android_background = 2131166548;
+			// aapt resource value: 0x7F070417
+			public const int NavigationView_android_background = 2131166231;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -8053,11 +9016,11 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F070569
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166569;
+			// aapt resource value: 0x7F070432
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131166258;
 			
-			// aapt resource value: 0x7F070565
-			public const int PopupWindow_android_popupAnimationStyle = 2131166565;
+			// aapt resource value: 0x7F070428
+			public const int PopupWindow_android_popupAnimationStyle = 2131166248;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -8069,8 +9032,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F070571
-			public const int RecycleListView_paddingBottomNoButtons = 2131166577;
+			// aapt resource value: 0x7F070434
+			public const int RecycleListView_paddingBottomNoButtons = 2131166260;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -8088,8 +9051,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F070574
-			public const int RecyclerView_android_descendantFocusability = 2131166580;
+			// aapt resource value: 0x7F070437
+			public const int RecyclerView_android_descendantFocusability = 2131166263;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -8124,14 +9087,14 @@ namespace DAE_ProyectoFinal_13.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F070586
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166598;
+			// aapt resource value: 0x7F070449
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131166281;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F070588
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166600;
+			// aapt resource value: 0x7F070451
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166289;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -8152,8 +9115,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F070590
-			public const int SearchView_android_focusable = 2131166608;
+			// aapt resource value: 0x7F070453
+			public const int SearchView_android_focusable = 2131166291;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -8237,548 +9200,6 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x7F070004
 			public const int SfAutoComplete_autocompleteWatermarkColor = 2131165188;
 			
-			public static int[] SfCircularGauge = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0};
-			
-			// aapt resource value: 0x7F070018
-			public const int SfCircularGauge_circularGaugeScaleDirection = 2131165208;
-			
-			// aapt resource value: 0x7F070016
-			public const int SfCircularGauge_circularScaleInterval = 2131165206;
-			
-			// aapt resource value: 0x7F070033
-			public const int SfCircularGauge_circularScaleLabelOffset = 2131165235;
-			
-			// aapt resource value: 0x7F070031
-			public const int SfCircularGauge_circularScaleLabelPostfix = 2131165233;
-			
-			// aapt resource value: 0x7F070030
-			public const int SfCircularGauge_circularScaleLabelPrefix = 2131165232;
-			
-			// aapt resource value: 0x7F070034
-			public const int SfCircularGauge_circularScaleLabelTextColor = 2131165236;
-			
-			// aapt resource value: 0x7F070032
-			public const int SfCircularGauge_circularScaleLabelTextSize = 2131165234;
-			
-			// aapt resource value: 0x7F070036
-			public const int SfCircularGauge_circularScaleMajorTickColor = 2131165238;
-			
-			// aapt resource value: 0x7F070038
-			public const int SfCircularGauge_circularScaleMajorTickOffset = 2131165240;
-			
-			// aapt resource value: 0x7F070050
-			public const int SfCircularGauge_circularScaleMaximumLabels = 2131165264;
-			
-			// aapt resource value: 0x7F070042
-			public const int SfCircularGauge_circularScaleMinorTickColor = 2131165250;
-			
-			// aapt resource value: 0x7F070044
-			public const int SfCircularGauge_circularScaleMinorTickOffset = 2131165252;
-			
-			// aapt resource value: 0x7F070049
-			public const int SfCircularGauge_circularScaleMinorTicksPerInterval = 2131165257;
-			
-			// aapt resource value: 0x7F070060
-			public const int SfCircularGauge_circularScaleRangeColor = 2131165280;
-			
-			// aapt resource value: 0x7F070057
-			public const int SfCircularGauge_circularScaleRangeEndValue = 2131165271;
-			
-			// aapt resource value: 0x7F070059
-			public const int SfCircularGauge_circularScaleRangeOffset = 2131165273;
-			
-			// aapt resource value: 0x7F070056
-			public const int SfCircularGauge_circularScaleRangeStartValue = 2131165270;
-			
-			// aapt resource value: 0x7F070051
-			public const int SfCircularGauge_circularScaleShowLabels = 2131165265;
-			
-			// aapt resource value: 0x7F070052
-			public const int SfCircularGauge_circularScaleShowTicks = 2131165266;
-			
-			// aapt resource value: 0x7F070011
-			public const int SfCircularGauge_gaugeCircularCoefficient = 2131165201;
-			
-			// aapt resource value: 0x7F070024
-			public const int SfCircularGauge_gaugeHeaderAlignment = 2131165220;
-			
-			// aapt resource value: 0x7F070019
-			public const int SfCircularGauge_gaugeHorizontalHeaderPosition = 2131165209;
-			
-			// aapt resource value: 0x7F070021
-			public const int SfCircularGauge_gaugeText = 2131165217;
-			
-			// aapt resource value: 0x7F070023
-			public const int SfCircularGauge_gaugeTextColor = 2131165219;
-			
-			// aapt resource value: 0x7F070022
-			public const int SfCircularGauge_gaugeTextSize = 2131165218;
-			
-			// aapt resource value: 0x7F070020
-			public const int SfCircularGauge_gaugeVerticalHeaderPosition = 2131165216;
-			
-			// aapt resource value: 0x7F070088
-			public const int SfCircularGauge_markerPointerColor = 2131165320;
-			
-			// aapt resource value: 0x7F070089
-			public const int SfCircularGauge_markerPointerHeight = 2131165321;
-			
-			// aapt resource value: 0x7F070091
-			public const int SfCircularGauge_markerPointerOffset = 2131165329;
-			
-			// aapt resource value: 0x7F070086
-			public const int SfCircularGauge_markerPointerValue = 2131165318;
-			
-			// aapt resource value: 0x7F070090
-			public const int SfCircularGauge_markerPointerWidth = 2131165328;
-			
-			// aapt resource value: 0x7F070087
-			public const int SfCircularGauge_markerShape = 2131165319;
-			
-			// aapt resource value: 0x7F070067
-			public const int SfCircularGauge_needlePointerColor = 2131165287;
-			
-			// aapt resource value: 0x7F070072
-			public const int SfCircularGauge_needlePointerKnobColor = 2131165298;
-			
-			// aapt resource value: 0x7F070070
-			public const int SfCircularGauge_needlePointerKnobRadius = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int SfCircularGauge_needlePointerKnobStrokeColor = 2131165297;
-			
-			// aapt resource value: 0x7F070073
-			public const int SfCircularGauge_needlePointerKnobStrokeWidth = 2131165299;
-			
-			// aapt resource value: 0x7F070069
-			public const int SfCircularGauge_needlePointerLengthFactor = 2131165289;
-			
-			// aapt resource value: 0x7F070074
-			public const int SfCircularGauge_needlePointerTailColor = 2131165300;
-			
-			// aapt resource value: 0x7F070075
-			public const int SfCircularGauge_needlePointerTailLengthFactor = 2131165301;
-			
-			// aapt resource value: 0x7F070077
-			public const int SfCircularGauge_needlePointerTailStrokeColor = 2131165303;
-			
-			// aapt resource value: 0x7F070076
-			public const int SfCircularGauge_needlePointerTailStrokeWidth = 2131165302;
-			
-			// aapt resource value: 0x7F070066
-			public const int SfCircularGauge_needlePointerType = 2131165286;
-			
-			// aapt resource value: 0x7F070065
-			public const int SfCircularGauge_needlePointerValue = 2131165285;
-			
-			// aapt resource value: 0x7F070068
-			public const int SfCircularGauge_needlePointerWidth = 2131165288;
-			
-			// aapt resource value: 0x7F070062
-			public const int SfCircularGauge_rangeInnerEndOffset = 2131165282;
-			
-			// aapt resource value: 0x7F070061
-			public const int SfCircularGauge_rangeInnerStartOffset = 2131165281;
-			
-			// aapt resource value: 0x7F070064
-			public const int SfCircularGauge_rangeOuterEndOffset = 2131165284;
-			
-			// aapt resource value: 0x7F070063
-			public const int SfCircularGauge_rangeOuterStartOffset = 2131165283;
-			
-			// aapt resource value: 0x7F070085
-			public const int SfCircularGauge_rangePointerCap = 2131165317;
-			
-			// aapt resource value: 0x7F070080
-			public const int SfCircularGauge_rangePointerColor = 2131165312;
-			
-			// aapt resource value: 0x7F070084
-			public const int SfCircularGauge_rangePointerEndOffset = 2131165316;
-			
-			// aapt resource value: 0x7F070082
-			public const int SfCircularGauge_rangePointerOffset = 2131165314;
-			
-			// aapt resource value: 0x7F070083
-			public const int SfCircularGauge_rangePointerStartOffset = 2131165315;
-			
-			// aapt resource value: 0x7F070078
-			public const int SfCircularGauge_rangePointerStartValue = 2131165304;
-			
-			// aapt resource value: 0x7F070079
-			public const int SfCircularGauge_rangePointerValue = 2131165305;
-			
-			// aapt resource value: 0x7F070081
-			public const int SfCircularGauge_rangePointerWidth = 2131165313;
-			
-			// aapt resource value: 0x7F070058
-			public const int SfCircularGauge_rangeWidth = 2131165272;
-			
-			// aapt resource value: 0x7F070029
-			public const int SfCircularGauge_scaleAutoAngle = 2131165225;
-			
-			// aapt resource value: 0x7F070017
-			public const int SfCircularGauge_scaleAutoInterval = 2131165207;
-			
-			// aapt resource value: 0x7F070013
-			public const int SfCircularGauge_scaleEndAngle = 2131165203;
-			
-			// aapt resource value: 0x7F070028
-			public const int SfCircularGauge_scaleEndOffset = 2131165224;
-			
-			// aapt resource value: 0x7F070015
-			public const int SfCircularGauge_scaleEndValue = 2131165205;
-			
-			// aapt resource value: 0x7F070040
-			public const int SfCircularGauge_scaleMajorTickEndOffset = 2131165248;
-			
-			// aapt resource value: 0x7F070035
-			public const int SfCircularGauge_scaleMajorTickSize = 2131165237;
-			
-			// aapt resource value: 0x7F070039
-			public const int SfCircularGauge_scaleMajorTickStartOffset = 2131165241;
-			
-			// aapt resource value: 0x7F070037
-			public const int SfCircularGauge_scaleMajorTickWidth = 2131165239;
-			
-			// aapt resource value: 0x7F070046
-			public const int SfCircularGauge_scaleMinorTickEndOffset = 2131165254;
-			
-			// aapt resource value: 0x7F070041
-			public const int SfCircularGauge_scaleMinorTickSize = 2131165249;
-			
-			// aapt resource value: 0x7F070045
-			public const int SfCircularGauge_scaleMinorTickStartOffset = 2131165253;
-			
-			// aapt resource value: 0x7F070043
-			public const int SfCircularGauge_scaleMinorTickWidth = 2131165251;
-			
-			// aapt resource value: 0x7F070055
-			public const int SfCircularGauge_scaleNumberofDecimalDigits = 2131165269;
-			
-			// aapt resource value: 0x7F070054
-			public const int SfCircularGauge_scaleRadiusFactor = 2131165268;
-			
-			// aapt resource value: 0x7F070047
-			public const int SfCircularGauge_scaleRimColor = 2131165255;
-			
-			// aapt resource value: 0x7F070048
-			public const int SfCircularGauge_scaleRimWidth = 2131165256;
-			
-			// aapt resource value: 0x7F070025
-			public const int SfCircularGauge_scaleShowFirstLabel = 2131165221;
-			
-			// aapt resource value: 0x7F070026
-			public const int SfCircularGauge_scaleShowLastLabel = 2131165222;
-			
-			// aapt resource value: 0x7F070053
-			public const int SfCircularGauge_scaleShowRim = 2131165267;
-			
-			// aapt resource value: 0x7F070012
-			public const int SfCircularGauge_scaleStartAngle = 2131165202;
-			
-			// aapt resource value: 0x7F070027
-			public const int SfCircularGauge_scaleStartOffset = 2131165223;
-			
-			// aapt resource value: 0x7F070014
-			public const int SfCircularGauge_scaleStartValue = 2131165204;
-			
-			public static int[] SfDigitalGauge = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0};
-			
-			// aapt resource value: 0x7F070140
-			public const int SfDigitalGauge_characterHeight = 2131165504;
-			
-			// aapt resource value: 0x7F070141
-			public const int SfDigitalGauge_characterSpacing = 2131165505;
-			
-			// aapt resource value: 0x7F070139
-			public const int SfDigitalGauge_characterStrokeColor = 2131165497;
-			
-			// aapt resource value: 0x7F070146
-			public const int SfDigitalGauge_characterType = 2131165510;
-			
-			// aapt resource value: 0x7F070142
-			public const int SfDigitalGauge_characterWidth = 2131165506;
-			
-			// aapt resource value: 0x7F070145
-			public const int SfDigitalGauge_dimmedSegmentAlpha = 2131165509;
-			
-			// aapt resource value: 0x7F070144
-			public const int SfDigitalGauge_dimmedSegmentColor = 2131165508;
-			
-			// aapt resource value: 0x7F070143
-			public const int SfDigitalGauge_segmentStrokeWidth = 2131165507;
-			
-			public static int[] SfLinearGauge = new int[] {
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0};
-			
-			// aapt resource value: 0x7F070128
-			public const int SfLinearGauge_barPointerColor = 2131165480;
-			
-			// aapt resource value: 0x7F070131
-			public const int SfLinearGauge_barPointerCornerRadius = 2131165489;
-			
-			// aapt resource value: 0x7F070130
-			public const int SfLinearGauge_barPointerCornerRadiusType = 2131165488;
-			
-			// aapt resource value: 0x7F070129
-			public const int SfLinearGauge_barPointerStrokeWidth = 2131165481;
-			
-			// aapt resource value: 0x7F070127
-			public const int SfLinearGauge_barPointerValue = 2131165479;
-			
-			// aapt resource value: 0x7F070115
-			public const int SfLinearGauge_maximumLabels = 2131165461;
-			
-			// aapt resource value: 0x7F070126
-			public const int SfLinearGauge_rangeColor = 2131165478;
-			
-			// aapt resource value: 0x7F070122
-			public const int SfLinearGauge_rangeEndValue = 2131165474;
-			
-			// aapt resource value: 0x7F070124
-			public const int SfLinearGauge_rangeEndWidth = 2131165476;
-			
-			// aapt resource value: 0x7F070125
-			public const int SfLinearGauge_rangeOffset = 2131165477;
-			
-			// aapt resource value: 0x7F070121
-			public const int SfLinearGauge_rangeStartValue = 2131165473;
-			
-			// aapt resource value: 0x7F070123
-			public const int SfLinearGauge_rangeStartWidth = 2131165475;
-			
-			// aapt resource value: 0x7F070104
-			public const int SfLinearGauge_scaleBarColor = 2131165444;
-			
-			// aapt resource value: 0x7F070106
-			public const int SfLinearGauge_scaleBarLength = 2131165446;
-			
-			// aapt resource value: 0x7F070105
-			public const int SfLinearGauge_scaleBarSize = 2131165445;
-			
-			// aapt resource value: 0x7F070119
-			public const int SfLinearGauge_scaleCornerRadius = 2131165465;
-			
-			// aapt resource value: 0x7F070118
-			public const int SfLinearGauge_scaleCornerRadiusType = 2131165464;
-			
-			// aapt resource value: 0x7F070117
-			public const int SfLinearGauge_scaleDirection = 2131165463;
-			
-			// aapt resource value: 0x7F070095
-			public const int SfLinearGauge_scaleInterval = 2131165333;
-			
-			// aapt resource value: 0x7F070107
-			public const int SfLinearGauge_scaleLabelColor = 2131165447;
-			
-			// aapt resource value: 0x7F070110
-			public const int SfLinearGauge_scaleLabelFontSize = 2131165456;
-			
-			// aapt resource value: 0x7F070111
-			public const int SfLinearGauge_scaleLabelOffset = 2131165457;
-			
-			// aapt resource value: 0x7F070109
-			public const int SfLinearGauge_scaleLabelPostfix = 2131165449;
-			
-			// aapt resource value: 0x7F070108
-			public const int SfLinearGauge_scaleLabelPrefix = 2131165448;
-			
-			// aapt resource value: 0x7F070097
-			public const int SfLinearGauge_scaleMajorTickColor = 2131165335;
-			
-			// aapt resource value: 0x7F070096
-			public const int SfLinearGauge_scaleMajorTickLength = 2131165334;
-			
-			// aapt resource value: 0x7F070099
-			public const int SfLinearGauge_scaleMajorTickOffset = 2131165337;
-			
-			// aapt resource value: 0x7F070098
-			public const int SfLinearGauge_scaleMajorTickStrokeWidth = 2131165336;
-			
-			// aapt resource value: 0x7F070094
-			public const int SfLinearGauge_scaleMaximum = 2131165332;
-			
-			// aapt resource value: 0x7F070093
-			public const int SfLinearGauge_scaleMinimum = 2131165331;
-			
-			// aapt resource value: 0x7F070101
-			public const int SfLinearGauge_scaleMinorTickColor = 2131165441;
-			
-			// aapt resource value: 0x7F070100
-			public const int SfLinearGauge_scaleMinorTickLength = 2131165440;
-			
-			// aapt resource value: 0x7F070103
-			public const int SfLinearGauge_scaleMinorTickOffset = 2131165443;
-			
-			// aapt resource value: 0x7F070114
-			public const int SfLinearGauge_scaleMinorTicksPerInterval = 2131165460;
-			
-			// aapt resource value: 0x7F070102
-			public const int SfLinearGauge_scaleMinorTickStrokeWidth = 2131165442;
-			
-			// aapt resource value: 0x7F070120
-			public const int SfLinearGauge_scaleOffset = 2131165472;
-			
-			// aapt resource value: 0x7F070116
-			public const int SfLinearGauge_scaleOpposedPosition = 2131165462;
-			
-			// aapt resource value: 0x7F070137
-			public const int SfLinearGauge_scaleOrientation = 2131165495;
-			
-			// aapt resource value: 0x7F070112
-			public const int SfLinearGauge_scaleShowLabels = 2131165458;
-			
-			// aapt resource value: 0x7F070113
-			public const int SfLinearGauge_scaleShowTicks = 2131165459;
-			
-			// aapt resource value: 0x7F070133
-			public const int SfLinearGauge_symbolPointerColor = 2131165491;
-			
-			// aapt resource value: 0x7F070135
-			public const int SfLinearGauge_symbolPointerOffset = 2131165493;
-			
-			// aapt resource value: 0x7F070134
-			public const int SfLinearGauge_symbolPointerStrokeWidth = 2131165492;
-			
-			// aapt resource value: 0x7F070132
-			public const int SfLinearGauge_symbolPointerValue = 2131165490;
-			
-			// aapt resource value: 0x7F070136
-			public const int SfLinearGauge_symbolPosition = 2131165494;
-			
 			public static int[] SfNumericTextBox = new int[] {
 					0,
 					0,
@@ -8795,47 +9216,47 @@ namespace DAE_ProyectoFinal_13.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070157
-			public const int SfNumericTextBox_allowNull = 2131165527;
+			// aapt resource value: 0x7F070020
+			public const int SfNumericTextBox_allowNull = 2131165216;
 			
-			// aapt resource value: 0x7F070158
-			public const int SfNumericTextBox_borderColor = 2131165528;
+			// aapt resource value: 0x7F070021
+			public const int SfNumericTextBox_borderColor = 2131165217;
 			
-			// aapt resource value: 0x7F070160
-			public const int SfNumericTextBox_culture = 2131165536;
+			// aapt resource value: 0x7F070023
+			public const int SfNumericTextBox_culture = 2131165219;
 			
-			// aapt resource value: 0x7F070151
-			public const int SfNumericTextBox_enableGroupSeparator = 2131165521;
+			// aapt resource value: 0x7F070014
+			public const int SfNumericTextBox_enableGroupSeparator = 2131165204;
 			
-			// aapt resource value: 0x7F070156
-			public const int SfNumericTextBox_fontSize = 2131165526;
+			// aapt resource value: 0x7F070019
+			public const int SfNumericTextBox_fontSize = 2131165209;
 			
-			// aapt resource value: 0x7F070154
-			public const int SfNumericTextBox_maximumDecimalDigits = 2131165524;
+			// aapt resource value: 0x7F070017
+			public const int SfNumericTextBox_maximumDecimalDigits = 2131165207;
 			
-			// aapt resource value: 0x7F070152
-			public const int SfNumericTextBox_numberFormat = 2131165522;
+			// aapt resource value: 0x7F070015
+			public const int SfNumericTextBox_numberFormat = 2131165205;
 			
-			// aapt resource value: 0x7F070161
-			public const int SfNumericTextBox_numericTextBoxValue = 2131165537;
+			// aapt resource value: 0x7F070024
+			public const int SfNumericTextBox_numericTextBoxValue = 2131165220;
 			
-			// aapt resource value: 0x7F070148
-			public const int SfNumericTextBox_parsingMode = 2131165512;
+			// aapt resource value: 0x7F070011
+			public const int SfNumericTextBox_parsingMode = 2131165201;
 			
-			// aapt resource value: 0x7F070149
-			public const int SfNumericTextBox_percentDisplayMode = 2131165513;
+			// aapt resource value: 0x7F070012
+			public const int SfNumericTextBox_percentDisplayMode = 2131165202;
 			
-			// aapt resource value: 0x7F070155
-			public const int SfNumericTextBox_selectAllOnFocus = 2131165525;
+			// aapt resource value: 0x7F070018
+			public const int SfNumericTextBox_selectAllOnFocus = 2131165208;
 			
-			// aapt resource value: 0x7F070150
-			public const int SfNumericTextBox_valueChangeMode = 2131165520;
+			// aapt resource value: 0x7F070013
+			public const int SfNumericTextBox_valueChangeMode = 2131165203;
 			
-			// aapt resource value: 0x7F070153
-			public const int SfNumericTextBox_watermark = 2131165523;
+			// aapt resource value: 0x7F070016
+			public const int SfNumericTextBox_watermark = 2131165206;
 			
-			// aapt resource value: 0x7F070159
-			public const int SfNumericTextBox_watermarkColor = 2131165529;
+			// aapt resource value: 0x7F070022
+			public const int SfNumericTextBox_watermarkColor = 2131165218;
 			
 			public static int[] SfPicker = new int[] {
 					0,
@@ -8865,91 +9286,91 @@ namespace DAE_ProyectoFinal_13.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070164
-			public const int SfPicker_pickerBackgroundColor = 2131165540;
+			// aapt resource value: 0x7F070027
+			public const int SfPicker_pickerBackgroundColor = 2131165223;
 			
-			// aapt resource value: 0x7F070180
-			public const int SfPicker_pickerBorderColor = 2131165568;
+			// aapt resource value: 0x7F070043
+			public const int SfPicker_pickerBorderColor = 2131165251;
 			
-			// aapt resource value: 0x7F070177
-			public const int SfPicker_pickerColumnHeaderBackgroundColor = 2131165559;
+			// aapt resource value: 0x7F070040
+			public const int SfPicker_pickerColumnHeaderBackgroundColor = 2131165248;
 			
-			// aapt resource value: 0x7F070173
-			public const int SfPicker_pickerColumnHeaderHeight = 2131165555;
+			// aapt resource value: 0x7F070036
+			public const int SfPicker_pickerColumnHeaderHeight = 2131165238;
 			
-			// aapt resource value: 0x7F070188
-			public const int SfPicker_pickerColumnHeaderTextColor = 2131165576;
+			// aapt resource value: 0x7F070051
+			public const int SfPicker_pickerColumnHeaderTextColor = 2131165265;
 			
-			// aapt resource value: 0x7F070184
-			public const int SfPicker_pickerColumnHeaderTextSize = 2131165572;
+			// aapt resource value: 0x7F070047
+			public const int SfPicker_pickerColumnHeaderTextSize = 2131165255;
 			
-			// aapt resource value: 0x7F070169
-			public const int SfPicker_pickerEnableLooping = 2131165545;
+			// aapt resource value: 0x7F070032
+			public const int SfPicker_pickerEnableLooping = 2131165234;
 			
-			// aapt resource value: 0x7F070166
-			public const int SfPicker_pickerFooterHeight = 2131165542;
+			// aapt resource value: 0x7F070029
+			public const int SfPicker_pickerFooterHeight = 2131165225;
 			
-			// aapt resource value: 0x7F070176
-			public const int SfPicker_pickerHeaderBackgroundColor = 2131165558;
+			// aapt resource value: 0x7F070039
+			public const int SfPicker_pickerHeaderBackgroundColor = 2131165241;
 			
-			// aapt resource value: 0x7F070165
-			public const int SfPicker_pickerHeaderHeight = 2131165541;
+			// aapt resource value: 0x7F070028
+			public const int SfPicker_pickerHeaderHeight = 2131165224;
 			
-			// aapt resource value: 0x7F070181
-			public const int SfPicker_pickerHeaderText = 2131165569;
+			// aapt resource value: 0x7F070044
+			public const int SfPicker_pickerHeaderText = 2131165252;
 			
-			// aapt resource value: 0x7F070187
-			public const int SfPicker_pickerHeaderTextColor = 2131165575;
+			// aapt resource value: 0x7F070050
+			public const int SfPicker_pickerHeaderTextColor = 2131165264;
 			
-			// aapt resource value: 0x7F070183
-			public const int SfPicker_pickerHeaderTextSize = 2131165571;
+			// aapt resource value: 0x7F070046
+			public const int SfPicker_pickerHeaderTextSize = 2131165254;
 			
-			// aapt resource value: 0x7F070167
-			public const int SfPicker_pickerHeight = 2131165543;
+			// aapt resource value: 0x7F070030
+			public const int SfPicker_pickerHeight = 2131165232;
 			
-			// aapt resource value: 0x7F070168
-			public const int SfPicker_pickerIsOpen = 2131165544;
+			// aapt resource value: 0x7F070031
+			public const int SfPicker_pickerIsOpen = 2131165233;
 			
-			// aapt resource value: 0x7F070174
-			public const int SfPicker_pickerItemHeight = 2131165556;
+			// aapt resource value: 0x7F070037
+			public const int SfPicker_pickerItemHeight = 2131165239;
 			
-			// aapt resource value: 0x7F070163
-			public const int SfPicker_pickerMode = 2131165539;
+			// aapt resource value: 0x7F070026
+			public const int SfPicker_pickerMode = 2131165222;
 			
-			// aapt resource value: 0x7F070175
-			public const int SfPicker_pickerSelectedItemTextcolor = 2131165557;
+			// aapt resource value: 0x7F070038
+			public const int SfPicker_pickerSelectedItemTextcolor = 2131165240;
 			
-			// aapt resource value: 0x7F070186
-			public const int SfPicker_pickerSelectedItemTextSize = 2131165574;
+			// aapt resource value: 0x7F070049
+			public const int SfPicker_pickerSelectedItemTextSize = 2131165257;
 			
-			// aapt resource value: 0x7F070179
-			public const int SfPicker_pickerSelectionBorderColor = 2131165561;
+			// aapt resource value: 0x7F070042
+			public const int SfPicker_pickerSelectionBorderColor = 2131165250;
 			
-			// aapt resource value: 0x7F070172
-			public const int SfPicker_pickerShowColumnHeader = 2131165554;
+			// aapt resource value: 0x7F070035
+			public const int SfPicker_pickerShowColumnHeader = 2131165237;
 			
-			// aapt resource value: 0x7F070171
-			public const int SfPicker_pickerShowFooter = 2131165553;
+			// aapt resource value: 0x7F070034
+			public const int SfPicker_pickerShowFooter = 2131165236;
 			
-			// aapt resource value: 0x7F070170
-			public const int SfPicker_pickerShowHeader = 2131165552;
+			// aapt resource value: 0x7F070033
+			public const int SfPicker_pickerShowHeader = 2131165235;
 			
-			// aapt resource value: 0x7F070178
-			public const int SfPicker_pickerUnselectedItemTextColor = 2131165560;
+			// aapt resource value: 0x7F070041
+			public const int SfPicker_pickerUnselectedItemTextColor = 2131165249;
 			
-			// aapt resource value: 0x7F070185
-			public const int SfPicker_pickerUnselectedItemTextSize = 2131165573;
+			// aapt resource value: 0x7F070048
+			public const int SfPicker_pickerUnselectedItemTextSize = 2131165256;
 			
-			// aapt resource value: 0x7F070182
-			public const int SfPicker_pickerWidth = 2131165570;
+			// aapt resource value: 0x7F070045
+			public const int SfPicker_pickerWidth = 2131165253;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F070608
-			public const int SnackbarLayout_android_maxWidth = 2131166728;
+			// aapt resource value: 0x7F070471
+			public const int SnackbarLayout_android_maxWidth = 2131166321;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -8964,8 +9385,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F070612
-			public const int Spinner_android_dropDownWidth = 2131166738;
+			// aapt resource value: 0x7F070475
+			public const int Spinner_android_dropDownWidth = 2131166325;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -8995,8 +9416,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F070618
-			public const int SwitchCompat_android_textOff = 2131166744;
+			// aapt resource value: 0x7F070481
+			public const int SwitchCompat_android_textOff = 2131166337;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -9042,8 +9463,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070633
-			public const int TabItem_android_icon = 2131166771;
+			// aapt resource value: 0x7F070496
+			public const int TabItem_android_icon = 2131166358;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -9069,8 +9490,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F070637
-			public const int TabLayout_tabBackground = 2131166775;
+			// aapt resource value: 0x7F070500
+			public const int TabLayout_tabBackground = 2131166464;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -9132,8 +9553,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070654
-			public const int TextAppearance_android_fontFamily = 2131166804;
+			// aapt resource value: 0x7F070517
+			public const int TextAppearance_android_fontFamily = 2131166487;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -9189,8 +9610,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F070668
-			public const int TextInputLayout_android_hint = 2131166824;
+			// aapt resource value: 0x7F070531
+			public const int TextInputLayout_android_hint = 2131166513;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -9268,8 +9689,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F070685
-			public const int Toolbar_android_gravity = 2131166853;
+			// aapt resource value: 0x7F070548
+			public const int Toolbar_android_gravity = 2131166536;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -9367,8 +9788,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F070721
-			public const int ViewBackgroundHelper_android_background = 2131167009;
+			// aapt resource value: 0x7F070584
+			public const int ViewBackgroundHelper_android_background = 2131166596;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -9381,8 +9802,8 @@ namespace DAE_ProyectoFinal_13.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F070725
-			public const int ViewStubCompat_android_id = 2131167013;
+			// aapt resource value: 0x7F070588
+			public const int ViewStubCompat_android_id = 2131166600;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -9390,8 +9811,8 @@ namespace DAE_ProyectoFinal_13.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F070715
-			public const int View_android_focusable = 2131166997;
+			// aapt resource value: 0x7F070578
+			public const int View_android_focusable = 2131166584;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

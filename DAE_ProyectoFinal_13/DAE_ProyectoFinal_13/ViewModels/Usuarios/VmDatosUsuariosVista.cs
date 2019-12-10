@@ -119,7 +119,7 @@ namespace DAE_ProyectoFinal_13.ViewModels.Usuarios
                     .IMetGetDatosUsuarioWebApi(PaIdUsuarios);
 
                 //Actualizar el binding de la fuente que llena el grid
-                OcSfDataGrid_ItemSource_Usuarios = new ObservableCollection<cat_datosUsuario>();
+                //OcSfDataGrid_ItemSource_Usuarios = new ObservableCollection<cat_datosUsuario>();
                 //se realiza ciclo for para llenar la fuente del grid
 
                 foreach (cat_datosUsuario acu in ListaUsuarios)

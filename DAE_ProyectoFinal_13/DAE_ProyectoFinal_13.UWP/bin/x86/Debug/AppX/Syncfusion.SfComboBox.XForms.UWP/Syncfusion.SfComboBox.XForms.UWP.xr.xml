@@ -4,14 +4,14 @@
     <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
   </Roots.Interfaces>
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="ShowClearButton" />
+    <RootPropertyPathName Name="ActualHeight" />
     <RootPropertyPathName Name="DropDownButtonSettings" />
     <RootPropertyPathName Name="Width" />
     <RootPropertyPathName Name="Height" />
-    <RootPropertyPathName Name="ActualHeight" />
+    <RootPropertyPathName Name="HorizontalScrollWidth" />
     <RootPropertyPathName Name="ShowBorder" />
     <RootPropertyPathName Name="DropDownCornerRadius" />
-    <RootPropertyPathName Name="HorizontalScrollWidth" />
+    <RootPropertyPathName Name="ShowClearButton" />
     <RootPropertyPathName Name="Text" />
     <RootPropertyPathName Name="Tag" />
     <RootPropertyPathName Name="DropDownBackground" />
@@ -21,6 +21,7 @@
     <RootPropertyPathName Name="IndicatorFontFamily" />
     <RootPropertyPathName Name="IndicatorTextColor" />
     <RootPropertyPathName Name="IndicatorText" />
+    <RootPropertyPathName Name="HighlightFontColor" />
     <RootPropertyPathName Name="HighlightedBackgroundColor" />
     <RootPropertyPathName Name="BackgroundColor" />
     <RootPropertyPathName Name="Image" />
@@ -42,17 +43,18 @@
     <RootType FullName="Syncfusion.XForms.UWP.ComboBox.DropDownButtonSettingsObjectToVisibilityConverter" />
     <RootType FullName="Syncfusion.XForms.UWP.ComboBox.DoubleToCornerRadiusConverter" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="MinHeight" />
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="IsTabStop" />
       <RootProperty Name="Style" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="MinWidth" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Tag" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Background" />
       <RootProperty Name="CommandParameter" />
@@ -81,6 +83,7 @@
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontStyle" />
@@ -93,6 +96,10 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
       <RootProperty Name="ItemContainerStyle" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
     <RootType FullName="Syncfusion.XForms.UWP.ComboBox.SfComboBox">
       <RootProperty Name="WatermarkForeground" />
       <RootProperty Name="SuggestionBoxStyle" />
@@ -101,23 +108,24 @@
       <RootProperty Name="HorizontalScrollWidth" />
       <RootProperty Name="DropDownBackground" />
       <RootProperty Name="ShowBorder" />
+      <RootProperty Name="ClearButtonColor" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalScrollMode" />
       <RootProperty Name="HorizontalScrollMode" />
       <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="IsTabStop" />
       <RootProperty Name="IsHorizontalRailEnabled" />
       <RootProperty Name="IsVerticalRailEnabled" />
-      <RootProperty Name="Visibility" />
       <RootProperty Name="IsDeferredScrollingEnabled" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Padding" />
-      <RootProperty Name="VerticalScrollBarVisibility" />
-      <RootProperty Name="VerticalScrollMode" />
       <RootProperty Name="ZoomMode" />
-      <RootProperty Name="MaxWidth" />
-      <RootProperty Name="Content" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
       <RootMethod Name="GetVerticalScrollBarVisibility" />
@@ -128,10 +136,6 @@
       <RootMethod Name="SetIsDeferredScrollingEnabled" />
     </RootType>
     <RootType FullName="Syncfusion.XForms.UWP.ComboBox.TokenItem" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
-      <RootProperty Name="TargetType" />
-      <RootProperty Name="Template" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
@@ -139,9 +143,9 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Background" />
       <RootProperty Name="CornerRadius" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Padding" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
@@ -180,17 +184,9 @@
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="Path" />
-      <RootProperty Name="RelativeSource" />
-      <RootProperty Name="Converter" />
-      <RootProperty Name="ConverterParameter" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
-      <RootProperty Name="Mode" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Visibility" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
       <RootProperty Name="Value" />
@@ -219,23 +215,27 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetAccessibilityView" />
+      <RootMethod Name="SetAccessibilityView" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
       <RootProperty Name="Visibility" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="ContentTemplateSelector" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="IsTabStop" />
       <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Padding" />
       <RootProperty Name="IsHitTestVisible" />
       <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="ContentTemplateSelector" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontFamily" />
     </RootType>
@@ -260,16 +260,25 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontStyle" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
-      <RootProperty Name="IsOpen" />
-      <RootProperty Name="Child" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="ConverterParameter" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Visibility" />
-    <RootType FullName="Syncfusion.XForms.UWP.ComboBox.MultiselectionPanel">
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Syncfusion.XForms.UWP.ComboBox.TokenPanel">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
+      <RootProperty Name="IsOpen" />
+      <RootProperty Name="Child" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />

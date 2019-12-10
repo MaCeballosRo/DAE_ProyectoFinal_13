@@ -21,16 +21,16 @@
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Themes">
 					<NamedResource name="generic.xbf" uri="ms-resource://Syncfusion.SfInput.UWP/Files/Syncfusion.SfInput.UWP/Themes/generic.xbf">
-						<Candidate type="Path">
-							<Value>Syncfusion.SfInput.UWP\Themes\generic.xbf</Value>
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
 					<NamedResource name="InputStyles.xbf" uri="ms-resource://Syncfusion.SfInput.UWP/Files/Syncfusion.SfInput.UWP/Themes/InputStyles.xbf">
-						<Candidate qualifiers="DeviceFamily-MOBILE" type="Path">
-							<Value>Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf</Value>
+						<Candidate qualifiers="DeviceFamily-MOBILE" type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
-						<Candidate type="Path">
-							<Value>Syncfusion.SfInput.UWP\Themes\InputStyles.xbf</Value>
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
@@ -211,6 +211,41 @@
 				<NamedResource name="SeptemberText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/SeptemberText">
 					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
 						<Value>September</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShortestFridayText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/ShortestFridayText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>F</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShortestMondayText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/ShortestMondayText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>M</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShortestSaturdayText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/ShortestSaturdayText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>S</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShortestSundayText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/ShortestSundayText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>S</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShortestThursdayText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/ShortestThursdayText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>T</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShortestTuesdayText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/ShortestTuesdayText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>T</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShortestWednesdayText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/ShortestWednesdayText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>W</Value>
 					</Candidate>
 				</NamedResource>
 				<NamedResource name="SundayText" uri="ms-resource://Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.Resources/SundayText">
